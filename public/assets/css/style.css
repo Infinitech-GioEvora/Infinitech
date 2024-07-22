@@ -34,6 +34,9 @@ section {
 img {
     width: 100%;
 }
+p{
+    line-height: 1.6;
+}
 
 
 
@@ -106,7 +109,7 @@ img {
 }
 .navigation .nav-menu ul li {
     margin: 0px 0px 0px 24px;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1vw;
     font-family: var(--var-body-font);
 }
@@ -316,7 +319,7 @@ img {
 
 .about-content {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -325,7 +328,7 @@ img {
 }
 
 .about-content p {
-    width: 650px;
+    width: 750px;
     margin-bottom: 64px;
 }
 
@@ -659,8 +662,15 @@ footer {
 /* ====================================================
 ================ About Us Page ========================
 ====================================================== */
+.about-mission{
+    margin-top: 30%;
+}
 .about-layout{
-    height: 600px;
+    height: 700px;
+}
+
+.container .about-section{
+    position: relative;
 }
 
 
@@ -681,9 +691,54 @@ footer {
 }
 
 .about-section .tagline .sub-tagline{
-    font-size: clamp(2px, 2vw, 26px);
+    font-size: clamp(16px, 24px, 36px);
+    font-weight: 500;
+    word-break: normal;
 }
 
+.about-header-img {
+    width: 60%;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-header-img img{
+    border-radius: 8px;
+    box-shadow: var(--var-box-shadows);
+}
+
+.core-values{
+    margin-top: 16px;
+}
+
+
+.vm-card .card{
+    margin: 8px;
+    border-bottom: 8px solid var(--var-accent-color);
+    box-shadow: var(--var-box-shadows);
+}
+.vm-card .card .card-body{
+    text-align: center;
+    padding: 16px;
+}
+
+.vm-card .card .card-body .vm-header, 
+.vmg-header{
+    font-weight: 600;
+    font-family: var(--var-header-font);
+    font-size: 24px;
+}
+
+.vmg-header{
+    color: var(--var-primary-color);
+}
+
+
+.vmg-content{
+    border-right: 1px solid var(--var-accent-color);
+}
 
 /*==============================
 ======= RESPONSIVE LAYOUT=======

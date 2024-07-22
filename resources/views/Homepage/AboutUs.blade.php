@@ -75,14 +75,14 @@
                         </ul>
                     </div>
                     <span>
-                    <a class="icon-menu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                        <i class="fa-solid fa-bars-staggered"></i>
-                    </a>
-                </span>
+                        <a class="icon-menu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                            <i class="fa-solid fa-bars-staggered"></i>
+                        </a>
+                    </span>
 
                 </div>
 
-               
+
 
 
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -129,94 +129,103 @@
     <main>
         <section class="hero about-layout">
             <div class="container about-section">
+
                 <div class="row">
-                    <div class="col-12 col-md-5">
+                    <div class="col-12 col-md-6">
                         <div class="tagline ">
                             <h1><strong>About Us</strong></h1>
                             <p class="sub-tagline pt-xl-5">We are passionate about revolutionizing the way business operate through the power of technology.</p>
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-7 d-flex justify-content-center">
+                    <div class="col-12 col-md-6 d-flex justify-content-center">
                         <div class="left-content">
                             <img src="../assets/svg/About us page-bro.svg" alt="">
                         </div>
                     </div>
                 </div>
-
-                <!-- <div class="services">
-                    <div class="row ">
-                        <div class="col-md-4 text-center">
-                            <div class="service-icon">
-                                <img src="/assets/icon/app-development.png" alt="">
-                            </div>
-                            <h1 class="service-title">Design</h1>
-
-                            <p class="service-description">
-                                Brilliance has no limits. Let your imagination run wild! We can help take your concept from thought to reality.
-                            </p>
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <div class="service-icon">
-                                <img src="/assets/icon/developing.png" alt="">
-                            </div>
-                            <h1 class="service-title">Develop</h1>
-
-                            <p class="service-description">
-                                Brilliance has no limits. Let your imagination run wild! We can help take your concept from thought to reality.
-                            </p>
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <div class="service-icon">
-                                <img src="/assets/icon/project-management.png" alt="">
-                            </div>
-                            <h1 class="service-title">Manage</h1>
-
-                            <p class="service-description">
-                                Brilliance has no limits. Let your imagination run wild! We can help take your concept from thought to reality.
-                            </p>
-                        </div>
-
-                    </div>
-                </div> -->
+                <div class="about-header-img">
+                    <img src="../assets/img/about-img-header.jpeg" alt="">
+                </div>
             </div>
+
         </section>
 
 
-        <section class="mission">
+        <section class="mission ">
             <div class="container">
-                <div class="about">
-                    <div class="about-us ">
-                        <span class="header"> Who is IAC?</span>
-                    </div>
+                <div class="about about-mission">
                     <div class="about-content">
-                        <img class="about-logo" src="../assets/img/icon.png" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sit dolore delectus debitis ex earum minima cumque nihil recusandae repudiandae sapiente, sed hic velit voluptatum a, repellat at voluptas officia!</p>
+                        <p>Specialize in delivering comprehensive IT solutions tailored to your business needs. With a strong focus on innovation and excellence, we provide a range of services designed to enhanve your digital presence and streamline your operations.</p>
                     </div>
                 </div>
 
-
-                <div class="row">
-                    <div class=" col-sm-12 col-md-12 col-lg-6">
-                        <div class="vm-img">
-                            <img class="pic-back" src="../assets/img/mission.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class=" col-sm-12 col-md-12 col-lg-6">
-                        <div class="mission-content">
-                            <span class="vm-header mb-xl-4"> Mission</span>
+                <div class="vmg">
+                    <div class="row d-flex justify-content-center no-gutters pt-xl-5">
+                        <div class="col-sm-12 col-md-4 vmg-content text-center">
+                            <span class="vmg-header"> Mission</span>
                             <p>To help business thrive by providing top-notch, tailor-made digital solutions that boost growth, streamline operations, and enhance user satisfaction.</p>
                         </div>
-                        <div class="vision-content">
-                            <span class="vm-header">Vision</span>
+                        <div class="col-sm-12 col-md-4 vmg-content text-center">
+                            <span class="vmg-header"> Visson</span>
                             <p>To lead in offering exeptional service and advertising expertise, ensuring boundless value for our clients. We aim to build enduring partnership by continually surpassing expectations through innovation, comitmment, and a profound understanding of our client's specific needs.</p>
                         </div>
-                        <div class="vision-content">
-                            <span class="vm-header">Goal</span>
+                        <div class="col-sm-12 col-md-4 text-center">
+                            <span class="vmg-header"> Goal</span>
                             <p>To create meaningful employment opportunities for fresh IT graduates fro the provinces, empowering them to excel and innovate in the field of technology. We are commited to fostering an inclusive environment where talent from all backgrounds can develop their skills, drive technological advancements, and contribute to the growth of our community, and a profound understanding of og client's specific needs.</p>
                         </div>
                     </div>
                 </div>
+
+                <div class="core-values">
+                    <div class="row d-flex justify-content-center no-gutters pt-xl-5">
+                        <div class="header">Core Values</div>
+                        <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
+                            <div class="card">
+                                <div class="card-body">
+                                    <span class="vm-header">Client-Centric Innovation</span>
+                                    <p>Prioritize client's needs and innovate continually to create a tailored solution that drive their success.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
+                            <div class="card">
+                                <div class="card-body">
+                                    <span class="vm-header">Creative Excllence</span>
+                                    <p>We strive outstanding in every projects, ensuring our work is not only meets but exceeds industry standard.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
+                            <div class="card">
+                                <div class="card-body">
+                                    <span class="vm-header">Integrity and Transparency</span>
+                                    <p>Build trust through honesty and clear communication, ensuring our clients are fully informed and transparent in our progress.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
+                            <div class="card">
+                                <div class="card-body">
+                                    <span class="vm-header">Adaptability</span>
+                                    <p>We are flexible and responsive to the changing of market dynamics, easily adpating our strategies to meet new challenges and opportunity.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
+                            <div class="card">
+                                <div class="card-body">
+                                    <span class="vm-header">Collaboration</span>
+                                    <p>We believe the power of teamwork, fostering a collborative enviroment where ideas and expertise are share freely to achieve the best outcomes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </section>
 
