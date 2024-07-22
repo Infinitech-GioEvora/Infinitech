@@ -230,6 +230,9 @@
         </section>
 
     </main>
+    <div id="fb-root"></div>
+
+<div id="fb-customer-chat" class="fb-customerchat"></div>
 
     <footer>
         <div class="container">
@@ -333,6 +336,8 @@
             });
         });
     </script>
+
+    
 
 
 </body>
