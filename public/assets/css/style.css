@@ -35,9 +35,7 @@ img {
     width: 100%;
 }
 
-/* .sec-div {
-    margin-top: 20%;
-} */
+
 
 .header {
     color: var(--var-primary-color);
@@ -63,9 +61,6 @@ img {
 }
 .navigation {
     background-color: var(--var-accent-color);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
     position: fixed;
     height: 80px;
@@ -86,7 +81,7 @@ img {
     color: var(--var-light-color);
     font-family: "Poppins";
     font-weight: 600;
-    letter-spacing: 5.5px;
+    letter-spacing: 6px;
     line-height: 1.6;
     font-size: 24px;
     margin: 0; /* Add this to remove default margin */
@@ -104,16 +99,16 @@ img {
 
 .navigation ul {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     margin-top: 24px;
     list-style: none;
     align-items: center;
 }
 .navigation .nav-menu ul li {
-    margin: 0px 16px;
+    margin: 0px 0px 0px 24px;
     font-weight: 500;
-    font-size: 0.9vw;
-    font-family: var(--var-header-font);
+    font-size: 1vw;
+    font-family: var(--var-body-font);
 }
 
 .navigation ul li a {
@@ -141,10 +136,7 @@ img {
 ====== HERO PAGE ====
 ===================== */
 
-/* .section-layout {
-    height: 80vh;
-    position: relative;
-} */
+
 .hero {
     background-color: var(--var-accent-color);
 }
@@ -168,13 +160,14 @@ img {
     color: var(--var-background-light);
 }
 
-.tagline span{
+.tagline span,
+.tagline h5{
     word-break: normal;
 }
 
 .main-section .left-content {
     width: 100%;
-    margin-top: 32px;
+    margin-top: 24px;
     filter: drop-shadow(7px 14px 16px #000000);
 }
 
@@ -661,6 +654,36 @@ footer {
 .btn-close {
     background-color: var(--var-accent-color) !important;
 }
+
+
+/* ====================================================
+================ About Us Page ========================
+====================================================== */
+.about-layout{
+    height: 600px;
+}
+
+
+
+.about-section .tagline h1 strong{ 
+    color: var(--var-background-light);
+    font-family: var(--var-header-font);
+    font-weight: 600;
+    font-size: 72px;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.46);
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+   
+}
+.about-section .left-content img{
+    width: 550px;
+}
+
+.about-section .tagline .sub-tagline{
+    font-size: clamp(2px, 2vw, 26px);
+}
+
 
 /*==============================
 ======= RESPONSIVE LAYOUT=======

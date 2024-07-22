@@ -17,4 +17,8 @@ Route::get('/', function () {
     return view('Homepage/index');
 });
 
+Route::get('/about-us', function () {
+    return view('Homepage/AboutUs');
+});
+
 // test
