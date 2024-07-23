@@ -239,7 +239,7 @@
                 <div class="ourteam">
                     <div class="row d-flex justify-content-center align-items-center no-gutters">
                         <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/angelle.jpg" alt="">
+                            <img class="img-fluid" src="../assets/img/infinitech-angelle.png" alt="">
                             <div class="team-details">
                                 <span class="team-name d-block">Angelle Sarmiento</span>
                                 <small class="position d-block">CEO / CO Founder</small>
@@ -247,7 +247,7 @@
 
                         </div>
                         <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/baby-rose.jpg" alt="">
+                            <img class="img-fluid" src="../assets/img/infinitech-rose.jpeg" alt="">
                             <div class="team-details">
                                 <span class="team-name d-block">Baby Rose Hernandez</span>
                                 <small class="position d-block">CO Foundeer</small>
@@ -255,7 +255,7 @@
 
                         </div>
                         <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/airies.jpg" alt="">
+                            <img class="img-fluid" src="../assets/img/infinitech-airies.jpeg" alt="">
                             <div class="team-details">
                                 <span class="team-name d-block">Airies Asilo</span>
                                 <small class="position d-block">Secretary</small>
@@ -263,7 +263,7 @@
 
                         </div>
                         <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/april.jpg" alt="">
+                            <img class="img-fluid" src="../assets/img/infinitech-april.jpeg" alt="">
                             <div class="team-details">
                                 <span class="team-name d-block">April Ann Saludares</span>
                                 <small class="position d-block">Supervisor</small>
@@ -271,14 +271,14 @@
 
                         </div>
                         <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/justin.jpg" alt="">
+                            <img class="img-fluid" src="../assets/img/infinitech-justin.png" alt="">
                             <div class="team-details">
                                 <span class="team-name d-block">Justin De Castro</span>
                                 <small class="position d-block">Junior Web Developer</small>
                             </div>
                         </div>
                         <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/moses.jpg" alt="">
+                            <img class="img-fluid" src="../assets/img/infinitech-moses.png" alt="">
                             <div class="team-details">
                                 <span class="team-name d-block">Moses Alcantara</span>
                                 <small class="position d-block">Junior Web Developer</small>
@@ -292,7 +292,6 @@
                             </div>
                         </div>
                        
-
                     </div>
                 </div>
             </div>
