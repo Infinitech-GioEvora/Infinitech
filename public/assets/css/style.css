@@ -109,8 +109,8 @@ p{
 }
 .navigation .nav-menu ul li {
     margin: 0px 0px 0px 24px;
-    font-weight: 400;
-    font-size: 1vw;
+    font-weight: 500;
+    font-size: 16px;
     font-family: var(--var-body-font);
     display: flex;
     justify-content: flex-end;
@@ -770,6 +770,32 @@ footer {
 .position{
     font-weight: 500;
 }
+
+/* ==============================
+======= OUR PRICING==============
+================================= */
+.pricing-svg{
+    width: 450px;
+}
+
+
+/* ==============================
+====== CONTACT US ===============
+================================== */
+.contact-section .tagline{
+    margin-top: 30% !important;
+}
+.hero-svg{
+    width: 650px;
+}
+
+.maps{
+    border-left: 2px solid var(--var-accent-color);
+}
+.maps iframe{
+    margin: 8px;
+}
+
 
 /*==============================
 ======= RESPONSIVE LAYOUT=======

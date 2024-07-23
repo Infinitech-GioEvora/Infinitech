@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | Infinitech Advertising Corporation | Web Developmet</title>
+    <title>Contact Us - Infinitech Advertising Corporation | Web Developmet</title>
 
     <!-- Meta Tags for SEO -->
     <meta name="description" content="Discover expert web development and system development services tailored to elevate your digital presence. Explore our solutions designed to meet your needs.">
@@ -72,6 +72,7 @@
                         <ul>
                             <li class="menu-item active"><a href="/">Home</a></li>
                             <li class="menu-item"><a href="/about-us">About Us</a></li>
+                            <li class="menu-item"><a href="/our-pricing">Pricing</a></li>
                             <li class="menu-item"><a href="">Blogs & News</a></li>
                             <li class="menu-item"><a href="">Work With Us</a></li>
                             <li class="menu-item"><a href="/contact-us">Contact Us</a></li>
@@ -128,175 +129,71 @@
     </nav>
 
     <main>
-        <section class="hero about-layout">
-            <div class="container about-section">
+        <section class="hero contact-layout">
+            <div class="container contact-section">
 
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <div class="tagline ">
-                            <h1><strong>About Us</strong></h1>
-                            <p class="sub-tagline pt-xl-5">We are passionate about revolutionizing the way business operate through the power of technology.</p>
-                        </div>
+                        <h1 class="tagline"><strong>Contact Us</strong></h1>
                     </div>
 
-                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <div class="col-12 col-md-6 d-flex justify-content-start    ">
                         <div class="left-content">
-                            <img src="../assets/svg/About us page-bro.svg" alt="">
+                            <img class="hero-svg" src="../assets/svg/contact.svg" alt="'">
                         </div>
                     </div>
-                </div>
-                <div class="about-header-img">
-                    <img src="../assets/img/about-img-header.jpeg" alt="">
                 </div>
             </div>
 
         </section>
 
-
-        <section class="mission ">
+        <section class="work-with-us">
             <div class="container">
-                <div class="about about-mission">
-                    <div class="about-content">
-                        <p>Specialize in delivering comprehensive IT solutions tailored to your business needs. With a strong focus on innovation and excellence, we provide a range of services designed to enhanve your digital presence and streamline your operations.</p>
+                <div class="row">
+                    <div class="col-md-6 right-work">
+                        <div class="right-work">
+                            <div class="work-header">
+                                <h2 class="work-title">Let's work together</h2>
+                                <p class="work-description">We have extensive experience in your market and are confident in our ability to build a lasting relationship with you.</p>
+                            </div>
+                            <hr>
+                            <form action="" method="post">
+                                <div class="form-group">
+                                    <label for="">Please tell us your name.</label>
+                                    <input type="text" placeholder="Giolo Evora">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Share you email for us to reach you.</label>
+                                    <input type="email" placeholder="giolo.evora@gmail.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Website</label>
+                                    <input type="text" placeholder="httpps://www.infinitech.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Mobile Phone</label>
+                                    <input type="text" placeholder="(+63) 9924401097">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Send us message.</label>
+                                    <textarea name="" id="" rows="5" placeholder="Say something...."></textarea>
+                                </div>
+                                <button class="btn-submit">Submit</button>
+                            </form>
+                        </div>
+
                     </div>
-                </div>
-
-                <div class="vmg">
-                    <div class="row d-flex justify-content-center no-gutters pt-xl-5">
-                        <div class="col-sm-12 col-md-4 vmg-content text-center">
-                            <span class="vmg-header"> Mission</span>
-                            <p>To help business thrive by providing top-notch, tailor-made digital solutions that boost growth, streamline operations, and enhance user satisfaction.</p>
-                        </div>
-                        <div class="col-sm-12 col-md-4 vmg-content text-center">
-                            <span class="vmg-header"> Visson</span>
-                            <p>To lead in offering exeptional service and advertising expertise, ensuring boundless value for our clients. We aim to build enduring partnership by continually surpassing expectations through innovation, comitmment, and a profound understanding of our client's specific needs.</p>
-                        </div>
-                        <div class="col-sm-12 col-md-4 text-center">
-                            <span class="vmg-header"> Goal</span>
-                            <p>To create meaningful employment opportunities for fresh IT graduates fro the provinces, empowering them to excel and innovate in the field of technology. We are commited to fostering an inclusive environment where talent from all backgrounds can develop their skills, drive technological advancements, and contribute to the growth of our community, and a profound understanding of og client's specific needs.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="coreValue">
-            <div class="container">
-
-                <div class="core-values">
-                    <div class="row d-flex justify-content-center no-gutters pt-xl-5">
-                        <div class="header">Core Values</div>
-                        <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="vm-header">Client-Centric Innovation</span>
-                                    <p>Prioritize client's needs and innovate continually to create a tailored solution that drive their success.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="vm-header">Creative Excllence</span>
-                                    <p>We strive outstanding in every projects, ensuring our work is not only meets but exceeds industry standard.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="vm-header">Integrity and Transparency</span>
-                                    <p>Build trust through honesty and clear communication, ensuring our clients are fully informed and transparent in our progress.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="vm-header">Adaptability</span>
-                                    <p>We are flexible and responsive to the changing of market dynamics, easily adpating our strategies to meet new challenges and opportunity.</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="vm-header">Collaboration</span>
-                                    <p>We believe the power of teamwork, fostering a collborative enviroment where ideas and expertise are share freely to achieve the best outcomes.</p>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-md-6 maps d-flex justify-content-center align-items-center">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.686618330031!2d121.01093307590381!3d14.559904978070104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c90b830e5f29%3A0x89fe307dfecd3c0d!2sCampos%20Rueda%20Building!5e0!3m2!1sen!2sph!4v1721716690771!5m2!1sen!2sph" width="700" height="850" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="ourteam-section">
-            <div class="container">
-                <div class="header">Our Team</div>
-                <div class="ourteam">
-                    <div class="row d-flex justify-content-center align-items-center no-gutters">
-                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/infinitech-angelle.png" alt="">
-                            <div class="team-details">
-                                <span class="team-name d-block">Angelle Sarmiento</span>
-                                <small class="position d-block">CEO / CO Founder</small>
-                            </div>
 
-                        </div>
-                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/infinitech-rose.jpeg" alt="">
-                            <div class="team-details">
-                                <span class="team-name d-block">Baby Rose Hernandez</span>
-                                <small class="position d-block">CO Foundeer</small>
-                            </div>
 
-                        </div>
-                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/infinitech-airies.jpeg" alt="">
-                            <div class="team-details">
-                                <span class="team-name d-block">Airies Asilo</span>
-                                <small class="position d-block">Secretary</small>
-                            </div>
 
-                        </div>
-                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/infinitech-april.jpeg" alt="">
-                            <div class="team-details">
-                                <span class="team-name d-block">April Ann Saludares</span>
-                                <small class="position d-block">Supervisor</small>
-                            </div>
 
-                        </div>
-                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/infinitech-justin.png" alt="">
-                            <div class="team-details">
-                                <span class="team-name d-block">Justin De Castro</span>
-                                <small class="position d-block">Junior Web Developer</small>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/infinitech-moses.png" alt="">
-                            <div class="team-details">
-                                <span class="team-name d-block">Moses Alcantara</span>
-                                <small class="position d-block">Junior Web Developer</small>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/Untitled design (2).png" alt="">
-                            <div class="team-details">
-                                <span class="team-name d-block">Giolo Evora</span>
-                                <small class="position d-block">Junior Web Developer</small>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
 
     </main>
 
@@ -375,34 +272,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 0,
-                nav: true,
-                autoplay: true,
-                autoplayTimeout: 5000,
-                autoplayHoverPause: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: false
-                    },
-                    600: {
-                        items: 2,
-                        nav: false
-                    },
-                    1000: {
-                        items: 3,
-                        nav: false
-                    }
-                }
-            });
-        });
-    </script>
-
 
 
 

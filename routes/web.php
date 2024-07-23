@@ -21,4 +21,11 @@ Route::get('/about-us', function () {
     return view('Homepage/AboutUs');
 });
 
-// test
+Route::get('/contact-us', function () {
+    return view('Homepage/ContactUs');
+});
+
+Route::get('/our-pricing', function () {
+    return view('Homepage/Pricing');
+});
+
