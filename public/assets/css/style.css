@@ -816,10 +816,17 @@ footer {
         color: var(--var-background-light);
         right: 0;
     }
+  
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .about-header-img {
+        bottom: -60%;
+    }
+    .about-mission{
+        margin-top: 20%;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
