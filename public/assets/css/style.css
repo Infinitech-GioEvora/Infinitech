@@ -112,6 +112,8 @@ p{
     font-weight: 400;
     font-size: 1vw;
     font-family: var(--var-body-font);
+    display: flex;
+    justify-content: flex-end;
 }
 
 .navigation ul li a {
@@ -822,7 +824,7 @@ footer {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .about-header-img {
-        bottom: -60%;
+        bottom: -70%;
     }
     .about-mission{
         margin-top: 20%;
@@ -831,4 +833,10 @@ footer {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .about-header-img {
+        bottom: -40%;
+    }
+    .about-mission{
+        margin-top: 30%;
+    }
 }

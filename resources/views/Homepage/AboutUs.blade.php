@@ -62,8 +62,13 @@
                             <span class="sub-heading">ADVERTISING CORPORATION</span>
                         </span>
                     </div>
+                    <span>
+                        <a class="icon-menu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                            <i class="fa-solid fa-bars-staggered"></i>
+                        </a>
+                    </span>
 
-                    <div class="nav-menu text-align-end">
+                    <div class="nav-menu text-left">
                         <ul>
                             <li class="menu-item active"><a href="/">Home</a></li>
                             <li class="menu-item"><a href="/about-us">About Us</a></li>
@@ -74,13 +79,9 @@
 
                         </ul>
                     </div>
-                    <span>
-                        <a class="icon-menu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                            <i class="fa-solid fa-bars-staggered"></i>
-                        </a>
-                    </span>
-
                 </div>
+
+
 
 
 
@@ -291,7 +292,7 @@
                                 <small class="position d-block">Junior Web Developer</small>
                             </div>
                         </div>
-                       
+
                     </div>
                 </div>
             </div>
