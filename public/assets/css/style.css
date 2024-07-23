@@ -740,6 +740,35 @@ footer {
     border-right: 1px solid var(--var-accent-color);
 }
 
+.ourteam-section{
+    background-color: var(--var-background-light);
+}
+.team-content{
+    width: 100%;
+    margin: 16px;
+    padding: 8px;
+
+}
+
+.ourteam .img-fluid{
+    width: 350px;
+    height: 350px;
+
+    
+}
+.team-name{
+    margin-top: 16px;
+    font-size: 24px;
+    color: var(--var-accent-color);
+    font-weight: 600;
+    line-height: 32px;
+    display: block;
+}
+
+.position{
+    font-weight: 500;
+}
+
 /*==============================
 ======= RESPONSIVE LAYOUT=======
 ================================ */

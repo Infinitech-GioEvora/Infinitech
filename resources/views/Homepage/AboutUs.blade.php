@@ -177,6 +177,12 @@
                     </div>
                 </div>
 
+            </div>
+        </section>
+
+        <section class="coreValue">
+            <div class="container">
+
                 <div class="core-values">
                     <div class="row d-flex justify-content-center no-gutters pt-xl-5">
                         <div class="header">Core Values</div>
@@ -224,15 +230,75 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
 
+        <section class="ourteam-section">
+            <div class="container">
+                <div class="header">Our Team</div>
+                <div class="ourteam">
+                    <div class="row d-flex justify-content-center align-items-center no-gutters">
+                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
+                            <img class="img-fluid" src="../assets/img/angelle.jpg" alt="">
+                            <div class="team-details">
+                                <span class="team-name d-block">Angelle Sarmiento</span>
+                                <small class="position d-block">CEO / CO Founder</small>
+                            </div>
 
+                        </div>
+                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
+                            <img class="img-fluid" src="../assets/img/baby-rose.jpg" alt="">
+                            <div class="team-details">
+                                <span class="team-name d-block">Baby Rose Hernandez</span>
+                                <small class="position d-block">CO Foundeer</small>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
+                            <img class="img-fluid" src="../assets/img/airies.jpg" alt="">
+                            <div class="team-details">
+                                <span class="team-name d-block">Airies Asilo</span>
+                                <small class="position d-block">Secretary</small>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
+                            <img class="img-fluid" src="../assets/img/april.jpg" alt="">
+                            <div class="team-details">
+                                <span class="team-name d-block">April Ann Saludares</span>
+                                <small class="position d-block">Supervisor</small>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
+                            <img class="img-fluid" src="../assets/img/justin.jpg" alt="">
+                            <div class="team-details">
+                                <span class="team-name d-block">Justin De Castro</span>
+                                <small class="position d-block">Junior Web Developer</small>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
+                            <img class="img-fluid" src="../assets/img/moses.jpg" alt="">
+                            <div class="team-details">
+                                <span class="team-name d-block">Moses Alcantara</span>
+                                <small class="position d-block">Junior Web Developer</small>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
+                            <img class="img-fluid" src="../assets/img/Untitled design (2).png" alt="">
+                            <div class="team-details">
+                                <span class="team-name d-block">Giolo Evora</span>
+                                <small class="position d-block">Junior Web Developer</small>
+                            </div>
+                        </div>
+                       
+
+                    </div>
+                </div>
             </div>
         </section>
 
     </main>
-    <div id="fb-root"></div>
-
-<div id="fb-customer-chat" class="fb-customerchat"></div>
 
     <footer>
         <div class="container">
@@ -337,7 +403,7 @@
         });
     </script>
 
-    
+
 
 
 </body>
