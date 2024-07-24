@@ -778,6 +778,104 @@ footer {
     width: 450px;
 }
 
+.pricing-header{
+    font-weight: bold;
+    font-family: var(--var-header-font);
+}
+
+.pricing-head small{
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.tab{
+    margin-top: 48px;
+}
+
+.tab .tablinks{
+    margin: 8px;
+    border: none;
+    background-color: var(--var-primary-color);
+    color: var(--var-background-light);
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.plan-include ul{
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+
+.plan-include ul li{
+    line-height: 1.9;
+}
+
+.tabcontent .card .card-body{
+    padding: 32px;
+}
+
+.tabcontent .card{
+    border: none;
+    background-color: var(--var-background-light);
+    border-radius: 8px;
+    box-shadow: var(--var-box-shadows);
+    margin-top: 48px;
+}
+.plan-header span{
+    font-size: 16px;
+    font-family: var(--var-body-font);
+    font-weight: bold ;
+    color: #f9f9f9;
+}
+
+.tab .active{
+    background-color: var(--var-accent-color);
+    /* display: block; */
+}
+
+.tabcontent{
+    display: none;
+}
+
+.badge{
+    background-color: var(--var-accent-color);
+    border: 8px;
+   
+}
+
+.plan-desc{
+    font-size: 14px;
+}
+
+.plan-price h2{
+    font-family: var(--var-header-font);
+    font-weight: 500;
+}
+
+.plan-price span{
+    font-size: 14px;
+}
+
+.btn-plan{
+    border: none;
+    background-color: var(--var-primary-color);
+    width: 100%;
+    color: var(--var-background-light);
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-family: var(--var-header-font);
+    transition: ease .2s;
+}
+
+.btn-plan:hover{
+    background-color: var(--var-accent-color);
+    color: var(--var-dark-color);
+}
+
+
 
 /* ==============================
 ====== CONTACT US ===============
@@ -795,6 +893,8 @@ footer {
 .maps iframe{
     margin: 8px;
 }
+
+
 
 
 /*==============================
