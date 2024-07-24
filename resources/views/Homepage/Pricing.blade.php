@@ -46,7 +46,88 @@
                 </div>
 
                 <div id="Basic" class="tabcontent">
-                   <div class="basic-plan">
+                    <div class="basic-plan">
+                        <div class="row">
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h1 class="plan-header"><span class="badge">Basic</span></h1>
+                                        <small class="plan-desc">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                        </small>
+                                        <div class="plan-price pt-xl-4">
+                                            <h2> &#8369;199.00 <span><small>/ month</small></span></h2>
+                                        </div>
+                                        <hr>
+                                        <div class="plan-include">
+                                            <ul>
+                                                <li><i class="fa-solid fa-check"></i> Plan 1</li>
+                                                <li><i class="fa-solid fa-check"></i> Plan 2</li>
+                                                <li><i class="fa-solid fa-check"></i> Plan 3</li>
+                                                <li><i class="fa-solid fa-check"></i> Plan 4</li>
+                                                <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                            </ul>
+                                        </div>
+                                        <button class="btn-plan d-flex justify-content-center">See More</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h1 class="plan-header"><span class="badge">Standard</span></h1>
+                                        <small class="plan-desc">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                        </small>
+                                        <div class="plan-price pt-xl-4">
+                                            <h2> &#8369;199.00 <span><small>/ month</small></span></h2>
+                                        </div>
+                                        <hr>
+                                        <div class="plan-include">
+                                            <ul>
+                                                <li><i class="fa-solid fa-check"></i> Plan 1</li>
+                                                <li><i class="fa-solid fa-check"></i> Plan 2</li>
+                                                <li><i class="fa-solid fa-check"></i> Plan 3</li>
+                                                <li><i class="fa-solid fa-check"></i> Plan 4</li>
+                                                <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                            </ul>
+                                        </div>
+                                        <button class="btn-plan d-flex justify-content-center">See More</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h1 class="plan-header"><span class="badge">Premium</span></h1>
+                                        <small class="plan-desc">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                        </small>
+                                        <div class="plan-price pt-xl-4">
+                                            <h2>&#8369;199.00 <span>/ month</span></h2>
+                                        </div>
+                                        <hr>
+                                        <div class="plan-include">
+                                            <ul>
+                                                <li><i class="fa-solid fa-check"></i> Plan 1</li>
+                                                <li><i class="fa-solid fa-check"></i> Plan 2</li>
+                                                <li><i class="fa-solid fa-check"></i> Plan 3</li>
+                                                <li><i class="fa-solid fa-check"></i> Plan 4</li>
+                                                <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                            </ul>
+                                        </div>
+                                        <button class="btn-plan d-flex justify-content-center">See More</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Informative" class="tabcontent">
                     <div class="row">
                         <div class="col-12 col-md-4 col-lg-4">
                             <div class="card">
@@ -55,7 +136,9 @@
                                     <small class="plan-desc">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
                                     </small>
-                                    <div class="plan-price pt-xl-4"><h2> &#8369;199.00  <span><small>/  month</small></span></h2></div>
+                                    <div class="plan-price pt-xl-4">
+                                        <h2> &#8369;299.00 <span><small>/ month</small></span></h2>
+                                    </div>
                                     <hr>
                                     <div class="plan-include">
                                         <ul>
@@ -74,11 +157,13 @@
                         <div class="col-12 col-md-4 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                <h1 class="plan-header"><span class="badge">Standard</span></h1>
+                                    <h1 class="plan-header"><span class="badge">Standard</span></h1>
                                     <small class="plan-desc">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
                                     </small>
-                                    <div class="plan-price pt-xl-4"><h2> &#8369;199.00  <span><small>/ month</small></span></h2></div>
+                                    <div class="plan-price pt-xl-4">
+                                        <h2> &#8369;299.00 <span><small>/ month</small></span></h2>
+                                    </div>
                                     <hr>
                                     <div class="plan-include">
                                         <ul>
@@ -97,11 +182,13 @@
                         <div class="col-12 col-md-4 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                <h1 class="plan-header"><span class="badge">Premium</span></h1>
+                                    <h1 class="plan-header"><span class="badge">Premium</span></h1>
                                     <small class="plan-desc">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
                                     </small>
-                                    <div class="plan-price pt-xl-4"><h2>&#8369;199.00  <span>/ month</span></h2></div>
+                                    <div class="plan-price pt-xl-4">
+                                        <h2>&#8369;299.00 <span>/ month</span></h2>
+                                    </div>
                                     <hr>
                                     <div class="plan-include">
                                         <ul>
@@ -118,17 +205,86 @@
 
                         </div>
                     </div>
-                   </div>
-                </div>
-
-                <div id="Informative" class="tabcontent">
-                    <h3>Informative</h3>
-                    <p>Paris is the capital of France.</p>
                 </div>
 
                 <div id="Ecommerce" class="tabcontent">
-                    <h3>eccommerce</h3>
-                    <p>Tokyo is the capital of Japan.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h1 class="plan-header"><span class="badge">Basic</span></h1>
+                                    <small class="plan-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                    </small>
+                                    <div class="plan-price pt-xl-4">
+                                        <h2> &#8369;399.00 <span><small>/ month</small></span></h2>
+                                    </div>
+                                    <hr>
+                                    <div class="plan-include">
+                                        <ul>
+                                            <li><i class="fa-solid fa-check"></i> Plan 1</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 2</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 3</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 4</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn-plan d-flex justify-content-center">See More</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h1 class="plan-header"><span class="badge">Standard</span></h1>
+                                    <small class="plan-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                    </small>
+                                    <div class="plan-price pt-xl-4">
+                                        <h2> &#8369;399.00 <span><small>/ month</small></span></h2>
+                                    </div>
+                                    <hr>
+                                    <div class="plan-include">
+                                        <ul>
+                                            <li><i class="fa-solid fa-check"></i> Plan 1</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 2</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 3</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 4</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn-plan d-flex justify-content-center">See More</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h1 class="plan-header"><span class="badge">Premium</span></h1>
+                                    <small class="plan-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                    </small>
+                                    <div class="plan-price pt-xl-4">
+                                        <h2>&#8369;399.00 <span>/ month</span></h2>
+                                    </div>
+                                    <hr>
+                                    <div class="plan-include">
+                                        <ul>
+                                            <li><i class="fa-solid fa-check"></i> Plan 1</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 2</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 3</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 4</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn-plan d-flex justify-content-center">See More</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -141,21 +297,23 @@
 
 
     <script>
-
         function openPlan(evt, planName) {
             var i, tabcontent, tablinks;
             tabcontent = document.getElementsByClassName("tabcontent");
-            tabactive = document.getElementsByClassName("active");
-            for (i = 0; i  < tabcontent.length; i++) {
+            for (i = 0; i < tabcontent.length; i++) {
                 tabcontent[i].style.display = "none";
             }
             tablinks = document.getElementsByClassName("tablinks");
             for (i = 0; i < tablinks.length; i++) {
                 tablinks[i].className = tablinks[i].className.replace(" active", "");
             }
-            document.getElementById(planName).style.display = "block";  
+            document.getElementById(planName).style.display = "block";
             evt.currentTarget.className += " active";
         }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector(".tablinks").click();
+        });
     </script>
 
 

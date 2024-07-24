@@ -835,8 +835,11 @@ footer {
     /* display: block; */
 }
 
-.tabcontent{
+.tabcontent {
     display: none;
+}
+.tabcontent.active {
+    display: block;
 }
 
 .badge{
@@ -960,9 +963,9 @@ footer {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .about-header-img {
-        bottom: -40%;
+        bottom: -60%;
     }
     .about-mission{
-        margin-top: 30%;
+        margin-top: 20%;
     }
 }
