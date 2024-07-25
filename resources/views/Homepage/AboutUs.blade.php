@@ -125,23 +125,15 @@
             <div class="container">
                 <div class="header">Our Team</div>
               
-                    <div class="row no-gutters">
+                    <div class="row d-flex justify-content-center no-gutters">
                         <div class="col-12 col-md-3 px-0 team-content">
                             <img class="img-fluid" src="../assets/img/infinitech-angelle.png" alt="">
                             <div class="team-details">
                                 <span class="team-name d-block">Angelle Sarmiento</span>
                                 <small class="position d-block">CEO / CO Founder</small>
                             </div>
-
                         </div>
-                        <div class="col-12 col-md-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/infinitech-rose.jpeg" alt="">
-                            <div class="team-details">
-                                <span class="team-name d-block">Baby Rose Hernandez</span>
-                                <small class="position d-block">CO Foundeer</small>
-                            </div>
-
-                        </div>
+                       
                         <div class="col-12 col-md-3 px-0 team-content">
                             <img class="img-fluid" src="../assets/img/infinitech-airies.jpeg" alt="">
                             <div class="team-details">
@@ -155,6 +147,14 @@
                             <div class="team-details">
                                 <span class="team-name d-block">April Ann Saludares</span>
                                 <small class="position d-block">Supervisor</small>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-3 px-0 team-content">
+                            <img class="img-fluid" src="../assets/img/infinitech-krissa.png" alt="">
+                            <div class="team-details">
+                                <span class="team-name d-block"> Krissa Bongon</span>
+                                <small class="position d-block">Executive Assistant</small>
                             </div>
 
                         </div>

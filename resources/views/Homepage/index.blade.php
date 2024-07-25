@@ -159,7 +159,7 @@
                         <span class="header"> About Us</span>
                     </div>
                     <div class="about-content">
-                        <img class="about-logo" src="../assets/img/icon.png" alt="">
+                   
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sit dolore delectus debitis ex earum minima cumque nihil recusandae repudiandae sapiente, sed hic velit voluptatum a, repellat at voluptas officia!</p>
                     </div>
                 </div>

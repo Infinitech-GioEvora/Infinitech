@@ -748,10 +748,10 @@ footer {
 }
 
 .img-fluid{
-    width: 90%;
+    width: 100%;
 }
 .team-content{
-    margin: 2px;
+    margin: 4px;
 }
 
 
@@ -972,12 +972,12 @@ footer {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    /* .about-header-img {
-        bottom: -70%;
+    .about-header-img {
+        bottom: -60%;
     }
     .about-mission{
         margin-top: 20%;
-    } */
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
