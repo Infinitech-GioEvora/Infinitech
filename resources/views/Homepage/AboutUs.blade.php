@@ -124,56 +124,52 @@
         <section class="ourteam-section">
             <div class="container">
                 <div class="header">Our Team</div>
-              
-                    <div class="row d-flex justify-content-center no-gutters">
-                        <div class="col-12 col-md-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/infinitech-angelle.png" alt="">
+
+                <div class="row no-gutters d-flex justify-content-center">
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-angelle.png" alt="Avatar" style="width:100%">
                             <div class="team-details">
                                 <span class="team-name d-block">Angelle Sarmiento</span>
-                                <small class="position d-block">CEO / CO Founder</small>
+                                <small class="position d-block">Chied Executive Officer</small>
                             </div>
                         </div>
-                       
-                        <div class="col-12 col-md-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/infinitech-airies.jpeg" alt="">
+
+                    </div>
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-airies.jpeg" alt="Avatar" style="width:100%">
                             <div class="team-details">
                                 <span class="team-name d-block">Airies Asilo</span>
-                                <small class="position d-block">Secretary</small>
+                                <small class="position d-block">Sales Manager</small>
                             </div>
-
                         </div>
-                        <div class="col-12 col-md-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/infinitech-april.jpeg" alt="">
+
+                    </div>
+
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-krissa.png" alt="Avatar" style="width:100%">
+                            <div class="team-details">
+                                <span class="team-name d-block">Krissa Bongon</span>
+                                <small class="position d-block">Executive Assistance</small>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-april.jpeg" alt="Avatar" style="width:100%">
                             <div class="team-details">
                                 <span class="team-name d-block">April Ann Saludares</span>
                                 <small class="position d-block">Supervisor</small>
                             </div>
+                        </div>
 
-                        </div>
-                        <div class="col-12 col-md-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/infinitech-krissa.png" alt="">
-                            <div class="team-details">
-                                <span class="team-name d-block"> Krissa Bongon</span>
-                                <small class="position d-block">Executive Assistant</small>
-                            </div>
-
-                        </div>
-                        <div class="col-12 col-md-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/infinitech-justin.png" alt="">
-                            <div class="team-details">
-                                <span class="team-name d-block">Justin De Castro</span>
-                                <small class="position d-block">Junior Web Developer</small>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/infinitech-moses.png" alt="">
-                            <div class="team-details">
-                                <span class="team-name d-block">Moses Alcantara</span>
-                                <small class="position d-block">Junior Web Developer</small>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-3 px-0 team-content">
-                            <img class="img-fluid" src="../assets/img/Untitled design (2).png" alt="">
+                    </div>
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-gio.png" alt="Avatar" style="width:100%">
                             <div class="team-details">
                                 <span class="team-name d-block">Giolo Evora</span>
                                 <small class="position d-block">Junior Web Developer</small>
@@ -181,8 +177,44 @@
                         </div>
 
                     </div>
-                
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-moses.png" alt="Avatar" style="width:100%">
+                            <div class="team-details">
+                                <span class="team-name d-block">Moses Alcantara</span>
+                                <small class="position d-block">Junior Web Developer</small>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-justin.png" alt="Avatar" style="width:100%">
+                            <div class="team-details">
+                                <span class="team-name d-block">Justin De Castro</span>
+                                <small class="position d-block">Junior Web Developer</small>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
+        </section>
+        <section class="certificates">
+            <div class="container">
+                <div class="header">Certificates</div>
+                <div class="row d-flex justify-content-center no-gutters">
+                    <div class="col-6 col-md-4 col-lg-4 cert">
+                      <img src="../assets/certificates/infinitech-partnership.jpg" alt="ABIC-Realty"></a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4 cert    ">
+                      <img src="../assets/certificates/infinitech-sil.jpg" alt="ABIC-Realty"></a>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
     </main>

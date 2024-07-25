@@ -22,7 +22,8 @@
                             <h1><strong>INFINITECH: </strong><span>Crafting Digital Experiences, Elevating Brands.</span></h1>
 
                             <div class="d-flex">
-                                <button class="btn-learn">Learn More</button>
+                                <!-- <button class="btn-learn">Learn More</button> -->
+                                <a class="btn-learn" href="/about-us" style="text-decoration: none;">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -159,7 +160,7 @@
                         <span class="header"> About Us</span>
                     </div>
                     <div class="about-content">
-                   
+
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sit dolore delectus debitis ex earum minima cumque nihil recusandae repudiandae sapiente, sed hic velit voluptatum a, repellat at voluptas officia!</p>
                     </div>
                 </div>
@@ -254,46 +255,75 @@
                     <span class="header d-block"> Latest News</span>
                 </div>
 
-                <div class="news-item">
-                    <div class="row d-flex justify-content-center ">
-                        <div class="col-6 col-md-4 col-lg-3 news-col">
-                            <img src="../assets/img/mission.jpg" alt="">
-                            <h1 class="news-header pt-xl-3 mb-xl-4">
-                                Infinitech Grand Opening
-                            </h1>
-                            <div class="read-more">
-                                <a href="#">Read More </a>
+                <div class="news-section">
+                    <div class="row no-gutters">
+                        <div class="col-12 col-md-3 px-0">
+                            <div class="card">
+                                <img src="../assets/img/infinitech-signing.jpg" alt="Avatar" style="width:100%">
+                                <div class="container">
+                                    <h1 class="news-header">Infinitech Grand Opening</h1>
+                                    <p class="news-desc">Infinitech is thrilled to announce the grand opening of its new headquarters on July 6, 2024. Join us for a day of innovation and excitement as we unveil cutting-edge technology and showcase our state-of-the-art facilities.</p>
+                                    <div class="read-more">
+                                        <a href="#">Read More </a>
+                                    </div>
+                                    <hr>
+                                    <small class="date mb-xl-5">
+                                        July 6, 2024
+                                        <span></span>
+                                    </small>
+                                </div>
                             </div>
-                            <hr>
-                            <small class="date mb-xl-5">
-                                July 6, 2024
-                            </small>
                         </div>
-                        <div class="col-6 col-md-4 col-lg-3 news-col">
-                            <img src="../assets/img/infinitech-signing.jpg" alt="">
-                            <h1 class="news-header pt-xl-3 mb-xl-4">
-                                Contract Singning for Partnership
-                            </h1>
-                            <div class="read-more">
-                                <a href="#">Read More </a>
+                        <div class="col-12 col-md-3 px-0 ">
+                            <div class="card">
+                                <img src="../assets/img/infinitech-signing.jpg" alt="Avatar" style="width:100%">
+                                <div class="container">
+                                    <h1 class="news-header">Infinitech Grand Opening</h1>
+                                    <p class="news-desc">Infinitech is thrilled to announce the grand opening of its new headquarters on July 6, 2024. Join us for a day of innovation and excitement as we unveil cutting-edge technology and showcase our state-of-the-art facilities.</p>
+                                    <div class="read-more">
+                                        <a href="#">Read More </a>
+                                    </div>
+                                    <hr>
+                                    <small class="date mb-xl-5">
+                                        July 6, 2024
+                                        <span></span>
+                                    </small>
+                                </div>
                             </div>
-                            <hr>
-                            <small class="date mb-xl-5">
-                                July 16, 2024
-                            </small>
                         </div>
-                        <div class="col-6 col-md-4 col-lg-3 news-col">
-                            <img src="../assets/img/abicmanpower.jpg" alt="">
-                            <h1 class="news-header pt-xl-3 mb-xl-4">
-                                Meeting with the Client
-                            </h1>
-                            <div class="read-more">
-                                <a href="#">Read More </a>
+                        <div class="col-12 col-md-3 px-0 ">
+                            <div class="card">
+                                <img src="../assets/img/infinitech-signing.jpg" alt="Avatar" style="width:100%">
+                                <div class="container">
+                                    <h1 class="news-header">Infinitech Grand Opening</h1>
+                                    <p class="news-desc">Infinitech is thrilled to announce the grand opening of its new headquarters on July 6, 2024. Join us for a day of innovation and excitement as we unveil cutting-edge technology and showcase our state-of-the-art facilities.</p>
+                                    <div class="read-more">
+                                        <a href="#">Read More </a>
+                                    </div>
+                                    <hr>
+                                    <small class="date mb-xl-5">
+                                        July 6, 2024
+                                        <span></span>
+                                    </small>
+                                </div>
                             </div>
-                            <hr>
-                            <small class="date mb-xl-5">
-                                July 16, 2024
-                            </small>
+                        </div>
+                        <div class="col-12 col-md-3 px-0 ">
+                            <div class="card">
+                                <img src="../assets/img/infinitech-signing.jpg" alt="Avatar" style="width:100%">
+                                <div class="container">
+                                    <h1 class="news-header">Infinitech Grand Opening</h1>
+                                    <p class="news-desc">Infinitech is thrilled to announce the grand opening of its new headquarters on July 6, 2024. Join us for a day of innovation and excitement as we unveil cutting-edge technology and showcase our state-of-the-art facilities.</p>
+                                    <div class="read-more">
+                                        <a href="#">Read More </a>
+                                    </div>
+                                    <hr>
+                                    <small class="date mb-xl-5">
+                                        July 6, 2024
+                                        <span></span>
+                                    </small>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -346,7 +376,7 @@
 
     </main>
 
-    
+
     @include('Layout/Footer')
     @include('Layout/Script')
 

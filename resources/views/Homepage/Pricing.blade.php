@@ -42,6 +42,7 @@
                 <div class="tab d-flex justify-content-center">
                     <button class="tablinks active" onclick="openPlan(event, 'Basic')">Basic</button>
                     <button class="tablinks" onclick="openPlan(event, 'Informative')">Informative</button>
+                    <button class="tablinks" onclick="openPlan(event, 'Dynamic')">Dynamic</button>
                     <button class="tablinks" onclick="openPlan(event, 'Ecommerce')">E-Commerce</button>
                 </div>
 
@@ -127,6 +128,85 @@
                     </div>
                 </div>
 
+                <div id="Dynamic" class="tabcontent">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h1 class="plan-header"><span class="badge">Basic</span></h1>
+                                    <small class="plan-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                    </small>
+                                    <div class="plan-price pt-xl-4">
+                                        <h2> &#8369;299.00 <span><small>/ month</small></span></h2>
+                                    </div>
+                                    <hr>
+                                    <div class="plan-include">
+                                        <ul>
+                                            <li><i class="fa-solid fa-check"></i> Plan 1</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 2</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 3</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 4</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn-plan d-flex justify-content-center">See More</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h1 class="plan-header"><span class="badge">Standard</span></h1>
+                                    <small class="plan-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                    </small>
+                                    <div class="plan-price pt-xl-4">
+                                        <h2> &#8369;299.00 <span><small>/ month</small></span></h2>
+                                    </div>
+                                    <hr>
+                                    <div class="plan-include">
+                                        <ul>
+                                            <li><i class="fa-solid fa-check"></i> Plan 1</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 2</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 3</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 4</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn-plan d-flex justify-content-center">See More</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h1 class="plan-header"><span class="badge">Premium</span></h1>
+                                    <small class="plan-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                    </small>
+                                    <div class="plan-price pt-xl-4">
+                                        <h2>&#8369;299.00 <span>/ month</span></h2>
+                                    </div>
+                                    <hr>
+                                    <div class="plan-include">
+                                        <ul>
+                                            <li><i class="fa-solid fa-check"></i> Plan 1</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 2</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 3</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 4</li>
+                                            <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn-plan d-flex justify-content-center">See More</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
                 <div id="Informative" class="tabcontent">
                     <div class="row">
                         <div class="col-12 col-md-4 col-lg-4">

@@ -22,7 +22,7 @@
                         <li class="menu-item"><a href="/our-pricing">Pricing</a></li>
                         <li class="menu-item"><a href="/news-blogs">Blogs & News</a></li>
                         <li class="menu-item"><a href="/contact-us">Contact Us</a></li>
-                        <li class="menu-item"><a class="" href=""><button>Free Consultation</button></a></li>
+                        <li class="menu-item"><a class="" href=""><button>Book Meeting</button></a></li>
 
                     </ul>
                 </div>
@@ -49,7 +49,7 @@
                         <li class="list-item"><a href="">About Us</a></li>
                         <li class="list-item"><a href="">Blogs & News</a></li>
                         <li class="list-item"><a href="">Contact Us</a></li>
-                        <li class="list-item"><a href=""><button class="btn-consultation">Free Consultation</button></a></li>
+                        <li class="list-item"><a href=""><button class="btn-consultation">Book Meeting</button></a></li>
                     </ul>
 
 

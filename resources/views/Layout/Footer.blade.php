@@ -1,10 +1,27 @@
 <footer>
-    <div class="container">
-        <div class="row">
+    <div class="container" style="margin-top: 6%;">
+        <div class="subscribe">
+            <div class="row d-flex justify-content-center aling-items-center">
+                <div class="col-12 col-md-6">
+                    <img src="../assets/svg/Subscriber-pana.svg" alt="">
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        <input type="text" placeholder="Giolo Evora">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="giolo.evora@gmail.com">
+                    </div>
+                    <button class="btn-subscribe text-center">Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row ">
             <div class="col-md-4">
                 <div class="footer-logo mb-xl-4">
                     <img class="mb-xl-4" src="../assets/img/logos.jpg" alt="">
-                    <p class="footer-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi suscipit explicabo hic, repellat laborum, eos aut inventore nihil fugiat, ratione soluta! Autem a tempora odio similique blanditiis aperiam asperiores reiciendis!</p>
+                    <p class="footer-desc">Specialize in delivering comprehensive IT solutions tailored to your business needs. With a strong focus on innovation and excellence, we provide a range of services designed to enhanve your digital presence and streamline your operations.</p>
                 </div>
                 <div class="footer-social-media">
                     <ul>
@@ -50,15 +67,20 @@
 
         </div>
 
+
     </div>
 
+
+
 </footer>
+
+
 
 <div class="copy-right text-center">
 
     <ul>
         <li>
-            <p>&copy; 2024 Infinitech Advertising Corporation. All rights reserved. Website design by Infinitech Advertising Corporation.</p>
+            <p>&copy; 2024 All rights reserved. Website design by Infinitech Advertising Corporation.</p>
         </li>
         <li><a href="/privacy-policy">Privacy Policy</a></li>
         <li><a href="/terms-and-conditions">Terms and Conditions</a></li>
