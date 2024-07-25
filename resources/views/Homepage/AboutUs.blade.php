@@ -124,9 +124,9 @@
         <section class="ourteam-section">
             <div class="container">
                 <div class="header">Our Team</div>
-                <div class="ourteam">
-                    <div class="row d-flex justify-content-center align-items-center no-gutters">
-                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
+              
+                    <div class="row no-gutters">
+                        <div class="col-12 col-md-3 px-0 team-content">
                             <img class="img-fluid" src="../assets/img/infinitech-angelle.png" alt="">
                             <div class="team-details">
                                 <span class="team-name d-block">Angelle Sarmiento</span>
@@ -134,7 +134,7 @@
                             </div>
 
                         </div>
-                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
+                        <div class="col-12 col-md-3 px-0 team-content">
                             <img class="img-fluid" src="../assets/img/infinitech-rose.jpeg" alt="">
                             <div class="team-details">
                                 <span class="team-name d-block">Baby Rose Hernandez</span>
@@ -142,7 +142,7 @@
                             </div>
 
                         </div>
-                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
+                        <div class="col-12 col-md-3 px-0 team-content">
                             <img class="img-fluid" src="../assets/img/infinitech-airies.jpeg" alt="">
                             <div class="team-details">
                                 <span class="team-name d-block">Airies Asilo</span>
@@ -150,7 +150,7 @@
                             </div>
 
                         </div>
-                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
+                        <div class="col-12 col-md-3 px-0 team-content">
                             <img class="img-fluid" src="../assets/img/infinitech-april.jpeg" alt="">
                             <div class="team-details">
                                 <span class="team-name d-block">April Ann Saludares</span>
@@ -158,21 +158,21 @@
                             </div>
 
                         </div>
-                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
+                        <div class="col-12 col-md-3 px-0 team-content">
                             <img class="img-fluid" src="../assets/img/infinitech-justin.png" alt="">
                             <div class="team-details">
                                 <span class="team-name d-block">Justin De Castro</span>
                                 <small class="position d-block">Junior Web Developer</small>
                             </div>
                         </div>
-                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
+                        <div class="col-12 col-md-3 px-0 team-content">
                             <img class="img-fluid" src="../assets/img/infinitech-moses.png" alt="">
                             <div class="team-details">
                                 <span class="team-name d-block">Moses Alcantara</span>
                                 <small class="position d-block">Junior Web Developer</small>
                             </div>
                         </div>
-                        <div class="col-12 col-md-3 col-lg-3 px-0 team-content">
+                        <div class="col-12 col-md-3 px-0 team-content">
                             <img class="img-fluid" src="../assets/img/Untitled design (2).png" alt="">
                             <div class="team-details">
                                 <span class="team-name d-block">Giolo Evora</span>
@@ -181,7 +181,7 @@
                         </div>
 
                     </div>
-                </div>
+                
             </div>
         </section>
 

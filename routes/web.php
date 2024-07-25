@@ -29,3 +29,6 @@ Route::get('/our-pricing', function () {
     return view('Homepage/Pricing');
 });
 
+Route::get('/news-blogs', function () {
+    return view('Homepage/News');
+});

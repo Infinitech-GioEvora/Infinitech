@@ -20,7 +20,7 @@
                         <li class="menu-item active"><a href="/">Home</a></li>
                         <li class="menu-item"><a href="/about-us">About Us</a></li>
                         <li class="menu-item"><a href="/our-pricing">Pricing</a></li>
-                        <li class="menu-item"><a href="">Blogs & News</a></li>
+                        <li class="menu-item"><a href="/news-blogs">Blogs & News</a></li>
                         <li class="menu-item"><a href="/contact-us">Contact Us</a></li>
                         <li class="menu-item"><a class="" href=""><button>Free Consultation</button></a></li>
 
