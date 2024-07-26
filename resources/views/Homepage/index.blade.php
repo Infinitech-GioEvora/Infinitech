@@ -17,17 +17,22 @@
         <section class="hero section-layout">
             <div class="container main-section">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-12 col-md-12 col-lg-6       ">
                         <div class="tagline">
-                            <h1><strong>INFINITECH: </strong><span>Crafting Digital Experiences, Elevating Brands.</span></h1>
-
+                            <h1 class="hero-header">Connect and thrive with cutting-edge digital solutions</h1>
+                            <p class="hero-desc">At <strong>Infinitech Advertising Corporation</strong>, we create captivating campaigns that leverage cutting-edge digital solutions to boost your brand's online presence.</p>
                             <div class="d-flex">
-                                <!-- <button class="btn-learn">Learn More</button> -->
-                                <a class="btn-learn" href="/about-us" style="text-decoration: none;">Learn More</a>
+                                <a class="button btn-hero" href="/about-us" style="text-decoration: none;"> <span>Explore More</span>
+                                    <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="37" cy="37" r="35.5" stroke="white" stroke-width="3"></circle>
+                                        <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="white"></path>
+                                    </svg>
+                                </a>
                             </div>
+
                         </div>
                     </div>
-                    <div class="col-sm-6 d-flex justify-content-end">
+                    <div class="col-12 col-md-12 col-lg-6">
                         <div class="left-content">
                             <img src="../assets/svg/hero.svg" alt="">
                         </div>
@@ -43,7 +48,7 @@
                             <h1 class="service-title">Design</h1>
 
                             <p class="service-description">
-                                Brilliance has no limits. Let your imagination run wild! We can help take your concept from thought to reality.
+                                Creativity knows no bounds. Unleash your imagination, and we'll turn your vision into reality.
                             </p>
                         </div>
                         <div class="col-md-4 text-center">
@@ -53,7 +58,7 @@
                             <h1 class="service-title">Develop</h1>
 
                             <p class="service-description">
-                                Brilliance has no limits. Let your imagination run wild! We can help take your concept from thought to reality.
+                                Boundless innovation awaits. Let your ideas soar, and we'll bring them to life.
                             </p>
                         </div>
                         <div class="col-md-4 text-center">
@@ -63,7 +68,7 @@
                             <h1 class="service-title">Manage</h1>
 
                             <p class="service-description">
-                                Brilliance has no limits. Let your imagination run wild! We can help take your concept from thought to reality.
+                                Limitless potential. Let your strategies excel, and we'll manage them to success.
                             </p>
                         </div>
 
@@ -74,11 +79,34 @@
 
         <section class="sec-div">
             <div class="container">
+                <div class="our-services" data-aos="fade-up">
+                    <div class="row">
+                        <div class="col-12 col-md-5 col-lg-5">
+                            <div class="service-header">
+                                <h5>What we do?</h5>
+                                <h1>Driving success through strategic paid search advertising!</h1>
+                                <div class="tab d-block">
+                                    <hr>
+                                    <a class="tablink d-block" onclick="openCity(event, 'London')">Website Development</a><span></span>
+                                    <hr>
+                                    <a class="tablink d-block" onclick="openCity(event, 'Paris')">System Development</a>
+                                    <hr>
+                                    <a class="tablink d-block" onclick="openCity(event, 'Tokyo')">Advertising</a>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-7">
+                            this is the right content
+                        </div>
+                    </div>
 
-                <div class="our-services">
-                    <span class="header d-block"> Our Services</span>
 
-                    <div class="row d-flex justify-content-center no-gutters">
+
+
+                    <!-- <span class="header d-block"> Our Services</span> -->
+
+                    <!-- <div class="row d-flex justify-content-center no-gutters" data-aos="fade-up" data-aos-duration="1000">
                         <div class="col-sm-12 col-md-6 col-lg-4 px-0 text-center">
                             <div class="service-content text-center">
                                 <div class="our-service-icon">
@@ -118,9 +146,9 @@
                     </div>
 
                     <div class="service-consultation text-center">
-                        <p>Schedule a Free Consultation with our expert team.</p>
-                        <button class="btn-consultation text-center">Schedule Free Consultation </button>
-                    </div>
+                        <p data-aos="fade-up" data-aos-duration="1000">Schedule a Free Consultation with our expert team.</p>
+                        <button data-aos="fade-up" data-aos-duration="1000" class="btn-consultation text-center">Schedule Free Consultation </button>
+                    </div> -->
                 </div>
             </div>
 
@@ -168,20 +196,20 @@
 
                 <div class="row">
                     <div class=" col-sm-12 col-md-12 col-lg-6">
-                        <div class="vm-img">
+                        <div class="vm-img" data-aos="fade-right" data-aos-duration="1000">
                             <img class="pic-back" src="../assets/img/mission.jpg" alt="">
                         </div>
                     </div>
                     <div class=" col-sm-12 col-md-12 col-lg-6">
-                        <div class="mission-content">
+                        <div class="mission-content" data-aos="fade-up" data-aos-duration="1000">
                             <span class="vm-header mb-xl-4"> Mission</span>
                             <p>To help business thrive by providing top-notch, tailor-made digital solutions that boost growth, streamline operations, and enhance user satisfaction.</p>
                         </div>
-                        <div class="vision-content">
+                        <div class="vision-content" data-aos="fade-up" data-aos-duration="1000">
                             <span class="vm-header">Vision</span>
                             <p>To lead in offering exeptional service and advertising expertise, ensuring boundless value for our clients. We aim to build enduring partnership by continually surpassing expectations through innovation, comitmment, and a profound understanding of our client's specific needs.</p>
                         </div>
-                        <div class="vision-content">
+                        <div class="vision-content" data-aos="fade-up" data-aos-duration="1000">
                             <span class="vm-header">Goal</span>
                             <p>To create meaningful employment opportunities for fresh IT graduates fro the provinces, empowering them to excel and innovate in the field of technology. We are commited to fostering an inclusive environment where talent from all backgrounds can develop their skills, drive technological advancements, and contribute to the growth of our community, and a profound understanding of og client's specific needs.</p>
                         </div>
@@ -198,19 +226,19 @@
 
                 <div class="partners-logo">
                     <div class="row d-flex justify-content-center no-gutters">
-                        <div class="col-6 col-md-4 col-lg-2">
+                        <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
                             <a href="https://www.facebook.com/profile.php?id=61552676815080"><img src="../assets/img/ABIC-Realty.png" alt="ABIC-Realty"></a>
                         </div>
-                        <div class="col-6 col-md-4 col-lg-2">
+                        <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
                             <a href="https://www.facebook.com/mngtechvoc.antique"><img src="../assets/img/MNG-Techvoc-INC.png" alt="MNG-Techvoc-INC"></a>
                         </div>
-                        <div class="col-6 col-md-4 col-lg-2">
+                        <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
                             <a href="https://www.facebook.com/bcrvtvi.edu.ph"><img src="../assets/img/bcrv-techvoc.png" alt="bcrv-techvoc"></a>
                         </div>
-                        <div class="col-6 col-md-4 col-lg-2">
+                        <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
                             <a href="https://www.facebook.com/profile.php?id=61552586366733"><img src="../assets/img/NRG-Info-Tech.png" alt="NRG-Info-Tech"></a>
                         </div>
-                        <div class="col-6 col-md-4 col-lg-2">
+                        <div class="col-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
                             <a href="https://www.facebook.com/profile.php?id=100090318514723"><img src="../assets/img/abic-manpower.png" alt="abic-manpower"></a>
                         </div>
 
