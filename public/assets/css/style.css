@@ -254,17 +254,67 @@ p {
     font-family: var(--var-header-font);
 }
 
-.service-header .tab .tablink{
+.service-header .tab .serviceTab{
     text-decoration: none;
     color: var(--var-dark-color);
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    font-family: var(--var-header-font);
+    font-size: 16px;
+   
 }
+.service-header .tab .serviceTab span i{
+    padding: 16px;
+}
+
+.service-active{
+    font-weight: 600;
+}
+
+
+
+.service-header .tab .serviceTab,
+.service-header .tab .serviceTab span{
+    border-radius: 50px;
+}
+.service-header .tab .serviceTab span{
+    background-color: var(--var-background-light);
+    color: var(--var-dark-color);
+}
+
+.service-header .tab .service-active span i{
+    background-color: var(--var-primary-color);
+    color: #f9f9f9;
+    border-radius: 50px;
+}
+
+.about-link{
+    text-decoration: none;
+    color: var(--var-dark-color);
+    font-weight: 600;
+}
+
+.servicecontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+  }
+
+  .right-content-service{
+    margin-left: 64px;
+  }
 
 .our-services .service-content {
     background-color: var(--var-background-light);
     padding: 24px;
     border-radius: 8px;
     box-shadow: var(--var-box-shadows);
-    margin: 16px;
+    margin-top: 36  px;
+}
+
+.service-header span i{
+    text-align: right;
 }
 
 .our-service-icon img {
@@ -284,40 +334,21 @@ p {
     font-weight: 400;
 }
 
-.btn-consultation {
-    background-color: transparent;
-    border: 2px solid var(--var-primary-color);
-    padding: 8px 14px;
-    border-radius: 50px;
-    font-size: 16px;
-    font-weight: 400;
-    transition: ease-in-out 0.4s;
-    font-weight: 500;
-}
 
-.btn-consultation:hover {
-    background-color: var(--var-primary-color);
-    color: var(--var-background-light);
-}
 
 /* =======================
 ===== PROJECT SECTION=====
 ========================== */
 
 .project {
-    background-color: black;
-    color: var(--var-background-light);
-    padding: 32px;
+    background-color: var(--var-background-light);
 }
 
-.left-project {
-    margin: 32px;
-}
 
 .left-project small {
-    color: var(--var-accent-color);
+    color: var(--var-primary-color);
     font-size: 24px;
-    font-family: var(--var-body-font);
+    font-family: var(--var-header-font);
     font-weight: 600;
 }
 .left-project .left-tag {
