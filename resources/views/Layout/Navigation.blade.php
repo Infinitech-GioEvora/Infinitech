@@ -18,10 +18,10 @@
                 <div class="nav-menu text-left">
                     <ul>
                         <li class="menu-item"><a href="/about-us">About Us</a></li>
-                        <li class="menu-item"><a href="/about-us">Services</a></li>
-                        <li class="menu-item"><a href="/about-us">Solutions</a></li>
+                        <li class="menu-item"><a href="/services">Services</a></li>
+                        <li class="menu-item"><a href="/solution">Solutions</a></li>
                         <!-- <li class="menu-item"><a href="/our-pricing">Pricing</a></li> -->
-                        <li class="menu-item"><a href="/news-blogs">Testemonials</a></li>
+                        <li class="menu-item"><a href="/testimonials">Testemonials</a></li>
                         <li class="menu-item"><a href="/news-blogs">Blogs</a></li>
                         <li class="menu-item"><a href="/contact-us">Contact Us</a></li>
                         <li class="menu-item">

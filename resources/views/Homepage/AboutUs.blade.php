@@ -32,17 +32,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="about-header-img">
+                {{-- <div class="about-header-img">
                     <img src="../assets/img/about-img-header.jpeg" alt="">
-                </div>
+                </div> --}}
             </div>
 
         </section>
 
 
         <section class="mission ">
-            <div class="container">
-                <div class="about about-mission">
+            <div class="about-header-img" >
+                <img src="../assets/img/about-img-header.jpeg" alt="">
+            </div>
+            <div class="container" >
+                <div class="about about-mission" >
                     <div class="about-content">
                         <p>Specialize in delivering comprehensive IT solutions tailored to your business needs. With a strong focus on innovation and excellence, we provide a range of services designed to enhanve your digital presence and streamline your operations.</p>
                     </div>
@@ -55,7 +58,7 @@
                             <p>To help business thrive by providing top-notch, tailor-made digital solutions that boost growth, streamline operations, and enhance user satisfaction.</p>
                         </div>
                         <div class="col-sm-12 col-md-4 vmg-content text-center">
-                            <span class="vmg-header"> Visson</span>
+                            <span class="vmg-header"> Vission</span>
                             <p>To lead in offering exeptional service and advertising expertise, ensuring boundless value for our clients. We aim to build enduring partnership by continually surpassing expectations through innovation, comitmment, and a profound understanding of our client's specific needs.</p>
                         </div>
                         <div class="col-sm-12 col-md-4 text-center">
@@ -70,10 +73,9 @@
 
         <section class="coreValue">
             <div class="container">
-
                 <div class="core-values">
                     <div class="row d-flex justify-content-center no-gutters pt-xl-5">
-                        <div class="header">Core Values</div>
+                        <div class="header" style="margin-bottom:30px">Core Values</div>
                         <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
                             <div class="card">
                                 <div class="card-body">
@@ -123,79 +125,108 @@
 
         <section class="ourteam-section">
             <div class="container">
-                <div class="header">Our Team</div>
+                <div class="header" style="margin-bottom:30px">Our Team</div>
 
                 <div class="row no-gutters d-flex justify-content-center">
                     <div class="col-12 col-md-3 px-0">
                         <div class="card">
-                            <img src="../assets/img/infinitech-angelle.png" alt="Avatar" style="width:100%">
+                            <img src="../assets/img/infinitech-sirGel.png" alt="Avatar" style="width:100%">
                             <div class="team-details">
                                 <span class="team-name d-block">Angelle Sarmiento</span>
-                                <small class="position d-block">Chied Executive Officer</small>
+                                <small class="position d-block">Chief Executive Officer</small>
                             </div>
                         </div>
-
                     </div>
                     <div class="col-12 col-md-3 px-0">
                         <div class="card">
-                            <img src="../assets/img/infinitech-airies.jpeg" alt="Avatar" style="width:100%">
-                            <div class="team-details">
-                                <span class="team-name d-block">Airies Asilo</span>
-                                <small class="position d-block">Sales Manager</small>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-12 col-md-3 px-0">
-                        <div class="card">
-                            <img src="../assets/img/infinitech-krissa.png" alt="Avatar" style="width:100%">
+                            <img src="../assets/img/infinitech-mamKrissa.png" alt="Avatar" style="width:100%">
                             <div class="team-details">
                                 <span class="team-name d-block">Krissa Bongon</span>
-                                <small class="position d-block">Executive Assistance</small>
+                                <small class="position d-block">Executive Assistant</small>
                             </div>
                         </div>
 
                     </div>
                     <div class="col-12 col-md-3 px-0">
                         <div class="card">
-                            <img src="../assets/img/infinitech-april.jpeg" alt="Avatar" style="width:100%">
+                            <img src="../assets/img/infinitech-mamAiries.png" alt="Avatar" style="width:100%">
+                            <div class="team-details">
+                                <span class="team-name d-block">Airies Asilo</span>
+                                <small class="position d-block">Marketing Manager</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-mamApril.png" alt="Avatar" style="width:100%">
                             <div class="team-details">
                                 <span class="team-name d-block">April Ann Saludares</span>
-                                <small class="position d-block">Supervisor</small>
+                                <small class="position d-block">IT Supervisor</small>
                             </div>
                         </div>
-
                     </div>
                     <div class="col-12 col-md-3 px-0">
                         <div class="card">
-                            <img src="../assets/img/infinitech-gio.png" alt="Avatar" style="width:100%">
+                            <img src="../assets/img/infinitech-mamAly.png" alt="Avatar" style="width:100%">
+                            <div class="team-details">
+                                <span class="team-name d-block">Allysa Mae Perez</span>
+                                <small class="position d-block">Admin Assistant</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-sirGio.png" alt="Avatar" style="width:100%">
                             <div class="team-details">
                                 <span class="team-name d-block">Giolo Evora</span>
-                                <small class="position d-block">Junior Web Developer</small>
+                                <small class="position d-block">Senior Web Developer</small>
                             </div>
                         </div>
-
                     </div>
                     <div class="col-12 col-md-3 px-0">
                         <div class="card">
-                            <img src="../assets/img/infinitech-moses.png" alt="Avatar" style="width:100%">
-                            <div class="team-details">
-                                <span class="team-name d-block">Moses Alcantara</span>
-                                <small class="position d-block">Junior Web Developer</small>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-12 col-md-3 px-0">
-                        <div class="card">
-                            <img src="../assets/img/infinitech-justin.png" alt="Avatar" style="width:100%">
+                            <img src="../assets/img/infinitech-sirJustin.png" alt="Avatar" style="width:100%">
                             <div class="team-details">
                                 <span class="team-name d-block">Justin De Castro</span>
+                                <small class="position d-block">Senior Web Developer</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-sirMoses.png" alt="Avatar" style="width:100%">
+                            <div class="team-details">
+                                <span class="team-name d-block">Moses Alcantara</span>
+                                <small class="position d-block">Senior Web Developer</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-msKim.png" alt="Avatar" style="width:100%">
+                            <div class="team-details">
+                                <span class="team-name d-block">Kimberly Niñeria</span>
                                 <small class="position d-block">Junior Web Developer</small>
                             </div>
                         </div>
-
+                    </div>
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-msLyca.png" alt="Avatar" style="width:100%">
+                            <div class="team-details">
+                                <span class="team-name d-block">Lyca Nobleza</span>
+                                <small class="position d-block">Junior Web Developer</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-msAngel.png" alt="Avatar" style="width:100%">
+                            <div class="team-details">
+                                <span class="team-name d-block">Darlene Angel Fajarito</span>
+                                <small class="position d-block">Junior Web Developer</small>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -204,7 +235,7 @@
         </section>
         <section class="certificates">
             <div class="container">
-                <div class="header">Certificates</div>
+                <div class="header" style="margin-bottom:30px">Certificates</div>
                 <div class="row d-flex justify-content-center no-gutters">
                     <div class="col-6 col-md-4 col-lg-4 cert">
                       <img src="../assets/certificates/infinitech-partnership.jpg" alt="ABIC-Realty"></a>

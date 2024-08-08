@@ -529,6 +529,7 @@ p {
     margin-bottom: 20px;
 }
 
+
 hr {
     border: none;
     height: 2px;
@@ -724,6 +725,7 @@ footer {
 .owl-carousel .owl-nav .owl-next {
     padding: 0;
 }
+.owl-carousel { display: flex; flex-direction: row; }
 
 .item {
     border: 2px solid var(--var-accent-color);
@@ -826,20 +828,18 @@ footer {
 }
 
 .about-header-img {
-    width: 60%;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     bottom: -40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
-
 .about-header-img img {
     border-radius: 8px;
     box-shadow: var(--var-box-shadows);
 }
 
 .core-values {
-    margin-top: 16px;
+    margin-top: 10px;
 }
 
 .vm-card .card {
@@ -1031,6 +1031,8 @@ footer {
     box-shadow: var(--var-box-shadows);
     border-bottom: 6px solid var(--var-accent-color);
     margin: 8px;
+    margin-bottom: 16px !important; 
+    padding: 8px; 
 }
 
 .news-header {
@@ -1043,6 +1045,7 @@ footer {
     -webkit-box-orient: vertical;
     display: -webkit-box;
     line-height: 1.6;
+    margin-bottom: 16px !important; 
 }
 
 /*==============================
@@ -1097,7 +1100,7 @@ footer {
         bottom: -40%;
     }
     .about-mission {
-        margin-top: 30%;
+        margin-top: 5%;
     }
 }
 

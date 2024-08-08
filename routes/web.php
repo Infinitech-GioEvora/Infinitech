@@ -32,3 +32,16 @@ Route::get('/our-pricing', function () {
 Route::get('/news-blogs', function () {
     return view('Homepage/News');
 });
+
+Route::get('/services', function () {
+    return view('Homepage/Services');
+});
+
+Route::get('/testimonials', function () {
+    return view('Homepage/Testimonial');
+});
+
+Route::get('/solution', function () {
+    return view('Homepage/Solution');
+});
+

@@ -33,13 +33,13 @@
         </section>
 
         <section class="pricing-section">
-            <div class="container">
+            <div class="container" >
                 <div class="pricing-head text-center">
-                    <h1 class="pricing-header">Latest News</h1>
+                    <h1 class="pricing-header" style="margin-bottom:15px">Latest News</h1>
                     <p>Stay ahead with the latest updates on exciting events. Discover what's happening next and never miss out!</p>
                 </div>
 
-                <div class="news-section mb-xl-7">
+                <div class="news-section mb-xl-7" style="margin-bottom:80px">
                     <div class="row no-gutters">
                         <div class="col-12 col-md-3 px-0">
                             <div class="card">
@@ -113,7 +113,7 @@
                 </div>
 
                 <div class="pricing-head text-center">
-                    <h1 class="pricing-header">Upcoming Events</h1>
+                    <h1 class="pricing-header" style="margin-bottom:15px">Upcoming Events</h1>
                     <p>Stay ahead with the latest updates on exciting events. Discover what's happening next and never miss out!</p>
                 </div>
 

@@ -119,7 +119,7 @@
         <section class="our-partners">
             <div class="container">
                 <div class="partners" data-aos="fade-up" data-aos-duration="1000">
-                    <span class="header d-block"> Our Partners</span>
+                    <span class="header d-block" style="margin-bottom:30px"> Our Partners</span>
                 </div>
 
                 <div class="partners-logo">
@@ -149,28 +149,29 @@
         <section class="clients py-3 py-md-5">
             <div class="container" data-aos="fade-up" data-aos-duration="1000">
                 <div class="partners">
-                    <span class="header d-block">Testemonials</span>
+                    <span class="header d-block">Testimonials</span>
                 </div>
                 <div class="featured-carousel owl-carousel d-flex justify-content-center align-items-center">
                     <div class="item d-block">
-                        <p class="feedback mb-xl-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut labore esse est corrupti facere, exercitationem, tempore quas, sunt illum asperiores amet voluptates tempora saepe assumenda harum cum! Voluptatum, officia molestiae?</p>
-                        <br>
+                        <p class="feedback mb-xl-5">I was really impressed with the fast service! The staff handled everything efficiently and had my request taken care of in no time. It’s great to experience such prompt and effective service—thank you for making it a seamless experience!</p>
                         <h2 class="feedback-name">Giolo Evora</h2>
                         <small>Infinitech Advertising Corporation</small>
                     </div>
                     <div class="item d-block">
-                        <p class="feedback  mb-xl-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut labore esse est corrupti facere, exercitationem, tempore quas, sunt illum asperiores amet voluptates tempora saepe assumenda harum cum! Voluptatum, officia molestiae?</p>
-                        <br>
+                        <p class="feedback mb-xl-5">Fantastic job with the system! It’s evident that a lot of thought and effort went into its design. Everything functions smoothly and efficiently, making the whole experience very satisfying. Thanks for delivering such a high-quality solution.</p>
                         <h2 class="feedback-name">Moses Alcantara</h2>
                         <small>Infinitech Advertising Corporation</small>
                     </div>
                     <div class="item d-block">
-                        <p class="feedback  mb-xl-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut labore esse est corrupti facere, exercitationem, tempore quas, sunt illum asperiores amet voluptates tempora saepe assumenda harum cum! Voluptatum, officia molestiae?</p>
-                        <br>
+                        <p class="feedback mb-xl-5">I’m impressed with the performance so far.Excellent work on the website. It’s user-friendly, reliable, and performs exactly as promised. I’m very pleased with its effectiveness and ease of use. Great job on creating something that truly delivers. </p>
                         <h2 class="feedback-name">Justin De Castro</h2>
                         <small>Infinitech Advertising Corporation</small>
                     </div>
-
+                    <div class="item d-block">
+                        <p class="feedback mb-xl-5">Outstanding service with the domain and hosting. The setup was quick and hassle-free, and everything is running smoothly. Im impressed with the quality thanks for providing such a solid foundation for my online presence!</p>
+                        <h2 class="feedback-name">Kimberly Niñeria</h2>
+                        <small>Infinitech Advertising Corporation</small>
+                    </div>
                 </div>
             </div>
         </section>
@@ -178,7 +179,7 @@
         <section class="latest-news">
             <div class="container">
                 <div class="news" data-aos="fade-up" data-aos-duration="1000">
-                    <span class="header d-block"> Latest News</span>
+                    <span class="header d-block" style="margin-bottom:30px"> Latest News</span>
                 </div>
 
                 <div class="news-section" data-aos="fade-up" data-aos-duration="1000">
