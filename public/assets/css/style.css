@@ -18,6 +18,8 @@
 * {
     box-sizing: border-box;
     font-family: var(--var-body-font);
+    scroll-behavior: smooth;
+    
 }
 body {
     padding: 0;
@@ -135,7 +137,7 @@ p {
 }
 .navigation .nav-menu ul li {
     margin: 0px 0px 0px 24px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     font-family: var(--var-body-font);
     display: flex;
@@ -155,18 +157,17 @@ p {
 
 .hero {
     background-color: var(--var-accent-color);
+    height: 100vh;
+    background-size: cover;
 }
 
-.main-section {
-    position: relative;
-}
 
 .tagline {
     font-family: "Poppins", sans-serif;
     text-transform: capitalize;
     word-break: break-all;
-    margin-top: 120px;
     word-break: normal;
+    margin-top: 64px;
 }
 
 .tagline .hero-header {
@@ -187,32 +188,9 @@ p {
     filter: drop-shadow(7px 14px 16px #000000);
 }
 
-.main-section .left-content img {
-    margin-top: 64px;
-}
 
-.main-section .services {
-    margin-top: 64px;
-    background-color: var(--var-background-light);
-    padding: 16px;
-    border-radius: 16px;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
-        rgba(0, 0, 0, 0.26) 0px 6px 6px;
-}
 
-.services .service-icon img {
-    width: 80px;    
-    margin-top: 32px;
-    margin-bottom: 24px;
-    background-color: var(--var-primary-color);
-    padding: 8px;
-    border-radius: 8px;
-}
-.services .service-title {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-size: 2rem;
-}
+
 
 .header {
     font-family: var(--var-header-font);
@@ -223,7 +201,7 @@ p {
     background-repeat: no-repeat;
     background-position: bottom center;
     text-align: center;
-    margin-bottom: 32px;
+   
 }
 
 .btn-hero,
@@ -238,8 +216,58 @@ p {
 }
 
 /* =====================
+==== INFINITECH ========
+======================== */
+
+.title-header{
+    font-size: 24px;
+    color: var(--var-primary-color);
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.infinitech-img{
+   border-radius: 16px;
+}
+
+/* =====================
 ===== OUR SERVICES =====
 ======================== */
+
+.services{
+    background-color: var(--var-background-light);
+}
+.sub-header{
+    color: var(--var-accent-color);
+    font-weight: 600;
+}
+.sub-heading{
+    color: var(--var-primary-color);
+    font-weight: bold;
+    width: 60%;
+    word-break: normal;
+}
+.service-content{
+    margin-top: 64px;
+}
+
+.service-content img{
+    max-width: 150px;
+    min-height: 150px;
+}
+
+.service-content .serviceTitle{
+    color: var(--var-accent-color);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
 
 .our-services {
     margin-top: 32px;

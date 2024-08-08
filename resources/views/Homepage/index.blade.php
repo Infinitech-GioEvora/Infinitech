@@ -14,9 +14,9 @@
 <body>
     @include('Layout/Navigation')
     <main>
-        <section class="hero section-layout">
+        <section class="hero section-layout ">
             <div class="container main-section">
-                <div class="row">
+                <div class="row pt-xl-5 d-flex align-items-center">
                     <div class="col-12 col-md-12 col-lg-6       ">
                         <div class="tagline">
                             <h1 class="hero-header">Connect and thrive with cutting-edge digital solutions</h1>
@@ -38,46 +38,85 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <div class="services">
-                    <div class="row ">
-                        <div class="col-md-4 text-center">
-                            <div class="service-icon">
-                                <img src="/assets/icon/app-development.png" alt="">
-                            </div>
-                            <h1 class="service-title">Design</h1>
-
-                            <p class="service-description">
-                                Creativity knows no bounds. Unleash your imagination, and we'll turn your vision into reality.
-                            </p>
+        <section class="infinitech">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <img class="infinitech-img" data-aos="fade-up" data-aos-duration="1000" src="../assets/img/infinitech-about-us.jpeg" alt="">
+                    </div>
+                    <div class="col-12 col-md-6" data-aos="fade-up" data-aos-duration="1000">
+                        <h1 class="title-header mb-4">Who is Infinitech Advertising Corporation?</h1>
+                        <p class="infinitech-desc mb-4">At Infinitech Advertising Company, our mission is to help businesses thrive by providing top-notch, tailor-made digital solutions that boost growth, streamline operations, and enhance user satisfaction.</p>
+                        <p> We are committed to customer satisfaction, offering a guarantee of unique web design and high-quality work. Our expertise spans Website Design and Development, Mobile App Development, Ecommerce Solutions, and IT Outsourcing. Through our innovative solutions, we ensure our clients achieve their goals and experience exceptional service.</p>
+                        <div class="d-flex">
+                            <a class="button btn-hero" href="/about-us" style="text-decoration: none;"> <span>Learn More About Us</span>
+                                <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="37" cy="37" r="35.5" stroke="white" stroke-width="3"></circle>
+                                    <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="white"></path>
+                                </svg>
+                            </a>
                         </div>
-                        <div class="col-md-4 text-center">
-                            <div class="service-icon">
-                                <img src="/assets/icon/developing.png" alt="">
-                            </div>
-                            <h1 class="service-title">Develop</h1>
-
-                            <p class="service-description">
-                                Boundless innovation awaits. Let your ideas soar, and we'll bring them to life.
-                            </p>
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <div class="service-icon">
-                                <img src="/assets/icon/project-management.png" alt="">
-                            </div>
-                            <h1 class="service-title">Manage</h1>
-
-                            <p class="service-description">
-                                Limitless potential. Let your strategies excel, and we'll manage them to success.
-                            </p>
-                        </div>
-
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="sec-div">
+        <section class="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                        <h5 class="sub-header">What we do?</h5>
+                        <h2 class="sub-heading">Driving success through innovative digital solutions!</h2>
+                    </div>
+                    <div class="col-4">
+                        <div class="d-flex justify-content-end">
+                            <a class="button btn-hero" href="/about-us" style="text-decoration: none;"> <span>See More</span>
+                                <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="37" cy="37" r="35.5" stroke="white" stroke-width="3"></circle>
+                                    <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="white"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <div class="service-content text-center">
+                            <img src="../assets/svg/Static assets-amico.svg" alt="">
+                            <h2 class="serviceTitle">Web Design & Development</h2>
+                            <p class="service-desc">Custom-built, professionally-designed websites featuring an easy-to-use Content Management System (CMS).</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="service-content text-center">
+                            <img src="../assets/svg/Website setup-cuate.svg" alt="">
+                            <h2 class="serviceTitle">Web Based Application  </h2>
+                            <p class="service-desc">We develop web-based software solutions designed to enhance your company's efficiency.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="service-content text-center">
+                            <img src="../assets/svg/Online Groceries-cuate.svg" alt="">
+                            <h2 class="serviceTitle">Ecommerce / Online Shop    </h2>
+                            <p class="service-desc">Infinitech builds professionally-designed Ecommerce websites and online shops.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="service-content text-center">
+                            <img src="../assets/svg/Static assets-amico.svg" alt="">
+                            <h2 class="serviceTitle">Web Design & Development</h2>
+                            <p class="service-desc">Custom-built, professionally-designed websites featuring an easy-to-use Content Management System (CMS).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="sec-div">
             <div class="container">
                 <div class="our-services">
                     <div class="row no-gutters">
@@ -155,9 +194,9 @@
                 </div>
             </div>
 
-        </section>
+        </section> -->
 
-        <section class="project ">
+        <!-- <section class="project ">
             <div class="container">
                 <div class="left-project" data-aos="fade-up" data-aos-duration="1000">
                     <small>Take your business to the top!</small>
@@ -177,7 +216,7 @@
 
             </div>
 
-        </section>
+        </section> -->
 
         <!-- <section class="mission">
             <div class="container">
