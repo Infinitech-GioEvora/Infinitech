@@ -157,7 +157,10 @@ p {
 
 .hero {
     background-color: var(--var-accent-color);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 
@@ -185,7 +188,7 @@ p {
 .main-section{
     display: flex;
     align-items: center;
-    height: auto;
+    margin: 32px;
    
 }
 
