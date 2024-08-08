@@ -20,7 +20,7 @@
 
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <h1 class="tagline"><strong> Our Services </strong></h1>
+                        <h1 class="tagline"><strong> Our </strong></h1>
                     </div>
 
                     <div class="col-12 col-md-6 d-flex justify-content-start    ">
