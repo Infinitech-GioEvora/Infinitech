@@ -185,11 +185,11 @@ p {
 .main-section{
     display: flex;
     align-items: center;
-    height: 90vh;
+    height: auto;
    
 }
 
-.main-section .left-content {
+.main-section .left-content img{
     width: 100%;
     filter: drop-shadow(7px 14px 16px #000000);
 }
