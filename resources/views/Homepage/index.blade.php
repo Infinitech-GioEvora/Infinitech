@@ -16,8 +16,8 @@
     <main>
         <section class="hero section-layout ">
             <div class="container main-section">
-                <div class="row pt-xl-5 d-flex align-items-center">
-                    <div class="col-12 col-md-12 col-lg-6       ">
+                <div class="row d-flex align-items-center">
+                    <div class="col-12 col-md-12 col-lg-6">
                         <div class="tagline">
                             <h1 class="hero-header">Connect and thrive with cutting-edge digital solutions</h1>
                             <p class="hero-desc">At <strong>Infinitech Advertising Corporation</strong>, we create captivating campaigns that leverage cutting-edge digital solutions to boost your brand's online presence.</p>

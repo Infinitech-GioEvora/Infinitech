@@ -157,7 +157,6 @@ p {
 
 .hero {
     background-color: var(--var-accent-color);
-    height: 100vh;
     background-size: cover;
 }
 
@@ -181,6 +180,13 @@ p {
 .tagline span,
 .tagline h5 {
     word-break: normal;
+}
+
+.main-section{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+   
 }
 
 .main-section .left-content {
