@@ -15,19 +15,23 @@
 
     <main>
         <section class="hero contact-layout">
-            <div class="container contact-section">
-
+            <div class="container pricing-section">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <h1 class="tagline"><strong>Our Pricing </strong></h1>
+                        <div class="tagline ">
+                            <h1><strong>Our Pricing</strong></h1>
+                            <p class="sub-tagline pt-xl-5">Empower your system with clear and transparent pricing from our parent company. 
+                                Our straightforward approach ensures you have full visibility and confidence in your investment.</p>
+                        </div>
                     </div>
 
-                    <div class="col-12 col-md-6 d-flex justify-content-start    ">
+                    <div class="col-12 col-md-6 d-flex justify-content-center">
                         <div class="left-content">
-                            <img class="pricing-svg" src="../assets/svg/pricing.svg" alt="'">
+                            <img src="../assets/svg/pricing.svg" alt="">
                         </div>
                     </div>
                 </div>
+
             </div>
 
         </section>
@@ -368,6 +372,13 @@
                 </div>
             </div>
         </section>
+        <div class="floating-socmed">
+            <a href="https://www.facebook.com/profile.php?id=61562146592005" class="fa fa-facebook"></a>
+            <a href="mailto:infinitechcorp.ph@gmail.com" class="fa fa-envelope" style="font-size:30px; background: #fbad26; color: rgb(22, 22, 22)"></a>
+            <a href="tel:+639622530149" class="fa fa-telegram"></a>
+            <a href="https://www.facebook.com/profile.php?id=61562146592005" class="fa fa-instagram"></a>
+            <a href="tel:0270016157" class="fa fa-phone"></a>
+        </div>
 
 
     </main>

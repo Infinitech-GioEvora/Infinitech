@@ -138,7 +138,7 @@ p {
 .navigation .nav-menu ul li {
     margin: 0px 0px 0px 24px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 15px;
     font-family: var(--var-body-font);
     display: flex;
     justify-content: flex-end;
@@ -243,6 +243,25 @@ p {
 ===== OUR SERVICES =====
 ======================== */
 
+.service-section .tagline h1 strong {
+    color: var(--var-background-light);
+    font-family: var(--var-header-font);
+    font-weight: 600;
+    font-size: 72px;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.46);
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.service-section .left-content img {
+    width: 550px;
+}
+
+.service-section .tagline .sub-tagline {
+    font-size: clamp(16px, 24px, 36px);
+    font-weight: 500;
+    word-break: normal;
+}
 .services{
     background-color: var(--var-background-light);
 }
@@ -487,8 +506,57 @@ p {
     box-shadow: var(--var-box-shadows); /* Optional: Add shadow for depth */
     margin-bottom: 16px; /* Optional: Add space below each card */
 }
+/*TESTIMONILAS*/
+
+.container .testimonial-section {
+    position: relative;
+}
+
+.testimonial-section .tagline h1 strong {
+    color: var(--var-background-light);
+    font-family: var(--var-header-font);
+    font-weight: 600;
+    font-size: 72px;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.46);
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.testimonial-section .left-content img {
+    width: 550px;
+}
+
+.testimonial-section .tagline .sub-tagline {
+    font-size: clamp(16px, 24px, 36px);
+    font-weight: 500;
+    word-break: normal;
+}
 
 /* News and Blogs */
+
+.container .news-section {
+    position: relative;
+}
+
+.news-section .tagline h1 strong {
+    color: var(--var-background-light);
+    font-family: var(--var-header-font);
+    font-weight: 600;
+    font-size: 72px;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.46);
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.news-section .left-content img {
+    width: 550px;
+}
+
+.news-section .tagline .sub-tagline {
+    font-size: clamp(16px, 24px, 36px);
+    font-weight: 500;
+    word-break: normal;
+}
 
 .latest-news {
     background-color: var(--var-background-light);
@@ -579,15 +647,45 @@ textarea {
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 
+/*SOLUTION*/
+/*///////////*/
+
+.container .solution-section {
+    position: relative;
+}
+
+.solution-section .tagline h1 strong {
+    color: var(--var-background-light);
+    font-family: var(--var-header-font);
+    font-weight: 600;
+    font-size: 72px;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.46);
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.solution-section .left-content img {
+    width: 550px;
+}
+
+.solution-section .tagline .sub-tagline {
+    font-size: clamp(16px, 24px, 36px);
+    font-weight: 500;
+    word-break: normal;
+}
+
 /* Footer */
+.fa {
+    color: black;
+}
 footer {
-    margin-top: 10%;
+    margin-top: 10px;
     background-color: black;
-    padding: 72px 0px;
+    padding: 40px 0px;
     position: relative;
 }
 .row-footer {
-    margin-top: 20%;
+    margin-top: 50%;
 }
 .subscribe {
     background-color: var(--var-background-light);
@@ -622,6 +720,8 @@ footer {
 }
 .footer-logo .footer-desc {
     color: var(--var-background-light);
+    font-weight: 500;
+    font-size: 13px;
 }
 
 .footer-social-media ul {
@@ -633,7 +733,7 @@ footer {
 .footer-social-media ul li a {
     text-decoration: none;
     background-color: var(--var-accent-color);
-    padding: 16px 16px;
+    padding: 10px 13px;
     margin-right: 8px;
     color: var(--var-dark-color);
     border-radius: 8px;
@@ -646,6 +746,8 @@ footer {
 }
 .footer-links h2 {
     color: var(--var-accent-color);
+    font-weight: 500;
+    font-size: 17px;
 }
 .footer-quick-links ul {
     list-style: none;
@@ -655,11 +757,15 @@ footer {
     text-decoration: none;
     margin: 8px;
     color: var(--var-accent-color);
+    font-weight: 500;
+    font-size: 13px;
 }
 .footer-quick-links ul li a {
     text-decoration: none;
     color: var(--var-background-light);
     transition: ease 0.2s;
+    font-weight: 500;
+    font-size: 13px;
 }
 
 .footer-quick-links ul li a:hover {
@@ -875,6 +981,7 @@ footer {
     margin: 8px;
     border: none;
     background-color: transparent;
+    text-align: center;
 }
 
 .ourteam-section .card img {
@@ -905,6 +1012,29 @@ footer {
 /* ==============================
 ======= OUR PRICING==============
 ================================= */
+.container .pricing-section {
+    position: relative;
+}
+
+.pricing-section .tagline h1 strong {
+    color: var(--var-background-light);
+    font-family: var(--var-header-font);
+    font-weight: 600;
+    font-size: 72px;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.46);
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.pricing-section .left-content img {
+    width: 550px;
+}
+
+.pricing-section .tagline .sub-tagline {
+    font-size: clamp(16px, 24px, 36px);
+    font-weight: 500;
+    word-break: normal;
+}
 .pricing-svg {
     width: 450px;
 }
@@ -1011,9 +1141,30 @@ footer {
 /* ==============================
 ====== CONTACT US ===============
 ================================== */
-.contact-section .tagline {
-    margin-top: 30% !important;
+.container .contact-section {
+    position: relative;
 }
+
+.contact-section .tagline h1 strong {
+    color: var(--var-background-light);
+    font-family: var(--var-header-font);
+    font-weight: 600;
+    font-size: 72px;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.46);
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.contact-section .left-content img {
+    width: 550px;
+}
+
+.contact-section .tagline .sub-tagline {
+    font-size: clamp(16px, 24px, 36px);
+    font-weight: 500;
+    word-break: normal;
+}
+
 .hero-svg {
     width: 650px;
 }
@@ -1047,6 +1198,52 @@ footer {
     line-height: 1.6;
     margin-bottom: 16px !important; 
 }
+
+.floating-socmed{
+    position: absolute;
+    top: 30%;
+    right: 10px;
+    position: fixed ;
+}
+
+.floating-socmed .fa{
+    /* background-color: #cfa416; */
+    font-size: 35px;
+    /* color: #333; */
+    margin: 8px;
+    width: 50px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 50px;
+    text-decoration: none;
+    display: block;
+}
+.fa-facebook {
+    background: #fbad26;
+    color: rgb(24, 23, 23);
+  }
+
+  .fa-envelop {
+    font-size:10px;
+    background: #fbad26;
+    color: rgb(22, 22, 22);
+  }
+  
+  .fa-telegram {
+    background: #fbad26;
+    color: rgb(8, 8, 8);
+  }
+  
+  .fa-phone {
+    background: #fbad26;
+    color: rgb(10, 10, 10);
+  }
+  
+  .fa-instagram {
+    background: #fbad26;
+    color: rgb(15, 15, 15);
+  }
+  
 
 /*==============================
 ======= RESPONSIVE LAYOUT=======

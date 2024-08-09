@@ -1,6 +1,6 @@
 <footer>
-    <div class="container" style="margin-top: 6%;">
-        <div class="subscribe">
+    <div class="container" style="margin-top: 6px;">
+        {{-- <div class="subscribe">
             <div class="row d-flex justify-content-center aling-items-center">
                 <div class="col-12 col-md-6">
                     <img src="../assets/svg/Subscriber-pana.svg" alt="">
@@ -15,7 +15,7 @@
                     <button class="btn-subscribe text-center">Submit</button>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <div class="row ">
             <div class="col-md-4">
@@ -26,8 +26,10 @@
                 <div class="footer-social-media">
                     <ul>
                         <li><a href="https://www.facebook.com/profile.php?id=61562146592005"><i class="fa-brands fa-facebook-f fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-instagram fa-lg"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-x-twitter fa-lg"></i></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61562146592005"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61562146592005"><i class="fa-brands fa-telegram fa-lg"></i></a></li>
+                        <li><a href="tel:0270016157"><i class="fa-brands fa fa-phone"></i></a></li>
+                        
                     </ul>
                 </div>
 
@@ -39,11 +41,11 @@
                 </div>
                 <div class="footer-quick-links">
                     <ul>
-                        <li><a href=""><i class="fa-solid fa-play"></i>Home</a></li>
-                        <li><a href=""><i class="fa-solid fa-play"></i>About Us</a></li>
-                        <li><a href=""><i class="fa-solid fa-play"></i>Blogs and News</a></li>
-                        <li><a href=""><i class="fa-solid fa-play"></i>Work With Us</a></li>
-                        <li><a href=""><i class="fa-solid fa-play"></i>Contact Us</a></li>
+                        <li><a href="/"><i class="fa-solid fa-play"></i>Home</a></li>
+                        <li><a href="/about-us"><i class="fa-solid fa-play"></i>About Us</a></li>
+                        <li><a href="/news-blogs"><i class="fa-solid fa-play"></i>Blogs and News</a></li>
+                        <li><a href="/solution"><i class="fa-solid fa-play"></i>Work With Us</a></li>
+                        <li><a href="/contact-us"><i class="fa-solid fa-play"></i>Contact Us</a></li>
                     </ul>
                 </div>
 
@@ -54,11 +56,11 @@
                 </div>
                 <div class="footer-quick-links">
                     <ul>
-                        <li><a href=""><i class="fa-solid fa-phone"></i>(02) 123 - 456 - 7890</a></li>
-                        <li><a href=""><i class="fa-solid fa-mobile"></i> (63+) 9924401097</a></li>
-                        <li><a href=""><i class="fa-brands fa-viber"></i> (63+) 9924401097</a></li>
-                        <li><a href=""><i class="fa-brands fa-telegram"></i> (63+) 9924401097</a></li>
-                        <li><a href=""><i class="fa-solid fa-envelope"></i>infinitechAdCorp@gmail.com</a></li>
+                        <li><a href="tel:0270016157"><i class="fa-solid fa-phone"></i>(02) 7001-6157</a></li>
+                        <li><a href="tel:+639622530149"><i class="fa-solid fa-mobile"></i> (63+) 9622530149</a></li>
+                        <li><a href="tel:+639622530149"><i class="fa-brands fa-viber"></i> (63+) 9622530149</a></li>
+                        <li><a href="tel:+639622530149"><i class="fa-brands fa-telegram"></i> (63+)622530149</a></li>
+                        <li><a href="mailto:infinitechcorp.ph@gmail.com"><i class="fa-solid fa-envelope"></i>infinitechcorp.ph@gmail.com</a></li>
 
                     </ul>
                 </div>
@@ -73,7 +75,6 @@
 
 
 </footer>
-
 
 
 <div class="copy-right text-center">

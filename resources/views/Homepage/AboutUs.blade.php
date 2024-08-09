@@ -22,13 +22,15 @@
                     <div class="col-12 col-md-6">
                         <div class="tagline ">
                             <h1><strong>About Us</strong></h1>
-                            <p class="sub-tagline pt-xl-5">We are passionate about revolutionizing the way business operate through the power of technology.</p>
+                            <p class="sub-tagline pt-xl-5">We are passionate about transforming the way businesses operate through 
+                                cutting-edge technology. Our goal is to drive innovation and efficiency,
+                                 helping organizations streamline processes and achieve new levels of success.</p>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-6 d-flex justify-content-center">
                         <div class="left-content">
-                            <img src="../assets/svg/About us page-bro.svg" alt="">
+                            <img src="../assets/svg/aboutus.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -165,7 +167,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 px-0">
+                    {{-- <div class="col-12 col-md-3 px-0">
                         <div class="card">
                             <img src="../assets/img/infinitech-mamAly.png" alt="Avatar" style="width:100%">
                             <div class="team-details">
@@ -173,7 +175,63 @@
                                 <small class="position d-block">Admin Assistant</small>
                             </div>
                         </div>
+                    </div> --}}
+                    {{-- <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-sirGio.png" alt="Avatar" style="width:100%">
+                            <div class="team-details">
+                                <span class="team-name d-block">Giolo Evora</span>
+                                <small class="position d-block">Senior Web Developer</small>
+                            </div>
+                        </div>
                     </div>
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-sirJustin.png" alt="Avatar" style="width:100%">
+                            <div class="team-details">
+                                <span class="team-name d-block">Justin De Castro</span>
+                                <small class="position d-block">Senior Web Developer</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-sirMoses.png" alt="Avatar" style="width:100%">
+                            <div class="team-details">
+                                <span class="team-name d-block">Moses Alcantara</span>
+                                <small class="position d-block">Senior Web Developer</small>
+                            </div>
+                        </div>
+                    </div> --}}
+                    {{-- <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-msKim.png" alt="Avatar" style="width:100%">
+                            <div class="team-details">
+                                <span class="team-name d-block">Kimberly Niñeria</span>
+                                <small class="position d-block">Junior Web Developer</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-msAngel.png" alt="Avatar" style="width:100%">
+                            <div class="team-details">
+                                <span class="team-name d-block">Darlene Angel Fajarito</span>
+                                <small class="position d-block">Junior Web Developer</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-msLyca.png" alt="Avatar" style="width:100%">
+                            <div class="team-details">
+                                <span class="team-name d-block">Lyca Nobleza</span>
+                                <small class="position d-block">Junior Web Developer</small>
+                            </div>
+                        </div>
+                    </div> --}}
+                </div>
+                <div class="row no-gutters d-flex justify-content-center">
                     <div class="col-12 col-md-3 px-0">
                         <div class="card">
                             <img src="../assets/img/infinitech-sirGio.png" alt="Avatar" style="width:100%">
@@ -201,20 +259,13 @@
                             </div>
                         </div>
                     </div>
+                </div>
+               <div class="row no-gutters d-flex justify-content-center"> 
                     <div class="col-12 col-md-3 px-0">
                         <div class="card">
                             <img src="../assets/img/infinitech-msKim.png" alt="Avatar" style="width:100%">
                             <div class="team-details">
                                 <span class="team-name d-block">Kimberly Niñeria</span>
-                                <small class="position d-block">Junior Web Developer</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-3 px-0">
-                        <div class="card">
-                            <img src="../assets/img/infinitech-msLyca.png" alt="Avatar" style="width:100%">
-                            <div class="team-details">
-                                <span class="team-name d-block">Lyca Nobleza</span>
                                 <small class="position d-block">Junior Web Developer</small>
                             </div>
                         </div>
@@ -228,7 +279,26 @@
                             </div>
                         </div>
                     </div>
-
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-msLyca.png" alt="Avatar" style="width:100%">
+                            <div class="team-details">
+                                <span class="team-name d-block">Lyca Nobleza</span>
+                                <small class="position d-block">Junior Web Developer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row no-gutters d-flex justify-content-center">
+                    <div class="col-12 col-md-3 px-0">
+                        <div class="card">
+                            <img src="../assets/img/infinitech-mamAly.png" alt="Avatar" style="width:100%">
+                            <div class="team-details">
+                                <span class="team-name d-block">Allysa Mae Perez</span>
+                                <small class="position d-block">Admin Assistant</small>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -247,7 +317,13 @@
             </div>
 
         </section>
-
+        <div class="floating-socmed">
+            <a href="https://www.facebook.com/profile.php?id=61562146592005" class="fa fa-facebook"></a>
+            <a href="mailto:infinitechcorp.ph@gmail.com" class="fa fa-envelope" style="font-size:30px; background: #fbad26; color: rgb(22, 22, 22)"></a>
+            <a href="tel:+639622530149" class="fa fa-telegram"></a>
+            <a href="https://www.facebook.com/profile.php?id=61562146592005" class="fa fa-instagram"></a>
+            <a href="tel:0270016157" class="fa fa-phone"></a>
+        </div>
     </main>
 
     <!-- Footer -->

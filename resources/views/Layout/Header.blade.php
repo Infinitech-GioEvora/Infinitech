@@ -8,6 +8,7 @@
 
  <!-- Favicon (example: using a 32x32 PNG favicon named 'favicon.png' in the root directory) -->
  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+ <link rel="icon" type="image/x-icon" href="../assets/css/favicon_io/favicon.ico">
  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
  <link rel="manifest" href="/site.webmanifest">
@@ -40,5 +41,7 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+ 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">

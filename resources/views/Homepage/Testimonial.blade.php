@@ -16,18 +16,26 @@
     <main>
         <!-- Hero Section -->
         <section class="hero contact-layout">
-            <div class="container contact-section">
+            <div class="container testimonial-section">
+
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <h1 class="tagline"><strong>Testimonials</strong></h1>
-                    </div>
-
-                    <div class="col-12 col-md-6 d-flex justify-content-start">
-                        <div class="left-content">
-                            <img class="pricing-svg" src="../assets/svg/testimonial.svg" alt="Testimonials">
+                        <div class="tagline ">
+                            <h1><strong>Testimonials</strong></h1>
+                            <p class="sub-tagline pt-xl-5">Leave us a message and we will get back to you as soon as possible.We place strong value on stromg relationship and have seen the benefits they bring to our business. Customer feedback is vital in helping us
+                                to get it right.
+                            </p>
                         </div>
                     </div>
-                </div> 
+
+                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                        <div class="left-content">
+                            <img src="../assets/svg/testimonial.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+               
             </div>
         </section>
         
@@ -58,10 +66,21 @@
                         <h2 class="feedback-name">Kimberly Niñeria</h2>
                         <small>Infinitech Advertising Corporation</small>
                     </div>
+                    <div class="item d-block">
+                        <p class="feedback mb-xl-5">I’m genuinely amazed by the exceptional quality of this product/service. It’s evident that a lot of thought and craftsmanship went into every detail. The performance is not just reliable but impressively outstanding, setting a new benchmark for excellence. </p>
+                        <h2 class="feedback-name">Allysa Perez</h2>
+                        <small>Infinitech Advertising Corporation</small>
+                    </div>
                 </div>
             </div>
         </section>
-
+        <div class="floating-socmed">
+            <a href="https://www.facebook.com/profile.php?id=61562146592005" class="fa fa-facebook"></a>
+            <a href="mailto:infinitechcorp.ph@gmail.com" class="fa fa-envelope" style="font-size:30px; background: #fbad26; color: rgb(22, 22, 22)"></a>
+            <a href="tel:+639622530149" class="fa fa-telegram"></a>
+            <a href="https://www.facebook.com/profile.php?id=61562146592005" class="fa fa-instagram"></a>
+            <a href="tel:0270016157" class="fa fa-phone"></a>
+        </div>
     </main>
 
     <!-- Footer -->

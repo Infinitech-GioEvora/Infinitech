@@ -20,12 +20,16 @@
 
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <h1 class="tagline"><strong>Contact Us</strong></h1>
+                        <div class="tagline ">
+                            <h1><strong>Contact Us</strong></h1>
+                            <p class="sub-tagline pt-xl-5">Leave us a message, and we promise to respond as soon as possible. 
+                                Your feedback is important to us, and we’re committed to addressing your needs promptly and efficiently.</p>
+                        </div>
                     </div>
 
-                    <div class="col-12 col-md-6 d-flex justify-content-start    ">
+                    <div class="col-12 col-md-6 d-flex justify-content-center">
                         <div class="left-content">
-                            <img class="hero-svg" src="../assets/svg/contact.svg" alt="'">
+                            <img src="../assets/svg/contact.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -75,6 +79,13 @@
                 </div>
             </div>
         </section>
+        <div class="floating-socmed">
+            <a href="https://www.facebook.com/profile.php?id=61562146592005" class="fa fa-facebook"></a>
+            <a href="mailto:infinitechcorp.ph@gmail.com" class="fa fa-envelope" style="font-size:30px; background: #fbad26; color: rgb(22, 22, 22)"></a>
+            <a href="tel:+639622530149" class="fa fa-telegram"></a>
+            <a href="https://www.facebook.com/profile.php?id=61562146592005" class="fa fa-instagram"></a>
+            <a href="tel:0270016157" class="fa fa-phone"></a>
+        </div>
 
     </main>
 
