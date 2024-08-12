@@ -1,13 +1,11 @@
 <nav>
 
     <div class="navigation">
-        <div class="container">
-            <div class="menu d-flex justify-content-between">
+        
+            <div class="menu d-flex justify-content-between align-items-center">
                 <a href="/" class="nav-logo d-flex align-items-center" style="text-decoration: none;">
-                    <img src="../assets/img/icon.png" alt="">
-                    <span class="heading">INFINITECH
-                        <span class="sub-heading">ADVERTISING CORPORATION</span>
-                    </span>
+                    <img src="../assets/img/inifnitech-logo.png" alt="">
+        
                 </a>
                 <span>
                     <a class="icon-menu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
@@ -76,7 +74,7 @@
 
                 </div>
             </div>
-        </div>
+       
     </div>
     @include('Layout/Script')
 </nav>

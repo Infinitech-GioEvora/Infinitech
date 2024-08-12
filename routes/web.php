@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -49,3 +50,4 @@ Route::get('/get-proposal', function () {
     return view('Homepage/Proposal');
 });
 
+Route::post('/submit/inquiry', [ContactController::class, 'submitinquiry']);
