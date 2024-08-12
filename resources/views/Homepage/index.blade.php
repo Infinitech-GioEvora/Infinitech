@@ -372,7 +372,7 @@
         </div>
 
     </main>
-
+{{-- Testimonials --}}
     <script>
         $(document).ready(function() {
             $('.owl-carousel').owlCarousel({
