@@ -16,8 +16,6 @@
  <!-- CSS Stylesheet (example: linking to a stylesheet named 'styles.css' in the 'css' directory) -->
  <link rel="stylesheet" href="/assets/css/style.css">
 
- <!-- JavaScript file (example: linking to a script named 'scripts.js' in the 'js' directory) -->
- <script src="/js/scripts.js" defer></script>
 
  <!-- Open Graph / Facebook -->
  <meta property="og:type" content="website">
@@ -47,4 +45,6 @@
  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+ <meta name="csrf-token" content="{{ csrf_token() }}">
 
