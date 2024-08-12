@@ -45,3 +45,7 @@ Route::get('/solution', function () {
     return view('Homepage/Solution');
 });
 
+Route::get('/get-proposal', function () {
+    return view('Homepage/Proposal');
+});
+

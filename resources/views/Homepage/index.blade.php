@@ -35,7 +35,7 @@
                     </div>
                     <div class="col-12 col-md-12 col-lg-6">
                         <div class="left-content">
-                            <img src="../assets/svg/hero.svg" alt="">
+                            <img src="../assets/svg/teamm.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -150,48 +150,118 @@
             <div class="container" data-aos="fade-up" data-aos-duration="1000">
                 <div class="partners">
                     <span class="header d-block">Testimonials</span>
+                    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
                 </div>
-                <div class="featured-carousel owl-carousel d-flex justify-content-center align-items-center">
-                    <div class="item d-block">
-                        <p class="feedback mb-xl-5">I was really impressed with the fast service! The staff handled everything efficiently and had my request taken care of in no time. It’s great to experience such prompt and effective service—thank you for making it a seamless experience!</p>
-                        <h2 class="feedback-name">Giolo Evora</h2>
-                        <small>Infinitech Advertising Corporation</small>
-                    </div>
-                    <div class="item d-block">
-                        <p class="feedback mb-xl-5">Fantastic job with the system! It’s evident that a lot of thought and effort went into its design. Everything functions smoothly and efficiently, making the whole experience very satisfying. Thanks for delivering such a high-quality solution.</p>
-                        <h2 class="feedback-name">Moses Alcantara</h2>
-                        <small>Infinitech Advertising Corporation</small>
-                    </div>
-                    <div class="item d-block">
-                        <p class="feedback mb-xl-5">I’m impressed with the performance so far.Excellent work on the website. It’s user-friendly, reliable, and performs exactly as promised. I’m very pleased with its effectiveness and ease of use. Great job on creating something that truly delivers. </p>
-                        <h2 class="feedback-name">Justin De Castro</h2>
-                        <small>Infinitech Advertising Corporation</small>
-                    </div>
-                    <div class="item d-block">
-                        <p class="feedback mb-xl-5">Outstanding service with the domain and hosting. The setup was quick and hassle-free, and everything is running smoothly. Im impressed with the quality thanks for providing such a solid foundation for my online presence!</p>
-                        <h2 class="feedback-name">Kimberly Niñeria</h2>
-                        <small>Infinitech Advertising Corporation</small>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-offset-2 col-md-8">
+                            <div id="testimonial-slider" class="owl-carousel">
+                                <div class="testimonial">
+                                    <div class="pic">
+                                        <img src="../assets/img/infinitech-sirGio.png">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p>I was really impressed with the fast service! The staff handled everything e
+                                            fficiently and had my request taken care of in no time. It’s great to experience such prompt a
+                                            nd effective service—thank you for making it a seamless experience!
+                                        </p>
+                                    </div>
+                                    <h3 class="testimonial-title">
+                                        <a href="#">Giolo Evora</a>
+                                        <small>- Senior Web Developer</small>
+                                    </h3>
+                                </div>
+        
+                                <div class="testimonial">
+                                    <div class="pic">
+                                        <img src="../assets/img/infinitech-sirMoses.png">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eum excepturi incidunt
+                                            Fantastic job with the system! It’s evident that a lot of thought and effort went into its
+                                            design. Everything functions smoothly and efficiently, making the whole experience very satisfying. 
+                                            Thanks for delivering such a high-quality solution.
+                                        </p>
+                                    </div>
+                                    <h3 class="testimonial-title">
+                                        <a href="#">Moses Alcantara</a>
+                                        <small>- Senior Web Developer</small>
+                                    </h3>
+                                </div>
+        
+                                <div class="testimonial">
+                                    <div class="pic">
+                                        <img src="../assets/img/infinitech-sirJustin.png">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p>I’m impressed with the performance so far.Excellent work on the website. 
+                                            It’s user-friendly, reliable, and performs exactly as promised. I’m very pleased with its effectiveness and ease of use. 
+                                            Great job on creating something that truly delivers.
+                                            
+                                        </p>
+                                    </div>
+                                    <h3 class="testimonial-title">
+                                        <a href="#">Justin De Castro</a>
+                                        <small>- Senior Web Developer</small>
+                                    </h3>
+                                </div>
+                                <div class="testimonial">
+                                    <div class="pic">
+                                        <img src="../assets/img/infinitech-msKim.png">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p>Outstanding service with the domain and hosting. 
+                                            The setup was quick and hassle-free, and everything is running smoothly. Im impressed with the quality thanks for providing such
+                                             a solid foundation for my online presence!
+                                        </p>
+                                    </div>
+                                    <h3 class="testimonial-title">
+                                        <a href="#">Kimberly Niñeria</a>
+                                        <small>- Junior Web Developer</small>
+                                    </h3>
+                                </div>
+                                <div class="testimonial">
+                                    <div class="pic">
+                                        <img src="../assets/img/infinitech-mamAly.png">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p>I’m genuinely amazed by the exceptional quality of this product/service. 
+                                            It’s evident that a lot of thought and craftsmanship went into every detail. The performance is not just reliable but
+                                             impressively outstanding, setting a new benchmark for excellence. 
+                                        </p>
+                                    </div>
+                                    <h3 class="testimonial-title">
+                                        <a href="#">Allysa Perez</a>
+                                        <small>- Admin Assistant</small>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+        
             </div>
         </section>
 
-        <section class="latest-news">
-            <div class="container">
-                <div class="news" data-aos="fade-up" data-aos-duration="1000">
-                    <span class="header d-block" style="margin-bottom:30px"> Latest News</span>
+        {{-- <section class="pricing-section">
+            <div class="container" >
+                <div class="pricing-head text-center">
+                    <h1 class="pricing-header" style="margin-bottom:15px">Latest News</h1>
+                    <p>Stay ahead with the latest updates on exciting events. Discover what's happening next and never miss out!</p>
                 </div>
 
-                <div class="news-section" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="row no-gutters">
+                <div class="news-section mb-xl-7" style="margin-bottom:80px">
+                    <div class="row no-gutters d-flex justify-content-center" >
                         <div class="col-12 col-md-3 px-0">
                             <div class="card">
-                                <img src="../assets/img/infinitech-signing.jpg" alt="Avatar" style="width:100%">
+                                <img src="../assets/img/opening.png" alt="Avatar" style="width:100%">
                                 <div class="container">
                                     <h1 class="news-header">Infinitech Grand Opening</h1>
                                     <p class="news-desc">Infinitech is thrilled to announce the grand opening of its new headquarters on July 6, 2024. Join us for a day of innovation and excitement as we unveil cutting-edge technology and showcase our state-of-the-art facilities.</p>
                                     <div class="read-more">
-                                        <a href="#">Read More </a>
+                                        <a href="https://www.facebook.com/share/ataf7HLGF5xUgnho/">Read More </a>
                                     </div>
                                     <hr>
                                     <small class="date mb-xl-5">
@@ -203,16 +273,17 @@
                         </div>
                         <div class="col-12 col-md-3 px-0 ">
                             <div class="card">
-                                <img src="../assets/img/infinitech-signing.jpg" alt="Avatar" style="width:100%">
+                                <img src="../assets/img/kalayaan.png" alt="Avatar" style="width:100%">
                                 <div class="container">
-                                    <h1 class="news-header">Infinitech Grand Opening</h1>
-                                    <p class="news-desc">Infinitech is thrilled to announce the grand opening of its new headquarters on July 6, 2024. Join us for a day of innovation and excitement as we unveil cutting-edge technology and showcase our state-of-the-art facilities.</p>
+                                    <h1 class="news-header">Kalayaan Mega Job Fair</h1>
+                                    <p class="news-desc">It was wonderful to connect with so many talented individuals and share opportunities. If you missed us, don't hesitate to get in touch—we’re always looking for great talent
+                                    </p>
                                     <div class="read-more">
-                                        <a href="#">Read More </a>
+                                        <a href="https://www.facebook.com/people/ABIC-Manpower-Service-Corp/100090318514723/">Read More </a>
                                     </div>
                                     <hr>
                                     <small class="date mb-xl-5">
-                                        July 6, 2024
+                                        July 30, 2024
                                         <span></span>
                                     </small>
                                 </div>
@@ -220,42 +291,25 @@
                         </div>
                         <div class="col-12 col-md-3 px-0 ">
                             <div class="card">
-                                <img src="../assets/img/infinitech-signing.jpg" alt="Avatar" style="width:100%">
+                                <img src="../assets/img/sil.png" alt="Avatar" style="width:100%">
                                 <div class="container">
-                                    <h1 class="news-header">Infinitech Grand Opening</h1>
-                                    <p class="news-desc">Infinitech is thrilled to announce the grand opening of its new headquarters on July 6, 2024. Join us for a day of innovation and excitement as we unveil cutting-edge technology and showcase our state-of-the-art facilities.</p>
+                                    <h1 class="news-header">Supervised Industry Learning</h1>
+                                    <p class="news-desc">We are thrilled to announce that Infinitech is now officially open for strategic partnerships in the realm of Supervised Industry Learning! As a leader in innovative tech solutions, we are eager to collaborate with forward-thinking organizations to advance the future of supervised learning.</p>
                                     <div class="read-more">
-                                        <a href="#">Read More </a>
+                                        <a href="https://www.facebook.com/share/p/CYD9zZzyXoB6hjVz/">Read More </a>
                                     </div>
                                     <hr>
                                     <small class="date mb-xl-5">
-                                        July 6, 2024
+                                        August 07, 2024
                                         <span></span>
                                     </small>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-3 px-0 ">
-                            <div class="card">
-                                <img src="../assets/img/infinitech-signing.jpg" alt="Avatar" style="width:100%">
-                                <div class="container">
-                                    <h1 class="news-header">Infinitech Grand Opening</h1>
-                                    <p class="news-desc">Infinitech is thrilled to announce the grand opening of its new headquarters on July 6, 2024. Join us for a day of innovation and excitement as we unveil cutting-edge technology and showcase our state-of-the-art facilities.</p>
-                                    <div class="read-more">
-                                        <a href="#">Read More </a>
-                                    </div>
-                                    <hr>
-                                    <small class="date mb-xl-5">
-                                        July 6, 2024
-                                        <span></span>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
-            </div>
-        </section>
+        </section> --}}
 
         <section class="work-with-us">
             <div class="container">
@@ -319,12 +373,6 @@
 
     </main>
 
-    
-
-
-    @include('Layout/Footer')
-    @include('Layout/Script')
-
     <script>
         $(document).ready(function() {
             $('.owl-carousel').owlCarousel({
@@ -367,8 +415,14 @@
             evt.currentTarget.className += " service-active";
         }
     </script>
+    {{-- POP UP DISCOUNT --}}
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-e818f66d-4134-4d9c-a300-ccbe7922c605" data-elfsight-app-lazy></div>
+
 
 
 </body>
+@include('Layout/Footer')
+@include('Layout/Script')
 
 </html>

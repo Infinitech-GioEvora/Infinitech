@@ -213,83 +213,91 @@
                 </div>
                 <div id="Informative" class="tabcontent">
                     <div class="row">
+                        <!-- Basic Plan -->
                         <div class="col-12 col-md-4 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
                                     <h1 class="plan-header"><span class="badge">Basic</span></h1>
                                     <small class="plan-desc">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                        Perfect for small businesses and personal websites. This plan offers a professionally designed single-page or small multi-page site with essential features. Includes a basic template customization, responsive design, and essential SEO to get you started online.
                                     </small>
                                     <div class="plan-price pt-xl-4">
-                                        <h2> &#8369;299.00 <span><small>/ month</small></span></h2>
+                                        <h2>&#8369;27,500 <span><small>/ month</small></span></h2>
                                     </div>
                                     <hr>
                                     <div class="plan-include">
                                         <ul>
-                                            <li><i class="fa-solid fa-check"></i> Plan 1</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 2</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 3</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 4</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                            <li><i class="fa-solid fa-check"></i> Responsive design</li>
+                                            <li><i class="fa-solid fa-check"></i> Basic SEO setup</li>
+                                            <li><i class="fa-solid fa-check"></i> Contact form</li>
+                                            <li><i class="fa-solid fa-check"></i> Social media integration</li>
+                                            <li><i class="fa-solid fa-check"></i> Basic analytics setup</li>
                                         </ul>
                                     </div>
                                     <button class="btn-plan d-flex justify-content-center">See More</button>
                                 </div>
                             </div>
-
                         </div>
+                        
+                        <!-- Standard Plan -->
                         <div class="col-12 col-md-4 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
                                     <h1 class="plan-header"><span class="badge">Standard</span></h1>
                                     <small class="plan-desc">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                        Ideal for growing businesses needing a more robust online presence. This plan includes a custom-designed site with advanced features such as e-commerce functionality, a blog, and enhanced SEO. Perfect for those who want a professional online store or a content-rich website.
                                     </small>
                                     <div class="plan-price pt-xl-4">
-                                        <h2> &#8369;299.00 <span><small>/ month</small></span></h2>
+                                        <h2>&#8369;66,000 <span><small>/ month</small></span></h2>
                                     </div>
                                     <hr>
                                     <div class="plan-include">
                                         <ul>
-                                            <li><i class="fa-solid fa-check"></i> Plan 1</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 2</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 3</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 4</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                            <li><i class="fa-solid fa-check"></i> Custom design tailored to your brand</li>
+                                            <li><i class="fa-solid fa-check"></i> Advanced SEO optimization</li>
+                                            <li><i class="fa-solid fa-check"></i> Blog setup</li>
+                                            <li><i class="fa-solid fa-check"></i> E-commerce functionality (up to 20 products)</li>
+                                            <li><i class="fa-solid fa-check"></i> Contact form and live chat integration</li>
+                                            <li><i class="fa-solid fa-check"></i> Google Analytics setup</li>
+                                            <li><i class="fa-solid fa-check"></i> Newsletter signup</li>
                                         </ul>
                                     </div>
                                     <button class="btn-plan d-flex justify-content-center">See More</button>
                                 </div>
                             </div>
-
                         </div>
+                        
+                        <!-- Premium Plan -->
                         <div class="col-12 col-md-4 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
                                     <h1 class="plan-header"><span class="badge">Premium</span></h1>
                                     <small class="plan-desc">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                        Designed for larger businesses or those requiring extensive features. This plan provides a fully custom site with unlimited pages and advanced functionalities, including e-commerce with unlimited products, membership features, and multilingual support. Ideal for businesses looking for a comprehensive and high-performing online presence.
                                     </small>
                                     <div class="plan-price pt-xl-4">
-                                        <h2>&#8369;299.00 <span>/ month</span></h2>
+                                        <h2>&#8369;137,500 <span>/ month</span></h2>
                                     </div>
                                     <hr>
                                     <div class="plan-include">
                                         <ul>
-                                            <li><i class="fa-solid fa-check"></i> Plan 1</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 2</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 3</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 4</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                            <li><i class="fa-solid fa-check"></i> Fully custom design with advanced features</li>
+                                            <li><i class="fa-solid fa-check"></i> Comprehensive SEO strategy and implementation</li>
+                                            <li><i class="fa-solid fa-check"></i> Advanced e-commerce functionality (unlimited products)</li>
+                                            <li><i class="fa-solid fa-check"></i> Custom interactive elements (e.g., sliders, galleries)</li>
+                                            <li><i class="fa-solid fa-check"></i> Membership or subscription features</li>
+                                            <li><i class="fa-solid fa-check"></i> Multilingual support</li>
+                                            <li><i class="fa-solid fa-check"></i> Integration with CRM systems</li>
+                                            <li><i class="fa-solid fa-check"></i> Google Analytics and advanced tracking setup</li>
+                                            <li><i class="fa-solid fa-check"></i> Blog and news sections</li>
                                         </ul>
                                     </div>
                                     <button class="btn-plan d-flex justify-content-center">See More</button>
                                 </div>
                             </div>
-
                         </div>
                     </div>
-                </div>
+                </div>                
 
                 <div id="Ecommerce" class="tabcontent">
                     <div class="row">
@@ -410,5 +418,7 @@
 
 
 </body>
+<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-d5ccc98b-ab7f-4e86-b38a-fb71fff2a38b" data-elfsight-app-lazy></div>
 
 </html>
