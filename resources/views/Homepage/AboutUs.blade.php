@@ -243,13 +243,13 @@
             </div>
         </section>
         <section class="certificates">
-            <div class="container">
-                <div class="header" style="margin-bottom:30px">Certificates</div>
-                <div class="row d-flex justify-content-center no-gutters">
-                    <div class="col-6 col-md-4 col-lg-4 cert" style="margin-right: 10px">
+            <div class="container" > 
+                <div class="header" style="margin-bottom:30px" data-aos="fade-up" data-aos-duration="1000">Certificates</div>
+                <div class="row d-flex justify-content-center no-gutters" >
+                    <div class="col-6 col-md-4 col-lg-4 cert" style="margin-right: 10px" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                       <img src="../assets/certificates/infinitech-partnership.jpg" alt="ABIC-Realty"></a>
                     </div>
-                    <div class="col-6 col-md-4 col-lg-4 cert " style="margin-left: 10px">
+                    <div class="col-6 col-md-4 col-lg-4 cert " style="margin-left: 10px" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                       <img src="../assets/certificates/infinitech-sil.jpg" alt="ABIC-Realty"></a>
                     </div>
                 </div>

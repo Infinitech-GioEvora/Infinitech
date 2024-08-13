@@ -39,7 +39,7 @@
         
 
     <section class="quote-content">
-        <div class="container">
+        <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
             <form class="form-quote form-quotes" action="" method="POST" enctype="multipart/form-data">
                 <div class="row">
                     <!-- Left Column -->
@@ -82,7 +82,7 @@
                     </div>
 
 
-                    <div class="col-12 col-md-6 col-lg-6">
+                    <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
                         <div class="form-wrapper">
                             <h3 class="form-heading">PROJECT DETAILS</h3>
                             <div class="form-checkbox">

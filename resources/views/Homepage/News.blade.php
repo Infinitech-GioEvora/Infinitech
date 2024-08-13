@@ -40,13 +40,13 @@
 
         <section class="pricing-section">
             <div class="container" >
-                <div class="pricing-head text-center">
+                <div class="pricing-head text-center"data-aos="zoom-in-up" data-aos-duration="1000">
                     <h1 class="pricing-header" style="margin-bottom:15px">Latest News</h1>
                     <p>Stay ahead with the latest updates on exciting events. Discover what's happening next and never miss out!</p>
                 </div>
 
                 <div class="news-section mb-xl-7" style="margin-bottom:80px">
-                    <div class="row no-gutters d-flex justify-content-center" >
+                    <div class="row no-gutters d-flex justify-content-center" data-aos="zoom-in-up" data-aos-duration="1000">
                         <div class="col-12 col-md-3 px-0">
                             <div class="card">
                                 <img src="../assets/img/opening.png" alt="Avatar" style="width:100%">
@@ -103,12 +103,12 @@
                     </div>
                 </div>
 
-                <div class="pricing-head text-center">
+                <div class="pricing-head text-center"data-aos="zoom-in-up" data-aos-duration="1000">
                     <h1 class="pricing-header" style="margin-bottom:15px">Hiring</h1>
                     <p>Stay ahead with the latest updates on exciting available position. Discover what's happening next and never miss out!</p>
                 </div>
                 <div class="news-section mb-xl-7" style="margin-bottom:80px">
-                    <div class="row no-gutters d-flex justify-content-center">
+                    <div class="row no-gutters d-flex justify-content-center"data-aos="zoom-in-up" data-aos-duration="1000">
                         <div class="col-12 col-md-3 px-0 ">
                             <div class="card">
                                 <img src="../assets/img/hiring.png" alt="Avatar" style="width:100%; ">
@@ -165,13 +165,13 @@
 
                 
 
-                <div class="pricing-head text-center">
+                <div class="pricing-head text-center"data-aos="zoom-in-up" data-aos-duration="1000">
                     <h1 class="pricing-header" style="margin-bottom:15px">Upcoming Events</h1>
                     <p>Stay ahead with the latest updates on exciting events. Discover what's happening next and never miss out!</p>
                 </div>
 
                 <div class="news-section">
-                    <div class="row no-gutters d-flex justify-content-center">
+                    <div class="row no-gutters d-flex justify-content-center"data-aos="zoom-in-up" data-aos-duration="1000">
                         <div class="col-12 col-md-3 px-0">
                             <div class="card">
                                 <img src="../assets/img/infinitech-signing.jpg" alt="Avatar" style="width:100%">

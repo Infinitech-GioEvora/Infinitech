@@ -39,7 +39,7 @@
         </section>
 
         <section class="services">
-            <div class="container">
+            <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
                
 
                 <div class="row">

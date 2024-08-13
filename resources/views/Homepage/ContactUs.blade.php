@@ -37,8 +37,8 @@
 
         </section>
 
-        <section class="work-with-us">
-            <div class="container">
+        <section class="work-with-us">  
+            <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
                 <div class="row">
                     <div class="col-md-6 right-work">
                         <div class="right-work">

@@ -36,7 +36,7 @@
 
         </section>
 
-        <section class="pricing-section">
+        <section class="pricing-section" data-aos="zoom-in-up" data-aos-duration="1000">
             <div class="container">
                 <div class="pricing-head text-center">
                     <h1 class="pricing-header">Choose your right plan!</h1>

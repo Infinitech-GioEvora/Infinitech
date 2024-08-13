@@ -41,9 +41,9 @@
             <div class="container">
                 <div class="core-values">
                     <div class="row d-flex justify-content-center no-gutters pt-xl-5">
-                        <div class="header" style="margin-bottom:30px">Solutions</div>
+                        <div class="header" style="margin-bottom:30px" data-aos="zoom-in-up" data-aos-duration="1000">Solutions</div>
                         <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
-                            <div class="card">
+                            <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
                                 <div class="card-body">
                                     <span class="vm-header">Website for Real Estate</span>
                                     <p >We support real estate agents in enhancing their sales performance by designing and building websites that effectively showcase all of their property listings..</p>
@@ -51,7 +51,7 @@
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
-                            <div class="card">
+                            <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
                                 <div class="card-body">
                                     <span class="vm-header">Website for Construction</span>
                                     <p>We aid construction companies in enhancing sales and inquiries through the creation of websites that showcase their projects.</p>
@@ -59,7 +59,7 @@
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
-                            <div class="card">
+                            <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
                                 <div class="card-body">
                                     <span class="vm-header">Spa Management System</span>
                                     <p>Build trust through honesty and clear communication, ensuring our clients are fully informed and transparent in our progress.</p>
@@ -67,7 +67,7 @@
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
-                            <div class="card">
+                            <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
                                 <div class="card-body">
                                     <span class="vm-header">Abic Manpower System</span>
                                     <p>Build trust through honesty and clear communication, ensuring our clients are fully informed and transparent in our progress.</p>
@@ -75,7 +75,7 @@
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
-                            <div class="card">
+                            <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
                                 <div class="card-body">
                                     <span class="vm-header">DMCI Homes Corporate Center System</span>
                                     <p>We are flexible and responsive to the changing of market dynamics, easily adpating our strategies to meet new challenges and opportunity.</p>
@@ -84,7 +84,7 @@
 
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
-                            <div class="card">
+                            <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
                                 <div class="card-body">
                                     <span class="vm-header">Accounting Software</span>
                                     <p>We believe the power of teamwork, fostering a collborative enviroment where ideas and expertise are share freely to achieve the best outcomes.</p>
