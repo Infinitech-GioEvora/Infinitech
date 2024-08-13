@@ -14,7 +14,8 @@ $(document).ready(function () {
             contentType: false,
             processData: false,
             success: function (res) {
-                // toastr.success(res.msg);
+                toastr.success(res.msg);
+                // console.log(res);
                 $(`.contactForm`).trigger("reset");
             },
             error: function (res) {

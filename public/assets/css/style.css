@@ -1367,10 +1367,9 @@ footer {
     z-index: 99;
 }
 
-.floating-socmed .fa{
-    /* background-color: #cfa416; */
+.floating-socmed img{
+
     font-size: 35px;
-    /* color: #333; */
     margin: 8px;
     width: 50px;
     text-align: center;
@@ -1378,33 +1377,9 @@ footer {
     border-radius: 50px;
     text-decoration: none;
     display: block;
+    background-color: var(--var-secondary-color);
 }
-.fa-facebook {
-    background: #fbad26;
-    color: rgb(24, 23, 23);
-  }
 
-  .fa-envelop {
-    font-size:10px;
-    background: #fbad26;
-    color: rgb(22, 22, 22);
-  }
-  
-  .fa-telegram {
-    background: #fbad26;
-    color: rgb(8, 8, 8);
-  }
-  
-  .fa-phone {
-    background: #fbad26;
-    color: rgb(10, 10, 10);
-  }
-  
-  .fa-instagram {
-    background: #fbad26;
-    color: rgb(15, 15, 15);
-  }
-  
 
 /*==============================
 ======= RESPONSIVE LAYOUT=======

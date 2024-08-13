@@ -85,13 +85,7 @@
             </div>
         </section>
 
-        <div class="floating-socmed">
-            <a href="https://www.facebook.com/profile.php?id=61562146592005" class="fa fa-facebook"></a>
-            <a href="mailto:infinitechcorp.ph@gmail.com" class="fa fa-envelope" style="font-size:30px; background: #fbad26; color: rgb(22, 22, 22)"></a>
-            <a href="tel:+639622530149" class="fa fa-telegram"></a>
-            <a href="https://www.facebook.com/profile.php?id=61562146592005" class="fa fa-instagram"></a>
-            <a href="tel:0270016157" class="fa fa-phone"></a>
-        </div>
+        @include('Layout.Social')
 
     </main>
 
@@ -99,8 +93,9 @@
     @include('Layout/Footer')
 
     <!-- Script -->
-    @include('Layout/Script')
     <script src="/Contact.js"></script>
+    @include('Layout/Script')
+   
 </body>
 
 </html>
