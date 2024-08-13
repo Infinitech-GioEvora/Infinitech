@@ -107,8 +107,8 @@
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-12 col-md-3">
+                <div class="row" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="col-12 col-md-3" >
                         <div class="service-content text-center">
                             <img src="../assets/svg/Static assets-amico.svg" alt="">
                             <h2 class="serviceTitle">Web Design & Development</h2>
@@ -116,7 +116,7 @@
                                 easy-to-use Content Management System (CMS).</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-3" ">
                         <div class="service-content text-center">
                             <img src="../assets/svg/Website setup-cuate.svg" alt="">
                             <h2 class="serviceTitle">Web Based Application </h2>
@@ -150,23 +150,23 @@
                     <span class="header d-block" style="margin-bottom:30px"> Our Partners</span>
                 </div>
 
-                <div class="partners-container ">
+                <div class="partners-container" >
                    
-                    <div class="partners-logo">
+                    <div class="partners-logo" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <a href="https://www.facebook.com/profile.php?id=61552676815080">
                             <img src="../assets/img/ABIC-Realty.png" alt="ABIC-Realty">
                         </a>
                     </div>
-                    <div class="partners-logo">
+                    <div class="partners-logo" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <a href="https://www.facebook.com/mngtechvoc.antique"><img src="../assets/img/MNG-Techvoc-INC.png" alt="MNG-Techvoc-INC"></a>
                     </div>
-                    <div class="partners-logo">
+                    <div class="partners-logo" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <a href="https://www.facebook.com/bcrvtvi.edu.ph"><img src="../assets/img/bcrv-techvoc.png" alt="bcrv-techvoc"></a>
                     </div>
-                    <div class="partners-logo">
+                    <div class="partners-logo" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <a href="https://www.facebook.com/profile.php?id=61552586366733"><img src="../assets/img/NRG-Info-Tech.png" alt="NRG-Info-Tech"></a>
                     </div>
-                    <div class="partners-logo">
+                    <div class="partners-logo" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <a href="https://www.facebook.com/profile.php?id=100090318514723"><img src="../assets/img/abic-manpower.png" alt="abic-manpower"></a>
                     </div>
                    
@@ -176,8 +176,8 @@
 
         </section>
 
-        <section class="clients py-3 py-md-5">
-            <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <section class="clients py-3 py-md-5" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+            <div class="container">
                 <div class="partners">
                     <span class="header d-block">Testimonials</span>
                     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -292,7 +292,7 @@
         {{-- <section class="pricing-section">
             <div class="container" >
                 <div class="pricing-head text-center">
-                    <h1 class="pricing-header" style="margin-bottom:15px">Latest News</h1>
+                    <h1 class="header d-block" style="margin-bottom:15px">Latest News</h1>
                     <p>Stay ahead with the latest updates on exciting events. Discover what's happening next and never miss out!</p>
                 </div>
 
@@ -303,7 +303,8 @@
                                 <img src="../assets/img/opening.png" alt="Avatar" style="width:100%">
                                 <div class="container">
                                     <h1 class="news-header">Infinitech Grand Opening</h1>
-                                    <p class="news-desc">Infinitech is thrilled to announce the grand opening of its new headquarters on July 6, 2024. Join us for a day of innovation and excitement as we unveil cutting-edge technology and showcase our state-of-the-art facilities.</p>
+                                    <p class="news-desc">Infinitech is thrilled to announce the grand opening of its new headquarters on July 6, 2024. 
+                                        Join us for a day of innovation and excitement as we unveil cutting-edge technology and showcase our state-of-the-art facilities.</p>
                                     <div class="read-more">
                                         <a href="https://www.facebook.com/share/ataf7HLGF5xUgnho/">Read More </a>
                                     </div>
@@ -355,63 +356,52 @@
                 </div>
         </section> --}}
 
-        <section class="work-with-us">
+        <section class="work-with-us" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 left-work d-flex justify-content-center align-items-center">
-                        <img data-aos="fade-right" data-aos-duration="1000"
-                            src="../assets/svg/Collaboration-cuate.svg" alt="">
-                    </div>
-
                     <div class="col-md-6 right-work">
-                        <div class="right-work" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="right-work">
                             <div class="work-header">
                                 <h2 class="work-title">Let's work together</h2>
-                                <p class="work-description">We have extensive experience in your market and are
-                                    confident in our ability to build a lasting relationship with you.</p>
+                                <p class="work-description">We have extensive experience in your market and are confident in our ability to build a lasting relationship with you.</p>
                             </div>
                             <hr>
-                            <form action="" method="post">
+                            <form class="contactForm">
                                 <div class="form-group">
-                                    <label for="">Please tell us your name.</label>
-                                    <input type="text" placeholder="Giolo Evora">
-                                </div>
-                                <div class="form-group">
-                                    <label for="">Share you email for us to reach you.</label>
-                                    <input type="email" placeholder="giolo.evora@gmail.com">
+                                    <label for="name">Please tell us your name.</label>
+                                    <input type="text" id="name" name="name" placeholder="Giolo Evora" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="">Website</label>
-                                    <input type="text" placeholder="httpps://www.infinitech.com">
+                                    <label for="email">Share your email for us to reach you.</label>
+                                    <input type="email" id="email" name="email" placeholder="infinitechcorp.ph@gmail.com" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="">Mobile Phone</label>
-                                    <input type="text" placeholder="(+63) 9924401097">
+                                    <label for="website">Website</label>
+                                    <input type="text" id="website" name="website" placeholder="https://www.infinitech.com">
                                 </div>
                                 <div class="form-group">
-                                    <label for="">Send us message.</label>
-                                    <textarea name="" id="" rows="5" placeholder="Say something...."></textarea>
+                                    <label for="phone">Mobile Phone</label>
+                                    <input type="text" id="phone" name="phone" placeholder="(+63) 9924401097">
                                 </div>
-                                <div class="d-flex">
-                                    <a class="button btn-hero" href="/about-us" style="text-decoration: none;">
-                                        <span>SUBMIT</span>
-                                        <svg width="34" height="34" viewBox="0 0 74 74" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="37" cy="37" r="35.5" stroke="white"
-                                                stroke-width="3"></circle>
-                                            <path
-                                                d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
-                                                fill="white"></path>
-                                        </svg>
-                                    </a>
+                                <div class="form-group">
+                                    <label for="message">Send us a message.</label>
+                                    <textarea id="message" name="message" rows="5" placeholder="Say something...." required></textarea>
                                 </div>
+                                <button type="submit" class="button">
+                                    <span>Submit</span>
+                                    <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="37" cy="37" r="35.5" stroke="white" stroke-width="3"></circle>
+                                        <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="white"></path>
+                                    </svg>
+                                </button>
                             </form>
                         </div>
-
+                    </div>
+                    <div class="col-md-6 maps d-flex justify-content-center align-items-center">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.686618330031!2d121.01093307590381!3d14.559904978070104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c90b830e5f29%3A0x89fe307dfecd3c0d!2sCampos%20Rueda%20Building!5e0!3m2!1sen!2sph!4v1721716690771!5m2!1sen!2sph" width="700" height="850" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
-
         </section>
 
         <div class="floating-socmed">
@@ -472,6 +462,7 @@
     <div class="elfsight-app-e818f66d-4134-4d9c-a300-ccbe7922c605" data-elfsight-app-lazy></div>
 
 
+    <script src="/Contact.js"></script>
 
 </body>
 @include('Layout/Footer')

@@ -58,19 +58,20 @@
                                     <div class="card-body">
                                         <h1 class="plan-header"><span class="badge">Basic</span></h1>
                                         <small class="plan-desc">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                            The Basic Plan is ideal for small businesses or personal websites that need an online presence without complex features. 
                                         </small>
                                         <div class="plan-price pt-xl-4">
-                                            <h2> &#8369;199.00 <span><small>/ month</small></span></h2>
+                                            <h2> &#8369;28,000 <span><small>/ month</small></span></h2>
                                         </div>
                                         <hr>
                                         <div class="plan-include">
                                             <ul>
-                                                <li><i class="fa-solid fa-check"></i> Plan 1</li>
-                                                <li><i class="fa-solid fa-check"></i> Plan 2</li>
-                                                <li><i class="fa-solid fa-check"></i> Plan 3</li>
-                                                <li><i class="fa-solid fa-check"></i> Plan 4</li>
-                                                <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                                <li><i class="fa-solid fa-check"></i> Custom Design</li>
+                                                <li><i class="fa-solid fa-check"></i> Content Management System (CMS)</li>
+                                                <li><i class="fa-solid fa-check"></i> Responsive Design</li>
+                                                <li><i class="fa-solid fa-check"></i> Basic SEO Setup</li>
+                                                <li><i class="fa-solid fa-check"></i> Social Media Integration</li>
+                                                <li><i class="fa-solid fa-check"></i> Limited support (1-2 months)</li>
                                             </ul>
                                         </div>
                                         <button class="btn-plan d-flex justify-content-center">See More</button>
@@ -83,19 +84,23 @@
                                     <div class="card-body">
                                         <h1 class="plan-header"><span class="badge">Standard</span></h1>
                                         <small class="plan-desc">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                            Suitable for small to medium-sized businesses that need a more advanced website with additional features and customization. 
                                         </small>
                                         <div class="plan-price pt-xl-4">
-                                            <h2> &#8369;199.00 <span><small>/ month</small></span></h2>
+                                            <h2> &#8369;45,000.00 <span><small>/ month</small></span></h2>
                                         </div>
                                         <hr>
                                         <div class="plan-include">
                                             <ul>
-                                                <li><i class="fa-solid fa-check"></i> Plan 1</li>
-                                                <li><i class="fa-solid fa-check"></i> Plan 2</li>
-                                                <li><i class="fa-solid fa-check"></i> Plan 3</li>
-                                                <li><i class="fa-solid fa-check"></i> Plan 4</li>
-                                                <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                                <li><i class="fa-solid fa-check"></i> Custom Design (unique design with enhanced elements)                                                </li>
+                                                <li><i class="fa-solid fa-check"></i> Advanced CMS Setup</li>
+                                                <li><i class="fa-solid fa-check"></i> Fully Responsive Design</li>
+                                                <li><i class="fa-solid fa-check"></i> Intermediate SEO Setup</li>
+                                                <li><i class="fa-solid fa-check"></i> Advanced Contact Forms</li>
+                                                <li><i class="fa-solid fa-check"></i> Social Media Integration (enhanced)</li>
+                                                <li><i class="fa-solid fa-check"></i> Enhanced Security</li>
+                                                <li><i class="fa-solid fa-check"></i> Domain and Hosting Assistance</li>
+                                                <li><i class="fa-solid fa-check"></i> Extended Support (2-3 months)</li>
                                             </ul>
                                         </div>
                                         <button class="btn-plan d-flex justify-content-center">See More</button>
@@ -108,19 +113,24 @@
                                     <div class="card-body">
                                         <h1 class="plan-header"><span class="badge">Premium</span></h1>
                                         <small class="plan-desc">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                            The Premium Plan is designed for businesses or organizations that require a high-end, feature-rich website with extensive customization and advanced functionalities.
                                         </small>
                                         <div class="plan-price pt-xl-4">
-                                            <h2>&#8369;199.00 <span>/ month</span></h2>
+                                            <h2>&#8369;85,000.00 <span>/ month</span></h2>
                                         </div>
                                         <hr>
                                         <div class="plan-include">
                                             <ul>
-                                                <li><i class="fa-solid fa-check"></i> Plan 1</li>
-                                                <li><i class="fa-solid fa-check"></i> Plan 2</li>
-                                                <li><i class="fa-solid fa-check"></i> Plan 3</li>
-                                                <li><i class="fa-solid fa-check"></i> Plan 4</li>
-                                                <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                                <li><i class="fa-solid fa-check"></i> High-End Custom Design (advanced features and interactive elements)</li>
+                                                <li><i class="fa-solid fa-check"></i> More than 10 Pages</li>
+                                                <li><i class="fa-solid fa-check"></i> Full-Featured CMS Setup</li>
+                                                <li><i class="fa-solid fa-check"></i> Premium Responsive Design</li>
+                                                <li><i class="fa-solid fa-check"></i> Advanced SEO Setup</li>
+                                                <li><i class="fa-solid fa-check"></i> Custom Forms and Features</li>
+                                                <li><i class="fa-solid fa-check"></i> Advanced Social Media Integration</li>
+                                                <li><i class="fa-solid fa-check"></i> Premium Security Measures</li>
+                                                <li><i class="fa-solid fa-check"></i> Premium Domain and Hosting Assistance</li>
+                                                <li><i class="fa-solid fa-check"></i> Extended Support (3-6 months)</li>
                                             </ul>
                                         </div>
                                         <button class="btn-plan d-flex justify-content-center">See More</button>
@@ -139,19 +149,23 @@
                                 <div class="card-body">
                                     <h1 class="plan-header"><span class="badge">Basic</span></h1>
                                     <small class="plan-desc">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                        Ideal for simple websites with essential features.
                                     </small>
                                     <div class="plan-price pt-xl-4">
-                                        <h2> &#8369;299.00 <span><small>/ month</small></span></h2>
+                                        <h2> &#8369;21,000.00 <span><small>/ month</small></span></h2>
                                     </div>
                                     <hr>
                                     <div class="plan-include">
                                         <ul>
-                                            <li><i class="fa-solid fa-check"></i> Plan 1</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 2</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 3</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 4</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                            <li><i class="fa-solid fa-check"></i> Custom Design (pre-designed template or basic custom layout)</li>
+                                            <li><i class="fa-solid fa-check"></i> Content Management System (CMS) Setup</li>
+                                            <li><i class="fa-solid fa-check"></i> Responsive Design</li>
+                                            <li><i class="fa-solid fa-check"></i> Basic SEO Setup</li>
+                                            <li><i class="fa-solid fa-check"></i> Contact Form</li>
+                                            <li><i class="fa-solid fa-check"></i> Social Media Integration</li>
+                                            <li><i class="fa-solid fa-check"></i> Basic Security Measures</li>
+                                            <li><i class="fa-solid fa-check"></i> Domain and Hosting Assistance</li>
+                                            <li><i class="fa-solid fa-check"></i> Limited Support (1-2 months)</li>
                                         </ul>
                                     </div>
                                     <button class="btn-plan d-flex justify-content-center">See More</button>
@@ -164,19 +178,24 @@
                                 <div class="card-body">
                                     <h1 class="plan-header"><span class="badge">Standard</span></h1>
                                     <small class="plan-desc">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                        Suitable for businesses needing more advanced design and functionality.
                                     </small>
                                     <div class="plan-price pt-xl-4">
-                                        <h2> &#8369;299.00 <span><small>/ month</small></span></h2>
+                                        <h2> &#8369;45,000.00 <span><small>/ month</small></span></h2>
                                     </div>
                                     <hr>
                                     <div class="plan-include">
                                         <ul>
-                                            <li><i class="fa-solid fa-check"></i> Plan 1</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 2</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 3</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 4</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                            <li><i class="fa-solid fa-check"></i> Custom Design (unique design with enhanced elements)</li>
+                                                <li><i class="fa-solid fa-check"></i> Up to 10 Dynamic Pages</li>
+                                                <li><i class="fa-solid fa-check"></i> Advanced CMS Setup</li>
+                                                <li><i class="fa-solid fa-check"></i> Fully Responsive Design</li>
+                                                <li><i class="fa-solid fa-check"></i> Intermediate SEO Setup</li>
+                                                <li><i class="fa-solid fa-check"></i> Advanced Contact Forms</li>
+                                                <li><i class="fa-solid fa-check"></i> Social Media Integration (enhanced)</li>
+                                                <li><i class="fa-solid fa-check"></i> Enhanced Security</li>
+                                                <li><i class="fa-solid fa-check"></i> Domain and Hosting Assistance</li>
+                                                <li><i class="fa-solid fa-check"></i> Extended Support (2-3 months)</li>
                                         </ul>
                                     </div>
                                     <button class="btn-plan d-flex justify-content-center">See More</button>
@@ -189,19 +208,24 @@
                                 <div class="card-body">
                                     <h1 class="plan-header"><span class="badge">Premium</span></h1>
                                     <small class="plan-desc">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                        Perfect for complex, feature-rich websites with extensive customization
                                     </small>
                                     <div class="plan-price pt-xl-4">
-                                        <h2>&#8369;299.00 <span>/ month</span></h2>
+                                        <h2>&#8369;85,000.00 <span>/ month</span></h2>
                                     </div>
                                     <hr>
                                     <div class="plan-include">
                                         <ul>
-                                            <li><i class="fa-solid fa-check"></i> Plan 1</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 2</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 3</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 4</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                            <li><i class="fa-solid fa-check"></i> High-End Custom Design (advanced features and interactive elements)</li>
+                                            <li><i class="fa-solid fa-check"></i> More than 10 Dynamic Pages</li>
+                                            <li><i class="fa-solid fa-check"></i> Full-Featured CMS Setup</li>
+                                            <li><i class="fa-solid fa-check"></i> Premium Responsive Design</li>
+                                            <li><i class="fa-solid fa-check"></i> Advanced SEO Setup</li>
+                                            <li><i class="fa-solid fa-check"></i> Custom Forms and Features</li>
+                                            <li><i class="fa-solid fa-check"></i> Advanced Social Media Integration</li>
+                                            <li><i class="fa-solid fa-check"></i> Premium Security Measures</li>
+                                            <li><i class="fa-solid fa-check"></i> Premium Domain and Hosting Assistance</li>
+                                            <li><i class="fa-solid fa-check"></i> Extended Support (3-6 months)</li>
                                         </ul>
                                     </div>
                                     <button class="btn-plan d-flex justify-content-center">See More</button>
@@ -273,7 +297,7 @@
                                 <div class="card-body">
                                     <h1 class="plan-header"><span class="badge">Premium</span></h1>
                                     <small class="plan-desc">
-                                        Designed for larger businesses or those requiring extensive features. This plan provides a fully custom site with unlimited pages and advanced functionalities, including e-commerce with unlimited products, membership features, and multilingual support. Ideal for businesses looking for a comprehensive and high-performing online presence.
+                                        Designed for larger businesses or those requiring extensive features. This plan provides a fully custom site with unlimited pages and advanced functionalities, including e-commerce with unlimited products, membership features, and multilingual support. 
                                     </small>
                                     <div class="plan-price pt-xl-4">
                                         <h2>&#8369;137,500 <span>/ month</span></h2>
@@ -306,19 +330,25 @@
                                 <div class="card-body">
                                     <h1 class="plan-header"><span class="badge">Basic</span></h1>
                                     <small class="plan-desc">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                        Designed for small e-commerce businesses or startups needing essential features to get their online store up and running.
                                     </small>
                                     <div class="plan-price pt-xl-4">
-                                        <h2> &#8369;399.00 <span><small>/ month</small></span></h2>
+                                        <h2> &#8369;40,000.00 <span><small>/ month</small></span></h2>
                                     </div>
                                     <hr>
                                     <div class="plan-include">
                                         <ul>
-                                            <li><i class="fa-solid fa-check"></i> Plan 1</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 2</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 3</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 4</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                            <li><i class="fa-solid fa-check"></i> Custom Design (pre-designed template or basic custom layout)</li>
+                                            <li><i class="fa-solid fa-check"></i> Up to 5 Product Categories</li>
+                                            <li><i class="fa-solid fa-check"></i> Basic E-commerce Functionality (product listings, cart, checkout)</li>
+                                            <li><i class="fa-solid fa-check"></i> Content Management System (CMS) Setup</li>
+                                            <li><i class="fa-solid fa-check"></i> Responsive Design</li>
+                                            <li><i class="fa-solid fa-check"></i> Basic SEO Setup</li>
+                                            <li><i class="fa-solid fa-check"></i> Payment Gateway Integration (basic options)</li>
+                                            <li><i class="fa-solid fa-check"></i> Basic Security Measures</li>
+                                            <li><i class="fa-solid fa-check"></i> Domain and Hosting Assistance</li>
+                                            <li><i class="fa-solid fa-check"></i> Limited Support (1-2 months)</li>
+
                                         </ul>
                                     </div>
                                     <button class="btn-plan d-flex justify-content-center">See More</button>
@@ -331,19 +361,24 @@
                                 <div class="card-body">
                                     <h1 class="plan-header"><span class="badge">Standard</span></h1>
                                     <small class="plan-desc">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                        The Standard Plan is ideal for growing businesses that require more advanced e-commerce features and a more customized design.
                                     </small>
                                     <div class="plan-price pt-xl-4">
-                                        <h2> &#8369;399.00 <span><small>/ month</small></span></h2>
+                                        <h2> &#8369;60,000.00 <span><small>/ month</small></span></h2>
                                     </div>
                                     <hr>
                                     <div class="plan-include">
                                         <ul>
-                                            <li><i class="fa-solid fa-check"></i> Plan 1</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 2</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 3</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 4</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                            <li><i class="fa-solid fa-check"></i> Custom Design (unique design with enhanced elements)</li>
+                                            <li><i class="fa-solid fa-check"></i> Up to 10 Product Categories</li>
+                                            <li><i class="fa-solid fa-check"></i> Advanced E-commerce Functionality (product variations, discounts, inventory management)</li>
+                                            <li><i class="fa-solid fa-check"></i> Advanced CMS Setup</li>
+                                            <li><i class="fa-solid fa-check"></i> Fully Responsive Design</li>
+                                            <li><i class="fa-solid fa-check"></i> Intermediate SEO Setup</li>
+                                            <li><i class="fa-solid fa-check"></i> Payment Gateway Integration (multiple options)</li>
+                                            <li><i class="fa-solid fa-check"></i> Enhanced Security</li>
+                                            <li><i class="fa-solid fa-check"></i> Domain and Hosting Assistance</li>
+                                            <li><i class="fa-solid fa-check"></i> Extended Support (2-3 months)</li>
                                         </ul>
                                     </div>
                                     <button class="btn-plan d-flex justify-content-center">See More</button>
@@ -356,19 +391,24 @@
                                 <div class="card-body">
                                     <h1 class="plan-header"><span class="badge">Premium</span></h1>
                                     <small class="plan-desc">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iusto quo! Dolorum, nemo eligendi aut laudantium ipsa, totam, enim deleniti ipsum dolor iste omnis error! Aliquam repellendus vero voluptatum neque.
+                                        The Premium Plan is designed for established businesses that need a high-end e-commerce solution with extensive features and full customization.
                                     </small>
                                     <div class="plan-price pt-xl-4">
-                                        <h2>&#8369;399.00 <span>/ month</span></h2>
+                                        <h2>&#8369;100,000.00 <span>/ month</span></h2>
                                     </div>
                                     <hr>
                                     <div class="plan-include">
                                         <ul>
-                                            <li><i class="fa-solid fa-check"></i> Plan 1</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 2</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 3</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 4</li>
-                                            <li><i class="fa-solid fa-check"></i> Plan 5</li>
+                                            <li><i class="fa-solid fa-check"></i> High-End Custom Design (advanced features and interactive elements)</li>
+                                            <li><i class="fa-solid fa-check"></i> Unlimited Product Categories</li>
+                                            <li><i class="fa-solid fa-check"></i> Full-Featured E-commerce Functionality (advanced inventory management, custom product attributes, dynamic pricing)</li>
+                                            <li><i class="fa-solid fa-check"></i> Full-Featured CMS Setup</li>
+                                            <li><i class="fa-solid fa-check"></i> Premium Responsive Design</li>
+                                            <li><i class="fa-solid fa-check"></i> Advanced SEO Setup</li>
+                                            <li><i class="fa-solid fa-check"></i> Payment Gateway Integration (advanced options, subscription management)</li>
+                                            <li><i class="fa-solid fa-check"></i> Premium Security Measures</li>
+                                            <li><i class="fa-solid fa-check"></i> Premium Domain and Hosting Assistance</li>
+                                            <li><i class="fa-solid fa-check"></i> Extended Support (3-6 months)</li>
                                         </ul>
                                     </div>
                                     <button class="btn-plan d-flex justify-content-center">See More</button>

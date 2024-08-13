@@ -113,7 +113,7 @@
                             <div class="card">
                                 <img src="../assets/img/hiring.png" alt="Avatar" style="width:100%; ">
                                 <div class="container">
-                                    <h1 class="news-header">Billing and Collection Associate</h1>
+                                    <h1 class="news-header" style="font-size: 20px">Billing and Collection Associate</h1>
                                     <p class="news-desc">ABIC Manpower Service Corp. is URGENTLY looking for a Billing and Collection Associate to manage the preparation of a timely summary of the above receipts and disbursements according to the prescribed reporting format, together with the necessary attachments (i.e., receipts).</p>
                                     <div class="read-more">
                                         <a href="https://www.facebook.com/share/p/RodDRSfdXBsoVZee/">Read More </a>

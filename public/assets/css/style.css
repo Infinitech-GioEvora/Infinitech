@@ -1158,6 +1158,7 @@ footer {
     border: 5px solid var(--var-accent-color);
     box-shadow: var(--var-box-shadows);
     transition: 0.6s;
+    
 }
 
 .cert img:hover {
@@ -1168,6 +1169,7 @@ footer {
 ================================= */
 .container .pricing-section {
     position: relative;
+    
 }
 
 .pricing-section .tagline h1 strong {
@@ -1220,6 +1222,7 @@ footer {
 .plan-include ul {
     list-style-type: none;
     text-align: left;
+    font-size: small;
     padding: 0;
 }
 
@@ -1229,6 +1232,8 @@ footer {
 
 .tabcontent .card .card-body {
     padding: 32px;
+    height: 780px ;
+
 }
 
 .tabcontent .card {
@@ -1338,11 +1343,12 @@ footer {
     margin: 8px;
     margin-bottom: 16px !important; 
     padding: 8px; 
+    height: auto ;
 }
 
 .news-header {
     margin: 8px 0px 8px 0px;
-    font-size: 24px;
+    font-size: 22px;
 }
 .news-desc {
     overflow: hidden;

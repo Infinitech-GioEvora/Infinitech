@@ -46,7 +46,7 @@
                             <div class="card">
                                 <div class="card-body">
                                     <span class="vm-header">Website for Real Estate</span>
-                                    <p>We assist agents in boosting sales by creating websites that highlight all their properties.</p>
+                                    <p >We support real estate agents in enhancing their sales performance by designing and building websites that effectively showcase all of their property listings..</p>
                                 </div>
                             </div>
                         </div>
