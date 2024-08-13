@@ -127,7 +127,7 @@
         </section>
 
         <section class="ourteam-section">
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-duration="1000">
                 <div class="header" style="margin-bottom:30px">Our Team</div>
 
                 <div class="row no-gutters d-flex justify-content-center">
