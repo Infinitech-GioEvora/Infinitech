@@ -50,32 +50,3 @@
     });
 </script>
 
-{{-- EMAIL --}}
-<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script>
-    (function() {
-        emailjs.init('YOUR_USER_ID'); // Replace 'YOUR_USER_ID' with your EmailJS user ID
-    })();
-
-    document.getElementById('contactForm').addEventListener('submit', function(event) {
-        event.preventDefault();
-
-        emailjs.sendForm('service_5b1uahk', 'service_5b1uahk', this)
-            .then(function(response) {
-                alert('Message sent successfully!');
-            }, function(error) {
-                alert('Failed to send the message. Please try again.');
-            });
-    });
-</script>
-
-<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "cb-FcoM8Mm4oKfwzE",
-      });
-   })();
-</script>

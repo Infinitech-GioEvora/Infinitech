@@ -5,11 +5,8 @@ $(document).ready(function () {
         },
     })
 
-
     $('.contactForm').on('submit', function (e) {
-    
         e.preventDefault();
-
         $.ajax({
             url: `/submit/inquiry`,
             method: "POST",
@@ -17,7 +14,8 @@ $(document).ready(function () {
             contentType: false,
             processData: false,
             success: function (res) {
-                toastr.success(res.msg);
+                // toastr.success(res.msg);
+                $(`.contactForm`).trigger("reset");
             },
             error: function (res) {
                 console.log(res)
