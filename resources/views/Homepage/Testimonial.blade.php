@@ -134,8 +134,75 @@
                 </div>
             </div>
         </div>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <!-- video-testimonial-section -->
+           <div class="space-medium">
+               <div class="container" style="margin-top: 50px">
+                   <div class="row">
+                       <div class="offset-xl-2 col-xl-8 offset-lg-2 col-lg-8 col-md-12 col-sm-12 col-12 text-center">
+                           <!-- section-title -->
+                           <div class="section-title">
+                               <h2 >What our customer says</h2>
+                               <p>Watch our clients share their positive experiences with our product and service. Real results, real satisfaction!</p>
+                           </div>
+                       </div>
+                       <!-- /.section-title -->
+                   </div>
+                   <div class="row">
+                       <!-- video-testimonail -->
+                       <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                           <div class="video-testimonial-block">
+                               <div class="video-thumbnail"><img src="../assets/img/infinitech-signing.jpg" alt="" class="img-fluid"></div>
+                               <div class="video">
+                                   <iframe src="https://youtube.com/embed/bTArNxPRNXw?si=E4SWZAYBs4abGXwB" allowfullscreen>
+                                   </iframe>
+                               </div>
+                               <a href="#" class="video-play"></a>
+                           </div>
+                           <div class="video-testimonial-content">
+                               <h4 class="mb10">Kimberly Niñeria</h4>
+                               <p>Student Loan</p>
+                           </div>
+                       </div>
+                       <!-- /.video-testimonail -->
+                       <!-- video-testimonail -->
+                       <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                           <div class="video-testimonial-block">
+                               <div class="video-thumbnail"><img src="../assets/img/infinitech-signing.jpg" alt="" class="img-fluid"></div>
+                               <div class="video">
+                                   <iframe src="https://youtube.com/embed/bTArNxPRNXw?si=E4SWZAYBs4abGXwB"
+                                    allowfullscreen>
+                                   </iframe>
+                               </div>
+                               <a href="#" class="video-play"></a>
+                           </div>
+                           <div class="video-testimonial-content">
+                               <h4 class="mb10">Kimberly Niñeria</h4>
+                               <p>Retirement Planning</p>
+                           </div>
+                       </div>
+                       <!-- /.video-testimonail -->
+                       <!-- video-testimonail -->
+                       <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                           <div class="video-testimonial-block">
+                               <div class="video-thumbnail"><img src="../assets/img/infinitech-signing.jpg" alt="" class="img-fluid"></div>
+                               <div class="video">
+                                   <iframe src="https://youtube.com/embed/bTArNxPRNXw?si=E4SWZAYBs4abGXwB" allowfullscreen>
+                                   </iframe>
+                               </div>
+                               <a href="#" class="video-play"></a>
+                           </div>
+                           <div class="video-testimonial-content">
+                               <h4 class="mb10">Kimberly Niñeria</h4>
+                               <p>Term Insurance</p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
 
         @include('Layout.Social')
+        <script src="/TestimonialVid.js"></script>
     </main>
 
     <!-- Footer -->
