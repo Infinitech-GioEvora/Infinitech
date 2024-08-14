@@ -42,7 +42,28 @@
                     </div>
                     <div class="col-12 col-md-12 col-lg-6">
                         <div class="left-content">
-                            <img src="../assets/svg/teamm.svg" alt="">
+                            {{-- <img src="../assets/svg/teamm.svg" alt=""> --}}
+                            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="/assets/img/manpower.png" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="/assets/img/tracking.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="/assets/img/manpower.png" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
                         </div>
                     </div>
                 </div>
@@ -108,7 +129,7 @@
                 </div>
 
                 <div class="row" data-aos="zoom-in-up" data-aos-duration="1000">
-                    <div class="col-12 col-md-3" >
+                    <div class="col-12 col-md-3">
                         <div class="service-content text-center">
                             <img src="../assets/svg/Static assets-amico.svg" alt="">
                             <h2 class="serviceTitle">Web Design & Development</h2>
@@ -390,23 +411,30 @@
                                 <button type="submit" class="button">
                                     <span>Submit</span>
                                     <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <circle cx="37" cy="37" r="35.5" stroke="white" stroke-width="3"></circle>
-                                        <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="white"></path>
-                                    </svg>
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-md-6 maps d-flex justify-content-center align-items-center">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.686618330031!2d121.01093307590381!3d14.559904978070104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c90b830e5f29%3A0x89fe307dfecd3c0d!2sCampos%20Rueda%20Building!5e0!3m2!1sen!2sph!4v1721716690771!5m2!1sen!2sph" width="700" height="850" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <circle cx="37" cy="37" r=" 35.5" stroke="white"
+                        stroke-width="3">
+                        </circle>
+                        <path
+                            d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                            fill="white"></path>
+                        </svg>
+                        </button>
+                        </form>
                     </div>
                 </div>
+                <div class="col-md-6 maps d-flex justify-content-center align-items-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.686618330031!2d121.01093307590381!3d14.559904978070104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c90b830e5f29%3A0x89fe307dfecd3c0d!2sCampos%20Rueda%20Building!5e0!3m2!1sen!2sph!4v1721716690771!5m2!1sen!2sph"
+                        width="700" height="850" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
             </div>
         </section>
 
         @include('Layout.Social')
     </main>
-{{-- Testimonials --}}
+    {{-- Testimonials --}}
     <script>
         $(document).ready(function() {
             $('.owl-carousel').owlCarousel({
@@ -450,8 +478,8 @@
         }
     </script>
     {{-- POP UP DISCOUNT --}}
-    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-    <div class="elfsight-app-e818f66d-4134-4d9c-a300-ccbe7922c605" data-elfsight-app-lazy></div>
+    {{-- <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-e818f66d-4134-4d9c-a300-ccbe7922c605" data-elfsight-app-lazy></div> --}}
 
 
     <script src="/Contact.js"></script>

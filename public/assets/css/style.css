@@ -200,6 +200,7 @@ p {
 
 .main-section .left-content img{
     width: 100%;
+    max-height: 700px;
     filter: drop-shadow(7px 14px 16px #000000);
 }
 
@@ -1355,6 +1356,13 @@ footer {
     text-decoration: none;
     display: block;
     background-color: var(--var-secondary-color);
+}
+
+
+/* QUOTES */
+
+.customize-service-content label::before{
+    content: " ";
 }
 
 /* Our Team */
