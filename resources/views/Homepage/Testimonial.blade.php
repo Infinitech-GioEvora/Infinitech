@@ -142,7 +142,7 @@
                        <div class="offset-xl-2 col-xl-8 offset-lg-2 col-lg-8 col-md-12 col-sm-12 col-12 text-center">
                            <!-- section-title -->
                            <div class="section-title">
-                               <h2 >What our customer says</h2>
+                               <h2 style="color: rgb(255, 153, 0)">What our customer says</h2>
                                <p>Watch our clients share their positive experiences with our product and service. Real results, real satisfaction!</p>
                            </div>
                        </div>
@@ -161,7 +161,7 @@
                            </div>
                            <div class="video-testimonial-content">
                                <h4 class="mb10">Kimberly Niñeria</h4>
-                               <p>Student Loan</p>
+                               <p style="font-size: 12px">Student Loan</p>
                            </div>
                        </div>
                        <!-- /.video-testimonail -->
@@ -178,7 +178,7 @@
                            </div>
                            <div class="video-testimonial-content">
                                <h4 class="mb10">Kimberly Niñeria</h4>
-                               <p>Retirement Planning</p>
+                               <p style="font-size: 12px">Retirement Planning</p>
                            </div>
                        </div>
                        <!-- /.video-testimonail -->
@@ -194,7 +194,7 @@
                            </div>
                            <div class="video-testimonial-content">
                                <h4 class="mb10">Kimberly Niñeria</h4>
-                               <p>Term Insurance</p>
+                               <p style="font-size: 12px">Term Insurance</p>
                            </div>
                        </div>
                    </div>

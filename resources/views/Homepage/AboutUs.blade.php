@@ -245,11 +245,11 @@
 
         <!-- Team -->
         <section id="team" class="pb-5">
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-duration="1000">
                 <h5 class="section-title h1">OUR TEAM</h5>
-                <div class="row">
+                <div class="row no-gutters d-flex justify-content-center">
                     <!-- Team member -->
-                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="col-xs-12 col-sm-6 col-md-3" >
                         <div class="image-flip" >
                             <div class="mainflip flip-0">
                                 <div class="frontside">
@@ -265,9 +265,9 @@
                                     <div class="card">
                                         <div class="card-body text-center mt-4">
                                             <h4 class="card-title">CREDENTIALS</h4>
-                                                <p class="card-text">Certified Public Accountant (CPA)</p>
+                                                {{-- <p class="card-text">Certified Public Accountant (CPA)</p>
                                                 <p class="card-text">Chartered Financial Analyst (CFA)</p>
-                                                <p class="card-text">Certified Financial Planner</p>
+                                                {{-- <p class="card-text">Certified Financial Planner</p> --}}
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
@@ -276,22 +276,22 @@
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-facebook"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-twitter"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-skype"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-google"></i>
                                                     </a>
                                                 </li>
@@ -304,7 +304,7 @@
                     </div>
                     <!-- ./Team member -->
                     <!-- Team member -->
-                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                             <div class="mainflip">
                                 <div class="frontside">
@@ -320,9 +320,9 @@
                                     <div class="card">
                                         <div class="card-body text-center mt-4">
                                             <h4 class="card-title">CREDENTIALS</h4>
-                                                <p class="card-text">Certified Public Accountant (CPA)</p>
+                                                {{-- <p class="card-text">Certified Public Accountant (CPA)</p>
                                                 <p class="card-text">Chartered Financial Analyst (CFA)</p>
-                                                <p class="card-text">Certified Financial Planner</p>
+                                                <p class="card-text">Certified Financial Planner</p> --}}
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
@@ -331,22 +331,22 @@
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-facebook"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-twitter"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-skype"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-google"></i>
                                                     </a>
                                                 </li>
@@ -359,7 +359,7 @@
                     </div>
                     <!-- ./Team member -->
                     <!-- Team member -->
-                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                             <div class="mainflip">
                                 <div class="frontside">
@@ -375,9 +375,9 @@
                                     <div class="card">
                                         <div class="card-body text-center mt-4">
                                             <h4 class="card-title">CREDENTIALS</h4>
-                                                <p class="card-text">Certified Public Accountant (CPA)</p>
+                                                {{-- <p class="card-text">Certified Public Accountant (CPA)</p>
                                                 <p class="card-text">Chartered Financial Analyst (CFA)</p>
-                                                <p class="card-text">Certified Financial Planner</p>
+                                                <p class="card-text">Certified Financial Planner</p> --}}
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
@@ -386,22 +386,22 @@
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-facebook"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-twitter"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-skype"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-google"></i>
                                                     </a>
                                                 </li>
@@ -414,7 +414,7 @@
                     </div>
                     <!-- ./Team member -->
                     <!-- Team member -->
-                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                             <div class="mainflip">
                                 <div class="frontside">
@@ -430,9 +430,9 @@
                                     <div class="card">
                                         <div class="card-body text-center mt-4">
                                             <h4 class="card-title">CREDENTIALS</h4>
-                                                <p class="card-text">Certified Public Accountant (CPA)</p>
+                                                {{-- <p class="card-text">Certified Public Accountant (CPA)</p>
                                                 <p class="card-text">Chartered Financial Analyst (CFA)</p>
-                                                <p class="card-text">Certified Financial Planner</p>
+                                                <p class="card-text">Certified Financial Planner</p> --}}
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
@@ -441,22 +441,22 @@
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-facebook"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-twitter"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-skype"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-google"></i>
                                                     </a>
                                                 </li>
@@ -468,8 +468,10 @@
                         </div>
                     </div>
                     <!-- ./Team member -->
+                </div>
+                <div class="row no-gutters d-flex justify-content-center">
                     <!-- Team member -->
-                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                             <div class="mainflip">
                                 <div class="frontside">
@@ -485,33 +487,33 @@
                                     <div class="card">
                                         <div class="card-body text-center mt-4">
                                             <h4 class="card-title">CREDENTIALS</h4>
-                                                <p class="card-text">Certified Public Accountant (CPA)</p>
+                                                {{-- <p class="card-text">Certified Public Accountant (CPA)</p>
                                                 <p class="card-text">Chartered Financial Analyst (CFA)</p>
-                                                <p class="card-text">Certified Financial Planner</p>
+                                                <p class="card-text">Certified Financial Planner</p> --}}
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
-                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
+                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p> 
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-facebook"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-twitter"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-skype"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-google"></i>
                                                     </a>
                                                 </li>
@@ -524,7 +526,7 @@
                     </div>
                     <!-- ./Team member -->
                     <!-- Team member -->
-                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                             <div class="mainflip">
                                 <div class="frontside">
@@ -540,9 +542,9 @@
                                     <div class="card">
                                         <div class="card-body text-center mt-4">
                                             <h4 class="card-title">CREDENTIALS</h4>
-                                                <p class="card-text">Certified Public Accountant (CPA)</p>
+                                                {{-- <p class="card-text">Certified Public Accountant (CPA)</p>
                                                 <p class="card-text">Chartered Financial Analyst (CFA)</p>
-                                                <p class="card-text">Certified Financial Planner</p>
+                                                <p class="card-text">Certified Financial Planner</p> --}}
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
@@ -551,22 +553,22 @@
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-facebook"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-twitter"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-skype"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-google"></i>
                                                     </a>
                                                 </li>
@@ -578,7 +580,7 @@
                         </div>
                     </div>
                     <!-- Team member -->
-                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                             <div class="mainflip">
                                 <div class="frontside">
@@ -594,9 +596,9 @@
                                     <div class="card">
                                         <div class="card-body text-center mt-4">
                                             <h4 class="card-title">CREDENTIALS</h4>
-                                                <p class="card-text">Certified Public Accountant (CPA)</p>
+                                                {{-- <p class="card-text">Certified Public Accountant (CPA)</p>
                                                 <p class="card-text">Chartered Financial Analyst (CFA)</p>
-                                                <p class="card-text">Certified Financial Planner</p>
+                                                <p class="card-text">Certified Financial Planner</p> --}}
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
@@ -605,22 +607,22 @@
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-facebook"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-twitter"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-skype"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-google"></i>
                                                     </a>
                                                 </li>
@@ -631,8 +633,10 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="row no-gutters d-flex justify-content-center">
                     <!-- Team member -->
-                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                             <div class="mainflip">
                                 <div class="frontside">
@@ -654,27 +658,27 @@
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
-                                                <p class="card-text">Routing and switching technologies</p>
+                                                {{-- <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
-                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
+                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p> --}}
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-facebook"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-twitter"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-skype"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-google"></i>
                                                     </a>
                                                 </li>
@@ -686,14 +690,14 @@
                         </div>
                     </div>
                     <!-- Team member -->
-                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card">
                                         <img src="../assets/img/infinitech-msAngel.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
-                                            <span class="team-name d-block">Darlene Angel Fajarito</span>
+                                            <span class="team-name d-block">Darlene Fajarito</span>
                                             <small class="position d-block">Junior Web Developer</small>
                                         </div>
                                     </div>
@@ -708,27 +712,27 @@
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
-                                                <p class="card-text">Routing and switching technologies</p>
+                                                {{-- <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
-                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
+                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p> --}}
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-facebook"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-twitter"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-skype"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-google"></i>
                                                     </a>
                                                 </li>
@@ -740,7 +744,7 @@
                         </div>
                     </div>
                     <!-- Team member -->
-                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                             <div class="mainflip">
                                 <div class="frontside">
@@ -762,27 +766,27 @@
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
-                                                <p class="card-text">Routing and switching technologies</p>
+                                                {{-- <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
-                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
+                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p> --}}
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-facebook"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-twitter"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-skype"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
                                                         <i class="fa fa-google"></i>
                                                     </a>
                                                 </li>
@@ -793,8 +797,10 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="row no-gutters d-flex justify-content-center">
                     <!-- Team member -->
-                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                             <div class="mainflip">
                                 <div class="frontside">
@@ -816,9 +822,9 @@
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
-                                                <p class="card-text">Routing and switching technologies</p>
+                                                {{-- <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
-                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
+                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p> --}}
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
                                                     <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
@@ -848,7 +854,6 @@
                         </div>
                     </div>
                     <!-- Team member -->
-    
                 </div>
             </div>
         </section>

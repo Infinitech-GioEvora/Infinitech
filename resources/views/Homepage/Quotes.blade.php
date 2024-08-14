@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proposal - Infinitech Advertising Corporation | Web Developmet</title>
+    <title>Quote - Infinitech Advertising Corporation | Web Developmet</title>
 
     @include('Layout/Header')
 </head>
@@ -20,7 +20,7 @@
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="tagline ">
-                            <h1><strong>Proposal</strong></h1>
+                            <h1><strong>Get a Quote</strong></h1>
                             <p class="sub-tagline pt-xl-5" style="font-size: 19px">We specialize in crafting bespoke
                                 systems and websites that elevate your brand’s presence while championing
                                 health and well-being. Our approach combines strategic analysis with cutting-edge

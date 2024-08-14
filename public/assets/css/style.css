@@ -1394,14 +1394,20 @@ section {
 
 section .section-title {
     text-align: center;
-    color: var(--var-accent-color);
+    color: var(--var-primary-color);
+    background-image: linear-gradient(gold, gold);
+    background-size: 50% 5px;
+    background-repeat: no-repeat;
+    left: 0;
+    background-position: bottom center;
     margin-bottom: 50px;
-    text-transform: uppercase;
 }
 
 #team .card {
     border: none;
     background: #ffffff;
+    text-align: center;
+    padding: 10px;
 }
 
 .image-flip:hover .backside,
@@ -1441,9 +1447,11 @@ section .section-title {
     -ms-transform: rotateY(0deg);
     z-index: 2;
     margin-bottom: 30px;
+    
 }
 
 .backside {
+    font-size: 13px;
     position: absolute;
     top: 0;
     left: 0;
@@ -1478,11 +1486,11 @@ section .section-title {
 
 .frontside .card,
 .backside .card {
-    min-height: 420px;
+    min-height: 30px;
 }
 
 .backside .card a {
-    font-size: 18px;
+    font-size: 12px;
     color: var(--var-accent-color) !important;
 }
 
@@ -1497,8 +1505,9 @@ section .section-title {
     border-radius: 50%;
 }
 
+
 /* Testimonial Vid */
-body { 
+.body { 
     -webkit-font-smoothing: antialiased; 
     text-rendering: optimizeLegibility; 
     font-family: 'Roboto', sans-serif; 
@@ -1508,54 +1517,54 @@ body {
     font-weight: 400; 
     line-height: 32px; 
 }
-h1, h2, h3, h4, h5, h6 {
+.h1, h2, h3, h4, h5, h6 {
     color: #26282c;
     margin: 0px 0px 12px 0px; 
     font-family: 'Glegoo', serif; 
     font-weight: 700; 
     line-height: 1; 
 }
-h1 { 
+.h1 { 
     font-size: 36px; 
 }
-h2 { 
+.h2 { 
     font-size: 40px; 
     font-weight: 500;
 
 }
-h3 { 
+.h3 { 
     font-size: 22px; 
     line-height: 32px; 
 }
-h4 { 
+.h4 { 
     font-size: 20px; 
 }
-h5 { 
+.h5 { 
     font-size: 16px; 
     line-height: 27px; 
 }
-h6 { 
+.h6 { 
     font-size: 12px; 
 }
-p { 
+.p { 
     margin: 0 0 20px; 
     line-height: 1.7; 
     font-size: 12px; 
 }
-p:last-child { 
+.p:last-child { 
     margin: 0px; 
 }
-ul, ol { 
+.ul, ol { 
     font-family: 'Roboto', sans-serif; 
 }
-a { 
+.a { 
     text-decoration: none; 
     color: #7d7f82; 
     -webkit-transition: all 0.3s; 
     -moz-transition: all 0.3s; 
     transition: all 0.3s; 
 }
-a:focus, a:hover { 
+.a:focus, a:hover { 
     text-decoration: none; 
     color: #fe5b10; 
 }
@@ -1609,10 +1618,12 @@ a:focus, a:hover {
     color: #172651; 
 }
 .mb10{
-    margin-bottom:10px;
+    font-size: medium;
 }
+
 .section-title { 
     margin-bottom: 40px; 
+    font-size: large;
 }
 
 
