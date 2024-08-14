@@ -242,6 +242,7 @@
 
             </div>
         </section> --}}
+
         <!-- Team -->
         <section id="team" class="pb-5">
             <div class="container">
@@ -252,20 +253,27 @@
                         <div class="image-flip" >
                             <div class="mainflip flip-0">
                                 <div class="frontside">
-                                    <div class="card">
-                                        <div class="card-body text-center">
-                                            <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image"></p>
-                                            <h4 class="card-title">Sunlimetech</h4>
-                                            <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                                            <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        <div class="card">
+                                            <img src="../assets/img/infinitech-sirGel.png" alt="Avatar" >
+                                            <div class="team-details" style="font-display: center">
+                                                <span class="team-name d-block">Angelle Sarmiento</span>
+                                                <small class="position d-block">Chief Executive Officer</small>
+                                            </div>
                                         </div>
-                                    </div>
                                 </div>
                                 <div class="backside">
                                     <div class="card">
                                         <div class="card-body text-center mt-4">
-                                            <h4 class="card-title">Sunlimetech</h4>
-                                            <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                            <h4 class="card-title">CREDENTIALS</h4>
+                                                <p class="card-text">Certified Public Accountant (CPA)</p>
+                                                <p class="card-text">Chartered Financial Analyst (CFA)</p>
+                                                <p class="card-text">Certified Financial Planner</p>
+                                                <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
+                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
+                                                <p class="card-text">AWS Certified Solutions Architect</p>
+                                                <p class="card-text">Routing and switching technologies</p>
+                                                <p class="card-text">Network access (VLANs, WLANs)</p>
+                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
                                                     <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
@@ -301,19 +309,26 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card">
-                                        <div class="card-body text-center">
-                                            <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_02.png" alt="card image"></p>
-                                            <h4 class="card-title">Sunlimetech</h4>
-                                            <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                                            <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        <img src="../assets/img/infinitech-mamKrissa.png" alt="Avatar" style="width:100%">
+                                        <div class="team-details">
+                                            <span class="team-name d-block">Krissa Bongon</span>
+                                            <small class="position d-block">Executive Assistant</small>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="backside">
                                     <div class="card">
                                         <div class="card-body text-center mt-4">
-                                            <h4 class="card-title">Sunlimetech</h4>
-                                            <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                            <h4 class="card-title">CREDENTIALS</h4>
+                                                <p class="card-text">Certified Public Accountant (CPA)</p>
+                                                <p class="card-text">Chartered Financial Analyst (CFA)</p>
+                                                <p class="card-text">Certified Financial Planner</p>
+                                                <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
+                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
+                                                <p class="card-text">AWS Certified Solutions Architect</p>
+                                                <p class="card-text">Routing and switching technologies</p>
+                                                <p class="card-text">Network access (VLANs, WLANs)</p>
+                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
                                                     <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
@@ -349,19 +364,26 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card">
-                                        <div class="card-body text-center">
-                                            <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_03.png" alt="card image"></p>
-                                            <h4 class="card-title">Sunlimetech</h4>
-                                            <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                                            <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        <img src="../assets/img/infinitech-mamAiries.png" alt="Avatar" style="width:100%">
+                                        <div class="team-details">
+                                            <span class="team-name d-block">Airies Asilo</span>
+                                            <small class="position d-block">Marketing Manager</small>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="backside">
                                     <div class="card">
                                         <div class="card-body text-center mt-4">
-                                            <h4 class="card-title">Sunlimetech</h4>
-                                            <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                            <h4 class="card-title">CREDENTIALS</h4>
+                                                <p class="card-text">Certified Public Accountant (CPA)</p>
+                                                <p class="card-text">Chartered Financial Analyst (CFA)</p>
+                                                <p class="card-text">Certified Financial Planner</p>
+                                                <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
+                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
+                                                <p class="card-text">AWS Certified Solutions Architect</p>
+                                                <p class="card-text">Routing and switching technologies</p>
+                                                <p class="card-text">Network access (VLANs, WLANs)</p>
+                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
                                                     <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
@@ -397,19 +419,26 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card">
-                                        <div class="card-body text-center">
-                                            <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_04.jpg" alt="card image"></p>
-                                            <h4 class="card-title">Sunlimetech</h4>
-                                            <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                                            <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        <img src="../assets/img/infinitech-mamApril.png" alt="Avatar" style="width:100%">
+                                        <div class="team-details">
+                                            <span class="team-name d-block">April Ann Saludares</span>
+                                            <small class="position d-block">IT Supervisor</small>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="backside">
                                     <div class="card">
                                         <div class="card-body text-center mt-4">
-                                            <h4 class="card-title">Sunlimetech</h4>
-                                            <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                            <h4 class="card-title">CREDENTIALS</h4>
+                                                <p class="card-text">Certified Public Accountant (CPA)</p>
+                                                <p class="card-text">Chartered Financial Analyst (CFA)</p>
+                                                <p class="card-text">Certified Financial Planner</p>
+                                                <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
+                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
+                                                <p class="card-text">AWS Certified Solutions Architect</p>
+                                                <p class="card-text">Routing and switching technologies</p>
+                                                <p class="card-text">Network access (VLANs, WLANs)</p>
+                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
                                                     <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
@@ -445,19 +474,26 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card">
-                                        <div class="card-body text-center">
-                                            <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_05.png" alt="card image"></p>
-                                            <h4 class="card-title">Sunlimetech</h4>
-                                            <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                                            <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        <img src="../assets/img/infinitech-sirGio.png" alt="Avatar" style="width:100%">
+                                        <div class="team-details">
+                                            <span class="team-name d-block">Giolo Evora</span>
+                                            <small class="position d-block">Senior Web Developer</small>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="backside">
                                     <div class="card">
                                         <div class="card-body text-center mt-4">
-                                            <h4 class="card-title">Sunlimetech</h4>
-                                            <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                            <h4 class="card-title">CREDENTIALS</h4>
+                                                <p class="card-text">Certified Public Accountant (CPA)</p>
+                                                <p class="card-text">Chartered Financial Analyst (CFA)</p>
+                                                <p class="card-text">Certified Financial Planner</p>
+                                                <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
+                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
+                                                <p class="card-text">AWS Certified Solutions Architect</p>
+                                                <p class="card-text">Routing and switching technologies</p>
+                                                <p class="card-text">Network access (VLANs, WLANs)</p>
+                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
                                                     <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
@@ -493,19 +529,26 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card">
-                                        <div class="card-body text-center">
-                                            <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_06.jpg" alt="card image"></p>
-                                            <h4 class="card-title">Sunlimetech</h4>
-                                            <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                                            <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        <img src="../assets/img/infinitech-sirJustin.png" alt="Avatar" style="width:100%">
+                                        <div class="team-details">
+                                            <span class="team-name d-block">Justin De Castro</span>
+                                            <small class="position d-block">Senior Web Developer</small>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="backside">
                                     <div class="card">
                                         <div class="card-body text-center mt-4">
-                                            <h4 class="card-title">Sunlimetech</h4>
-                                            <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                            <h4 class="card-title">CREDENTIALS</h4>
+                                                <p class="card-text">Certified Public Accountant (CPA)</p>
+                                                <p class="card-text">Chartered Financial Analyst (CFA)</p>
+                                                <p class="card-text">Certified Financial Planner</p>
+                                                <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
+                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
+                                                <p class="card-text">AWS Certified Solutions Architect</p>
+                                                <p class="card-text">Routing and switching technologies</p>
+                                                <p class="card-text">Network access (VLANs, WLANs)</p>
+                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
                                                     <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
@@ -534,8 +577,278 @@
                             </div>
                         </div>
                     </div>
-                    <!-- ./Team member -->
-
+                    <!-- Team member -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <img src="../assets/img/infinitech-sirMoses.png" alt="Avatar" style="width:100%">
+                                        <div class="team-details">
+                                            <span class="team-name d-block">Moses Alcantara</span>
+                                            <small class="position d-block">Senior Web Developer</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">CREDENTIALS</h4>
+                                                <p class="card-text">Certified Public Accountant (CPA)</p>
+                                                <p class="card-text">Chartered Financial Analyst (CFA)</p>
+                                                <p class="card-text">Certified Financial Planner</p>
+                                                <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
+                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
+                                                <p class="card-text">AWS Certified Solutions Architect</p>
+                                                <p class="card-text">Routing and switching technologies</p>
+                                                <p class="card-text">Network access (VLANs, WLANs)</p>
+                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-skype"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-google"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Team member -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <img src="../assets/img/infinitech-msKim.png" alt="Avatar" style="width:100%">
+                                        <div class="team-details">
+                                            <span class="team-name d-block">Kimberly Niñeria</span>
+                                            <small class="position d-block">Junior Web Developer</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">CREDENTIALS</h4>
+                                                <p class="card-text">Certified Public Accountant (CPA)</p>
+                                                <p class="card-text">Chartered Financial Analyst (CFA)</p>
+                                                <p class="card-text">Certified Financial Planner</p>
+                                                <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
+                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
+                                                <p class="card-text">AWS Certified Solutions Architect</p>
+                                                <p class="card-text">Routing and switching technologies</p>
+                                                <p class="card-text">Network access (VLANs, WLANs)</p>
+                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-skype"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-google"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Team member -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <img src="../assets/img/infinitech-msAngel.png" alt="Avatar" style="width:100%">
+                                        <div class="team-details">
+                                            <span class="team-name d-block">Darlene Angel Fajarito</span>
+                                            <small class="position d-block">Junior Web Developer</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">CREDENTIALS</h4>
+                                                <p class="card-text">Certified Public Accountant (CPA)</p>
+                                                <p class="card-text">Chartered Financial Analyst (CFA)</p>
+                                                <p class="card-text">Certified Financial Planner</p>
+                                                <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
+                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
+                                                <p class="card-text">AWS Certified Solutions Architect</p>
+                                                <p class="card-text">Routing and switching technologies</p>
+                                                <p class="card-text">Network access (VLANs, WLANs)</p>
+                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-skype"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-google"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Team member -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <img src="../assets/img/infinitech-msLyca.png" alt="Avatar" style="width:100%">
+                                        <div class="team-details">
+                                            <span class="team-name d-block">Lyca Nobleza</span>
+                                            <small class="position d-block">Junior Web Developer</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">CREDENTIALS</h4>
+                                                <p class="card-text">Certified Public Accountant (CPA)</p>
+                                                <p class="card-text">Chartered Financial Analyst (CFA)</p>
+                                                <p class="card-text">Certified Financial Planner</p>
+                                                <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
+                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
+                                                <p class="card-text">AWS Certified Solutions Architect</p>
+                                                <p class="card-text">Routing and switching technologies</p>
+                                                <p class="card-text">Network access (VLANs, WLANs)</p>
+                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-skype"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-google"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Team member -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <img src="../assets/img/infinitech-mamAly.png" alt="Avatar" style="width:100%">
+                                        <div class="team-details">
+                                            <span class="team-name d-block">Allysa Mae Perez</span>
+                                            <small class="position d-block">Admin Assistant</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">CREDENTIALS</h4>
+                                                <p class="card-text">Certified Public Accountant (CPA)</p>
+                                                <p class="card-text">Chartered Financial Analyst (CFA)</p>
+                                                <p class="card-text">Certified Financial Planner</p>
+                                                <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
+                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
+                                                <p class="card-text">AWS Certified Solutions Architect</p>
+                                                <p class="card-text">Routing and switching technologies</p>
+                                                <p class="card-text">Network access (VLANs, WLANs)</p>
+                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-skype"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                        <i class="fa fa-google"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Team member -->
+    
                 </div>
             </div>
         </section>
