@@ -42,7 +42,6 @@
                     </div>
                     <div class="col-12 col-md-12 col-lg-6">
                         <div class="left-content">
-                            {{-- <img src="../assets/svg/teamm.svg" alt=""> --}}
                             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
