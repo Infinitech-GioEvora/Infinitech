@@ -61,7 +61,7 @@
                                             The Basic Plan is ideal for small businesses or personal websites that need an online presence without complex features. 
                                         </small>
                                         <div class="plan-price pt-xl-4">
-                                            <h2> &#8369;28,000 <span><small>/ month</small></span></h2>
+                                            <h2> &#8369;8,999.00 <span><small>/ month</small></span></h2>
                                         </div>
                                         <hr>
                                         <div class="plan-include">
@@ -87,7 +87,7 @@
                                             Suitable for small to medium-sized businesses that need a more advanced website with additional features and customization. 
                                         </small>
                                         <div class="plan-price pt-xl-4">
-                                            <h2> &#8369;45,000.00 <span><small>/ month</small></span></h2>
+                                            <h2> &#8369;12,999.00 <span><small>/ month</small></span></h2>
                                         </div>
                                         <hr>
                                         <div class="plan-include">
@@ -116,7 +116,7 @@
                                             The Premium Plan is designed for businesses or organizations that require a high-end, feature-rich website with extensive customization and advanced functionalities.
                                         </small>
                                         <div class="plan-price pt-xl-4">
-                                            <h2>&#8369;85,000.00 <span>/ month</span></h2>
+                                            <h2>&#8369;18,999.00 <span>/ month</span></h2>
                                         </div>
                                         <hr>
                                         <div class="plan-include">
@@ -152,7 +152,7 @@
                                         Ideal for simple websites with essential features.
                                     </small>
                                     <div class="plan-price pt-xl-4">
-                                        <h2> &#8369;21,000.00 <span><small>/ month</small></span></h2>
+                                        <h2> &#8369;8,999.00 <span><small>/ month</small></span></h2>
                                     </div>
                                     <hr>
                                     <div class="plan-include">
@@ -181,7 +181,7 @@
                                         Suitable for businesses needing more advanced design and functionality.
                                     </small>
                                     <div class="plan-price pt-xl-4">
-                                        <h2> &#8369;45,000.00 <span><small>/ month</small></span></h2>
+                                        <h2> &#8369;12,999.00 <span><small>/ month</small></span></h2>
                                     </div>
                                     <hr>
                                     <div class="plan-include">
@@ -211,7 +211,7 @@
                                         Perfect for complex, feature-rich websites with extensive customization
                                     </small>
                                     <div class="plan-price pt-xl-4">
-                                        <h2>&#8369;85,000.00 <span>/ month</span></h2>
+                                        <h2>&#8369;18,999.00 <span>/ month</span></h2>
                                     </div>
                                     <hr>
                                     <div class="plan-include">
@@ -246,7 +246,7 @@
                                         Perfect for small businesses and personal websites. This plan offers a professionally designed single-page or small multi-page site with essential features. Includes a basic template customization, responsive design, and essential SEO to get you started online.
                                     </small>
                                     <div class="plan-price pt-xl-4">
-                                        <h2>&#8369;27,500 <span><small>/ month</small></span></h2>
+                                        <h2>&#8369;8,999 <span><small>/ month</small></span></h2>
                                     </div>
                                     <hr>
                                     <div class="plan-include">
@@ -272,7 +272,7 @@
                                         Ideal for growing businesses needing a more robust online presence. This plan includes a custom-designed site with advanced features such as e-commerce functionality, a blog, and enhanced SEO. Perfect for those who want a professional online store or a content-rich website.
                                     </small>
                                     <div class="plan-price pt-xl-4">
-                                        <h2>&#8369;66,000 <span><small>/ month</small></span></h2>
+                                        <h2>&#8369;14,999 <span><small>/ month</small></span></h2>
                                     </div>
                                     <hr>
                                     <div class="plan-include">
@@ -300,7 +300,7 @@
                                         Designed for larger businesses or those requiring extensive features. This plan provides a fully custom site with unlimited pages and advanced functionalities, including e-commerce with unlimited products, membership features, and multilingual support. 
                                     </small>
                                     <div class="plan-price pt-xl-4">
-                                        <h2>&#8369;137,500 <span>/ month</span></h2>
+                                        <h2>&#8369;20,999 <span>/ month</span></h2>
                                     </div>
                                     <hr>
                                     <div class="plan-include">
@@ -333,7 +333,7 @@
                                         Designed for small e-commerce businesses or startups needing essential features to get their online store up and running.
                                     </small>
                                     <div class="plan-price pt-xl-4">
-                                        <h2> &#8369;40,000.00 <span><small>/ month</small></span></h2>
+                                        <h2> &#8369;9,999.00 <span><small>/ month</small></span></h2>
                                     </div>
                                     <hr>
                                     <div class="plan-include">
@@ -364,7 +364,7 @@
                                         The Standard Plan is ideal for growing businesses that require more advanced e-commerce features and a more customized design.
                                     </small>
                                     <div class="plan-price pt-xl-4">
-                                        <h2> &#8369;60,000.00 <span><small>/ month</small></span></h2>
+                                        <h2> &#8369;15,999.00 <span><small>/ month</small></span></h2>
                                     </div>
                                     <hr>
                                     <div class="plan-include">
@@ -394,7 +394,7 @@
                                         The Premium Plan is designed for established businesses that need a high-end e-commerce solution with extensive features and full customization.
                                     </small>
                                     <div class="plan-price pt-xl-4">
-                                        <h2>&#8369;100,000.00 <span>/ month</span></h2>
+                                        <h2>&#8369;21,999.00 <span>/ month</span></h2>
                                     </div>
                                     <hr>
                                     <div class="plan-include">
