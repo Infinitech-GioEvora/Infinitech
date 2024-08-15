@@ -40,6 +40,8 @@
 
                         </div>
                     </div>
+                    {{-- SLIDER --}}
+  
                     <div class="col-12 col-md-12 col-lg-6">
                         <div class="left-content">
                             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -136,7 +138,7 @@
                                 easy-to-use Content Management System (CMS).</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3" ">
+                    <div class="col-12 col-md-3" >
                         <div class="service-content text-center">
                             <img src="../assets/svg/Website setup-cuate.svg" alt="">
                             <h2 class="serviceTitle">Web Based Application </h2>
@@ -308,74 +310,6 @@
 
             </div>
         </section>
-
-        {{-- <section class="pricing-section">
-            <div class="container" >
-                <div class="pricing-head text-center">
-                    <h1 class="header d-block" style="margin-bottom:15px">Latest News</h1>
-                    <p>Stay ahead with the latest updates on exciting events. Discover what's happening next and never miss out!</p>
-                </div>
-
-                <div class="news-section mb-xl-7" style="margin-bottom:80px">
-                    <div class="row no-gutters d-flex justify-content-center" >
-                        <div class="col-12 col-md-3 px-0">
-                            <div class="card">
-                                <img src="../assets/img/opening.png" alt="Avatar" style="width:100%">
-                                <div class="container">
-                                    <h1 class="news-header">Infinitech Grand Opening</h1>
-                                    <p class="news-desc">Infinitech is thrilled to announce the grand opening of its new headquarters on July 6, 2024. 
-                                        Join us for a day of innovation and excitement as we unveil cutting-edge technology and showcase our state-of-the-art facilities.</p>
-                                    <div class="read-more">
-                                        <a href="https://www.facebook.com/share/ataf7HLGF5xUgnho/">Read More </a>
-                                    </div>
-                                    <hr>
-                                    <small class="date mb-xl-5">
-                                        July 6, 2024
-                                        <span></span>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-3 px-0 ">
-                            <div class="card">
-                                <img src="../assets/img/kalayaan.png" alt="Avatar" style="width:100%">
-                                <div class="container">
-                                    <h1 class="news-header">Kalayaan Mega Job Fair</h1>
-                                    <p class="news-desc">It was wonderful to connect with so many talented individuals and share opportunities. If you missed us, don't hesitate to get in touch—we’re always looking for great talent
-                                    </p>
-                                    <div class="read-more">
-                                        <a href="https://www.facebook.com/people/ABIC-Manpower-Service-Corp/100090318514723/">Read More </a>
-                                    </div>
-                                    <hr>
-                                    <small class="date mb-xl-5">
-                                        July 30, 2024
-                                        <span></span>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-3 px-0 ">
-                            <div class="card">
-                                <img src="../assets/img/sil.png" alt="Avatar" style="width:100%">
-                                <div class="container">
-                                    <h1 class="news-header">Supervised Industry Learning</h1>
-                                    <p class="news-desc">We are thrilled to announce that Infinitech is now officially open for strategic partnerships in the realm of Supervised Industry Learning! As a leader in innovative tech solutions, we are eager to collaborate with forward-thinking organizations to advance the future of supervised learning.</p>
-                                    <div class="read-more">
-                                        <a href="https://www.facebook.com/share/p/CYD9zZzyXoB6hjVz/">Read More </a>
-                                    </div>
-                                    <hr>
-                                    <small class="date mb-xl-5">
-                                        August 07, 2024
-                                        <span></span>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-        </section> --}}
-
         <section class="work-with-us" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
             <div class="container">
                 <div class="row">
@@ -476,12 +410,10 @@
             evt.currentTarget.className += " service-active";
         }
     </script>
-    {{-- POP UP DISCOUNT --}}
-    {{-- <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-    <div class="elfsight-app-e818f66d-4134-4d9c-a300-ccbe7922c605" data-elfsight-app-lazy></div> --}}
 
 
     <script src="/Contact.js"></script>
+    <script src="/Slider.js"></script>
 
 </body>
 @include('Layout/Footer')

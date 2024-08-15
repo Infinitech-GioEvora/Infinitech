@@ -1365,6 +1365,201 @@ footer {
     content: " ";
 }
 
+
+
+/* CUBE SLIDER */
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    perspective: 1200px;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: transform 1s cubic-bezier(0.57, 0.21, 0.29, 1.46);
+}
+
+.carousel-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(0deg) translateZ(300px);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-item:nth-child(1) {
+    transform: rotateY(0deg) translateZ(300px);
+}
+
+.carousel-item:nth-child(2) {
+    transform: rotateY(120deg) translateZ(300px);
+}
+
+.carousel-item:nth-child(3) {
+    transform: rotateY(240deg) translateZ(300px);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    width: 5%;
+    height: 50px;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    z-index: 100;
+}
+
+.carousel-control-prev {
+    left: 0;
+}
+
+.carousel-control-next {
+    right: 0;
+}
+/* Our team New */
+/* General Styles */
+.ourteam-section {
+    padding: 50px 0;
+}
+
+.team-wrapper {
+    display: flex;
+    transition: margin-right 0.3s ease;
+}
+
+.team-cards {
+    flex: 1;
+    transition: margin-right 0.3s ease;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.team-image {
+    width: 100%;
+    height: auto;
+}
+
+.team-details {
+    padding: 10px;
+}
+
+.details-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    border-left: 2px solid #ddd;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.details-container.show {
+    transform: translateX(0);
+}
+
+.details-section {
+    padding: 20px;
+}
+
+.close-btn {
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #333;
+    float: right;
+}
+
+/* Our Team w/ credentials */
+.team-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-cards {
+    flex: 1;
+}
+
+.card {
+    cursor: pointer;
+    position: relative; /* To position the details section absolutely */
+}
+
+.card img {
+    width: 100%;
+    transition: transform 0.3s ease; /* Animation for image */
+}
+
+.card img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.details-container {
+    position: absolute;
+    top: auto; /* Position it above the card */
+    left: auto;
+    right: auto;
+    bottom: auto;
+    display: flex;
+    justify-content: center;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(-20px); /* Initially hide */
+    opacity: 0; /* Initially hide */
+}
+
+.details-section {
+    width: 500px; /* Adjust width as needed */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.details-container.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+.close-btn:hover {
+    color: #000;
+}
+
+
 /* Our Team */
 /* FontAwesome for working BootSnippet :> */
 
@@ -1499,11 +1694,33 @@ section .section-title {
     color: var(--var-accent-color) !important;
 }
 
+
 .frontside .card .card-body img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
 }
+
+/* TOOL TIP */
+.tooltip {
+    display: none;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1000;
+    max-width: 200px;
+}
+
+.tooltip-content {
+    margin: 0;
+}
+
+.tooltip.show {
+    display: block;
+}
+
 
 
 /* Testimonial Vid */
