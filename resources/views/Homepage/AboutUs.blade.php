@@ -126,121 +126,6 @@
             </div>
         </section>
 
-        {{-- <section class="ourteam-section">
-            <div class="container" data-aos="fade-up" data-aos-duration="1000">
-                <div class="header" style="margin-bottom:30px">Our Team</div>
-                <div class="row no-gutters d-flex justify-content-center">
-                    <div class="col-12 col-md-3 px-0">
-                        <div class="card">
-                            <img src="../assets/img/infinitech-sirGel.png" alt="Avatar" style="width:100%">
-                            <div class="team-details">
-                                <span class="team-name d-block">Angelle Sarmiento</span>
-                                <small class="position d-block">Chief Executive Officer</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-3 px-0">
-                        <div class="card">
-                            <img src="../assets/img/infinitech-mamKrissa.png" alt="Avatar" style="width:100%">
-                            <div class="team-details">
-                                <span class="team-name d-block">Krissa Bongon</span>
-                                <small class="position d-block">Executive Assistant</small>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-12 col-md-3 px-0">
-                        <div class="card">
-                            <img src="../assets/img/infinitech-mamAiries.png" alt="Avatar" style="width:100%">
-                            <div class="team-details">
-                                <span class="team-name d-block">Airies Asilo</span>
-                                <small class="position d-block">Marketing Manager</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-3 px-0">
-                        <div class="card">
-                            <img src="../assets/img/infinitech-mamApril.png" alt="Avatar" style="width:100%">
-                            <div class="team-details">
-                                <span class="team-name d-block">April Ann Saludares</span>
-                                <small class="position d-block">IT Supervisor</small>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div class="row no-gutters d-flex justify-content-center">
-                    <div class="col-12 col-md-3 px-0">
-                        <div class="card">
-                            <img src="../assets/img/infinitech-sirGio.png" alt="Avatar" style="width:100%">
-                            <div class="team-details">
-                                <span class="team-name d-block">Giolo Evora</span>
-                                <small class="position d-block">Senior Web Developer</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-3 px-0">
-                        <div class="card">
-                            <img src="../assets/img/infinitech-sirJustin.png" alt="Avatar" style="width:100%">
-                            <div class="team-details">
-                                <span class="team-name d-block">Justin De Castro</span>
-                                <small class="position d-block">Senior Web Developer</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-3 px-0">
-                        <div class="card">
-                            <img src="../assets/img/infinitech-sirMoses.png" alt="Avatar" style="width:100%">
-                            <div class="team-details">
-                                <span class="team-name d-block">Moses Alcantara</span>
-                                <small class="position d-block">Senior Web Developer</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-               <div class="row no-gutters d-flex justify-content-center"> 
-                    <div class="col-12 col-md-3 px-0">
-                        <div class="card">
-                            <img src="../assets/img/infinitech-msKim.png" alt="Avatar" style="width:100%">
-                            <div class="team-details">
-                                <span class="team-name d-block">Kimberly Niñeria</span>
-                                <small class="position d-block">Junior Web Developer</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-3 px-0">
-                        <div class="card">
-                            <img src="../assets/img/infinitech-msAngel.png" alt="Avatar" style="width:100%">
-                            <div class="team-details">
-                                <span class="team-name d-block">Darlene Angel Fajarito</span>
-                                <small class="position d-block">Junior Web Developer</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-3 px-0">
-                        <div class="card">
-                            <img src="../assets/img/infinitech-msLyca.png" alt="Avatar" style="width:100%">
-                            <div class="team-details">
-                                <span class="team-name d-block">Lyca Nobleza</span>
-                                <small class="position d-block">Junior Web Developer</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row no-gutters d-flex justify-content-center">
-                    <div class="col-12 col-md-3 px-0">
-                        <div class="card">
-                            <img src="../assets/img/infinitech-mamAly.png" alt="Avatar" style="width:100%">
-                            <div class="team-details">
-                                <span class="team-name d-block">Allysa Mae Perez</span>
-                                <small class="position d-block">Admin Assistant</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section> --}}
         
         {{-- <section class="ourteam-section">
             <div class="container" data-aos="fade-up" data-aos-duration="1000">
@@ -358,7 +243,7 @@
             </div>
         </section> --}}
 
-        <section class="ourteam-section">
+        {{-- <section class="ourteam-section">
             <div class="container" data-aos="fade-up" data-aos-duration="1000">
                 <div class="header" style="margin-bottom:30px">Our Team</div>
                 <div class="team-wrapper">
@@ -366,11 +251,15 @@
                         <div class="row no-gutters d-flex justify-content-center" style="margin-top: 10px; margin-bottom:10px; text-align:center">
                             <!-- Team Member Card 1 -->
                             <div class="col-12 col-md-3 px-0">
-                                <div class="card" data-name="Angelle Sarmiento" data-position="Chief Executive Officer" data-details="Angelle Sarmiento is the CEO, responsible for overseeing the company's overall operations and strategic direction.">
+                                <div class="card staff-card" >
                                     <img src="../assets/img/infinitech-sirGel.png" alt="Avatar" class="team-image">
                                     <div class="team-details">
                                         <span class="team-name d-block">Angelle Sarmiento</span>
                                         <small class="position d-block">Chief Executive Officer</small>
+                                    </div>
+
+                                    <div class="staff-details">
+                                        <h1>here is the</h1>
                                     </div>
                                 </div>
                             </div>
@@ -436,6 +325,8 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="row no-gutters d-flex justify-content-center" style="margin-top: 10px; margin-bottom:10px; text-align:center">
                             <!-- Team Member Card 8 -->
                             <div class="col-12 col-md-3 px-0">
                                 <div class="card" data-name="Kimberly Niñeria" data-position="Junior Web Developer" data-details="Kimberly Niñeria assists in web development tasks and contributes to coding projects.">
@@ -446,8 +337,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row no-gutters d-flex justify-content-center" style="margin-top: 10px; margin-bottom:10px; text-align:center">
                             <!-- Team Member Card 9 -->
                             <div class="col-12 col-md-3 px-0">
                                 <div class="card" data-name="Darlene Angel Fajarito" data-position="Junior Web Developer" data-details="Darlene Angel Fajarito works on various web development projects and supports the development team.">
@@ -468,6 +357,8 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="row no-gutters d-flex justify-content-center" style="margin-top: 10px; margin-bottom:10px; text-align:center">
                             <!-- Team Member Card 11 -->
                             <div class="col-12 col-md-3 px-0">
                                 <div class="card" data-name="Allysa Mae Perez" data-position="Admin Assistant" data-details="Allysa Mae Perez provides administrative support and assists with various office tasks.">
@@ -490,10 +381,10 @@
                     </div>
                 </div>
             </div>
-        </section>
-        
+        </section> --}}
+
         <!-- Team -->
-        {{-- <section id="team" class="pb-5">
+        <section id="team" class="pb-5">
             <div class="container" data-aos="fade-up" data-aos-duration="1000">
                 <h5 class="section-title h1">OUR TEAM</h5>
                 <div class="row no-gutters d-flex justify-content-center">
@@ -510,9 +401,9 @@
                                             </div>
                                         </div>
                                 </div>
-                                <div class="backside">
-                                    <div class="card">
-                                        <div class="card-body text-center mt-4">
+                                <div class="backside ">
+                                    <div class="card ">
+                                        <div class="card-body text-left mt-4">
                                             <h4 class="card-title">CREDENTIALS</h4>
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
@@ -520,27 +411,33 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-facebook"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-twitter"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-skype"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-google"></i>
-                                                    </a>
-                                                </li>
+                                            <h5 class="credential-link text-center" ><a href="/credential-sirgel">View More</a></h5>
+                                                <ul class="list-inline text-center">
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://x.com">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://web.telegram.org">
+                                                            <i class="fa fa-telegram"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.viber.com">
+                                                            <i class="fa fa-viber"></i>
+                                                        </a>
+                                                    </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -564,7 +461,7 @@
                                 </div>
                                 <div class="backside">
                                     <div class="card">
-                                        <div class="card-body text-center mt-4">
+                                        <div class="card-body text-left mt-4">
                                             <h4 class="card-title">CREDENTIALS</h4>
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
@@ -572,25 +469,31 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <ul class="list-inline">
+                                            <h5 class="credential-link text-center" ><a href="/credential-mamkrissa">View More</a></h5>
+                                            <ul class="list-inline text-center">
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
                                                         <i class="fa fa-facebook"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://x.com">
                                                         <i class="fa fa-twitter"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
                                                         <i class="fa fa-skype"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-google"></i>
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://web.telegram.org">
+                                                        <i class="fa fa-telegram"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.viber.com">
+                                                        <i class="fa fa-viber"></i>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -616,7 +519,7 @@
                                 </div>
                                 <div class="backside">
                                     <div class="card">
-                                        <div class="card-body text-center mt-4">
+                                        <div class="card-body text-left mt-4">
                                             <h4 class="card-title">CREDENTIALS</h4>
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
@@ -624,27 +527,33 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-facebook"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-twitter"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-skype"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-google"></i>
-                                                    </a>
-                                                </li>
+                                            <h5 class="credential-link text-center" ><a href="/credential-mamairies">View More</a></h5>
+                                                <ul class="list-inline text-center">
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://x.com">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://web.telegram.org">
+                                                            <i class="fa fa-telegram"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.viber.com">
+                                                            <i class="fa fa-viber"></i>
+                                                        </a>
+                                                    </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -661,14 +570,14 @@
                                     <div class="card">
                                         <img src="../assets/img/infinitech-mamApril.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
-                                            <span class="team-name d-block">April Ann Saludares</span>
+                                            <span class="team-name d-block">April  Saludares</span>
                                             <small class="position d-block">IT Supervisor</small>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="backside">
                                     <div class="card">
-                                        <div class="card-body text-center mt-4">
+                                        <div class="card-body text-left mt-4">
                                             <h4 class="card-title">CREDENTIALS</h4>
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
@@ -676,25 +585,31 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <ul class="list-inline">
+                                            <h5 class="credential-link text-center" ><a href="/credential-sirapan">View More</a></h5>
+                                            <ul class="list-inline text-center">
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
                                                         <i class="fa fa-facebook"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://x.com">
                                                         <i class="fa fa-twitter"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
                                                         <i class="fa fa-skype"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-google"></i>
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://web.telegram.org">
+                                                        <i class="fa fa-telegram"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.viber.com">
+                                                        <i class="fa fa-viber"></i>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -712,7 +627,7 @@
                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                             <div class="mainflip">
                                 <div class="frontside">
-                                    <div class="card">
+                                    <div class="card ">
                                         <img src="../assets/img/infinitech-sirGio.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Giolo Evora</span>
@@ -722,7 +637,7 @@
                                 </div>
                                 <div class="backside">
                                     <div class="card">
-                                        <div class="card-body text-center mt-4">
+                                        <div class="card-bodytext-left mt-4">
                                             <h4 class="card-title">CREDENTIALS</h4>
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p> 
@@ -730,27 +645,33 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-facebook"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-twitter"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-skype"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-google"></i>
-                                                    </a>
-                                                </li>
+                                            <h5 class="credential-link text-center" ><a href="/credential-sirgio">View More</a></h5>
+                                                <ul class="list-inline text-center">
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://x.com">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://web.telegram.org">
+                                                            <i class="fa fa-telegram"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.viber.com">
+                                                            <i class="fa fa-viber"></i>
+                                                        </a>
+                                                    </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -764,7 +685,7 @@
                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                             <div class="mainflip">
                                 <div class="frontside">
-                                    <div class="card">
+                                    <div class="card ">
                                         <img src="../assets/img/infinitech-sirJustin.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Justin De Castro</span>
@@ -774,7 +695,7 @@
                                 </div>
                                 <div class="backside">
                                     <div class="card">
-                                        <div class="card-body text-center mt-4">
+                                        <div class="card-body text-left mt-4">
                                             <h4 class="card-title">CREDENTIALS</h4>
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
@@ -782,27 +703,33 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-facebook"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-twitter"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-skype"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-google"></i>
-                                                    </a>
-                                                </li>
+                                            <h5 class="credential-link text-center" ><a href="/credential-sirjustin">View More</a></h5>
+                                                <ul class="list-inline text-center">
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://x.com">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://web.telegram.org">
+                                                            <i class="fa fa-telegram"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.viber.com">
+                                                            <i class="fa fa-viber"></i>
+                                                        </a>
+                                                    </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -825,7 +752,7 @@
                                 </div>
                                 <div class="backside">
                                     <div class="card">
-                                        <div class="card-body text-center mt-4">
+                                        <div class="card-body text-left mt-4">
                                             <h4 class="card-title">CREDENTIALS</h4>
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
@@ -833,27 +760,33 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-facebook"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-twitter"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-skype"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-google"></i>
-                                                    </a>
-                                                </li>
+                                            <h5 class="credential-link text-center" ><a href="/credential-sirmoses">View More</a></h5>
+                                                <ul class="list-inline text-center">
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://x.com">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://web.telegram.org">
+                                                            <i class="fa fa-telegram"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.viber.com">
+                                                            <i class="fa fa-viber"></i>
+                                                        </a>
+                                                    </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -868,7 +801,7 @@
                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                             <div class="mainflip">
                                 <div class="frontside">
-                                    <div class="card">
+                                    <div class="card ">
                                         <img src="../assets/img/infinitech-msKim.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Kimberly Niñeria</span>
@@ -878,7 +811,7 @@
                                 </div>
                                 <div class="backside">
                                     <div class="card">
-                                        <div class="card-body text-center mt-4">
+                                        <div class="card-body text-left mt-4">
                                             <h4 class="card-title">CREDENTIALS</h4>
                                                 <p class="card-text">Certified Public Accountant (CPA)</p>
                                                 <p class="card-text">Chartered Financial Analyst (CFA)</p>
@@ -886,27 +819,33 @@
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-facebook"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-twitter"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-skype"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-google"></i>
-                                                    </a>
-                                                </li>
+                                            <h5 class="credential-link text-center" ><a href="/credential-mskim">View More</a></h5>
+                                                <ul class="list-inline text-center">
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://x.com">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://web.telegram.org">
+                                                            <i class="fa fa-telegram"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.viber.com">
+                                                            <i class="fa fa-viber"></i>
+                                                        </a>
+                                                    </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -919,7 +858,7 @@
                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                             <div class="mainflip">
                                 <div class="frontside">
-                                    <div class="card">
+                                    <div class="card ">
                                         <img src="../assets/img/infinitech-msAngel.png" alt="Avatar" style="width:100%" onclick="showTooltip(event)">
                                         <div class="team-details">
                                             <span class="team-name d-block">Darlene Fajarito</span>
@@ -929,7 +868,7 @@
                                 </div>
                                 <div class="backside">
                                     <div class="card">
-                                        <div class="card-body mt-4">
+                                        <div class="card-body text-left mt-4">
                                             <h4 class="card-title">CREDENTIALS</h4>
                                             <p class="card-text">Certified Public Accountant (CPA)</p>
                                             <p class="card-text">Chartered Financial Analyst (CFA)</p>
@@ -937,25 +876,31 @@
                                             <p class="card-text">CompTIA A+ (IT support)</p>
                                             <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                             <p class="card-text">AWS Certified Solutions Architect</p>
-                                            <ul class="list-inline">
+                                        <h5 class="credential-link text-center" ><a href="/credential-msdarlene">View More</a></h5>
+                                            <ul class="list-inline text-center">
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
                                                         <i class="fa fa-facebook"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://x.com">
                                                         <i class="fa fa-twitter"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
                                                         <i class="fa fa-skype"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-google"></i>
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://web.telegram.org">
+                                                        <i class="fa fa-telegram"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.viber.com">
+                                                        <i class="fa fa-viber"></i>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -965,20 +910,6 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Tooltip container -->
-                    <div id="tooltip" class="tooltip">
-                        <div class="tooltip-content">
-                            <h4>CREDENTIALS</h4>
-                            <p>Certified Public Accountant (CPA)</p>
-                            <p>Chartered Financial Analyst (CFA)</p>
-                            <p>Certified Financial Planner (CFP)</p>
-                            <p>CompTIA A+ (IT support)</p>
-                            <p>Cisco Certified Network Associate (CCNA)</p>
-                            <p>AWS Certified Solutions Architect</p>
-                        </div>
-                    </div>     
-
                     <!-- Team member -->
                     <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
@@ -994,7 +925,7 @@
                                 </div>
                                 <div class="backside">
                                     <div class="card">
-                                        <div class="card-body text-center mt-4">
+                                        <div class="card-body text-left mt-4">
                                             <h4 class="card-title">CREDENTIALS</h4>
                                                 <p class="card-text">Certified Public Accountant (CPA)</p>
                                                 <p class="card-text">Chartered Financial Analyst (CFA)</p>
@@ -1002,27 +933,33 @@
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-facebook"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-twitter"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-skype"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005">
-                                                        <i class="fa fa-google"></i>
-                                                    </a>
-                                                </li>
+                                            <h5 class="credential-link text-center" ><a href="/credential-mslyca">View More</a></h5>
+                                                <ul class="list-inline text-center">
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://x.com">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://web.telegram.org">
+                                                            <i class="fa fa-telegram"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.viber.com">
+                                                            <i class="fa fa-viber"></i>
+                                                        </a>
+                                                    </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -1037,7 +974,7 @@
                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                             <div class="mainflip">
                                 <div class="frontside">
-                                    <div class="card">
+                                    <div class="card ">
                                         <img src="../assets/img/infinitech-mamAly.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Allysa Mae Perez</span>
@@ -1047,7 +984,7 @@
                                 </div>
                                 <div class="backside">
                                     <div class="card">
-                                        <div class="card-body text-center mt-4">
+                                        <div class="card-body text-left mt-4">
                                             <h4 class="card-title">CREDENTIALS</h4>
                                                 <p class="card-text">Certified Public Accountant (CPA)</p>
                                                 <p class="card-text">Chartered Financial Analyst (CFA)</p>
@@ -1055,25 +992,31 @@
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
-                                            <ul class="list-inline">
+                                            <h5 class="credential-link text-center" ><a href="/credential-mamaly">View More</a></h5>
+                                                <ul class="list-inline text-center">
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
                                                         <i class="fa fa-facebook"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://x.com">
                                                         <i class="fa fa-twitter"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
                                                         <i class="fa fa-skype"></i>
                                                     </a>
                                                 </li>
                                                 <li class="list-inline-item">
-                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                        <i class="fa fa-google"></i>
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://web.telegram.org">
+                                                        <i class="fa fa-telegram"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a class="social-icon text-xs-center" target="_blank" href="https://www.viber.com">
+                                                        <i class="fa fa-viber"></i>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -1086,7 +1029,7 @@
                     <!-- Team member -->
                 </div>
             </div>
-        </section> --}}
+        </section>
         <section class="certificates">
             <div class="container" > 
                 <div class="header" style="margin-bottom:30px" data-aos="fade-up" data-aos-duration="1000">Certificates</div>

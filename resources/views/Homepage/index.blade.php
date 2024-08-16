@@ -41,32 +41,42 @@
                         </div>
                     </div>
                     {{-- SLIDER --}}
-  
                     <div class="col-12 col-md-12 col-lg-6">
                         <div class="left-content">
-                            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="/assets/img/manpower.png" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="/assets/img/tracking.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="/assets/img/manpower.png" class="d-block w-100" alt="...">
-                                  </div>
+                                <div class="slider">
+                                    <div class="item">
+                                        <img src="/assets/img/manpower.png">
+                                    </div>
+                                    <div class="item">
+                                        <img src="/assets/img/tracking.jpg" >
+                                    </div>
+                                    <div class="item">
+                                        <img src="/assets/img/manpower.png">
+                                    </div>
+                                    <div class="item">
+                                        <img src="/assets/img/tracking.jpg">
+                                    </div>
+                                    <div class="item">
+                                        <img src="/assets/img/manpower.png" >
+                                    </div>
+                                    <div class="item">
+                                        <img src="/assets/img/tracking.jpg">
+                                    </div>
+                                    <div class="item">
+                                        <img src="/assets/img/manpower.png">
+                                    </div>
+                                    <div class="item">
+                                        <img src="/assets/img/tracking.jpg" >
+                                    </div>
+                                    <div class="item">
+                                        <img src="/assets/img/manpower.png">
+                                    </div>
+                                    <button id="next">></button>
+                                    <button id="prev"><</button>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>
-                        </div>
-                    </div>
+                        </div> 
+                    </div>   
+
                 </div>
             </div>
         </section>
@@ -74,6 +84,7 @@
         <section class="infinitech">
             <div class="container">
                 <div class="row">
+                    
                     <div class="col-12 col-md-6">
                         <img class="infinitech-img" data-aos="fade-up" data-aos-duration="1000"
                             src="../assets/img/infinitech-about-us.jpeg" alt="">
@@ -82,8 +93,8 @@
                         <h1 class="title-header mb-4">Who is Infinitech Advertising Corporation?</h1>
                         <p class="infinitech-desc mb-4">At Infinitech Advertising Company, our mission is to help
                             businesses thrive by providing top-notch, tailor-made digital solutions that boost growth,
-                            streamline operations, and enhance user satisfaction.</p>
-                        <p> We are committed to customer satisfaction, offering a guarantee of unique web design and
+                            streamline operations, and enhance user satisfaction.
+                            We are committed to customer satisfaction, offering a guarantee of unique web design and
                             high-quality work. Our expertise spans Website Design and Development, Mobile App
                             Development, Ecommerce Solutions, and IT Outsourcing. Through our innovative solutions, we
                             ensure our clients achieve their goals and experience exceptional service.</p>
@@ -106,7 +117,7 @@
         </section>
 
         <section class="services">
-            <div class="container">
+            <div class="container" style="font-size: medium">
                 <div class="row">
                     <div class="col-8">
                         <h5 class="sub-header">What we do?</h5>
@@ -129,7 +140,7 @@
                     </div>
                 </div>
 
-                <div class="row" data-aos="zoom-in-up" data-aos-duration="1000">
+                <div class="row" data-aos="zoom-in-up" data-aos-duration="1000" style="font-size: 14px">
                     <div class="col-12 col-md-3">
                         <div class="service-content text-center">
                             <img src="../assets/svg/Static assets-amico.svg" alt="">
@@ -315,12 +326,12 @@
                 <div class="row">
                     <div class="col-md-6 right-work">
                         <div class="right-work">
-                            <div class="work-header">
+                            <div class="work-header" style="font-size: medium">
                                 <h2 class="work-title">Let's work together</h2>
                                 <p class="work-description">We have extensive experience in your market and are confident in our ability to build a lasting relationship with you.</p>
                             </div>
                             <hr>
-                            <form class="contactForm">
+                            <form class="contactForm" style="font-size: 14px">
                                 <div class="form-group">
                                     <label for="name">Please tell us your name.</label>
                                     <input type="text" id="name" name="name" placeholder="Giolo Evora" required>
@@ -410,6 +421,9 @@
             evt.currentTarget.className += " service-active";
         }
     </script>
+
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-e818f66d-4134-4d9c-a300-ccbe7922c605" data-elfsight-app-lazy></div>
 
 
     <script src="/Contact.js"></script>

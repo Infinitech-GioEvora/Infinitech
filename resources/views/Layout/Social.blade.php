@@ -5,7 +5,7 @@
     <a href="mailto:infinitechcorp.ph@gmail.com">
         <img src="../assets/icon/communication.png" alt="">
     </a>
-    <a href="https://web.telegram.org/k/">
+    <a href="tel:+639622530149">
         <img src="../assets/icon/telegram.png" alt="">
     </a>
     <a href="https://www.instagram.com/">

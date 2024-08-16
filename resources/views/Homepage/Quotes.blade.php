@@ -190,7 +190,6 @@
     </main>
 
 
-    @include('Layout.Footer')
 
     @include('Layout.Script')
 
@@ -200,5 +199,6 @@
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
     <div class="elfsight-app-e818f66d-4134-4d9c-a300-ccbe7922c605" data-elfsight-app-lazy></div>
 </body>
+@include('Layout.Footer')
 
 </html>

@@ -229,6 +229,7 @@ p {
     line-height: 1.6;
     font-weight: 400;
     text-transform: capitalize;
+    font-size: medium;
 }
 
 /* =====================
@@ -246,6 +247,11 @@ p {
    border-radius: 16px;
 }
 
+.infinitech-desc{
+    text-indent:50px;
+    font-size: medium;
+    text-align: justify;
+}
 /* =====================
 ===== OUR SERVICES =====
 ======================== */
@@ -1367,11 +1373,11 @@ footer {
 
 
 
-/* CUBE SLIDER */
+/*  SLIDER */
 .carousel {
     position: relative;
     width: 100%;
-    height: 400px; /* Adjust height as needed */
+    height: 400px;
     perspective: 1200px;
     overflow: hidden;
 }
@@ -1430,6 +1436,50 @@ footer {
 .carousel-control-next {
     right: 0;
 }
+/* TRY SLIDER */
+.slider{
+    position: relative;
+    margin-top: 50px;
+    width: 150%;
+    height: 400px;
+    transform: rotateZ(1deg);
+    
+}   
+.item{
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    border-radius: 15px;
+    padding: 20px;
+    transition:  0.5s;
+    left: calc(50% - 110px);
+    top: 0;
+}
+#next{
+    position: absolute;
+    right: 95px;
+    top: 40%;
+}
+#prev{
+    position: absolute;
+    left: 200px;
+    top: 40%;
+}
+#prev, #next{
+    color: #fff;
+    background: none;
+    border: none;
+    font-size: xxx-large;
+    font-family: monospace;
+    font-weight: bold;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+#prev:hover,
+#next:hover{
+    opacity: 1;
+}
+
 /* Our team New */
 /* General Styles */
 .ourteam-section {
@@ -1459,12 +1509,26 @@ footer {
     padding: 10px;
 }
 
+.staff-card{
+    position: relative;
+}
+
+.staff-details{
+    display: none;
+    position: absolute;
+    right: -130%;
+    top: 0px;
+    z-index: 99;
+    background-color: #004f83;
+}
+
+
 .details-container {
-    position: fixed;
+    position: relative;
     top: 0;
-    right: 0;
+    right: 1000;
     width: 300px;
-    height: 100%;
+    height: 50%;
     background-color: #fff;
     border-left: 2px solid #ddd;
     box-shadow: -2px 0 5px rgba(0,0,0,0.2);
@@ -1472,6 +1536,7 @@ footer {
     transition: transform 0.3s ease;
     overflow-y: auto;
     z-index: 1000;
+    
 }
 
 .details-container.show {
@@ -1573,6 +1638,14 @@ footer {
     color: var(--var-accent-color);
     font-weight: 600;
     line-height: 32px;
+}
+
+.h5{
+    margin-top: 15px;
+}
+h5:hover{
+    
+    text-decoration: underline;
 }
 
 .btn-primary:hover,
@@ -1701,26 +1774,108 @@ section .section-title {
     border-radius: 50%;
 }
 
-/* TOOL TIP */
-.tooltip {
-    display: none;
+/* CREDENTIAL LSIT */
+#gallery {
+    padding-top: 50px;
+    @media screen and (min-width: 991px) {
+      padding: 60px 30px 0 30px;
+    }
+    margin-bottom: 100px;
+
+  }
+  
+  .img-wrapper {
+    position: relative;
+    margin-top: 15px;
+    img {
+      width: 100%;
+    }
+  }
+  .img-overlay {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
     position: absolute;
-    background: #fff;
-    border: 1px solid #ccc;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    z-index: 1000;
-    max-width: 200px;
-}
-
-.tooltip-content {
-    margin: 0;
-}
-
-.tooltip.show {
-    display: block;
-}
-
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    i {
+      color: #fff;
+      font-size: 3em;
+    }
+  }
+  
+  #overlay {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    -webkit-user-select: none;
+    -moz-user-select: none;    
+    -ms-user-select: none; 
+    user-select: none; 
+    img {
+      margin: 0;
+      width: 80%;
+      height: auto;
+      object-fit: contain;
+      padding: 5%;
+      @media screen and (min-width:768px) {
+          width: 60%;
+      }
+      @media screen and (min-width:1200px) {
+          width: 50%;
+      }
+    }
+  }
+  
+  #nextButton {
+    color: #fff;
+    font-size: 2em;
+    transition: opacity 0.8s;
+    &:hover {
+      opacity: 0.7;
+    }
+    @media screen and (min-width:768px) {
+      font-size: 3em;
+    }
+  }
+  
+  #prevButton {
+    color: #fff;
+    font-size: 2em;
+    transition: opacity 0.8s;
+    &:hover {
+      opacity: 0.7;
+    }
+    @media screen and (min-width:768px) {
+      font-size: 3em;
+    }
+  }
+  
+  #exitButton {
+    color: #fff;
+    font-size: 2em;
+    transition: opacity 0.8s;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    &:hover {
+      opacity: 0.7;
+    }
+    @media screen and (min-width:768px) {
+      font-size: 3em;
+    }
+  }
 
 
 /* Testimonial Vid */

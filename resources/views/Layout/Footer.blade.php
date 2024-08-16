@@ -41,11 +41,11 @@
                 </div>
                 <div class="footer-quick-links">
                     <ul>
-                        <li><a href="/"><i class="fa-solid fa-play"></i>Home</a></li>
-                        <li><a href="/about-us"><i class="fa-solid fa-play"></i>About Us</a></li>
-                        <li><a href="/news-blogs"><i class="fa-solid fa-play"></i>Blogs and News</a></li>
-                        <li><a href="/solution"><i class="fa-solid fa-play"></i>Work With Us</a></li>
-                        <li><a href="/contact-us"><i class="fa-solid fa-play"></i>Contact Us</a></li>
+                        <li><a href="/"><i class="fa fa-house"></i>Home</a></li>
+                        <li><a href="/about-us"><i class="fa fa-address-card"></i>About Us</a></li>
+                        <li><a href="/news-blogs"><i class="fa fa-newspaper"></i>Blogs and News</a></li>
+                        <li><a href="/solution"><i class="fa fa-briefcase"></i>Work With Us</a></li>
+                        <li><a href="/contact-us"><i class="fa fa-phone"></i>Contact Us</a></li>
                     </ul>
                 </div>
 
@@ -56,8 +56,8 @@
                 </div>
                 <div class="footer-quick-links">
                     <ul>
-                        <li><a href="tel:0270016157"><i class="fa-solid fa-phone"></i>(02) 7001-6157</a></li>
-                        <li><a href="tel:+639622530149"><i class="fa-solid fa-mobile"></i> (63+) 9622530149</a></li>
+                        <li><a href="tel:0270016157"><i class="fa fa-phone"></i>(02) 7001-6157</a></li>
+                        <li><a href="tel:+639622530149"><i class="fa fa-mobile"></i> (63+) 9622530149</a></li>
                         <li><a href="tel:+639622530149"><i class="fa-brands fa-viber"></i> (63+) 9622530149</a></li>
                         <li><a href="tel:+639622530149"><i class="fa-brands fa-telegram"></i> (63+)622530149</a></li>
                         <li><a href="mailto:infinitechcorp.ph@gmail.com"><i class="fa-solid fa-envelope"></i>infinitechcorp.ph@gmail.com</a></li>
