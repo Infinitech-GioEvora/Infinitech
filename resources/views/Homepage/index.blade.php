@@ -40,32 +40,43 @@
 
                         </div>
                     </div>
+                    {{-- SLIDER --}}
                     <div class="col-12 col-md-12 col-lg-6">
                         <div class="left-content">
-                            {{-- <img src="../assets/svg/teamm.svg" alt=""> --}}
-                            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="/assets/img/manpower.png" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="/assets/img/tracking.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="/assets/img/manpower.png" class="d-block w-100" alt="...">
-                                  </div>
+                                <div class="slider">
+                                    <div class="item">
+                                        <img src="/assets/img/manpower.png">
+                                    </div>
+                                    <div class="item">
+                                        <img src="/assets/img/tracking.jpg" >
+                                    </div>
+                                    <div class="item">
+                                        <img src="/assets/img/manpower.png">
+                                    </div>
+                                    <div class="item">
+                                        <img src="/assets/img/tracking.jpg">
+                                    </div>
+                                    <div class="item">
+                                        <img src="/assets/img/manpower.png" >
+                                    </div>
+                                    <div class="item">
+                                        <img src="/assets/img/tracking.jpg">
+                                    </div>
+                                    <div class="item">
+                                        <img src="/assets/img/manpower.png">
+                                    </div>
+                                    <div class="item">
+                                        <img src="/assets/img/tracking.jpg" >
+                                    </div>
+                                    <div class="item">
+                                        <img src="/assets/img/manpower.png">
+                                    </div>
+                                    <button id="next">></button>
+                                    <button id="prev"><</button>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>
-                        </div>
-                    </div>
+                        </div> 
+                    </div>   
+
                 </div>
             </div>
         </section>
@@ -73,16 +84,17 @@
         <section class="infinitech">
             <div class="container">
                 <div class="row">
+                    
                     <div class="col-12 col-md-6">
                         <img class="infinitech-img" data-aos="fade-up" data-aos-duration="1000"
-                            src="../assets/img/infinitech-about-us.jpeg" alt="">
+                            src="../assets/img/bannerr.png" alt="">
                     </div>
                     <div class="col-12 col-md-6" data-aos="fade-up" data-aos-duration="1000">
                         <h1 class="title-header mb-4">Who is Infinitech Advertising Corporation?</h1>
                         <p class="infinitech-desc mb-4">At Infinitech Advertising Company, our mission is to help
                             businesses thrive by providing top-notch, tailor-made digital solutions that boost growth,
-                            streamline operations, and enhance user satisfaction.</p>
-                        <p> We are committed to customer satisfaction, offering a guarantee of unique web design and
+                            streamline operations, and enhance user satisfaction.
+                            We are committed to customer satisfaction, offering a guarantee of unique web design and
                             high-quality work. Our expertise spans Website Design and Development, Mobile App
                             Development, Ecommerce Solutions, and IT Outsourcing. Through our innovative solutions, we
                             ensure our clients achieve their goals and experience exceptional service.</p>
@@ -105,7 +117,7 @@
         </section>
 
         <section class="services">
-            <div class="container">
+            <div class="container" style="font-size: medium">
                 <div class="row">
                     <div class="col-8">
                         <h5 class="sub-header">What we do?</h5>
@@ -128,7 +140,7 @@
                     </div>
                 </div>
 
-                <div class="row" data-aos="zoom-in-up" data-aos-duration="1000">
+                <div class="row" data-aos="zoom-in-up" data-aos-duration="1000" style="font-size: 14px">
                     <div class="col-12 col-md-3">
                         <div class="service-content text-center">
                             <img src="../assets/svg/Static assets-amico.svg" alt="">
@@ -137,7 +149,7 @@
                                 easy-to-use Content Management System (CMS).</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3" ">
+                    <div class="col-12 col-md-3" >
                         <div class="service-content text-center">
                             <img src="../assets/svg/Website setup-cuate.svg" alt="">
                             <h2 class="serviceTitle">Web Based Application </h2>
@@ -309,85 +321,17 @@
 
             </div>
         </section>
-
-        {{-- <section class="pricing-section">
-            <div class="container" >
-                <div class="pricing-head text-center">
-                    <h1 class="header d-block" style="margin-bottom:15px">Latest News</h1>
-                    <p>Stay ahead with the latest updates on exciting events. Discover what's happening next and never miss out!</p>
-                </div>
-
-                <div class="news-section mb-xl-7" style="margin-bottom:80px">
-                    <div class="row no-gutters d-flex justify-content-center" >
-                        <div class="col-12 col-md-3 px-0">
-                            <div class="card">
-                                <img src="../assets/img/opening.png" alt="Avatar" style="width:100%">
-                                <div class="container">
-                                    <h1 class="news-header">Infinitech Grand Opening</h1>
-                                    <p class="news-desc">Infinitech is thrilled to announce the grand opening of its new headquarters on July 6, 2024. 
-                                        Join us for a day of innovation and excitement as we unveil cutting-edge technology and showcase our state-of-the-art facilities.</p>
-                                    <div class="read-more">
-                                        <a href="https://www.facebook.com/share/ataf7HLGF5xUgnho/">Read More </a>
-                                    </div>
-                                    <hr>
-                                    <small class="date mb-xl-5">
-                                        July 6, 2024
-                                        <span></span>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-3 px-0 ">
-                            <div class="card">
-                                <img src="../assets/img/kalayaan.png" alt="Avatar" style="width:100%">
-                                <div class="container">
-                                    <h1 class="news-header">Kalayaan Mega Job Fair</h1>
-                                    <p class="news-desc">It was wonderful to connect with so many talented individuals and share opportunities. If you missed us, don't hesitate to get in touch—we’re always looking for great talent
-                                    </p>
-                                    <div class="read-more">
-                                        <a href="https://www.facebook.com/people/ABIC-Manpower-Service-Corp/100090318514723/">Read More </a>
-                                    </div>
-                                    <hr>
-                                    <small class="date mb-xl-5">
-                                        July 30, 2024
-                                        <span></span>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-3 px-0 ">
-                            <div class="card">
-                                <img src="../assets/img/sil.png" alt="Avatar" style="width:100%">
-                                <div class="container">
-                                    <h1 class="news-header">Supervised Industry Learning</h1>
-                                    <p class="news-desc">We are thrilled to announce that Infinitech is now officially open for strategic partnerships in the realm of Supervised Industry Learning! As a leader in innovative tech solutions, we are eager to collaborate with forward-thinking organizations to advance the future of supervised learning.</p>
-                                    <div class="read-more">
-                                        <a href="https://www.facebook.com/share/p/CYD9zZzyXoB6hjVz/">Read More </a>
-                                    </div>
-                                    <hr>
-                                    <small class="date mb-xl-5">
-                                        August 07, 2024
-                                        <span></span>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-        </section> --}}
-
         <section class="work-with-us" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 right-work">
                         <div class="right-work">
-                            <div class="work-header">
+                            <div class="work-header" style="font-size: medium">
                                 <h2 class="work-title">Let's work together</h2>
                                 <p class="work-description">We have extensive experience in your market and are confident in our ability to build a lasting relationship with you.</p>
                             </div>
                             <hr>
-                            <form class="contactForm">
+                            <form class="contactForm" style="font-size: 14px">
                                 <div class="form-group">
                                     <label for="name">Please tell us your name.</label>
                                     <input type="text" id="name" name="name" placeholder="Giolo Evora" required>
@@ -477,12 +421,13 @@
             evt.currentTarget.className += " service-active";
         }
     </script>
-    {{-- POP UP DISCOUNT --}}
-    {{-- <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-    <div class="elfsight-app-e818f66d-4134-4d9c-a300-ccbe7922c605" data-elfsight-app-lazy></div> --}}
+
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-e818f66d-4134-4d9c-a300-ccbe7922c605" data-elfsight-app-lazy></div>
 
 
     <script src="/Contact.js"></script>
+    <script src="/Slider.js"></script>
 
 </body>
 @include('Layout/Footer')
