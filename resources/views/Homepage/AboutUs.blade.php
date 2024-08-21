@@ -42,7 +42,7 @@
 
         <section class="mission ">
             <div class="about-header-img"data-aos="zoom-in-up" data-aos-duration="1000" >
-                <img src="../assets/img/about-img-header.jpeg" alt="">
+                <img src="../assets/img/banner.png" alt="">
             </div>
             <div class="container" >
                 <div class="about about-mission" data-aos="fade-up" data-aos-duration="1000">

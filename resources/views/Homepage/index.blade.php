@@ -87,7 +87,7 @@
                     
                     <div class="col-12 col-md-6">
                         <img class="infinitech-img" data-aos="fade-up" data-aos-duration="1000"
-                            src="../assets/img/infinitech-about-us.jpeg" alt="">
+                            src="../assets/img/bannerr.png" alt="">
                     </div>
                     <div class="col-12 col-md-6" data-aos="fade-up" data-aos-duration="1000">
                         <h1 class="title-header mb-4">Who is Infinitech Advertising Corporation?</h1>
