@@ -53,7 +53,7 @@
                     <div id="testimonial-slider" class="owl-carousel" >
                         <div class="testimonial">
                             <div class="pic">
-                                <img src="../assets/img/infinitech-sirGio.png">
+                                <img src="../assets/img/person.png">
                             </div>
                             <div class="testimonial-content">
                                 <p>I was really impressed with the fast service! The staff handled everything e
@@ -69,7 +69,7 @@
 
                         <div class="testimonial">
                             <div class="pic">
-                                <img src="../assets/img/infinitech-sirMoses.png">
+                                <img src="../assets/img/person.png">
                             </div>
                             <div class="testimonial-content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eum excepturi incidunt
@@ -86,7 +86,7 @@
 
                         <div class="testimonial">
                             <div class="pic">
-                                <img src="../assets/img/infinitech-sirJustin.png">
+                                <img src="../assets/img/person.png">
                             </div>
                             <div class="testimonial-content">
                                 <p>I’m impressed with the performance so far.Excellent work on the website. 
@@ -102,7 +102,7 @@
                         </div>
                         <div class="testimonial">
                             <div class="pic">
-                                <img src="../assets/img/infinitech-msKim.png">
+                                <img src="../assets/img/person.png">
                             </div>
                             <div class="testimonial-content">
                                 <p>Outstanding service with the domain and hosting. 
@@ -117,7 +117,7 @@
                         </div>
                         <div class="testimonial">
                             <div class="pic">
-                                <img src="../assets/img/infinitech-mamAly.png">
+                                <img src="../assets/img/person.png">
                             </div>
                             <div class="testimonial-content">
                                 <p>I’m genuinely amazed by the exceptional quality of this product/service. 
@@ -137,7 +137,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
         <!-- video-testimonial-section -->
            <div class="space-medium">
-               <div class="container" style="margin-top: 50px">
+               <div class="container" style="margin-top: 50px; margin-bottom:100px">
                    <div class="row">
                        <div class="offset-xl-2 col-xl-8 offset-lg-2 col-lg-8 col-md-12 col-sm-12 col-12 text-center">
                            <!-- section-title -->
