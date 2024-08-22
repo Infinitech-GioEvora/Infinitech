@@ -14,13 +14,6 @@
     --var-text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.46);
     --var-box-shadows: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
-/* * {
-    box-sizing: border-box;
-    font-family: var(--var-body-font);
-    scroll-behavior: smooth;
-    
-} */
 *,
 *::before,
 *::after {
@@ -94,7 +87,8 @@ p {
 }
 
 .navigation {
-    background-color: var(--var-accent-color);
+    background-color: #f9f9f9;
+    /* background-color: var(--var-accent-color); */
     width: 100%;
     position: fixed;
     height: auto;
@@ -119,8 +113,7 @@ p {
 }
 
 .navigation .nav-logo img {
-    max-width: 300px;
-    padding-right: 0;
+    max-width: 90px;
 }
 
 .navigation .nav-logo .heading {
@@ -2141,7 +2134,7 @@ section .section-title {
 .swiper {
     position: relative;
     width: 400px;
-    height: 490px;
+    height: 500px;
 }
 
 
@@ -2196,3 +2189,4 @@ section .section-title {
         height: 400px;
     }
 }
+
