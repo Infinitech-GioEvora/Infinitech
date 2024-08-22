@@ -22,11 +22,45 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 d-flex justify-content-center">
-                        <div class="left-content">
-                            <img src="../assets/svg/credential.svg" alt="">
-                        </div>
-                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                      <div class="left-content">
+                              <div class="slider">
+                                  <div class="item">
+                                      <img src="/assets/img/cred/a1.jpg">
+                                  </div>
+                                  <div class="item">
+                                      <img src="/assets/img/cred/a2.jpg" >
+                                  </div>
+                                  <div class="item">
+                                      <img src="/assets/img/cred/a3.jpg">
+                                  </div>
+                                  <div class="item">
+                                      <img src="/assets/img/cred/a4.jpg">
+                                  </div>
+                                  <div class="item">
+                                      <img src="/assets/img/cred/a5.jpg" >
+                                  </div>
+                                  <div class="item">
+                                      <img src="/assets/img/cred/a6.jpg">
+                                  </div>
+                                  <div class="item">
+                                      <img src="/assets/img/cred/a7.jpg">
+                                  </div>
+                                  <div class="item">
+                                      <img src="/assets/img/cred/a8.jpg" >
+                                  </div>
+                                  <div class="item">
+                                      <img src="/assets/img/cred/a9.jpg">
+                                  </div>
+                                  <div class="item">
+                                    <img src="/assets/img/cred/a10.jpg">
+                                </div>
+                                  <button id="next">></button>
+                                  <button id="prev"><</button>
+                              </div>
+                      </div> 
+                  </div> 
+                  <script src="/Slider.js"></script>
                 </div>
             </div>
         </section>
