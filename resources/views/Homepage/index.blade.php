@@ -21,7 +21,8 @@
                     <h1 class="hero-header">INFINITECH: turning ideas into infinite possibilities</h1>
                     <p class="hero-desc">At <strong>Infinitech Advertising Corporation</strong>, we create
                         captivating campaigns that leverage cutting-edge digital solutions to boost your brand's
-                        online presence.</p>
+                        online presence.
+                    </p>
                     <div class="d-flex">
                         <a class="button btn-hero" href="/about-us" style="text-decoration: none;">
                             <span>Explore More</span>
@@ -35,8 +36,11 @@
                             </svg>
                         </a>
                     </div>
+
                 </div>
+
             </div>
+
 
             <div class="swiper">
                 <div class="swiper-wrapper">
@@ -370,7 +374,7 @@
 
         @include('Layout.Social')
     </main>
-   
+
     {{-- <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
     <div class="elfsight-app-e818f66d-4134-4d9c-a300-ccbe7922c605" data-elfsight-app-lazy></div> --}}
 
@@ -378,11 +382,39 @@
     <script src="/Contact.js"></script>
     <script src="/Slider.js"></script>
 
+  
+
+
 
 
 
 </body>
 @include('Layout/Footer')
 @include('Layout/Script')
+
+<script>
+    $(document).ready(function() {
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
+</script>
 
 </html>
