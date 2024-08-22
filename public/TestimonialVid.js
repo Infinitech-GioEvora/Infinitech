@@ -8,5 +8,4 @@ $(".video-play").on('click', function(e) {
     vidWrap.children('.video-play').fadeOut();
     vidWrap.find('.video iframe').attr('src', iframePlay);
 
-
 });
