@@ -21,7 +21,6 @@
                             <p class="sub-tagline pt-xl-5">Empowering Success Through Recognition: Celebrate Your Achievements with Our Certified Excellence!</p>
                         </div>
                     </div>
-
                     <div class="col-12 col-md-12 col-lg-6">
                       <div class="left-content">
                               <div class="slider">
@@ -60,7 +59,6 @@
                               </div>
                       </div> 
                   </div> 
-                  <script src="/Slider.js"></script>
                 </div>
             </div>
         </section>
@@ -142,6 +140,7 @@
     </main>
 
     <script src="/Credential.js"></script>
+    <script src="/Slider.js"></script>
 
 </body>
 @include('Layout.Footer')
