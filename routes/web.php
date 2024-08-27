@@ -88,5 +88,13 @@ Route::get('/credential-mslyca', function () {
 Route::get('/credential-mamaly', function () {
     return view('Credential/MamAly');
 });
-
+Route::get('/credential-mamsol', function () {
+    return view('Credential/MamSol');
+});
+Route::get('/credential-mamrea', function () {
+    return view('Credential/MamRea');
+});
+Route::get('/credential-mangjun', function () {
+    return view('Credential/MangJun');
+});
 Route::post('/submit/inquiry', [ContactController::class, 'submitinquiry']);

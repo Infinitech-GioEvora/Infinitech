@@ -38,9 +38,52 @@
                     </div>
 
                 </div>
+                <div class="logos">
+                    <div class="logo_items">
+                        <img src="../assets/img/ABIC-Realty.png">
+                        <img src="../assets/img/MNG-Techvoc-INC.png">
+                        <img src="../assets/img/bcrv-techvoc.png">
+                        <img src="../assets/img/NRG-Info-Tech.png">
+                        <img src="../assets/img/abic-manpower.png">
+                        <img src="../assets/img/MNG-Techvoc-INC.png">
+                        <img src="../assets/img/bcrv-techvoc.png">
+                        <img src="../assets/img/NRG-Info-Tech.png">
+                        <img src="../assets/img/abic-manpower.png">
+                        <img src="../assets/img/ABIC-Realty.png">
+                        <img src="../assets/img/MNG-Techvoc-INC.png">
+                        <img src="../assets/img/bcrv-techvoc.png">
+                        <img src="../assets/img/NRG-Info-Tech.png">
+                        <img src="../assets/img/abic-manpower.png">
+                        <img src="../assets/img/ABIC-Realty.png">
+                        <img src="../assets/img/MNG-Techvoc-INC.png">
+                        <img src="../assets/img/bcrv-techvoc.png">
+                        <img src="../assets/img/NRG-Info-Tech.png">
+                        <img src="../assets/img/abic-manpower.png">
+                        <img src="../assets/img/ABIC-Realty.png">
+                        <img src="../assets/img/MNG-Techvoc-INC.png">
+                        <img src="../assets/img/bcrv-techvoc.png">
+                        <img src="../assets/img/NRG-Info-Tech.png">
+                        <img src="../assets/img/abic-manpower.png">
+                        <img src="../assets/img/ABIC-Realty.png">
+                        <img src="../assets/img/MNG-Techvoc-INC.png">
+                        <img src="../assets/img/bcrv-techvoc.png">
+                        <img src="../assets/img/NRG-Info-Tech.png">
+                        <img src="../assets/img/abic-manpower.png">
+                        <img src="../assets/img/ABIC-Realty.png">
+                        <img src="../assets/img/MNG-Techvoc-INC.png">
+                        <img src="../assets/img/bcrv-techvoc.png">
+                        <img src="../assets/img/NRG-Info-Tech.png">
+                        <img src="../assets/img/abic-manpower.png">
+                        <img src="../assets/img/ABIC-Realty.png">
+                        <img src="../assets/img/MNG-Techvoc-INC.png">
+                        <img src="../assets/img/bcrv-techvoc.png">
+                        <img src="../assets/img/NRG-Info-Tech.png">
+                        <img src="../assets/img/abic-manpower.png">
+                        
+                    </div>
+                </div>
 
             </div>
-
 
             <div class="swiper">
                 <div class="swiper-wrapper">
@@ -58,7 +101,47 @@
                     </div>
                 </div>
             </div>
+            {{-- <div class="col-12 col-md-10 col-lg-6">
+                <div class="left-content">
+                        <div class="slider">
+                            <div class="item">
+                                <img src="/assets/img/tracking.jpg">
+                            </div>
+                            <div class="item">
+                                <img src="/assets/img/manpower.png" >
+                            </div>
+                            <div class="item">
+                                <img src="/assets/img/tracking.jpg">
+                            </div>
+                            <div class="item">
+                                <img src="/assets/img/manpower.png">
+                            </div>
+                            <div class="item">
+                                <img src="/assets/img/tracking.jpg" >
+                            </div>
+                            <div class="item">
+                                <img src="/assets/img/manpower.png">
+                            </div>
+                            <div class="item">
+                                <img src="/assets/img/tracking.jpg">
+                            </div>
+                            <div class="item">
+                                <img src="/assets/img/manpower.png" >
+                            </div>
+                            <div class="item">
+                                <img src="/assets/img/tracking.jpg">
+                            </div>
+                            <div class="item">
+                              <img src="/assets/img/manpower.png">
+                          </div>
+                            <button id="next">></button>
+                            <button id="prev"><</button>
+                        </div>
+                    </div>
+                </div> --}}
+                
         </section>
+        
 
         <section class="infinitech">
             <div class="container">
@@ -66,7 +149,7 @@
 
                     <div class="col-12 col-md-6">
                         <img class="infinitech-img" data-aos="fade-up" data-aos-duration="1000"
-                            src="../assets/img/bannerr.png" alt="">
+                            src="../assets/img/banner.png" alt="">
                     </div>
                     <div class="col-12 col-md-6" data-aos="fade-up" data-aos-duration="1000">
                         <h1 class="title-header mb-4">Who is Infinitech Advertising Corporation?</h1>
@@ -89,6 +172,39 @@
                                         fill="white"></path>
                                 </svg>
                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="problem">
+            <div class="container" style="font-size: medium">
+                <div class="row">
+                    <div class="col-8">
+                        <h2 class="sub-heading">Common Business Hurdles!</h2>
+                    </div>
+                </div>
+        
+                <div class="row" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="col-12 col-md-3">
+                        <div class="problem-content text-center">
+                            <h2 class="problemTitle">Difficulty in effectively showcasing property listings online, leading to lower sales</h2>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="problem-content text-center">
+                            <h2 class="problemTitle">Challenges in attracting new clients due to a lack of online project showcases</h2>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="problem-content text-center">
+                            <h2 class="problemTitle">Difficulty in building client trust due to unclear communication</h2>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="problem-content text-center">
+                            <h2 class="problemTitle">Difficulty adapting to changing market dynamics</h2>
                         </div>
                     </div>
                 </div>
@@ -219,7 +335,7 @@
                             <div id="testimonial-slider" class="owl-carousel">
                                 <div class="testimonial">
                                     <div class="pic">
-                                        <img src="../assets/img/infinitech-sirGio.png">
+                                        <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
                                         <p>I was really impressed with the fast service! The staff handled everything e
@@ -236,7 +352,7 @@
 
                                 <div class="testimonial">
                                     <div class="pic">
-                                        <img src="../assets/img/infinitech-sirMoses.png">
+                                        <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eum excepturi
@@ -256,7 +372,7 @@
 
                                 <div class="testimonial">
                                     <div class="pic">
-                                        <img src="../assets/img/infinitech-sirJustin.png">
+                                        <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
                                         <p>I’m impressed with the performance so far.Excellent work on the website.
@@ -273,7 +389,7 @@
                                 </div>
                                 <div class="testimonial">
                                     <div class="pic">
-                                        <img src="../assets/img/infinitech-msKim.png">
+                                        <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
                                         <p>Outstanding service with the domain and hosting.
@@ -289,7 +405,7 @@
                                 </div>
                                 <div class="testimonial">
                                     <div class="pic">
-                                        <img src="../assets/img/infinitech-mamAly.png">
+                                        <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
                                         <p>I’m genuinely amazed by the exceptional quality of this product/service.

@@ -3,8 +3,8 @@
     <div class="navigation">
         
             <div class="menu d-flex justify-content-between align-items-center">
-                <a href="/" class="nav-logo d-flex align-items-center" style="text-decoration: none;">
-                    <img src="../assets/img/logo.jpg" alt="">
+                <a href="/" class="nav-logo d-flex align-items-center">
+                    <img src="../assets/img/Poppins.png" alt="">
                 </a>
                 <span>
                     <a class="icon-menu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">

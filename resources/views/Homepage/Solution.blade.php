@@ -45,8 +45,8 @@
                         <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
                             <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
                                 <div class="card-body">
-                                    <span class="vm-header">Website for Real Estate</span>
-                                    <p >We support real estate agents in enhancing their sales performance by designing and building websites that effectively showcase all of their property listings..</p>
+                                    <span class="vm-header">Real Estate</span>
+                                    <p >We support real estate agents in enhancing their sales by designing and building websites that effectively showcasetheir property listings.</p>
                                 </div>
                             </div>
                         </div>
@@ -61,7 +61,7 @@
                         <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
                             <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
                                 <div class="card-body">
-                                    <span class="vm-header">Spa Management System</span>
+                                    <span class="vm-header">Management System</span>
                                     <p>Build trust through honesty and clear communication, ensuring our clients are fully informed and transparent in our progress.</p>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@
                         <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
                             <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
                                 <div class="card-body">
-                                    <span class="vm-header">Abic Manpower System</span>
+                                    <span class="vm-header">Manpower System</span>
                                     <p>Build trust through honesty and clear communication, ensuring our clients are fully informed and transparent in our progress.</p>
                                 </div>
                             </div>
@@ -87,7 +87,7 @@
                             <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
                                 <div class="card-body">
                                     <span class="vm-header">Accounting Software</span>
-                                    <p>We believe the power of teamwork, fostering a collborative enviroment where ideas and expertise are share freely to achieve the best outcomes.</p>
+                                    <p>The power of teamwork, fostering a collborative enviroment where ideas and expertise are share freely to achieve the best outcomes.</p>
                                 </div>
                             </div>
                         </div>

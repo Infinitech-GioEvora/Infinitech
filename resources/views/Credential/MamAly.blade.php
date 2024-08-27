@@ -12,6 +12,7 @@
 <body>
      <main>
         <section class="hero contact-layout">
+          <button id="myButton"></button>
             <div class="container contact-section">
 
                 <div class="row">
@@ -56,7 +57,7 @@
                                 </div>
                                   <button id="next">></button>
                                   <button id="prev"><</button>
-                              </div>
+                            </div>
                       </div> 
                   </div> 
                 </div>
@@ -140,9 +141,9 @@
     </main>
 
     <script src="/Credential.js"></script>
-    <script src="/Slider.js"></script>
 
 </body>
+@include('Layout.Script')
 @include('Layout.Footer')
 
 </html>

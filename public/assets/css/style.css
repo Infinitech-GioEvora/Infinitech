@@ -50,6 +50,56 @@ p {
     left: 0;
     background-position: bottom left;
 }
+/* Sliding Logo */
+@keyframes slides {
+    from {
+      transform: translateX(50);
+    }
+    to {
+      transform: translateX(-200%);
+    }
+  }
+  
+  .logos {
+    overflow: hidden;
+    padding: 30px 0px;
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logos:before, .logos:after {
+    position: absolute;
+    top: 0;
+    content: '';
+    width: 250px;
+    height: 100%;
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+    background: transparent;
+  }
+  
+  .logos:after {
+    right: 0;
+    background: transparent;
+  }
+  
+  .logo_items {
+    display: inline-block;
+    animation: 35s slides infinite linear;
+  }
+  
+  .logos:hover .logo_items {
+    animation-play-state: paused;
+  }
+  
+  .logo_items img{
+    height: 60px;
+  }
 
 /* Button */
 
@@ -113,7 +163,7 @@ p {
 }
 
 .navigation .nav-logo img {
-    max-width: 90px;
+    max-width: 250px;
 }
 
 .navigation .nav-logo .heading {
@@ -171,7 +221,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background-size: cover;
     position: relative;
 }
@@ -182,7 +232,7 @@ p {
     text-transform: capitalize;
     word-break: break-all;
     word-break: normal;
-    margin-top: 64px;
+    margin-top: 20px;
 }
 
 .tagline .hero-header {
@@ -255,6 +305,98 @@ p {
     font-size: medium;
     text-align: justify;
 }
+
+/* Problems */
+
+.problem {
+    background-color: #f7faff;
+    padding: 60px 20px;
+}
+
+.sub-heading {
+    color: var(--var-primary-color);
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.col-12.col-md-3 {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.problem-content {
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transition: all 0.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.problem-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(45deg, var(--var-accent-color), var(--var-primary-color));
+    z-index: -1;
+    padding: 2px;
+    transition: all 0.5s ease;
+}
+
+.problem-content:hover {
+    transform: scale(1.1) rotate(5deg); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.problem-content:hover::before {
+    transform: scale(1.1); 
+    background: linear-gradient(45deg, var(--var-primary-color), var(--var-accent-color)); 
+}
+
+.problem-content .problemTitle {
+    color: var(--var-accent-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 0;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.problem-content:hover .problemTitle {
+    color: #ffffff; 
+}
+
+@media (max-width: 767px) {
+    .problem-content {
+        height: auto;
+        margin: 10px 0;
+        padding: 15px;
+    }
+
+    .sub-heading {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+}
+
 
 /* =====================
 ===== OUR SERVICES =====
@@ -588,7 +730,7 @@ a:focus {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #FB8C00;
+    background-color:var(--var-primary-color);
     border-radius: 30px;
     transform: rotate(-7deg);
     z-index: -2;
@@ -618,7 +760,7 @@ a:focus {
 
 .testimonial .testimonial-title a {
     display: inline-block;
-    color: #FB8C00;
+    color: var(--var-primary-color);
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -642,7 +784,7 @@ a:focus {
 .owl-theme .owl-controls .owl-buttons div {
     display: inline-block;
     opacity: 1;
-    background: #FB8C00;
+    background:var(--var-primary-color);
     color: #F2EFE8;
     border-radius: 0;
     width: 40px;
@@ -1429,72 +1571,7 @@ footer {
 }
 
 
-
-/*  SLIDER */
-.carousel {
-    position: relative;
-    width: 100%;
-    height: 400px;
-    perspective: 1200px;
-    overflow: hidden;
-}
-
-.carousel-inner {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transform: rotateY(0deg);
-    transition: transform 1s cubic-bezier(0.57, 0.21, 0.29, 1.46);
-}
-
-.carousel-item {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    transform: rotateY(0deg) translateZ(300px);
-}
-
-.carousel-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.carousel-item:nth-child(1) {
-    transform: rotateY(0deg) translateZ(300px);
-}
-
-.carousel-item:nth-child(2) {
-    transform: rotateY(120deg) translateZ(300px);
-}
-
-.carousel-item:nth-child(3) {
-    transform: rotateY(240deg) translateZ(300px);
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    position: absolute;
-    top: 50%;
-    width: 5%;
-    height: 50px;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    border: none;
-    z-index: 100;
-}
-
-.carousel-control-prev {
-    left: 0;
-}
-
-.carousel-control-next {
-    right: 0;
-}
-
-/* TRY SLIDER */
+/* Credential Image SLIDER */
 .slider {
     position: relative;
     margin-top: 50px;
@@ -1517,18 +1594,19 @@ footer {
 
 #next {
     position: absolute;
-    right: 95px;
+    right: 150px;
     top: 40%;
 }
 
 #prev {
     position: absolute;
-    left: 200px;
+    left: 300px;
     top: 40%;
 }
 
 #prev,
 #next {
+    position: absolute;
     color: #fff;
     background: none;
     border: none;
@@ -1537,6 +1615,7 @@ footer {
     font-weight: bold;
     opacity: 0.5;
     transition: opacity 0.5s;
+    z-index: 10;
 }
 
 #prev:hover,
@@ -1544,6 +1623,26 @@ footer {
     opacity: 1;
 }
 
+#myButton {
+    position: absolute; 
+    left: 60px; 
+    top: 10%; 
+    transform: translateY(-50%); 
+    font-size: 50px; 
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #000000; 
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+}
+
+#myButton::before {
+    content: '\2190'; 
+}
+
+
+  
 /* Our team New */
 /* General Styles */
 .ourteam-section {

@@ -7,14 +7,15 @@
     <title>Credential - Infinitech Advertising Corporation</title>
 
     @include('Layout/Header')
+
     
-          <li class="menu-item" data-link="/about-us
-          "><a href="/about-us">About Us</a></li>
+    
 </head>
 
 <body>
      <main>
         <section class="hero contact-layout">
+          <button id="myButton"></button>
             <div class="container contact-section">
 
                 <div class="row">
@@ -110,9 +111,8 @@
         @include('Layout.Social')
     </main>
 
-    <script src="/Credential.js"></script>
-
 </body>
+@include('Layout.Script')
 @include('Layout.Footer')
 
 </html>

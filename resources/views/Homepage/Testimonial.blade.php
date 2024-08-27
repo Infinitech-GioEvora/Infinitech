@@ -154,7 +154,7 @@
                            <div class="video-testimonial-block">
                                <div class="video-thumbnail"><img src="../assets/img/infinitech-signing.jpg" alt="" class="img-fluid"></div>
                                <div class="video">
-                                   <iframe src="https://youtube.com/embed/bTArNxPRNXw?si=E4SWZAYBs4abGXwB" allowfullscreen>
+                                   <iframe src="https://youtube.com/embed/SrXh5b74OzU?si=vHpyKz7iRSmMBck7" allowfullscreen>
                                    </iframe>
                                </div>
                                <a href="#" class="video-play"></a>
@@ -170,7 +170,7 @@
                            <div class="video-testimonial-block">
                                <div class="video-thumbnail"><img src="../assets/img/infinitech-signing.jpg" alt="" class="img-fluid"></div>
                                <div class="video">
-                                   <iframe src="https://youtube.com/embed/bTArNxPRNXw?si=E4SWZAYBs4abGXwB"
+                                   <iframe src="https://youtube.com/embed/x2nwXqvt7RI?si=r0JY5bivRnBhJl0T"
                                     allowfullscreen>
                                    </iframe>
                                </div>

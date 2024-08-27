@@ -18,47 +18,47 @@
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="tagline ">
-                            <h1><strong>Lyca Nobleza</strong></h1>
+                            <h1><strong>Anthony Sy</strong></h1>
                             <p class="sub-tagline pt-xl-5">Empowering Success Through Recognition: Celebrate Your Achievements with Our Certified Excellence!</p>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-6 d-flex justify-content-center">
                         <div class="left-content">
-                          <div class="slider">
-                            <div class="item">
-                                <img src="/assets/img/cred/l1.jpg">
+                            <div class="slider">
+                                <div class="item">
+                                    <img src="/assets/img/cred/d1.jpg">
+                                </div>
+                                <div class="item">
+                                    <img src="/assets/img/cred/d2.jpg" >
+                                </div>
+                                <div class="item">
+                                    <img src="/assets/img/cred/d3.jpg">
+                                </div>
+                                <div class="item">
+                                    <img src="/assets/img/cred/d4.jpg">
+                                </div>
+                                <div class="item">
+                                    <img src="/assets/img/cred/d5.jpg" >
+                                </div>
+                                <div class="item">
+                                    <img src="/assets/img/cred/d6.jpg">
+                                </div>
+                                <div class="item">
+                                    <img src="/assets/img/cred/d7.jpg">
+                                </div>
+                                <div class="item">
+                                    <img src="/assets/img/cred/d8.jpg" >
+                                </div>
+                                <div class="item">
+                                    <img src="/assets/img/cred/d9.jpg">
+                                </div>
+                                <div class="item">
+                                  <img src="/assets/img/cred/d10.jpg">
+                              </div>
+                                <button id="next">></button>
+                                <button id="prev"><</button>
                             </div>
-                            <div class="item">
-                                <img src="/assets/img/cred/l2.jpg" >
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/cred/l3.jpg">
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/cred/l4.jpg">
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/cred/l5.jpg" >
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/cred/l6.jpg">
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/cred/l7.jpg">
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/cred/l8.jpg" >
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/cred/l9.jpg">
-                            </div>
-                            <div class="item">
-                              <img src="/assets/img/cred/l10.jpg">
-                          </div>
-                            <button id="next">></button>
-                            <button id="prev"><</button>
-                        </div>
                         </div>
                     </div>
                 </div>
@@ -140,8 +140,6 @@
 
         @include('Layout.Social')
     </main>
-
-    <script src="/Credential.js"></script>
 
 </body>
 @include('Layout.Script')

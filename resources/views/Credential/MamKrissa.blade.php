@@ -12,6 +12,7 @@
 <body>
      <main>
         <section class="hero contact-layout">
+          <button id="myButton"></button>
             <div class="container contact-section">
 
                 <div class="row">
@@ -24,8 +25,41 @@
 
                     <div class="col-12 col-md-6 d-flex justify-content-center">
                         <div class="left-content">
-                            <img src="../assets/svg/credential.svg" alt="">
+                          <div class="slider">
+                            <div class="item">
+                                <img src="/assets/img/cred/mk1.jpg">
+                            </div>
+                            <div class="item">
+                                <img src="/assets/img/cred/mk2.jpg" >
+                            </div>
+                            <div class="item">
+                                <img src="/assets/img/cred/mk3.jpg">
+                            </div>
+                            <div class="item">
+                                <img src="/assets/img/cred/mk4.jpg">
+                            </div>
+                            <div class="item">
+                                <img src="/assets/img/cred/mk5.jpg" >
+                            </div>
+                            <div class="item">
+                                <img src="/assets/img/cred/mk6.jpg">
+                            </div>
+                            <div class="item">
+                                <img src="/assets/img/cred/mk7.jpg">
+                            </div>
+                            <div class="item">
+                                <img src="/assets/img/cred/mk8.jpg" >
+                            </div>
+                            <div class="item">
+                                <img src="/assets/img/cred/mk9.jpg">
+                            </div>
+                            <div class="item">
+                              <img src="/assets/img/cred/mk10.jpg">
+                          </div>
+                            <button id="next">></button>
+                            <button id="prev"><</button>
                         </div>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -107,9 +141,8 @@
         @include('Layout.Social')
     </main>
 
-    <script src="/Credential.js"></script>
-
 </body>
+@include('Layout.Script')
 @include('Layout.Footer')
 
 </html>
