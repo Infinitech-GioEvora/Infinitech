@@ -1050,7 +1050,7 @@ footer {
 .footer-social-media ul li a:hover {
     background-color: var(--var-primary-color);
     color: var(--var-background-light);
-}
+} 
 
 .footer-links h2 {
     color: var(--var-accent-color);
@@ -1594,20 +1594,20 @@ footer {
 
 #next {
     position: absolute;
-    right: 150px;
+    right: 100px;
     top: 40%;
 }
 
 #prev {
     position: absolute;
-    left: 300px;
+    left: 200px;
     top: 40%;
 }
 
 #prev,
 #next {
     position: absolute;
-    color: #fff;
+    color: #f2faaf;
     background: none;
     border: none;
     font-size: xxx-large;

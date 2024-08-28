@@ -26,11 +26,43 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 d-flex justify-content-center">
-                        <div class="left-content">
-                            <img src="../assets/svg/credential.svg" alt="">
-                        </div>
-                    </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                      <div class="left-content">
+                              <div class="slider">
+                                  <div class="item">
+                                      <img src="/assets/img/cred/ma1.png">
+                                  </div>
+                                  <div class="item">
+                                      <img src="/assets/img/cred/ma2.png" >
+                                  </div>
+                                  <div class="item">
+                                      <img src="/assets/img/cred/ma3.png">
+                                  </div>
+                                  <div class="item">
+                                      <img src="/assets/img/cred/ma4.png">
+                                  </div>
+                                  <div class="item">
+                                      <img src="/assets/img/cred/ma5.png" >
+                                  </div>
+                                  <div class="item">
+                                    <img src="/assets/img/cred/ma1.png">
+                                </div>
+                                <div class="item">
+                                    <img src="/assets/img/cred/ma2.png" >
+                                </div>
+                                <div class="item">
+                                    <img src="/assets/img/cred/ma3.png">
+                                </div>
+                                <div class="item">
+                                    <img src="/assets/img/cred/ma4.png">
+                                </div>
+                                <div class="item">
+                                    <img src="/assets/img/cred/ma5.png" >
+                                </div>
+                                  <button id="next">></button>
+                                  <button id="prev"><</button>
+                            </div>
+                      </div> 
                 </div>
             </div>
         </section>
