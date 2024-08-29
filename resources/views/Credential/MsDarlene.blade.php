@@ -23,39 +23,39 @@
                                 Achievements with Our Certified Excellence!</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <div class="col-12 col-md-6">
                         <div class="left-content">
                             <div class="slider">
                                 <div class="item">
-                                    <img src="/assets/img/cred/da1.jpg">
+                                    <img src="/assets/img/cred/da1.png">
                                 </div>
                                 <div class="item">
-                                    <img src="/assets/img/cred/da2.jpg" >
+                                    <img src="/assets/img/cred/da2.png" >
                                 </div>
                                 <div class="item">
-                                    <img src="/assets/img/cred/da3.jpg">
+                                    <img src="/assets/img/cred/da3.png">
                                 </div>
                                 <div class="item">
-                                    <img src="/assets/img/cred/da4.jpg">
+                                    <img src="/assets/img/cred/da4.png">
                                 </div>
                                 <div class="item">
-                                    <img src="/assets/img/cred/da5.jpg" >
+                                    <img src="/assets/img/cred/da5.png" >
                                 </div>
                                 <div class="item">
-                                    <img src="/assets/img/cred/da6.jpg">
+                                    <img src="/assets/img/cred/da1.png">
                                 </div>
                                 <div class="item">
-                                    <img src="/assets/img/cred/da7.jpg">
+                                    <img src="/assets/img/cred/da2.png" >
                                 </div>
                                 <div class="item">
-                                    <img src="/assets/img/cred/da8.jpg" >
+                                    <img src="/assets/img/cred/da3.png">
                                 </div>
                                 <div class="item">
-                                    <img src="/assets/img/cred/da9.jpg">
+                                    <img src="/assets/img/cred/da4.png">
                                 </div>
                                 <div class="item">
-                                  <img src="/assets/img/cred/da10.jpg">
-                              </div>
+                                    <img src="/assets/img/cred/da5.png" >
+                                </div>
                                 <button id="next">></button>
                                 <button id="prev"><</button>
                             </div>

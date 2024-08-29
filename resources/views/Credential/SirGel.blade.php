@@ -23,11 +23,11 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <div class="col-12 col-md-6">
                         <div class="left-content">
                           <div class="left-content">
                             <div class="slider">
-                                <div class="item">
+                                {{-- <div class="item">
                                     <img src="/assets/img/cred/a1.jpg">
                                 </div>
                                 <div class="item">
@@ -56,7 +56,7 @@
                                 </div>
                                 <div class="item">
                                   <img src="/assets/img/cred/a10.jpg">
-                              </div>
+                              </div> --}}
                                 <button id="next">></button>
                                 <button id="prev"><</button>
                             </div>

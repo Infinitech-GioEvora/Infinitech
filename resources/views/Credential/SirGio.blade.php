@@ -23,39 +23,39 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 d-flex justify-content-center">
-                        <div class="left-content">
+                    <div class="col-12 col-md-12 col-lg-6">
+                      <div class="left-content">
                           <div class="slider">
                             <div class="item">
-                                <img src="/assets/img/cred/g1.jpg">
+                                <img src="/assets/img/cred/g1.png">
                             </div>
                             <div class="item">
-                                <img src="/assets/img/cred/g2.jpg" >
+                                <img src="/assets/img/cred/g2.png" >
                             </div>
                             <div class="item">
-                                <img src="/assets/img/cred/g3.jpg">
+                                <img src="/assets/img/cred/g3.png">
                             </div>
                             <div class="item">
-                                <img src="/assets/img/cred/g4.jpg">
+                                <img src="/assets/img/cred/g4.png">
                             </div>
                             <div class="item">
-                                <img src="/assets/img/cred/g5.jpg" >
+                                <img src="/assets/img/cred/g5.png" >
                             </div>
                             <div class="item">
-                                <img src="/assets/img/cred/g6.jpg">
+                              <img src="/assets/img/cred/g1.png">
                             </div>
                             <div class="item">
-                                <img src="/assets/img/cred/g7.jpg">
+                                <img src="/assets/img/cred/g2.png" >
                             </div>
                             <div class="item">
-                                <img src="/assets/img/cred/g8.jpg" >
+                                <img src="/assets/img/cred/g3.png">
                             </div>
                             <div class="item">
-                                <img src="/assets/img/cred/g9.jpg">
+                                <img src="/assets/img/cred/g4.png">
                             </div>
                             <div class="item">
-                              <img src="/assets/img/cred/g10.jpg">
-                          </div>
+                                <img src="/assets/img/cred/g5.png" >
+                            </div>
                             <button id="next">></button>
                             <button id="prev"><</button>
                         </div>

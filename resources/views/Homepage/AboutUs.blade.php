@@ -312,7 +312,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/credential-sirsol">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/credential-mamsol">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -335,7 +335,7 @@
                                 <div class="backside">
                                     <div class="card">
                                         <div class="card-body text-left mt-4">
-                                            <h4 class="card-title">RheaJane Quintano</h4>
+                                            <h4 class="card-title">Rhea Jane Quintano</h4>
                                             <h4 class="card-title">CREDENTIALS</h4>
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
@@ -343,7 +343,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/credential-sirapan">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/credential-mamrea">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>

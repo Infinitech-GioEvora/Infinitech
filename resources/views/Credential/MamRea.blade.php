@@ -22,44 +22,44 @@
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="tagline ">
-                            <h1><strong>rhea Jane Quintano</strong></h1>
+                            <h1><strong>Rhea Jane Quintano</strong></h1>
                             <p class="sub-tagline pt-xl-5">Empowering Success Through Recognition: Celebrate Your Achievements with Our Certified Excellence!</p>
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 d-flex justify-content-center">
-                        <div class="left-content">
+                    <div class="col-12 col-md-12 col-lg-6">
+                      <div class="left-content">
                             <div class="slider">
                                 <div class="item">
-                                    <img src="/assets/img/cred/r1.jpg">
+                                    <img src="/assets/img/cred/r1.png">
                                 </div>
                                 <div class="item">
-                                    <img src="/assets/img/cred/r2.jpg" >
+                                    <img src="/assets/img/cred/r2.png" >
                                 </div>
                                 <div class="item">
-                                    <img src="/assets/img/cred/r3.jpg">
+                                    <img src="/assets/img/cred/r3.png">
                                 </div>
                                 <div class="item">
-                                    <img src="/assets/img/cred/r4.jpg">
+                                    <img src="/assets/img/cred/r4.png">
                                 </div>
                                 <div class="item">
-                                    <img src="/assets/img/cred/r5.jpg" >
+                                    <img src="/assets/img/cred/r5.png" >
                                 </div>
                                 <div class="item">
-                                    <img src="/assets/img/cred/r6.jpg">
+                                  <img src="/assets/img/cred/r1.png">
                                 </div>
                                 <div class="item">
-                                    <img src="/assets/img/cred/r7.jpg">
+                                    <img src="/assets/img/cred/r2.png" >
                                 </div>
                                 <div class="item">
-                                    <img src="/assets/img/cred/rs.jpg" >
+                                    <img src="/assets/img/cred/r3.png">
                                 </div>
                                 <div class="item">
-                                    <img src="/assets/img/cred/r9.jpg">
+                                    <img src="/assets/img/cred/r4.png">
                                 </div>
                                 <div class="item">
-                                  <img src="/assets/img/cred/r10.jpg">
-                              </div>
+                                    <img src="/assets/img/cred/r5.png" >
+                                </div>
                                 <button id="next">></button>
                                 <button id="prev"><</button>
                             </div>
