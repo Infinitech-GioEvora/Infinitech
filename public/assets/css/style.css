@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 :root {
     --var-header-font: "Poppins", sans-serif;
@@ -1039,7 +1040,7 @@ footer {
 
 .footer-social-media ul li a {
     text-decoration: none;
-    background-color: var(--var-accent-color);
+    background-color: #224a80;
     padding: 10px 13px;
     margin-right: 8px;
     color: var(--var-dark-color);
@@ -1053,7 +1054,7 @@ footer {
 } 
 
 .footer-links h2 {
-    color: var(--var-accent-color);
+    color: #006fff;
     font-weight: 500;
     font-size: 17px;
 }
@@ -1065,21 +1066,21 @@ footer {
 .footer-quick-links ul li i {
     text-decoration: none;
     margin: 8px;
-    color: var(--var-accent-color);
+    color: #2d558a;
     font-weight: 500;
     font-size: 13px;
 }
 
 .footer-quick-links ul li a {
     text-decoration: none;
-    color: var(--var-background-light);
+    color: white;
     transition: ease 0.2s;
     font-weight: 500;
     font-size: 13px;
 }
 
 .footer-quick-links ul li a:hover {
-    color: var(--var-primary-color);
+    color: #006fff;
     font-weight: 600;
 }
 
@@ -1149,8 +1150,7 @@ footer {
     content: '';
     display: block;
     height: 2px;
-    background-color: #c07109;
-    /* Adjust color to fit your design */
+    background-color: #2d558a;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1628,9 +1628,9 @@ footer {
     left: 60px; 
     top: 10%; 
     transform: translateY(-50%); 
-    font-size: 50px; 
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
+    font-size: 60px; 
+    font-family: "Copperplate", Fantasy, sans-serif;
+    font-weight: 1000;
     color: #000000; 
     background: none; 
     border: none; 
@@ -1796,8 +1796,6 @@ footer {
 
 /* Our Team */
 /* FontAwesome for working BootSnippet :> */
-
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 #team {
     background: #eee !important;

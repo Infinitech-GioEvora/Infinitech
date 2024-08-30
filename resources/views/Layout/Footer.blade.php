@@ -27,8 +27,8 @@
                     <ul>
                         <li><a href="https://www.facebook.com/profile.php?id=61562146592005"><i class="fa-brands fa-facebook-f fa-lg"></i></a></li>
                         <li><a href="https://www.facebook.com/profile.php?id=61562146592005"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
-                        <li><a href="https://www.facebook.com/profile.php?id=61562146592005"><i class="fa-brands fa-telegram fa-lg"></i></a></li>
-                        <li><a href="tel:0270016157"><i class="fa-brands fa fa-phone"></i></a></li>
+                        <li><a href="tel:+639622530149"><i class="fa-brands fa-telegram fa-lg"></i></a></li>
+                        <li><a href="tel:0270016157"><i class="fa-solid fa-phone"></i></a></li>
                         
                     </ul>
                 </div>
