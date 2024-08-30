@@ -143,7 +143,7 @@
     </main>
 
     <script src="/Credential.js"></script>
-
+    <script src="/Slider.js"></script>
 </body>
 <!-- Script -->
 @include('Layout/Script')

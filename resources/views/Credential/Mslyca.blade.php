@@ -142,7 +142,7 @@
     </main>
 
     <script src="/Credential.js"></script>
-
+    <script src="/Slider.js"></script>
 </body>
 @include('Layout.Script')
 @include('Layout.Footer')

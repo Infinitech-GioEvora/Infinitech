@@ -496,7 +496,6 @@
 
 
     <script src="/Contact.js"></script>
-    <script src="/Slider.js"></script>
 
   
 

@@ -140,7 +140,7 @@
 
         @include('Layout.Social')
     </main>
-
+    <script src="/Slider.js"></script>
 </body>
 @include('Layout.Script')
 @include('Layout.Footer')
