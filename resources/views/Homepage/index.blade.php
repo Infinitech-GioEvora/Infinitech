@@ -101,44 +101,31 @@
                     </div>
                 </div>
             </div>
-            {{-- <div class="col-12 col-md-10 col-lg-6">
+
+            {{-- <div class="col-12 col-md-12 col-lg-6">
                 <div class="left-content">
-                        <div class="slider">
-                            <div class="item">
-                                <img src="/assets/img/tracking.jpg">
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/manpower.png" >
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/tracking.jpg">
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/manpower.png">
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/tracking.jpg" >
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/manpower.png">
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/tracking.jpg">
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/manpower.png" >
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/tracking.jpg">
-                            </div>
-                            <div class="item">
-                              <img src="/assets/img/manpower.png">
-                          </div>
-                            <button id="next">></button>
-                            <button id="prev"><</button>
-                        </div>
-                    </div>
-                </div> --}}
+                    <div class="slider">
+                      <div class="item">
+                          <img src="/assets/img/manpower.png">
+                      </div>
+                      <div class="item">
+                          <img src="/assets/img/tracking.jpg" >
+                      </div>
+                      <div class="item">
+                          <img src="/assets/img/manpower.png">
+                      </div>
+                      <div class="item">
+                          <img src="/assets/img/tracking.jpg">
+                      </div>
+                      <div class="item">
+                          <img src="/assets/img/manpower.png" >
+                      </div>
+                      <button id="next">></button>
+                      <button id="prev"><</button>
+                  </div>
+                  </div>
+              </div>
+          </div> --}}
                 
         </section>
         
@@ -502,7 +489,7 @@
 
 
 
-
+<script src="/Slider.js"></script>
 </body>
 @include('Layout/Footer')
 @include('Layout/Script')

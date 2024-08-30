@@ -41,6 +41,7 @@
                             <div class="item">
                                 <img src="/assets/img/cred/k5.png" >
                             </div>
+                          <div class="item">
                             <img src="/assets/img/cred/k1.png">
                           </div>
                           <div class="item">
