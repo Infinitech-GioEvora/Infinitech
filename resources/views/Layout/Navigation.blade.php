@@ -4,7 +4,7 @@
         
             <div class="menu d-flex justify-content-between align-items-center">
                 <a href="/" class="nav-logo d-flex align-items-center">
-                    <img src="../assets/img/Poppins.png" alt="">
+                    <img src="../assets/img/log.png" alt="">
                 </a>
                 <span>
                     <a class="icon-menu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
