@@ -489,7 +489,7 @@
 
 
 
-<script src="/Slider.js"></script>
+{{-- <script src="/Slider.js"></script> --}}
 </body>
 @include('Layout/Footer')
 @include('Layout/Script')

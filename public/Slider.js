@@ -68,15 +68,12 @@ let items = document.querySelectorAll('.slider .item');
 let slider = document.querySelector('.slider');
 let active = 3;
 
-// Clone the first and last items
 let firstClone = items[0].cloneNode(true);
 let lastClone = items[items.length - 1].cloneNode(true);
 
-// Add clones to the slider
 slider.appendChild(firstClone);
 slider.insertBefore(lastClone, items[0]);
 
-// Re-select items after adding clones
 items = document.querySelectorAll('.slider .item');
 
 function loadShow() {
@@ -107,18 +104,17 @@ function loadShow() {
         items[i].style.opacity = stt > 2 ? 0 : 0.6;
     }
 
-    // Handle seamless transition at the boundaries
     if (active === items.length - 1) { 
         setTimeout(() => {
-            active = 1; // Skip to the real first item
+            active = 1; 
             slider.style.transition = 'none';
             loadShow();
-        }, 50); // Adjust the timing to match your transition duration
+        }, 50); 
     }
 
     if (active === 0) { 
         setTimeout(() => {
-            active = items.length - 2; // Skip to the real last item
+            active = items.length - 2; 
             slider.style.transition = 'none';
             loadShow();
         }, 500);
@@ -131,7 +127,7 @@ let next = document.getElementById('next');
 let prev = document.getElementById('prev');
 
 next.onclick = function() {
-    slider.style.transition = 'transform 0.5s ease'; // Adjust the timing to match your needs
+    slider.style.transition = 'transform 0.5s ease'; 
     active++;
     loadShow();
 }
