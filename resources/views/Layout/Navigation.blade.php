@@ -19,7 +19,7 @@
                         <li class="menu-item" data-link="/solution"><a href="/solution">Solutions</a></li>
                         <li class="menu-item" data-link="/testimonials"><a href="/testimonials">Testimonials</a></li>
                         <li class="menu-item" data-link="/news-blogs"><a href="/news-blogs">Blogs</a></li>
-                        <li class="menu-item" data-link="/our-pricing"><a href="/our-pricing">Pricing</a></li>
+                        {{-- <li class="menu-item" data-link="/our-pricing"><a href="/our-pricing">Pricing</a></li> --}}
                         <li class="menu-item" data-link="/contact-us"><a href="/contact-us">Contact Us</a></li>
                         <li class="menu-item">
                             <a href="/get-proposal">
