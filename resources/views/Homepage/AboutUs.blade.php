@@ -356,7 +356,7 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card">
-                                        <img src="../assets/img/infinitech-mamAly.png" alt="Avatar" style="width:100%">
+                                        <img src="/assets/img/Infinitech-mamAly.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Allysa Perez</span>
                                             <small class="position d-block">Admin Assistant</small>
