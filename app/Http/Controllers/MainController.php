@@ -201,7 +201,7 @@ class MainController extends Controller
         }
     
         $vCard = new VCard();
-        $vCard->addName("Infinitech", $user->lastname);
+        $vCard->addName("Infinitech", $user->firstname);
         $vCard->addEmail($user->email);
         $vCard->addPhoneNumber($user->phone);
         $vCard->addJobtitle("Infinitech Advertising Corporation - ". $user->position);
@@ -217,7 +217,7 @@ class MainController extends Controller
         }
     
     
-        $name = $user->firstname . '-' . $user->lastname;
+        $name = "Infinitech" . '-' . $user->firstname;
         $filename = strtolower($name) . '.vcf';
         $filePath = $vCardDirectory . DIRECTORY_SEPARATOR . $filename; 
     
