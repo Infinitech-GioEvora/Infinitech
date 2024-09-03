@@ -199,9 +199,10 @@ class MainController extends Controller
         if (!$user) {
             return response()->json(['error' => 'User not found.']);
         }
+        $fname = explode(" ", $user->firstname)[0];
     
         $vCard = new VCard();
-        $vCard->addName("Infinitech", $user->firstname);
+        $vCard->addName($fname, $user->lastname);
         $vCard->addEmail($user->email);
         $vCard->addPhoneNumber($user->phone);
         $vCard->addJobtitle("Infinitech Advertising Corporation - ". $user->position);
@@ -217,7 +218,7 @@ class MainController extends Controller
         }
     
     
-        $name = "Infinitech" . '-' . $user->firstname;
+        $name = $user->firstname . '-' . $user->lastname;
         $filename = strtolower($name) . '.vcf';
         $filePath = $vCardDirectory . DIRECTORY_SEPARATOR . $filename; 
     
