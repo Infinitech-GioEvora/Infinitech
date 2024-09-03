@@ -214,9 +214,10 @@ class MainController extends Controller
             mkdir($vCardDirectory, 0755, true);
         }
     
+    
         $name = $user->lastname . '-' . $user->firstname;
         $filename = strtolower($name) . '.vcf';
-        $filePath = "https://infinitechphil.com/vcard/" . $filename; 
+        $filePath = $vCardDirectory . DIRECTORY_SEPARATOR . $filename; 
     
     
         $vCard->setSavePath($vCardDirectory);
