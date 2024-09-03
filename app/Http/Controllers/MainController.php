@@ -72,7 +72,7 @@ class MainController extends Controller
             ->errorCorrection('L')
             ->margin(1)
             ->generate(
-                "http://127.0.0.1:8000/employee/" . $request['employeeID']
+                "http://infinitechphil/employee/" . $request['employeeID']
             );
 
         $keys = ['lastname', 'firstname', 'middlename', 'position', 'employeeID', 'phone', 'email', 'facebook', 'telegram', 'wechat', 'viber', 'whatsapp', 'profile', 'qrcode'];
