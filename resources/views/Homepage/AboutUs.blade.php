@@ -22,9 +22,7 @@
                     <div class="col-12 col-md-6">
                         <div class="tagline ">
                             <h1><strong>About Us</strong></h1>
-                            <p class="sub-tagline pt-xl-5">We are passionate about transforming the way businesses operate through 
-                                cutting-edge technology. Our goal is to drive innovation and efficiency,
-                                 helping organizations streamline processes and achieve new levels of success.</p>
+                            <p class="sub-tagline pt-xl-5">Building and nurturing strong partnerships to deliver better outcomes for both Infinitech and clients.</p>
                         </div>
                     </div>
 
@@ -55,15 +53,15 @@
                     <div class="row d-flex justify-content-center no-gutters pt-xl-5">
                         <div class="col-sm-12 col-md-4 vmg-content text-center">
                             <span class="vmg-header"> Mission</span>
-                            <p>To help business thrive by providing top-notch, tailor-made digital solutions that boost growth, streamline operations, and enhance user satisfaction.</p>
+                            <p>They are committed to helping their clients reach operational excellence and sustainable growth through specialized, technology-driven strategies that solve difficult problems.</p>
                         </div>
                         <div class="col-sm-12 col-md-4 vmg-content text-center">
                             <span class="vmg-header"> Vission</span>
-                            <p>To lead in offering exeptional service and advertising expertise, ensuring boundless value for our clients. We aim to build enduring partnership by continually surpassing expectations through innovation, comitmment, and a profound understanding of our client's specific needs.</p>
+                            <p>Infinitech aims to be a top choice for businesses looking to enhance their digital presence, by using the latest technology and creative ideas, they want to lead the industry and help clients grow and succeed./p>
                         </div>
                         <div class="col-sm-12 col-md-4 text-center">
                             <span class="vmg-header"> Goal</span>
-                            <p>To create meaningful employment opportunities for fresh IT graduates fro the provinces, empowering them to excel and innovate in the field of technology. We are commited to fostering an inclusive environment where talent from all backgrounds can develop their skills, drive technological advancements, and contribute to the growth of our community, and a profound understanding of og client's specific needs.</p>
+                            <p>To successfully adapt the latest technological advancements and continuously innovate in digital advertising strategies, ensuring the delivery of unique and measurable results for clients.</p>
                         </div>
                     </div>
                 </div>
@@ -195,97 +193,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Team member -->
-                    {{-- <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                            <div class="mainflip">
-                                <div class="frontside">
-                                    <div class="card">
-                                        <img src="../assets/img/infinitech-mamSol.png" alt="Avatar" style="width:100%">
-                                        <div class="team-details">
-                                            <span class="team-name d-block">Marisol Senteno</span>
-                                            <small class="position d-block">Accounting Head</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="backside">
-                                    <div class="card">
-                                        <div class="card-body text-left mt-4">
-                                            <h4 class="card-title">Marisol Senteno</h4>
-                                            <h4 class="card-title">CREDENTIALS</h4>
-                                                <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
-                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
-                                                <p class="card-text">AWS Certified Solutions Architect</p>
-                                                <p class="card-text">Routing and switching technologies</p>
-                                                <p class="card-text">Network access (VLANs, WLANs)</p>
-                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/credential-sirsol">View More</a></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> --}}
-                    <!-- ./Team member -->
-                    <!-- Team member -->
-                    {{-- <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                            <div class="mainflip">
-                                <div class="frontside">
-                                    <div class="card">
-                                        <img src="../assets/img/infinitech-mamAiries.png" alt="Avatar" style="width:100%">
-                                        <div class="team-details">
-                                            <span class="team-name d-block">Airies Asilo</span>
-                                            <small class="position d-block">Marketing Manager</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="backside">
-                                    <div class="card">
-                                        <div class="card-body text-left mt-4">
-                                            <h4 class="card-title">CREDENTIALS</h4>
-                                                <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
-                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
-                                                <p class="card-text">AWS Certified Solutions Architect</p>
-                                                <p class="card-text">Routing and switching technologies</p>
-                                                <p class="card-text">Network access (VLANs, WLANs)</p>
-                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/credential-mamairies">View More</a></h5>
-                                                <ul class="list-inline text-center">
-                                                    <li class="list-inline-item">
-                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com">
-                                                            <i class="fa fa-facebook"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li class="list-inline-item">
-                                                        <a class="social-icon text-xs-center" target="_blank" href="https://x.com">
-                                                            <i class="fa fa-twitter"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li class="list-inline-item">
-                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.skype.com">
-                                                            <i class="fa fa-skype"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li class="list-inline-item">
-                                                        <a class="social-icon text-xs-center" target="_blank" href="https://web.telegram.org">
-                                                            <i class="fa fa-telegram"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li class="list-inline-item">
-                                                        <a class="social-icon text-xs-center" target="_blank" href="https://www.viber.com">
-                                                            <i class="fa fa-viber"></i>
-                                                        </a>
-                                                    </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> --}}
-                    <!-- ./Team member -->
-                    <!-- ./Team member -->
                 </div>
                 <div class="row no-gutters d-flex justify-content-center">
                     <!-- Team member -->
@@ -381,37 +288,7 @@
                             </div>
                         </div>
                     </div>
-                    {{-- <!-- Team member -->
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                            <div class="mainflip">
-                                <div class="frontside">
-                                    <div class="card">
-                                        <img src="../assets/img/infinitech-mamApril.png" alt="Avatar" style="width:100%">
-                                        <div class="team-details">
-                                            <span class="team-name d-block">April  Saludares</span>
-                                            <small class="position d-block">IT Supervisor</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="backside">
-                                    <div class="card">
-                                        <div class="card-body text-left mt-4">
-                                            <h4 class="card-title">April Saludares</h4>
-                                            <h4 class="card-title">CREDENTIALS</h4>
-                                                <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
-                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
-                                                <p class="card-text">AWS Certified Solutions Architect</p>
-                                                <p class="card-text">Routing and switching technologies</p>
-                                                <p class="card-text">Network access (VLANs, WLANs)</p>
-                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/credential-sirapan">View More</a></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> --}}
+                    
                 </div>
                 <div class="row no-gutters d-flex justify-content-center">
                     <!-- Team member -->
