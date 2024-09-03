@@ -22,7 +22,9 @@
                     <div class="col-12 col-md-6">
                         <div class="tagline ">
                             <h1><strong>About Us</strong></h1>
-                            <p class="sub-tagline pt-xl-5">Building and nurturing strong partnerships to deliver better outcomes for both Infinitech and clients.</p>
+                            <p class="sub-tagline pt-xl-5">We are passionate about transforming the way businesses operate through 
+                                cutting-edge technology. Our goal is to drive innovation and efficiency,
+                                 helping organizations streamline processes and achieve new levels of success.</p>
                         </div>
                     </div>
 
@@ -45,7 +47,7 @@
             <div class="container" >
                 <div class="about about-mission" data-aos="fade-up" data-aos-duration="1000">
                     <div class="about-content">
-                        <p>Specialize in delivering comprehensive IT solutions tailored to your business needs. With a strong focus on innovation and excellence, we provide a range of services designed to enhanve your digital presence and streamline your operations.</p>
+                        <p>Building and nurturing strong partnerships to deliver better outcomes for both Infinitech and clients.</p>
                     </div>
                 </div>
 
@@ -57,7 +59,7 @@
                         </div>
                         <div class="col-sm-12 col-md-4 vmg-content text-center">
                             <span class="vmg-header"> Vission</span>
-                            <p>Infinitech aims to be a top choice for businesses looking to enhance their digital presence, by using the latest technology and creative ideas, they want to lead the industry and help clients grow and succeed./p>
+                            <p>Infinitech aims to be a top choice for businesses looking to enhance their digital presence, by using the latest technology and creative ideas, they want to lead the industry and help clients grow and succeed.</p>
                         </div>
                         <div class="col-sm-12 col-md-4 text-center">
                             <span class="vmg-header"> Goal</span>
