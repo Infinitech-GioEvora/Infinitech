@@ -201,7 +201,7 @@ class MainController extends Controller
         }
     
         $vCard = new VCard();
-        $vCard->addName($user->firstname, $user->lastname);
+        $vCard->addName("Infinitech", $user->lastname);
         $vCard->addEmail($user->email);
         $vCard->addPhoneNumber($user->phone);
         $vCard->addJobtitle("Infinitech Advertising Corporation - ". $user->position);
