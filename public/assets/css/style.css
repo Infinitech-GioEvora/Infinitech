@@ -704,7 +704,7 @@ a:focus {
 
 .testimonial {
     text-align: center;
-    color: #F2EFE8;
+    color: var(--var-primary-color);
     margin: 80px 30px;
     padding: 30px 40px;
     border-radius: 30px;
@@ -719,7 +719,7 @@ a:focus {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #424242;
+    background-color: #c4bbbb;
     border-radius: 30px;
     z-index: -1;
 }

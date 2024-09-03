@@ -342,9 +342,7 @@
                                         <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eum excepturi
-                                            incidunt
-                                            Fantastic job with the system! It’s evident that a lot of thought and effort
+                                        <p>Fantastic job with the system! It’s evident that a lot of thought and effort
                                             went into its
                                             design. Everything functions smoothly and efficiently, making the whole
                                             experience very satisfying.
