@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -98,3 +99,25 @@ Route::get('/credential-mangjun', function () {
     return view('Credential/MangJun');
 });
 Route::post('/submit/inquiry', [ContactController::class, 'submitinquiry']);
+
+// Admin side
+Route::get('/admin/employee', function () {
+    return view('Admin/Employee');
+});
+
+Route::get('/admin/dashboard-data', [MainController::class, 'dashboard_data']);
+
+Route::get('/admin/employee', function () {
+    return view('Admin/Employee');
+});
+
+
+
+Route::get('/employee/{employeeID}', [MainController::class, 'employ']);
+
+Route::post('/admin/add', [MainController::class, 'add']);
+Route::get('/admin/all', [MainController::class, 'all']);
+Route::get('/admin/edit/{id}', [MainController::class, 'edit']);
+Route::post('/admin/upd/', [MainController::class, 'upd']);
+Route::get('/admin/del/{id}', [MainController::class, 'del']);
+Route::get('/download-vcard', [MainController::class, 'downloadVCard']);
