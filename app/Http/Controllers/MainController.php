@@ -216,7 +216,7 @@ class MainController extends Controller
     
     
         $filename = $user->lastname . '-' . $user->firstname . '.vcf';
-        $filePath = $vCardDirectory . DIRECTORY_SEPARATOR . $filename; 
+        $filePath = $vCardDirectory . $filename; 
     
     
         $vCard->setSavePath($vCardDirectory);
