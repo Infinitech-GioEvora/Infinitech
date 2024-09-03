@@ -202,7 +202,7 @@ class MainController extends Controller
         $vCard->addName($user->firstname, $user->lastname);
         $vCard->addEmail($user->email);
         $vCard->addPhoneNumber($user->phone);
-        $vCard->addJobtitle("Abic Realty - ". $user->position);
+        $vCard->addJobtitle("Infinitech Advertising Corporation - ". $user->position);
         $vCard->addAddress($name = '', $extended = 'Unit 311, Campos Rueda Bldg.', $street = 'Urban Ave.', $city ='Makati City', $region='NCR', $zip='5200', $country='Philippines', $type='WORK');
         $vCard->addURL("https://abicrealtycorporation.com/");
         $vCard->addCompany('Abic Realty & Consultancy Corporation', $department = 'Sales');
