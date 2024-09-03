@@ -84,6 +84,13 @@
                                 <label for="" class="form-label">Employee ID</label>
                                 <input type="text" class="form-control" placeholder="Enter Name" name="employeeID" />
                             </div>
+                          
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <label for="" class="form-label">Description</label>
+                               <textarea class="form-control" name="description" id="" cols="10" rows="5"></textarea>
+                            </div>
                         </div>
                         <hr>
                         <!-- Second Row -->
@@ -206,6 +213,28 @@
                             <div class="col-4 mb-3">
                                 <label for="" class="form-label">Employee ID</label>
                                 <input type="text" class="form-control" placeholder="Enter Name" name="employeeID" />
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <label for="" class="form-label">Description</label>
+                               <textarea class="form-control" name="description" id="" cols="10" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- Second Row -->
+                        <div class="row mb-3">
+                            <div class="group-header">
+                                <h5 class="group-title">CONTACT DETAILS: </h5>
+                            </div>
+                            <div class="col-4 mb-3">
+                                <label for="" class="form-label">Phone Number</label>
+                                <input type="text" class="form-control" placeholder="Enter  Phone Number"
+                                    name="phone" />
+                            </div>
+                            <div class="col-4 mb-3">
+                                <label for="" class="form-label">Email</label>
+                                <input type="text" class="form-control" placeholder="Enter Email" name="email" />
                             </div>
                         </div>
 

@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Employees extends Model
+class Employee extends Model
 {
     protected $fillable = [
         "lastname",
@@ -13,6 +13,7 @@ class Employees extends Model
         "middlename",
         "position",
         "employeeID",
+        "description",
         "phone",
         "email",
         "facebook",

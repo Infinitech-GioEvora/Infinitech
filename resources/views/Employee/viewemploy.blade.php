@@ -19,9 +19,7 @@
                             <div class="employee-details mb-4">
                                 <h1 class="employee-name">{{ $record->firstname }} {{ $record->lastname }}</h1>
                                 <h2 class="employee-position mb-4">{{ $record->position }}</h2>
-                                <p class="employee-desc">
-                                    A Senior Web Developer is responsible for designing, developing, and maintaining complex
-                                    websites and web applications.</p>
+                                <p class="employee-desc">{{ $record->description }}</p>
                             </div>
 
                             <div class="employee-contact mb-4">

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Employees;
+use App\Models\Employee as Employees;
 use SimpleSoftwareIO\QrCode\Facades\QrCode;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
@@ -56,6 +56,7 @@ class MainController extends Controller
             'middlename' => 'required',
             'position' => 'required',
             'employeeID' => 'required',
+            'description' => 'required',
             'phone' => 'required',
             'email' => 'required',
             'facebook' => 'required',
@@ -75,7 +76,7 @@ class MainController extends Controller
                 "https://infinitechphil.com/employee/" . $request['employeeID']
             );
 
-        $keys = ['lastname', 'firstname', 'middlename', 'position', 'employeeID', 'phone', 'email', 'facebook', 'telegram', 'wechat', 'viber', 'whatsapp', 'profile', 'qrcode'];
+        $keys = ['lastname', 'firstname', 'middlename', 'position', 'employeeID', 'description', 'phone', 'email', 'facebook', 'telegram', 'wechat', 'viber', 'whatsapp', 'profile', 'qrcode'];
 
         foreach ($keys as $key) {
             if ($key == 'qrcode') {
@@ -113,6 +114,7 @@ class MainController extends Controller
             'middlename' => 'required',
             'position' => 'required',
             'employeeID' => 'required',
+            'description'=>'required',
             'facebook' => 'required',
             'telegram' => 'required',
             'viber' => 'required',
