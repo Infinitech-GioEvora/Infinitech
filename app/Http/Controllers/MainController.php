@@ -218,7 +218,7 @@ class MainController extends Controller
         }
     
     
-        $name = $user->firstname . '-' . $user->lastname;
+        $name = $fname . '-' . $user->lastname;
         $filename = strtolower($name) . '.vcf';
         $filePath = $vCardDirectory . DIRECTORY_SEPARATOR . $filename; 
     
