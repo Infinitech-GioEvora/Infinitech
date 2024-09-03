@@ -27,6 +27,7 @@ body {
     background: linear-gradient(57deg, rgba(6,38,77,1) 24%, rgba(31,98,179,1) 95%);
     background-position: center;
     background-repeat: no-repeat;
+    width: 100vw;
 
 }
 
@@ -162,3 +163,5 @@ section {
 .contacts:hover{
     background-color: var(--primary-color);
 }
+
+

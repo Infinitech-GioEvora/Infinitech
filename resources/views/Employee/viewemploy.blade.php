@@ -7,14 +7,14 @@
         <section class="main-section">
             <div class="container">
                 <div class="row content">
-                    <div class="col-12 col-md-5">
+                    <div class="col-12 col-md-5 mb-4">
                         <div class="left-content text-center">
                             <div class="employee-img">
                                 <img src="/profiles/{{ $record->profile }}" alt="{{ $record->profile }}">
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-7">
+                    <div class="col-12 col-md-7 mb-4">
                         <div class="right-content ">
                             <div class="employee-details mb-4">
                                 <h1 class="employee-name">{{ $record->firstname }} {{ $record->lastname }}</h1>
