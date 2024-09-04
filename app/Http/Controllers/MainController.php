@@ -208,7 +208,7 @@ class MainController extends Controller
         $vCard->addJobtitle("Infinitech Advertising Corporation - ". $user->position);
         $vCard->addAddress($name = '', $extended = 'Unit 311, Campos Rueda Bldg.', $street = 'Urban Ave.', $city ='Makati City', $region='NCR', $zip='5200', $country='Philippines', $type='WORK');
         $vCard->addURL("https://infinitechphil.com/");
-        $vCard->addCompany('Infinitech Advertising Corporation', $department = $user->position);
+       
     
         $vCardDirectory = public_path('vcard');
         
