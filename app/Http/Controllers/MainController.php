@@ -202,8 +202,8 @@ class MainController extends Controller
     
         $vCard = new VCard();
         $vCard->addName($fname, $user->lastname);
-        $vCard->addEmail($user->email);
-        $vCard->addPhoneNumber($user->phone);
+        $vCard->addEmail($user->email, $type='Email');
+        $vCard->addPhoneNumber($user->phone, $type='WORK');
         $vCard->addJobtitle("Infinitech Advertising Corporation - ". $user->position);
         $vCard->addAddress($name = '', $extended = 'Unit 311, Campos Rueda Bldg.', $street = 'Urban Ave.', $city ='Makati City', $region='NCR', $zip='5200', $country='Philippines', $type='WORK');
         $vCard->addURL("https://infinitechphil.com/");
