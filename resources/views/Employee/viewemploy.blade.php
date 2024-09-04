@@ -6,12 +6,10 @@
     <main>
         <section class="main-section">
             <div class="container">
-                <div class="row content">
+                <div class="row">
                     <div class="col-12 col-md-5 mb-4">
                         <div class="left-content text-center">
-                            <div class="employee-img">
-                                <img src="/profiles/{{ $record->profile }}" alt="{{ $record->profile }}">
-                            </div>
+                            <img src="/profiles/{{ $record->profile }}" alt="{{ $record->profile }}">
                         </div>
                     </div>
                     <div class="col-12 col-md-7 mb-4">
@@ -33,11 +31,11 @@
 
                             <div class="contacts mb-4">
                                 <form method="get" action="/download-vcard">
-                                  <button type="submit">
-                                    <i class="fa-solid fa-id-card"></i>
-                                    <span>Add to contacts</span>
-                                  </button>
-                                 <input type="hidden" name="id" value="{{ $record->employeeID }}">
+                                    <button type="submit">
+                                        <i class="fa-solid fa-id-card"></i>
+                                        <span>Add to contacts</span>
+                                    </button>
+                                    <input type="hidden" name="id" value="{{ $record->employeeID }}">
                                 </form>
                             </div>
 
@@ -72,7 +70,7 @@
                                 </div>
 
 
-                              
+
                             </div>
 
                         </div>
