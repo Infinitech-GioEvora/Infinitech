@@ -62,23 +62,18 @@
 
                                 <div class="social viber" data-bs-toggle="tooltip" data-bs-placement="top"
                                     data-bs-custom-class="custom-tooltip" data-bs-title="Viber">
-                                    <a href="viber://chat?number=9171176331"><i class="fa-brands fa-viber"></i></a>
+                                    <a href="viber://chat?number={{ $record->viber}}"><i class="fa-brands fa-viber"></i></a>
                                 </div>
 
                                 <div class="social viber" data-bs-toggle="tooltip" data-bs-placement="top"
                                     data-bs-custom-class="custom-tooltip" data-bs-title="Whatsapp">
-                                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                                    <a href="{{ $record->whatsapp}}"><i class="fa-brands fa-whatsapp"></i></a>
                                 </div>
-
-
-
                             </div>
 
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </section>
     </main>
