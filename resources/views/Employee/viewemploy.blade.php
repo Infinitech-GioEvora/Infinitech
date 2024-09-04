@@ -26,7 +26,7 @@
                                 <div class="location"><b>Office Address:</b> Unit 311, Campos Rueda Bldg., Urban Avenue,
                                     Makati City
                                 </div>
-                                <div class="mobile-number"><b>Mobile No.:</b> +63992 440 1097</div>
+                                <div class="mobile-number"><b>Mobile No.:</b>{{ $record->phone }}</div>
                                 <div class="tel"><b>Telephone No.:</b> (02) 7001-6157</div>
                                 <div class="website"><b>Website:</b> www.infinitech.com</div>
                             </div>
