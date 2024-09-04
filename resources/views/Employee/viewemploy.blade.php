@@ -54,22 +54,26 @@
                                     </a>
                                 </div>
 
-                                <div class="social telegram" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Wechat">
-                                    <a type="button" class=" btn-wechat" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <div class="social telegram" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="Wechat">
+                                    <a type="button" class=" btn-wechat" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
                                         <i class="fa-brands fa-weixin"></i>
                                     </a>
                                 </div>
 
                                 <div class="social viber" data-bs-toggle="tooltip" data-bs-placement="top"
                                     data-bs-custom-class="custom-tooltip" data-bs-title="Viber">
-                                    <a href="{{ $record->viber}}"><i class="fa-brands fa-viber"></i></a>
+                                    <a href="{{ $record->viber }}"><i class="fa-brands fa-viber"></i></a>
                                     {{-- <a href="viber://chat?number={{ $record->viber}}"><i class="fa-brands fa-viber"></i></a> --}}
                                 </div>
 
-                                <div class="social viber" data-bs-toggle="tooltip" data-bs-placement="top"
-                                    data-bs-custom-class="custom-tooltip" data-bs-title="Whatsapp">
-                                    <a href="{{ $record->whatsapp}}"><i class="fa-brands fa-whatsapp"></i></a>
+                                <div class="social whatsapp" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="WhatsApp">
+                                    <a href="https://wa.me/{{ $record->whatsapp }}"><i
+                                            class="fa-brands fa-whatsapp"></i></a>
                                 </div>
+
                             </div>
 
                         </div>
