@@ -17,16 +17,26 @@
                             <div class="employee-details mb-4">
                                 <h1 class="employee-name">{{ $record->firstname }} {{ $record->lastname }}</h1>
                                 <h2 class="employee-position mb-4">{{ $record->position }}</h2>
-                                <p class="employee-desc">{{ $record->description }}</p>
                             </div>
 
                             <div class="employee-contact mb-4">
                                 <div class="location"><b>Office Address:</b> Unit 311, Campos Rueda Bldg., Urban Avenue,
                                     Makati City
                                 </div>
-                                <div class="mobile-number"><b>Mobile No.:</b>{{ $record->phone }}</div>
-                                <div class="tel"><b>Telephone No.:</b> (02) 7001-6157</div>
-                                <div class="website"><b>Website:</b> www.infinitech.com</div>
+                                <div class="mobile-number">
+                                    <b>Mobile No.:</b>
+                                    <a href="tel:{{ $record->phone }}">{{ $record->phone }}</a>
+                                </div>
+                                
+                                <div class="tel">
+                                    <b>Telephone No.:</b> (02) 7001-6157
+                                </div>
+                                
+                                <div class="website">
+                                    <b>Website:</b>
+                                    <a href="https://infinitechphil.com/" target="_blank">www.infinitechphil.com</a>
+                                </div>
+                                
                             </div>
 
                             <div class="contacts mb-4">

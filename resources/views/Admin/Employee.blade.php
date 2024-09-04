@@ -86,12 +86,7 @@
                             </div>
                           
                         </div>
-                        <div class="row mb-3">
-                            <div class="col">
-                                <label for="" class="form-label">Description</label>
-                               <textarea class="form-control" name="description" id="" cols="10" rows="5"></textarea>
-                            </div>
-                        </div>
+                       
                         <hr>
                         <!-- Second Row -->
                         <div class="row mb-3">
@@ -215,12 +210,7 @@
                                 <input type="text" class="form-control" placeholder="Enter Name" name="employeeID" />
                             </div>
                         </div>
-                        <div class="row mb-3">
-                            <div class="col">
-                                <label for="" class="form-label">Description</label>
-                               <textarea class="form-control" name="description" id="" cols="10" rows="5"></textarea>
-                            </div>
-                        </div>
+                       
                         <hr>
                         <!-- Second Row -->
                         <div class="row mb-3">

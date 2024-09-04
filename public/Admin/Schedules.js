@@ -129,7 +129,7 @@ $(document).ready(function () {
             success: function (res) {
                 var record = res.record;
 
-                var keys = ["id", "lastname", "firstname", "middlename", "position", "employeeID", "description", "email", "phone",  "facebook", "telegram",  "viber", "whatsapp"];
+                var keys = ["id", "lastname", "firstname", "middlename", "position", "employeeID", "email", "phone",  "facebook", "telegram",  "viber", "whatsapp"];
 
                 for (var key of keys) {
                     $(`.upd_form input[name=${key}], .upd_form select[name=${key}], .upd_form textarea[name=${key}]`).val(record[key],)
