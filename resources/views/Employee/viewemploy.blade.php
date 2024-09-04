@@ -54,9 +54,10 @@
                                     </a>
                                 </div>
 
-                                <div class="social viber" data-bs-toggle="tooltip" data-bs-placement="top"
-                                    data-bs-custom-class="custom-tooltip" data-bs-title="Wechat">
-                                    <a href=""><i class="fa-brands fa-weixin"></i></a>
+                                <div class="social telegram" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Wechat">
+                                    <a type="button" class=" btn-wechat" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <i class="fa-brands fa-weixin"></i>
+                                    </a>
                                 </div>
 
                                 <div class="social viber" data-bs-toggle="tooltip" data-bs-placement="top"
@@ -81,6 +82,25 @@
             </div>
         </section>
     </main>
+    <div class="modal fade wechat-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Scan me</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="wechatImage" src="{{ '/wechat/' . $record->wechat }}" alt="{{ $record->wechat }}" />
+
+                    <button class="button btn-download">
+                        <span class="button-content">Download QR</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 
 @endsection
@@ -92,8 +112,6 @@
     @parent
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
-    <script src="/JS/Admin/Schedules.js"></script>
-
-
+    <script src="/Admin/Schedules.js"></script>
 
 @show
