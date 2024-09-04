@@ -20,10 +20,7 @@
 
 
 body {
- 
     overflow-x: hidden;
-    /* background: rgb(2, 0, 36);
-    background: linear-gradient(310deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%); */
     background: rgb(6,38,77);
     background: linear-gradient(57deg, rgba(6,38,77,1) 24%, rgba(31,98,179,1) 95%);
     background-position: center;
