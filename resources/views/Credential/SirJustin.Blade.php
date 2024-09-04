@@ -33,7 +33,7 @@
                                 <img src="/assets/img/cred/j2.png" >
                             </div>
                             <div class="item">
-                                <img src="/assets/img/cred/j.png">
+                                <img src="/assets/img/cred/j3.png">
                             </div>
                             <div class="item">
                                 <img src="/assets/img/cred/j4.png">
@@ -48,7 +48,7 @@
                               <img src="/assets/img/cred/j2.png" >
                           </div>
                           <div class="item">
-                              <img src="/assets/img/cred/j.png">
+                              <img src="/assets/img/cred/j3.png">
                           </div>
                           <div class="item">
                               <img src="/assets/img/cred/j4.png">

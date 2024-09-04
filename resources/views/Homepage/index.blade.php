@@ -18,10 +18,8 @@
         <section class="section">
             <div class="content">
                 <div class="tagline">
-                    <h1 class="hero-header">INFINITECH: turning ideas into infinite possibilities</h1>
-                    <p class="hero-desc">At <strong>Infinitech Advertising Corporation</strong>, we create
-                        captivating campaigns that leverage cutting-edge digital solutions to boost your brand's
-                        online presence.
+                    <h1 class="hero-header">"High Quality, Lower Price"</h1>
+                    <p class="hero-desc">At <strong>Infinitech Advertising Corporation</strong>, We offer excellent products without breaking the bank.
                     </p>
                     <div class="d-flex">
                         <a class="button btn-hero" href="/about-us" style="text-decoration: none;">
@@ -199,6 +197,9 @@
         </section>
 
         <section class="services">
+            <div class="snow">
+                <img src="../assets/img/brain.png" alt="Snow" style="width:100%">
+              </div>
             <div class="container" style="font-size: medium">
                 <div class="row">
                     <div class="col-8">
@@ -223,7 +224,7 @@
                 </div>
 
                 <div class="row" data-aos="zoom-in-up" data-aos-duration="1000" style="font-size: 14px">
-                    <div class="col-12 col-md-3">
+                    <div class="col-10 col-md-3">
                         <div class="service-content text-center">
                             <img src="../assets/svg/Static assets-amico.svg" alt="">
                             <h2 class="serviceTitle">Web Design & Development</h2>
@@ -231,7 +232,7 @@
                                 easy-to-use Content Management System (CMS).</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-10 col-md-3">
                         <div class="service-content text-center">
                             <img src="../assets/svg/Website setup-cuate.svg" alt="">
                             <h2 class="serviceTitle">Web Based Application </h2>
@@ -239,7 +240,7 @@
                                 designed to enhance your organization's operational effectiveness.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-10 col-md-3">
                         <div class="service-content text-center">
                             <img src="../assets/svg/Online Groceries-cuate.svg" alt="">
                             <h2 class="serviceTitle">Ecommerce / Online Shop </h2>
@@ -247,7 +248,7 @@
                                 e-commerce websites and online stores.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-10 col-md-3">
                         <div class="service-content text-center">
                             <img src="../assets/svg/WebAppDev.svg" alt="">
                             <h2 class="serviceTitle">Mobile App Development</h2>
@@ -317,17 +318,16 @@
                         href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
                 </div>
                 <div class="container">
-                    <div class="row">
+                    <div class="row"data-aos="zoom-in-up" data-aos-duration="1000" >
                         <div class="col-md-offset-2 col-md-8">
-                            <div id="testimonial-slider" class="owl-carousel">
+                            <div id="testimonial-slider" class="owl-carousel" >
                                 <div class="testimonial">
                                     <div class="pic">
                                         <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
                                         <p>I was really impressed with the fast service! The staff handled everything e
-                                            fficiently and had my request taken care of in no time. It’s great to
-                                            experience such prompt a
+                                            fficiently and had my request taken care of in no time. It’s great to experience such prompt a
                                             nd effective service—thank you for making it a seamless experience!
                                         </p>
                                     </div>
@@ -336,16 +336,14 @@
                                         <small>- Senior Web Developer</small>
                                     </h3>
                                 </div>
-
+        
                                 <div class="testimonial">
                                     <div class="pic">
                                         <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
-                                        <p>Fantastic job with the system! It’s evident that a lot of thought and effort
-                                            went into its
-                                            design. Everything functions smoothly and efficiently, making the whole
-                                            experience very satisfying.
+                                        <p>Fantastic job with the system! It’s evident that a lot of thought and effort went into its
+                                            design. Everything functions smoothly and efficiently, making the whole experience very satisfying. 
                                             Thanks for delivering such a high-quality solution.
                                         </p>
                                     </div>
@@ -354,17 +352,16 @@
                                         <small>- Senior Web Developer</small>
                                     </h3>
                                 </div>
-
+        
                                 <div class="testimonial">
                                     <div class="pic">
                                         <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
-                                        <p>I’m impressed with the performance so far.Excellent work on the website.
-                                            It’s user-friendly, reliable, and performs exactly as promised. I’m very
-                                            pleased with its effectiveness and ease of use.
+                                        <p>I’m impressed with the performance so far.Excellent work on the website. 
+                                            It’s user-friendly, reliable, and performs exactly as promised. I’m very pleased with its effectiveness and ease of use. 
                                             Great job on creating something that truly delivers.
-
+                                            
                                         </p>
                                     </div>
                                     <h3 class="testimonial-title">
@@ -377,10 +374,9 @@
                                         <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
-                                        <p>Outstanding service with the domain and hosting.
-                                            The setup was quick and hassle-free, and everything is running smoothly. Im
-                                            impressed with the quality thanks for providing such
-                                            a solid foundation for my online presence!
+                                        <p>Outstanding service with the domain and hosting. 
+                                            The setup was quick and hassle-free, and everything is running smoothly. Im impressed with the quality thanks for providing such
+                                             a solid foundation for my online presence!
                                         </p>
                                     </div>
                                     <h3 class="testimonial-title">
@@ -393,10 +389,9 @@
                                         <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
-                                        <p>I’m genuinely amazed by the exceptional quality of this product/service.
-                                            It’s evident that a lot of thought and craftsmanship went into every detail.
-                                            The performance is not just reliable but
-                                            impressively outstanding, setting a new benchmark for excellence.
+                                        <p>I’m genuinely amazed by the exceptional quality of this product/service. 
+                                            It’s evident that a lot of thought and craftsmanship went into every detail. The performance is not just reliable but
+                                             impressively outstanding, setting a new benchmark for excellence. 
                                         </p>
                                     </div>
                                     <h3 class="testimonial-title">
@@ -408,7 +403,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
         <section class="work-with-us" data-aos="fade-up" data-aos-anchor-placement="top-bottom"

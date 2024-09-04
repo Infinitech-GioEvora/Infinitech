@@ -71,7 +71,7 @@
             </div>
         </section>
 
-        <section class="coreValue">
+        {{-- <section class="coreValue">
             <div class="container"data-aos="fade-up" data-aos-duration="1000">
                 <div class="core-values">
                     <div class="row d-flex justify-content-center no-gutters pt-xl-5" data-aos="fade-zoom-in"
@@ -124,7 +124,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         
         <!-- Team -->
@@ -138,7 +138,7 @@
                             <div class="mainflip flip-0">
                                 <div class="frontside">
                                         <div class="card">
-                                            <img src="../assets/img/infinitech-sirGel.png" alt="Avatar" >
+                                            <img src="../assets/img/CEO_ANGELLE.png" alt="Avatar" >
                                             <div class="team-details" style="font-display: center">
                                                 <span class="team-name d-block">Angelle Sarmiento</span>
                                                 <small class="position d-block">Chief Executive Officer</small>
@@ -156,7 +156,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/credential-sirgel">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/CEO-AngelleSarmiento">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -170,7 +170,7 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card">
-                                        <img src="../assets/img/infinitech-mamKrissa.png" alt="Avatar" style="width:100%">
+                                        <img src="../assets/img/EA_KRISSA.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Krissa Bongon</span>
                                             <small class="position d-block">Executive Assistant</small>
@@ -188,7 +188,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/credential-mamkrissa">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/EA-KrissaBongon">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -203,7 +203,7 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card">
-                                        <img src="../assets/img/infinitech-mamSol.png" alt="Avatar" style="width:100%">
+                                        <img src="../assets/img/ACC_SOL.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Marisol Senteno</span>
                                             <small class="position d-block">Accounting Head</small>
@@ -221,7 +221,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/credential-mamsol">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/ACCOUNTING-MarisolCenteno">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -234,7 +234,7 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card">
-                                        <img src="../assets/img/infinitech-mamRea.png" alt="Avatar" style="width:100%">
+                                        <img src="../assets/img/HR_RHEA.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Rhea Jane Quintano</span>
                                             <small class="position d-block">Human Resource</small>
@@ -252,7 +252,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/credential-mamrea">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/HR-RheaQuintano">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -265,7 +265,7 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card">
-                                        <img src="/assets/img/Infinitech-mamAly.png" alt="Avatar" style="width:100%">
+                                        <img src="/assets/img/AS_ALLY.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Allysa Perez</span>
                                             <small class="position d-block">Admin Assistant</small>
@@ -283,7 +283,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="credential-mamaly">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/ADMINASST-AllysaPerez">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -299,7 +299,7 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card">
-                                        <img src="../assets/img/infinitech-mamAiries.png" alt="Avatar" style="width:100%">
+                                        <img src="../assets/img/MH_AIRIES.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Airies Asilio</span>
                                             <small class="position d-block">Marketing Head</small>
@@ -317,7 +317,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/credential-mamairies">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/MARKETINGHEAD-AiriesAsilo">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -330,7 +330,7 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card">
-                                        <img src="../assets/img/infinitech-mamApril.png" alt="Avatar" style="width:100%">
+                                        <img src="../assets/img/ITS_APRIL.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">April  Saludares</span>
                                             <small class="position d-block">IT Supervisor</small>
@@ -348,7 +348,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/credential-sirapan">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/ITSUPERVISOR-AprilSaludares">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -363,7 +363,7 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card ">
-                                        <img src="../assets/img/infinitech-sirGio.png" alt="Avatar" style="width:100%">
+                                        <img src="../assets/img/SD_GIO.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Giolo Evora</span>
                                             <small class="position d-block">Senior Web Developer</small>
@@ -372,16 +372,16 @@
                                 </div>
                                 <div class="backside">
                                     <div class="card">
-                                        <div class="card-bodytext-left mt-4">
+                                        <div class="card-body text-left mt-4">
                                             <h4 class="card-title">Giolo Evora</h4>
                                             <h4 class="card-title">CREDENTIALS</h4>
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
-                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p> 
+                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/credential-sirgio">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/SENIORDEV-GioloEvora">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -395,7 +395,7 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card ">
-                                        <img src="../assets/img/infinitech-sirJustin.png" alt="Avatar" style="width:100%">
+                                        <img src="../assets/img/SD_JUSTIN.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Justin De Castro</span>
                                             <small class="position d-block">Senior Web Developer</small>
@@ -413,7 +413,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/credential-sirjustin">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/SENIORDEV-JustinDeCastro">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -426,7 +426,7 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card">
-                                        <img src="../assets/img/infinitech-sirMoses.png" alt="Avatar" style="width:100%">
+                                        <img src="../assets/img/SD_MOSES.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Moses Alcantara</span>
                                             <small class="position d-block">Senior Web Developer</small>
@@ -444,7 +444,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/credential-sirmoses">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/SENIORDEV-MosesAlcantara">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -459,7 +459,7 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card ">
-                                        <img src="../assets/img/infinitech-msKim.png" alt="Avatar" style="width:100%">
+                                        <img src="../assets/img/JD_KIM.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Kimberly Niñeria</span>
                                             <small class="position d-block">Junior Web Developer</small>
@@ -477,7 +477,7 @@
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
-                                            <h5 class="credential-link text-center" ><a href="/credential-mskim">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/JUNIORDEV-KimberlyNineria">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -490,7 +490,7 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card ">
-                                        <img src="../assets/img/infinitech-msAngel.png" alt="Avatar" style="width:100%" onclick="showTooltip(event)">
+                                        <img src="../assets/img/JD_ANGEL.png" alt="Avatar" style="width:100%" onclick="showTooltip(event)">
                                         <div class="team-details">
                                             <span class="team-name d-block">Darlene Fajarito</span>
                                             <small class="position d-block">Junior Web Developer</small>
@@ -508,7 +508,7 @@
                                             <p class="card-text">CompTIA A+ (IT support)</p>
                                             <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                             <p class="card-text">AWS Certified Solutions Architect</p>
-                                        <h5 class="credential-link text-center" ><a href="/credential-msdarlene">View More</a></h5>
+                                        <h5 class="credential-link text-center" ><a href="/JUNIORDEV-DarleneFajarito">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -521,7 +521,7 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card">
-                                        <img src="../assets/img/infinitech-msLyca.png" alt="Avatar" style="width:100%">
+                                        <img src="../assets/img/JD_LYCA.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Lyca Nobleza</span>
                                             <small class="position d-block">Junior Web Developer</small>
@@ -539,7 +539,7 @@
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
-                                            <h5 class="credential-link text-center" ><a href="/credential-mslyca">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/JUNIORDEV-LycaNobleza">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -554,7 +554,7 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card ">
-                                        <img src="../assets/img/infinitech-mangJun.png" alt="Avatar" style="width:100%">
+                                        <img src="../assets/img/CD_ANTHONY.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Anthonio Sy</span>
                                             <small class="position d-block">Company Driver</small>
@@ -572,7 +572,7 @@
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
-                                            <h5 class="credential-link text-center" ><a href="/credential-mangjun">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/COMPDRIVER-AnthonySy">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>

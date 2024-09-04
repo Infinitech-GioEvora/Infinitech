@@ -41,7 +41,7 @@
         
         <html>
         <head>
-            <title>Testimonial_204</title>
+            <title>Testimonial</title>
             <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
@@ -72,8 +72,7 @@
                                 <img src="../assets/img/person.png">
                             </div>
                             <div class="testimonial-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eum excepturi incidunt
-                                    Fantastic job with the system! It’s evident that a lot of thought and effort went into its
+                                <p>Fantastic job with the system! It’s evident that a lot of thought and effort went into its
                                     design. Everything functions smoothly and efficiently, making the whole experience very satisfying. 
                                     Thanks for delivering such a high-quality solution.
                                 </p>
