@@ -62,7 +62,8 @@
 
                                 <div class="social viber" data-bs-toggle="tooltip" data-bs-placement="top"
                                     data-bs-custom-class="custom-tooltip" data-bs-title="Viber">
-                                    <a href="viber://chat?number={{ $record->viber}}"><i class="fa-brands fa-viber"></i></a>
+                                    <a href="{{ $record->viber}}"><i class="fa-brands fa-viber"></i></a>
+                                    {{-- <a href="viber://chat?number={{ $record->viber}}"><i class="fa-brands fa-viber"></i></a> --}}
                                 </div>
 
                                 <div class="social viber" data-bs-toggle="tooltip" data-bs-placement="top"
