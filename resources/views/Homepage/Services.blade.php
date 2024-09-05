@@ -43,15 +43,14 @@
                
 
                 <div class="row">
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/Static assets-amico.svg" alt="">
                             <h2 class="serviceTitle">Web Design & Development</h2>
-                            <p class="service-desc">Custom-built, professionally-designed websites featuring an
-                                easy-to-use Content Management System (CMS).</p>
+                            <p class="service-desc">Custom-built, professionally-designed websites featuring an easy-to-use Content Management System (CMS).</p>
                         </div>
-                    </div>
-                    <div class="col-12 col-md-3">
+                    </div>                    
+                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/Website setup-cuate.svg" alt="">
                             <h2 class="serviceTitle">Web Based Application </h2>
@@ -59,7 +58,7 @@
                                 designed to enhance your organization's operational effectiveness.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/Online Groceries-cuate.svg" alt="">
                             <h2 class="serviceTitle">Ecommerce / Online Shop </h2>
@@ -67,7 +66,7 @@
                                 e-commerce websites and online stores.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/WebAppDev.svg" alt="">
                             <h2 class="serviceTitle">Mobile App Development</h2>
@@ -75,7 +74,7 @@
                                 Android and iOS platforms, starting from inception to completion.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/Hosting.svg" alt="">
                             <h2 class="serviceTitle">Web Hosting and Domain</h2>
@@ -83,7 +82,7 @@
                                 ensuring your websites operate seamlessly.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/outsource.svg" alt="">
                             <h2 class="serviceTitle">Web Design Outsourcing</h2>
@@ -91,7 +90,7 @@
                                 IT professionals at a competitive rate.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/redesign.svg" alt="">
                             <h2 class="serviceTitle">Website Redesign</h2>
@@ -99,7 +98,7 @@
                                 completely new one from scratch.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/graphic.svg" alt="">
                             <h2 class="serviceTitle">Graphic Design</h2>
@@ -107,7 +106,7 @@
                                 marketing materials.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/maintenance.svg" alt="">
                             <h2 class="serviceTitle">Website Maintenance</h2>
@@ -115,7 +114,7 @@
                                 incorporating the latest technological trends.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/search.svg" alt="">
                             <h2 class="serviceTitle">Search Engine Optimization</h2>
@@ -123,7 +122,7 @@
                                 engines such as Google.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/photo.svg" alt="">
                             <h2 class="serviceTitle">Professional Photography</h2>
@@ -131,7 +130,7 @@
                                 breathe life into your marketing materials.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/fast.svg" alt="">
                             <h2 class="serviceTitle">Fast Turn Over</h2>
@@ -155,5 +154,19 @@
 </body>
 <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
 <div class="elfsight-app-d5ccc98b-ab7f-4e86-b38a-fb71fff2a38b" data-elfsight-app-lazy></div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var clickableDivs = document.querySelectorAll('.clickable');
+            clickableDivs.forEach(function(div) {
+                div.addEventListener('click', function() {
+                    var href = div.getAttribute('data-href');
+                    if (href) {
+                        window.location.href = href;
+                    }
+                });
+            });
+        });
+    </script>    
 
 </html>

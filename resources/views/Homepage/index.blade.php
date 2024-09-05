@@ -15,7 +15,7 @@
 <body style="position: relative">
     @include('Layout/Navigation')
     <main>
-        <section class="section">
+        <section class="section">              
             <div class="content">
                 <div class="tagline">
                     <h1 class="hero-header">"High Quality, Lower Price"</h1>
@@ -170,43 +170,116 @@
                         <h2 class="sub-heading">Common Business Hurdles!</h2>
                     </div>
                 </div>
-        
-                <div class="row" data-aos="zoom-in-up" data-aos-duration="1000">
-                    <div class="col-12 col-md-3">
-                        <div class="problem-content text-center">
-                            <h2 class="problemTitle">Difficulty in effectively showcasing property listings online, leading to lower sales</h2>
+                <div class="col-xs-12 col-sm-6 col-md-3" data-aos="zoom-in-up" data-aos-duration="1000" >
+                    <div class="problem-flip" >
+                        <div class="mainprobflip flip-0">
+                            <div class="front">
+                                <div class="card ">
+                                    <div class="team-details" style="font-display: center">
+                                        <img src="../assets/svg/problem.svg" alt="">
+                                        <span class="card-title d-block">Difficulty in effectively showcasing property listings online, leading to lower sales </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back ">
+                                <div class="card ">
+                                    <div class="card-body text-left mt-4">
+                                            <p class="card-title">We are committed to addressing your challenges with solutions designed to meet your specific needs and goals. 
+                                                Our team is ready to help you overcome obstacles and achieve success.
+                                        </p>
+                                        <h5 class="credential-link text-center" ><a href="/services">View More</a></h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
-                        <div class="problem-content text-center">
-                            <h2 class="problemTitle">Challenges in attracting new clients due to a lack of online project showcases</h2>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3" data-aos="zoom-in-up" data-aos-duration="1000" >
+                    <div class="problem-flip" >
+                        <div class="mainprobflip flip-0">
+                            <div class="front">
+                                    <div class="card">
+                                        <div class="team-details" style="font-display: center">
+                                            <img src="../assets/svg/problem.svg" alt="">
+                                            <span class="card-title d-block">Challenges in attracting new clients due to a lack of online project showcases</span>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="back ">
+                                <div class="card ">
+                                    <div class="card-body text-left mt-4">
+                                        <p class="card-title">We are committed to addressing your challenges with solutions designed to meet your specific needs and goals. 
+                                            Our team is ready to help you overcome obstacles and achieve success.
+                                    </p>
+                                    <h5 class="credential-link text-center" ><a href="/services">View More</a></h5>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
-                        <div class="problem-content text-center">
-                            <h2 class="problemTitle">Difficulty in building client trust due to unclear communication</h2>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3" data-aos="zoom-in-up" data-aos-duration="1000" >
+                    <div class="problem-flip" >
+                        <div class="mainprobflip flip-0">
+                            <div class="front">
+                                    <div class="card">
+                                        <div class="team-details" style="font-display: center">
+                                            <img src="../assets/svg/problem.svg" alt="">
+                                            <span class="card-title d-block">Difficulty in building client trust due to unclear communication, impacting  outcomes.</span>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="back ">
+                                <div class="card ">
+                                    <div class="card-body text-left mt-4">
+                                        <p class="card-title">We are committed to addressing your challenges with solutions designed to meet your specific needs and goals. 
+                                            Our team is ready to help you overcome obstacles and achieve success.
+                                    </p>
+                                    <h5 class="credential-link text-center" ><a href="/services">View More</a></h5>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
-                        <div class="problem-content text-center">
-                            <h2 class="problemTitle">Difficulty adapting to changing market dynamics</h2>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3" data-aos="zoom-in-up" data-aos-duration="1000" >
+                    <div class="problem-flip" >
+                        <div class="mainprobflip flip-0">
+                            <div class="front">
+                                    <div class="card">
+                                        <div class="team-details" style="font-display: center">
+                                            <img src="../assets/svg/problem.svg" alt="">
+                                            <span class="card-title d-block">Difficulty adapting to changing market dynamics, affecting competitiveness and growth.</span>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="back ">
+                                <div class="card ">
+                                    <div class="card-body text-left mt-4">
+                                        <p class="card-title">We are committed to addressing your challenges with solutions designed to meet your specific needs and goals. 
+                                            Our team is ready to help you overcome obstacles and achieve success.
+                                    </p>
+                                    <h5 class="credential-link text-center" ><a href="/services">View More</a></h5>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="services">
-            <div class="snow">
-                <img src="../assets/img/brain.png" alt="Snow" style="width:100%">
-              </div>
-            <div class="container" style="font-size: medium">
+        <section class="services ">
+            <div class="container-fluid">
+                <div class="head">
+                    <img src="../assets/svg/AIHEAD.svg" alt="head" style="width:100%">
+                </div>
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-xs-10 col-sm-6 col-lg-8">
                         <h5 class="sub-header">What we do?</h5>
                         <h2 class="sub-heading">Driving success through innovative digital solutions!</h2>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-md-2" style="margin-left:50px;">
                         <div class="d-flex justify-content-end">
                             <a class="button btn-hero" href="/services" style="text-decoration: none;"> <span>See
                                     More</span>
@@ -223,33 +296,33 @@
                     </div>
                 </div>
 
-                <div class="row" data-aos="zoom-in-up" data-aos-duration="1000" style="font-size: 14px">
-                    <div class="col-10 col-md-3">
-                        <div class="service-content text-center">
+                <div class="offer" data-aos="zoom-in-up" data-aos-duration="1000" style="font-size: 14px">
+                    <div class="col-6 col-md-2">
+                        <div class="offer-content text-center">
                             <img src="../assets/svg/Static assets-amico.svg" alt="">
                             <h2 class="serviceTitle">Web Design & Development</h2>
                             <p class="service-desc">Custom-built, professionally-designed websites featuring an
                                 easy-to-use Content Management System (CMS).</p>
                         </div>
                     </div>
-                    <div class="col-10 col-md-3">
-                        <div class="service-content text-center">
+                    <div class="col-6 col-md-2">
+                        <div class="offer-content text-center">
                             <img src="../assets/svg/Website setup-cuate.svg" alt="">
                             <h2 class="serviceTitle">Web Based Application </h2>
                             <p class="service-desc">We have the capability to create personalized web applications
                                 designed to enhance your organization's operational effectiveness.</p>
                         </div>
                     </div>
-                    <div class="col-10 col-md-3">
-                        <div class="service-content text-center">
+                    <div class="col-6 col-md-2">
+                        <div class="offer-content text-center">
                             <img src="../assets/svg/Online Groceries-cuate.svg" alt="">
                             <h2 class="serviceTitle">Ecommerce / Online Shop </h2>
                             <p class="service-desc">Infinitech specializes in developing meticulously designed
                                 e-commerce websites and online stores.</p>
                         </div>
                     </div>
-                    <div class="col-10 col-md-3">
-                        <div class="service-content text-center">
+                    <div class="col-6 col-md-2">
+                        <div class="offer-content text-center">
                             <img src="../assets/svg/WebAppDev.svg" alt="">
                             <h2 class="serviceTitle">Mobile App Development</h2>
                             <p class="service-desc">We specialize in developing custom mobile applications for both
@@ -262,12 +335,11 @@
 
         <section class="our-partners">
             <div class="container">
-                <div class="partners" data-aos="fade-up" data-aos-duration="1000">
-                    <span class="header d-block" style="margin-bottom:30px"> Our Partners</span>
+                <div class="headingstyle" style="margin-bottom: 20px" data-aos="fade-up" data-aos-duration="1000">
+                    <h1>Our Partners</h1> 
                 </div>
 
                 <div class="partners-container">
-
                     <div class="partners-logo" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                         data-aos-duration="2000">
                         <a href="https://www.facebook.com/profile.php?id=61552676815080">
@@ -304,8 +376,10 @@
         <section class="clients py-3 py-md-5" data-aos="fade-up" data-aos-anchor-placement="top-center"
             data-aos-duration="1000">
             <div class="container">
-                <div class="partners">
-                    <span class="header d-block">Testimonials</span>
+                <div class="headingstyle">
+                    <div class="headingstyle" data-aos="fade-up" data-aos-duration="1000">
+                        <h1>Testimonials</h1> 
+                    </div>
                     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
                         rel="stylesheet"
                         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
@@ -405,38 +479,32 @@
                 </div>
             </div>
         </section>
-        <section class="work-with-us" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-            data-aos-duration="1000">
-            <div class="container">
+        <section class="work-with-us">  
+            <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
                 <div class="row">
                     <div class="col-md-6 right-work">
                         <div class="right-work">
-                            <div class="work-header" style="font-size: medium">
+                            <div class="work-header">
                                 <h2 class="work-title">Let's work together</h2>
-                                <p class="work-description">We have extensive experience in your market and are
-                                    confident in our ability to build a lasting relationship with you.</p>
+                                <p class="work-description">We have extensive experience in your market and are confident in our ability to build a lasting relationship with you.</p>
                             </div>
                             <hr>
-                            <form class="contactForm" style="font-size: 14px">
+                            <form class="contactForm">
                                 <div class="form-group">
                                     <label for="name">Please tell us your name.</label>
-                                    <input type="text" id="name" name="name" placeholder="Giolo Evora"
-                                        required>
+                                    <input type="text" id="name" name="name" placeholder="Giolo Evora" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="email">Share your email for us to reach you.</label>
-                                    <input type="email" id="email" name="email"
-                                        placeholder="infinitechcorp.ph@gmail.com" required>
+                                    <input type="email" id="email" name="email" placeholder="infinitechcorp.ph@gmail.com" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="website">Website</label>
-                                    <input type="text" id="website" name="website"
-                                        placeholder="https://www.infinitech.com">
+                                    <input type="text" id="website" name="website" placeholder="https://www.infinitech.com">
                                 </div>
                                 <div class="form-group">
                                     <label for="phone">Mobile Phone</label>
-                                    <input type="text" id="phone" name="phone"
-                                        placeholder="(+63) 9924401097">
+                                    <input type="text" id="phone" name="phone" placeholder="(+63) 9924401097">
                                 </div>
                                 <div class="form-group">
                                     <label for="message">Send us a message.</label>
@@ -444,28 +512,30 @@
                                 </div>
                                 <button type="submit" class="button">
                                     <span>Submit</span>
-                                    <svg width="34" height="34" viewBox="0 0 74 74" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <circle cx="37" cy="37" r=" 35.5" stroke="white"
-                                            stroke-width="3">
-                                        </circle>
-                                        <path
-                                            d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
-                                            fill="white"></path>
+                                    <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="37" cy="37" r="35.5" stroke="white" stroke-width="3"></circle>
+                                        <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="white"></path>
                                     </svg>
                                 </button>
                             </form>
                         </div>
                     </div>
-                    <div class="col-md-6 maps d-flex justify-content-center align-items-center">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.686618330031!2d121.01093307590381!3d14.559904978070104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c90b830e5f29%3A0x89fe307dfecd3c0d!2sCampos%20Rueda%20Building!5e0!3m2!1sen!2sph!4v1721716690771!5m2!1sen!2sph"
-                            width="700" height="850" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="col-md-6 maps-block" style="margin-top: 20px">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.686618330031!2d121.01093307590381!3d14.559904978070104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c90b830e5f29%3A0x89fe307dfecd3c0d!2sCampos%20Rueda%20Building!5e0!3m2!1sen!2sph!4v1721716690771!5m2!1sen!2sph" width="650" height="600" style="border:0; padding-top:50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="address" style="margin-top: 15px">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Unit 311, campos rueda building, 101 Urban Ave, Makati, 1206 Metro Manila
+                        </div>
+                        <div class="calls">
+                            <i class="fa-solid fa-phone"></i>
+                            (02) 7001-6157
+                        </div>   
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
 
         @include('Layout.Social')
     </main>

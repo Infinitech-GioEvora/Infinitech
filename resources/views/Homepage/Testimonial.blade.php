@@ -140,10 +140,9 @@
                    <div class="row">
                        <div class="offset-xl-2 col-xl-8 offset-lg-2 col-lg-8 col-md-12 col-sm-12 col-12 text-center">
                            <!-- section-title -->
-                           <div class="section-title">
-                               <h2 style="color: rgb(255, 153, 0)">What our customer says</h2>
-                               <p>Watch our clients share their positive experiences with our product and service. Real results, real satisfaction!</p>
-                           </div>
+                                <div class="headingstyle" style="margin-bottom: 20px" data-aos="fade-up" data-aos-duration="1000">
+                                    <h1>What our Customer Says</h1> 
+                                </div>
                        </div>
                        <!-- /.section-title -->
                    </div>

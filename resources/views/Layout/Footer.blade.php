@@ -1,22 +1,5 @@
 <footer>
     <div class="container" style="margin-top: 6px;">
-        {{-- <div class="subscribe">
-            <div class="row d-flex justify-content-center aling-items-center">
-                <div class="col-12 col-md-6">
-                    <img src="../assets/svg/Subscriber-pana.svg" alt="">
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="form-group">
-                        <input type="text" placeholder="Giolo Evora">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="giolo.evora@gmail.com">
-                    </div>
-                    <button class="btn-subscribe text-center">Submit</button>
-                </div>
-            </div>
-        </div> --}}
-
         <div class="row ">
             <div class="col-md-4">
                 <div class="footer-logo mb-xl-4">

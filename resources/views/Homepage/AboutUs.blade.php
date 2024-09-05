@@ -130,7 +130,9 @@
         <!-- Team -->
         <section id="team" class="pb-5">
             <div class="container" data-aos="fade-up" data-aos-duration="1000">
-                <h5 class="section-title h1">OUR TEAM</h5>
+                <div class="headingstyle" style="margin-bottom: 20px" data-aos="fade-up" data-aos-duration="1000">
+                    <h1>Our Team</h1> 
+                </div>
                 <div class="row no-gutters d-flex justify-content-center">
                     <!-- Team member -->
                     <div class="col-xs-12 col-sm-6 col-md-3" >
@@ -244,7 +246,7 @@
                                 <div class="backside">
                                     <div class="card">
                                         <div class="card-body text-left mt-4">
-                                            <h4 class="card-title">Rhea Jane Quintano</h4>
+                                            <h4 class="card-title">Rhea Quintano</h4>
                                             <h4 class="card-title">CREDENTIALS</h4>
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
@@ -585,7 +587,9 @@
         </section>
         <section class="certificates">
             <div class="container" > 
-                <div class="header" style="margin-bottom:30px" data-aos="fade-up" data-aos-duration="1000">Certificates</div>
+                <div class="headingstyle" data-aos="fade-up" data-aos-duration="1000">
+                    <h1>certificates</h1> 
+                </div>
                 <div class="row d-flex justify-content-center no-gutters" >
                     <div class="col-6 col-md-4 col-lg-4 cert" style="margin-right: 10px" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                       <img src="../assets/certificates/infinitech-partnership.jpg" alt="ABIC-Realty"></a>

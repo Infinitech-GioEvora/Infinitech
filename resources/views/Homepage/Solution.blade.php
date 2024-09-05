@@ -41,10 +41,12 @@
             <div class="container">
                 <div class="core-values">
                     <div class="row d-flex justify-content-center no-gutters pt-xl-5">
-                        <div class="header" style="margin-bottom:30px" data-aos="zoom-in-up" data-aos-duration="1000">Solutions</div>
-                        <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
+                        <div class="headingstyle" data-aos="fade-up" data-aos-duration="1000">
+                            <h1>Solutions</h1> 
+                        </div>                       
+                         <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
                             <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
-                                <div class="card-body">
+                                <div class="card-body clickable" data-href="https://abicmanpower.com/">
                                     <span class="vm-header">Real Estate</span>
                                     <p >We support real estate agents in enhancing their sales by designing and building websites that effectively showcasetheir property listings.</p>
                                 </div>
@@ -52,7 +54,7 @@
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
                             <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
-                                <div class="card-body">
+                                <div class="card-body clickable" data-href="https://abicmanpower.com/">
                                     <span class="vm-header">Website for Construction</span>
                                     <p>We aid construction companies in enhancing sales and inquiries through the creation of websites that showcase their projects.</p>
                                 </div>
@@ -60,7 +62,7 @@
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
                             <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
-                                <div class="card-body">
+                                <div class="card-body clickable" data-href="https://dmcicorporation.com/">
                                     <span class="vm-header">Management System</span>
                                     <p>Build trust through honesty and clear communication, ensuring our clients are fully informed and transparent in our progress.</p>
                                 </div>
@@ -68,7 +70,7 @@
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
                             <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
-                                <div class="card-body">
+                                <div class="card-body clickable" data-href="https://abicmanpower.com/">
                                     <span class="vm-header">Manpower System</span>
                                     <p>Build trust through honesty and clear communication, ensuring our clients are fully informed and transparent in our progress.</p>
                                 </div>
@@ -76,7 +78,7 @@
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
                             <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
-                                <div class="card-body">
+                                <div class="card-body clickable" data-href="https://dmcicorporation.com/">
                                     <span class="vm-header">DMCI Homes Corporate Center System</span>
                                     <p>We are flexible and responsive to the changing of market dynamics, easily adpating our strategies to meet new challenges and opportunity.</p>
                                 </div>
@@ -85,7 +87,7 @@
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
                             <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
-                                <div class="card-body">
+                                <div class="card-body clickable" data-href="https://dmcicorporation.com/">
                                     <span class="vm-header">Accounting Software</span>
                                     <p>The power of teamwork, fostering a collborative enviroment where ideas and expertise are share freely to achieve the best outcomes.</p>
                                 </div>
@@ -107,5 +109,4 @@
 
 
 </body>
-
 </html>
