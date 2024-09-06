@@ -2357,7 +2357,7 @@ section .section-title {
     .floating-socmed {
         display: none;
     }
-    .section-title h2 {
+    .section-title h2{
         font-size: 1.75rem; 
     }
 
