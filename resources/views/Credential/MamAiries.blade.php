@@ -21,7 +21,9 @@
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="tagline ">
-                            <h1><strong>Airies Asilo</strong></h1>
+                            <a href="https://infinitechphil.com/employee/24-0006" target="_blank">
+                              <h1><strong>Airies Asilo</strong></h1>
+                            </a>                          
                             <p class="sub-tagline pt-xl-5">Empowering Success Through Recognition: Celebrate Your Achievements with Our Certified Excellence!</p>
                         </div>
                     </div>

@@ -71,7 +71,7 @@ Route::get('/ITSUPERVISOR-AprilSaludares', function () {
 Route::get('/SENIORDEV-GioloEvora', function () {
     return view('Credential/SirGio');
 });
-Route::get('/SENIORDEV-JustinDeCAstro', function () {
+Route::get('/SENIORDEV-JustinDeCastro', function () {
     return view('Credential/SirJustin');
 });
 Route::get('/SENIORDEV-MosesAlcantara', function () {

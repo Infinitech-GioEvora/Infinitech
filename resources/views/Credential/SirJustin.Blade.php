@@ -18,7 +18,9 @@
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="tagline ">
+                          <a href="https://infinitechphil.com/employee/24-0003" target="_blank">
                             <h1><strong>Justin De Castro</strong></h1>
+                          </a>
                             <p class="sub-tagline pt-xl-5">Empowering Success Through Recognition: Celebrate Your Achievements with Our Certified Excellence!</p>
                         </div>
                     </div>
