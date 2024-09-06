@@ -30,7 +30,9 @@ body {
 
 section {
     padding: 5rem 0;
+    background-color: var(--var-background-light);
     /* This is approximately 72px, assuming a base font-size of 16px */
+    
 }
 
 img {
@@ -56,42 +58,6 @@ p {
     color: var(--var-primary-color);
 }
 /* HEADING STYLE */
-/* .headingstyle {
-    max-width: 1200px;
-    text-align: center;
-    margin: 0 auto;
-}
- 
-.headingstyle .h1 {
-    position: relative;
-    display: inline-block;
-    text-transform: uppercase;
-    color: var(--var-primary-color);
-}
-
-.headingstyle .h1::before {
-    content: "";
-    width: 100px;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    margin-top: 8px;
-    margin-left: -100px;
-    border: 1px solid var(--var-primary-color) !important;
-}
-
-.headingstyle .h1::after {
-    content: "";
-    width: 50px;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    margin-bottom: 5px;
-    margin-left: -50px;
-    border: 1px solid var(--var-primary-color) !important;
-} */
 .headingstyle {
     text-align: center;
     line-height: 1.5em; 
@@ -302,8 +268,8 @@ p {
 ===================== */
 
 .hero {
-    background-color: #FEFFD2;
-    /* background-color: var(--var-accent-color); */
+    /* background-color: #FEFFD2; */
+    background-image: url("https://st3.depositphotos.com/3930503/12616/i/450/depositphotos_126163052-stock-photo-light-blue-gradient-background-can.jpg");
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -531,7 +497,9 @@ p {
 }
 .services .head {
     float: left;
-    width:28%;
+    margin-left: 70px;
+    width:30%;
+
   }
 .services .offer{
     margin-left: 100px;
@@ -539,18 +507,24 @@ p {
 .offer-content{
     padding-bottom: 5px;
     margin-top: 25px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .offer-content img {
-    max-width: 200px;
-    min-height: 100px;
+    max-width: 150px;
+    min-height: 90px;
 }
 
-.offer-content .serviceTitle {
+.offer-content .offerTitle {
     color: var(--var-accent-color);
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
 }
+.offer-content .offer-desc {
+    color:var(--var-accent-color);
+    font-size: 14px;
+
+}
+
 .services {
     background-color: var(--var-background-light);
     padding-bottom: 5px;
@@ -814,11 +788,6 @@ p {
 
 /*TESTIMONIALS*/
 
-body {
-    margin-top: 30px !important;
-    background-color: #F2EFE8 !important;
-}
-
 h3,
 p {
     margin: 0 !important;
@@ -847,7 +816,7 @@ a:focus {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #c4bbbb;
+    background-color: var(--var-light-color);
     border-radius: 30px;
     z-index: -1;
 }
@@ -866,7 +835,7 @@ a:focus {
 }
 
 .testimonial .pic {
-    border: 5px solid #F2EFE8;
+    border: 5px solid var(--var-accent-color);
     display: inline-block;
     margin-bottom: 10px;
     width: 100px;
@@ -897,7 +866,7 @@ a:focus {
 }
 
 .testimonial .testimonial-title small {
-    color: #F2EFE8;
+    color: var(--var-accent-color);
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -914,7 +883,7 @@ a:focus {
     display: inline-block;
     opacity: 1;
     background:var(--var-primary-color);
-    color: #F2EFE8;
+    color: var(--var-accent-color);
     border-radius: 0;
     width: 40px;
     height: 40px;
@@ -1929,7 +1898,7 @@ footer {
 /* FontAwesome for working BootSnippet :> */
 
 #team {
-    background: #eee !important;
+    background:var(--var-background-light) !important;
 }
 
 .team-name {
@@ -2286,8 +2255,6 @@ section .section-title {
     height: 500px;
 }
 
-
-
 .swiper-slide img {
     width: 100%;
     height: 100%;
@@ -2327,7 +2294,105 @@ section .section-title {
         color: var(--var-primary-color);
         right: 0;
     }
-
+    .service-section .tagline h1 strong {
+        color: var(--var-accent-color);
+        font-family: var(--var-header-font);
+        font-weight: 600;
+        font-size: 72px;
+        text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.46);
+        margin-top: 120px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .service-section .left-content img {
+        width: 800px;
+    }
+    
+    .service-section .tagline .sub-tagline {
+        font-size: clamp(16px, 24px, 36px);
+        font-weight: 500;
+        word-break: normal;
+    }
+    .services .head {
+        float: left;
+        margin-top: 50px;
+        margin-left: 10px;
+        width:50%;
+    
+      }
+    .services .sub-header{
+        margin-top: 10px;
+        font-size: 40px;
+        width: 150%;
+    }
+    .services .sub-heading{
+        margin-bottom: 20px;
+        margin-top: 10px;
+        font-size: 25px;
+        width: 150%;
+    }
+    .services .offer{
+        margin-left: 10px;
+        width: 150%;
+    }
+    .offer-content{
+        padding-bottom: 5px;
+        margin-top: 25px;
+        margin-left: 5px;
+    }
+    .offer-content img {
+        max-width: 150px;
+        min-height: 90px;
+    }
+    
+    .offer-content .offerTitle {
+        color: var(--var-accent-color);
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .offer-content .offer-desc {
+        color:var(--var-accent-color);
+        font-size: 14px;
+    
+    }
+    
+    .services {
+        background-color: var(--var-background-light);
+        padding-bottom: 5px;
+    }
+    
+    
+    .sub-header {
+        color: var(--var-accent-color);
+        font-weight: 600;
+        width: 100px;
+    }
+    
+    .sub-heading {
+        color: var(--var-primary-color);
+        font-weight: bold;
+        width: 100px;
+        text-align: center;
+    }
+    
+    .service-content {
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        
+    }
+    
+    .service-content img {
+        max-width: 200px;
+        min-height: 150px;
+    }
+    
+    .service-content .serviceTitle {
+        color: var(--var-accent-color);
+        font-size: 20px;
+        font-weight: bold;
+    }
     .left-project {
         text-align: center;
     }
@@ -2365,10 +2430,29 @@ section .section-title {
         font-size: 0.9rem;
         margin-top: 5px;
     }
-    .offer {
-        font-size: 12px;
-        max-width: max-content;
+    
+    iframe {
+        margin: 8px;
+        width: 300px ;
+        height: 300px ;
+        
     }
+    .tagline {
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .tagline h1 {
+        font-size: 18px;
+        text-shadow: none;
+        text-align: center;
+    }
+
+    .sub-tagline {
+        font-size:19px;
+    }
+
+    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

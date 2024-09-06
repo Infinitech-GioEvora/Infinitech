@@ -45,14 +45,14 @@
                 <div class="row">
                     <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
-                            <img src="../assets/svg/Static assets-amico.svg" alt="">
+                            <img src="../assets/svg/webdes.svg" alt="">
                             <h2 class="serviceTitle">Web Design & Development</h2>
                             <p class="service-desc">Custom-built, professionally-designed websites featuring an easy-to-use Content Management System (CMS).</p>
                         </div>
                     </div>                    
                     <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
-                            <img src="../assets/svg/Website setup-cuate.svg" alt="">
+                            <img src="../assets/svg/webapp.svg" alt="">
                             <h2 class="serviceTitle">Web Based Application </h2>
                             <p class="service-desc">We have the capability to create personalized web applications
                                 designed to enhance your organization's operational effectiveness.</p>
@@ -60,7 +60,7 @@
                     </div>
                     <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
-                            <img src="../assets/svg/Online Groceries-cuate.svg" alt="">
+                            <img src="../assets/svg/ecommerce.svg" alt="">
                             <h2 class="serviceTitle">Ecommerce / Online Shop </h2>
                             <p class="service-desc">Infinitech specializes in developing meticulously designed
                                 e-commerce websites and online stores.</p>
@@ -68,7 +68,7 @@
                     </div>
                     <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
-                            <img src="../assets/svg/WebAppDev.svg" alt="">
+                            <img src="../assets/svg/Developer activity-bro.svg" alt="">
                             <h2 class="serviceTitle">Mobile App Development</h2>
                             <p class="service-desc">We specialize in developing custom mobile applications for both
                                 Android and iOS platforms, starting from inception to completion.</p>

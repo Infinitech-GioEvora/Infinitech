@@ -17,7 +17,6 @@
     <main>
         <section class="hero contact-layout">
             <div class="container contact-section">
-
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="tagline ">

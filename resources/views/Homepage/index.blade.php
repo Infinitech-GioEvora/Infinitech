@@ -272,7 +272,7 @@
         <section class="services ">
             <div class="container-fluid">
                 <div class="head">
-                    <img src="../assets/svg/AIHEAD.svg" alt="head" style="width:100%">
+                    <img src="../assets/svg/AIHEAD.svg" alt="head" style="width:80%">
                 </div>
                 <div class="row">
                     <div class="col-xs-10 col-sm-6 col-lg-8">
@@ -297,36 +297,36 @@
                 </div>
 
                 <div class="offer" data-aos="zoom-in-up" data-aos-duration="1000" style="font-size: 14px">
-                    <div class="col-6 col-md-2">
+                    <div class="col-8 col-md-2 clickable" data-href="/get-proposal">
                         <div class="offer-content text-center">
-                            <img src="../assets/svg/Static assets-amico.svg" alt="">
-                            <h2 class="serviceTitle">Web Design & Development</h2>
-                            <p class="service-desc">Custom-built, professionally-designed websites featuring an
-                                easy-to-use Content Management System (CMS).</p>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-2">
-                        <div class="offer-content text-center">
-                            <img src="../assets/svg/Website setup-cuate.svg" alt="">
-                            <h2 class="serviceTitle">Web Based Application </h2>
-                            <p class="service-desc">We have the capability to create personalized web applications
+                            <img src="../assets/svg/webapp.svg" alt="">
+                            <h2 class="offerTitle">Web Based Application </h2>
+                            <p class="offer-desc">We have the capability to create personalized web applications
                                 designed to enhance your organization's operational effectiveness.</p>
                         </div>
                     </div>
-                    <div class="col-6 col-md-2">
+                    <div class="col-8 col-md-2 clickable" data-href="/get-proposal">
                         <div class="offer-content text-center">
-                            <img src="../assets/svg/Online Groceries-cuate.svg" alt="">
-                            <h2 class="serviceTitle">Ecommerce / Online Shop </h2>
-                            <p class="service-desc">Infinitech specializes in developing meticulously designed
-                                e-commerce websites and online stores.</p>
+                            <img src="../assets/svg/search.svg" alt="">
+                            <h2 class="offerTitle">Search Engine Optimization</h2>
+                            <p class="offer-desc">We can assist in improving your website's ranking on major search
+                                engines such as Google.</p>
                         </div>
                     </div>
-                    <div class="col-6 col-md-2">
+                    <div class="col-8 col-md-2 clickable" data-href="/get-proposal">
                         <div class="offer-content text-center">
-                            <img src="../assets/svg/WebAppDev.svg" alt="">
-                            <h2 class="serviceTitle">Mobile App Development</h2>
-                            <p class="service-desc">We specialize in developing custom mobile applications for both
-                                Android and iOS platforms, starting from inception to completion.</p>
+                            <img src="../assets/svg/Hosting.svg" alt="">
+                            <h2 class="offerTitle">Web Hosting and Domain</h2>
+                            <p class="offer-desc">Our servers are fine-tuned for speed, security, and reliability,
+                                ensuring your websites operate seamlessly.</p>
+                        </div>
+                    </div>
+                    <div class="col-8 col-md-2 clickable" data-href="/get-proposal">
+                        <div class="offer-content text-center">
+                            <img src="../assets/svg/fast.svg" alt="">
+                            <h2 class="offerTitle">Fast Turn Over</h2>
+                            <p class="offer-desc">We specialize in providing swift turnaround times, guaranteeing the
+                                prompt completion of your projects while upholding high standards of quality.</p>
                         </div>
                     </div>
                 </div>
@@ -373,8 +373,7 @@
 
         </section>
 
-        <section class="clients py-3 py-md-5" data-aos="fade-up" data-aos-anchor-placement="top-center"
-            data-aos-duration="1000">
+        <section class="clients py-3 py-md-5">
             <div class="container">
                 <div class="headingstyle">
                     <div class="headingstyle" data-aos="fade-up" data-aos-duration="1000">
@@ -393,7 +392,7 @@
                 </div>
                 <div class="container">
                     <div class="row"data-aos="zoom-in-up" data-aos-duration="1000" >
-                        <div class="col-md-offset-2 col-md-8">
+                        <div class="col-12 col-md-8">
                             <div id="testimonial-slider" class="owl-carousel" >
                                 <div class="testimonial">
                                     <div class="pic">

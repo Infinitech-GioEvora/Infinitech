@@ -30,7 +30,7 @@
 
                     <div class="col-12 col-md-6 d-flex justify-content-center">
                         <div class="left-content">
-                            <img src="../assets/svg/testimonial.svg" alt="">
+                            <img src="../assets/svg/testimonials.svg" alt="">
                         </div>
                     </div>
                 </div>
