@@ -189,8 +189,8 @@ p {
 }
 
 .navigation {
-    background-color: #f9f9f9;
-    /* background-color: var(--var-accent-color); */
+    /* background-color: #f9f9f9; */
+    background-image: url("https://media.istockphoto.com/id/656116970/photo/blue-background.jpg?s=612x612&w=0&k=20&c=P7PWU0yK1Vc5y-0eexb96dCTSa7JS3fCKieY2G0dh9w=");
     width: 100%;
     position: fixed;
     height: auto;
@@ -652,6 +652,7 @@ p {
     font-size: 600;
     font-family: var(--var-header-font);
     margin-top: 10%;
+    margin: 16px 0px;
 }
 
 .service-consultation {
@@ -660,7 +661,85 @@ p {
     font-weight: 400;
 }
 
+/* ============================
+====COMMON BUSINES HURDLES ====
+=============================== */
+.ol-cards,
+.ol-cards * {
+  margin: 1px;
+  padding: 3px 3px;
+  
 
+}
+
+.ol-cards {
+  --flapWidth: 1rem;
+  --flapHeigth: 1rem;
+  --iconSize: 2.5rem;
+  --colGapSize: 2rem;
+  margin-inline: auto;
+  display: grid;
+  gap: 2rem;
+  padding-inline-start: var(--flapWidth);
+  font-family: sans-serif;
+  color: #222;
+  counter-reset: ol-cards-count;
+  list-style: none;
+}
+.ol-cards > li {
+  display: grid;
+  grid-template-areas: "icon descr nr";
+  gap: 0 var(--colGapSize);
+  align-items: center;
+  padding: 1rem 1rem 1rem 0;
+  border-radius: 1rem 5rem 5rem 1rem;
+  background-image: linear-gradient(to bottom right, #e9eaec, #ffffff);
+  counter-increment: ol-cards-count;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25));
+  box-shadow: inset 2px 2px 2px white, inset -1px -1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.ol-cards > li > .icon {
+  grid-area: icon;
+  background: var(--accent-color);
+  color: white;
+  font-size: var(--iconSize);
+  width: calc(2 * var(--flapWidth) + var(--iconSize));
+  padding-block: 1rem;
+  border-radius: 0 5rem 5rem 0;
+  margin-inline-start: calc(-1 * var(--flapWidth));
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+.ol-cards > li > .icon::before {
+  content: "";
+  position: absolute;
+  width: var(--flapWidth);
+
+  height: calc(100% + calc(var(--flapHeigth) * 2));
+  left: 0;
+  top: calc(var(--flapHeigth) * -1);
+  clip-path: polygon(
+    0 var(--flapHeigth),
+    100% 0,
+    100% 100%,
+    0 calc(100% - var(--flapHeigth))
+  );
+  background-color: var(--accent-color);
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.2)
+  );
+  z-index: -1;
+}
+.ol-cards > li > .descr {
+  grid-area: descr;
+  font-weight: 600;
+  font-size: 2rem;
+}
 
 /* =======================
 ===== PROJECT SECTION=====
@@ -817,7 +896,7 @@ a:focus {
     width: 100%;
     height: 100%;
     background-color: var(--var-light-color);
-    border-radius: 30px;
+    border-radius: 40px;
     z-index: -1;
 }
 
@@ -976,7 +1055,7 @@ a:focus {
 }
 
 .news-item .news-col {
-    background-color: #ffffff;
+    background-color: var(--var-background-light);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
         rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-bottom: 16px solid var(--var-accent-color);
@@ -1151,7 +1230,7 @@ footer {
 } 
 
 .footer-links h2 {
-    color: #f4f8fd;
+    color: var(--var-background-light);
     font-weight: 500;
     font-size: 17px;
 }
@@ -1183,6 +1262,7 @@ footer {
 
 .copy-right {
     background-color: var(--var-dark-color);
+    font-size: 12px;
 }
 
 .copy-right p {
@@ -1198,7 +1278,7 @@ footer {
 }
 
 .copy-right ul li a {
-    color: var(--var-accent-color);
+    color: #006fff;
     margin: 16px;
     text-decoration: none;
     font-weight: 500;
@@ -2392,6 +2472,7 @@ section .section-title {
         color: var(--var-accent-color);
         font-size: 20px;
         font-weight: bold;
+
     }
     .left-project {
         text-align: center;

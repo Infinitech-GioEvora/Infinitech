@@ -83,7 +83,7 @@
 
             </div>
 
-            <div class="swiper">
+            {{-- <div class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="/assets/img/manpower.png" />
@@ -98,9 +98,9 @@
                         <img src="/assets/img/tracking.jpg" />
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
-            {{-- <div class="col-12 col-md-12 col-lg-6">
+              <div class="col-12 col-md-12 col-lg-6">
                 <div class="left-content">
                     <div class="slider">
                       <div class="item">
@@ -123,8 +123,7 @@
                   </div>
                   </div>
               </div>
-          </div> --}}
-                
+          </div>
         </section>
         
 
@@ -169,7 +168,7 @@
                     <div class="col-8">
                         <h2 class="sub-heading">Common Business Hurdles!</h2>
                     </div>
-                </div>
+                {{-- </div>
                 <div class="col-xs-12 col-sm-6 col-md-3" data-aos="zoom-in-up" data-aos-duration="1000" >
                     <div class="problem-flip" >
                         <div class="mainprobflip flip-0">
@@ -265,6 +264,30 @@
                             </div>
                         </div>
                     </div>
+                </div> --}}
+                <div class="col-lg-12">
+                    <ol class="ol-cards clickable" data-href="/solution">
+                        <li style="--accent-color: #EE5830">
+                            <div class="icon" ><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></div>
+                            <div class="descr">Your business lacks online visibility.</div>
+                        </li>
+                        <li style="--accent-color: #4CBEB8">
+                            <div class="icon" ><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></div>
+                            <div class="descr">Competitors have a stronger online presence.</div>
+                        </li>
+                        <li style="--accent-color: #EE5830">
+                            <div class="icon" ><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></div>
+                            <div class="descr">You don't know how to reach your target audience.</div>
+                        </li>
+                        <li style="--accent-color: #FAAF47">
+                            <div class="icon" ><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></div>
+                            <div class="descr">Marketing efforts are not converting into sales.</div>
+                        </li>
+                        <li style="--accent-color: #4CBEB8">
+                            <div class="icon" ><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></div>
+                            <div class="descr">You’re struggling to stand out in a crowded market.</div>
+                        </li>
+                    </ol>  
                 </div>
             </div>
         </section>
@@ -392,7 +415,7 @@
                 </div>
                 <div class="container">
                     <div class="row"data-aos="zoom-in-up" data-aos-duration="1000" >
-                        <div class="col-12 col-md-8">
+                        <div class="col-md-offset-2 col-md-8">
                             <div id="testimonial-slider" class="owl-carousel" >
                                 <div class="testimonial">
                                     <div class="pic">
@@ -488,25 +511,25 @@
                                 <p class="work-description">We have extensive experience in your market and are confident in our ability to build a lasting relationship with you.</p>
                             </div>
                             <hr>
-                            <form class="contactForm">
+                            <form class="contactForm" >
                                 <div class="form-group">
-                                    <label for="name">Please tell us your name.</label>
-                                    <input type="text" id="name" name="name" placeholder="Giolo Evora" required>
+                                    <label for="name" style="font-size: 12px">Please tell us your name</label>
+                                    <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="email">Share your email for us to reach you.</label>
-                                    <input type="email" id="email" name="email" placeholder="infinitechcorp.ph@gmail.com" required>
+                                    <label for="email" style="font-size: 12px">Share your email for us to reach you</label>
+                                    <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="website">Website</label>
-                                    <input type="text" id="website" name="website" placeholder="https://www.infinitech.com">
+                                    <label for="website" style="font-size: 12px">Website</label>
+                                    <input type="text" id="website" name="website" placeholder="Enter Your Website">
                                 </div>
                                 <div class="form-group">
-                                    <label for="phone">Mobile Phone</label>
-                                    <input type="text" id="phone" name="phone" placeholder="(+63) 9924401097">
+                                    <label for="phone" style="font-size: 12px">Mobile Phone</label>
+                                    <input type="text" id="phone" name="phone" placeholder="Enter Phone Number">
                                 </div>
                                 <div class="form-group">
-                                    <label for="message">Send us a message.</label>
+                                    <label for="message" style="font-size: 12px">Send us a message</label>
                                     <textarea id="message" name="message" rows="5" placeholder="Say something...." required></textarea>
                                 </div>
                                 <button type="submit" class="button">
@@ -545,12 +568,9 @@
 
     <script src="/Contact.js"></script>
 
-  
 
 
 
-
-{{-- <script src="/Slider.js"></script> --}}
 </body>
 @include('Layout/Footer')
 @include('Layout/Script')
@@ -579,5 +599,18 @@
         });
     });
 </script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var clickableDivs = document.querySelectorAll('.clickable');
+        clickableDivs.forEach(function(div) {
+            div.addEventListener('click', function() {
+                var href = div.getAttribute('data-href');
+                if (href) {
+                    window.location.href = href;
+                }
+            });
+        });
+    });
+</script>    
 
 </html>

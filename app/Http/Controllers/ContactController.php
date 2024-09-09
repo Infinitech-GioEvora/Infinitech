@@ -45,9 +45,9 @@ class ContactController extends Controller
         $message = $validatedData['message'];
 
         // Prepare email data
-        $to = "infinitechcorp.ph@gmail.com";  // Your receiving email address
-        $subject = "Inquiry from $name";  // Email subject
-        $body = "Name: $name\nEmail: $email\nWebsite: $website\nPhone: $phone\nMessage:\n$message";  // Email body
+        $to = "infinitechcorp.ph@gmail.com";  
+        $subject = "Inquiry from $name";  
+        $body = "Name: $name\nEmail: $email\nWebsite: $website\nPhone: $phone\nMessage:\n$message"; 
 
         // Send the email
         Mail::raw($body, function($message) use ($email, $to, $subject) {

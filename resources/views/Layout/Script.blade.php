@@ -22,6 +22,7 @@
         });
     });
 </script>
+
 <script>
     AOS.init();
 </script>
@@ -52,8 +53,7 @@
 
 <script src="/Cube.js"></script>
 <script src="credential.js"></script>
-<script src="loader.js"></script>
-
+<script src="/Slider.js"></script>
 
 
 

@@ -49,19 +49,19 @@
                             <form class="contactForm">
                                 <div class="form-group">
                                     <label for="name">Please tell us your name.</label>
-                                    <input type="text" id="name" name="name" placeholder="Giolo Evora" required>
+                                    <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="email">Share your email for us to reach you.</label>
-                                    <input type="email" id="email" name="email" placeholder="infinitechcorp.ph@gmail.com" required>
+                                    <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="website">Website</label>
-                                    <input type="text" id="website" name="website" placeholder="https://www.infinitech.com">
+                                    <input type="text" id="website" name="website" placeholder="Enter Your Website">
                                 </div>
                                 <div class="form-group">
                                     <label for="phone">Mobile Phone</label>
-                                    <input type="text" id="phone" name="phone" placeholder="(+63) 9924401097">
+                                    <input type="text" id="phone" name="phone" placeholder="Enter Phone Number">
                                 </div>
                                 <div class="form-group">
                                     <label for="message">Send us a message.</label>

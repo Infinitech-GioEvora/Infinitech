@@ -294,7 +294,8 @@
                     </div>
                     
                 </div>
-                <div class="row no-gutters d-flex justify-content-center">
+                {{-- MA'AM AIRIES AND SIR APAN --}}
+                {{-- <div class="row no-gutters d-flex justify-content-center">
                     <!-- Team member -->
                     <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
@@ -357,7 +358,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="row no-gutters d-flex justify-content-center">
                     <!-- Team member -->
                     <div class="col-xs-12 col-sm-6 col-md-3">
