@@ -7,7 +7,18 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
-
+{{-- Scroll efect for nav bar --}}
+<script>
+    window.addEventListener('scroll', function() {
+        const navigation = document.querySelector('.navigation');
+        if (window.scrollY > 50) { 
+            navigation.classList.add('scrolled');
+        } else {
+            navigation.classList.remove('scrolled');
+        }
+    });
+    </script>
+    
 {{-- Bottom Underline Nav --}}
 <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -26,6 +37,7 @@
 <script>
     AOS.init();
 </script>
+
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js">
 </script>
@@ -53,7 +65,6 @@
 
 <script src="/Cube.js"></script>
 <script src="credential.js"></script>
-<script src="/Slider.js"></script>
 
 
 

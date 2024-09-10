@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infinitech Advertising Corporation | Web Developmet</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
 
     @include('Layout/Header')
@@ -15,73 +17,27 @@
 <body style="position: relative">
     @include('Layout/Navigation')
     <main>
-        <section class="section">              
-            <div class="content">
-                <div class="tagline">
-                    <h1 class="hero-header">"High Quality, Lower Price"</h1>
-                    <p class="hero-desc">At <strong>Infinitech Advertising Corporation</strong>, We offer excellent products without breaking the bank.
-                    </p>
-                    <div class="d-flex">
-                        <a class="button btn-hero" href="/about-us" style="text-decoration: none;">
-                            <span>Explore More</span>
-                            <svg width="34" height="34" viewBox="0 0 74 74" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="37" cy="37" r="35.5" stroke="white" stroke-width="3">
-                                </circle>
-                                <path
-                                    d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
-                                    fill="white"></path>
-                            </svg>
-                        </a>
-                    </div>
-
-                </div>
-                <div class="logos">
-                    <div class="logo_items">
-                        <img src="../assets/img/ABIC-Realty.png">
-                        <img src="../assets/img/MNG-Techvoc-INC.png">
-                        <img src="../assets/img/bcrv-techvoc.png">
-                        <img src="../assets/img/NRG-Info-Tech.png">
-                        <img src="../assets/img/abic-manpower.png">
-                        <img src="../assets/img/MNG-Techvoc-INC.png">
-                        <img src="../assets/img/bcrv-techvoc.png">
-                        <img src="../assets/img/NRG-Info-Tech.png">
-                        <img src="../assets/img/abic-manpower.png">
-                        <img src="../assets/img/ABIC-Realty.png">
-                        <img src="../assets/img/MNG-Techvoc-INC.png">
-                        <img src="../assets/img/bcrv-techvoc.png">
-                        <img src="../assets/img/NRG-Info-Tech.png">
-                        <img src="../assets/img/abic-manpower.png">
-                        <img src="../assets/img/ABIC-Realty.png">
-                        <img src="../assets/img/MNG-Techvoc-INC.png">
-                        <img src="../assets/img/bcrv-techvoc.png">
-                        <img src="../assets/img/NRG-Info-Tech.png">
-                        <img src="../assets/img/abic-manpower.png">
-                        <img src="../assets/img/ABIC-Realty.png">
-                        <img src="../assets/img/MNG-Techvoc-INC.png">
-                        <img src="../assets/img/bcrv-techvoc.png">
-                        <img src="../assets/img/NRG-Info-Tech.png">
-                        <img src="../assets/img/abic-manpower.png">
-                        <img src="../assets/img/ABIC-Realty.png">
-                        <img src="../assets/img/MNG-Techvoc-INC.png">
-                        <img src="../assets/img/bcrv-techvoc.png">
-                        <img src="../assets/img/NRG-Info-Tech.png">
-                        <img src="../assets/img/abic-manpower.png">
-                        <img src="../assets/img/ABIC-Realty.png">
-                        <img src="../assets/img/MNG-Techvoc-INC.png">
-                        <img src="../assets/img/bcrv-techvoc.png">
-                        <img src="../assets/img/NRG-Info-Tech.png">
-                        <img src="../assets/img/abic-manpower.png">
-                        <img src="../assets/img/ABIC-Realty.png">
-                        <img src="../assets/img/MNG-Techvoc-INC.png">
-                        <img src="../assets/img/bcrv-techvoc.png">
-                        <img src="../assets/img/NRG-Info-Tech.png">
-                        <img src="../assets/img/abic-manpower.png">
-                        
+        <section class="section" style="background-image: url('https://st3.depositphotos.com/3930503/12616/i/450/depositphotos_126163052-stock-photo-light-blue-gradient-background-can.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 30px 0;"> 
+                <div class="content">
+                    <div class="tagline">
+                        <h1 class="hero-header">"High Quality, Lower Price"</h1>
+                        <p class="hero-desc">At <strong>Infinitech Advertising Corporation</strong>, We offer excellent products without breaking the bank.
+                        </p>
+                        <div class="d-flex">
+                            <a class="button btn-hero" href="/about-us" style="text-decoration: none;">
+                                <span>Explore More</span>
+                                <svg width="34" height="34" viewBox="0 0 74 74" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="37" cy="37" r="35.5" stroke="white" stroke-width="3">
+                                    </circle>
+                                    <path
+                                        d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                                        fill="white"></path>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                 </div>
-
-            </div>
 
             {{-- <div class="swiper">
                 <div class="swiper-wrapper">
@@ -99,33 +55,85 @@
                     </div>
                 </div>
             </div> --}}
-
-              <div class="col-12 col-md-12 col-lg-6">
+            <div class="col-12 col-md-12 col-lg-6">
                 <div class="left-content">
-                    <div class="slider">
-                      <div class="item">
-                          <img src="/assets/img/manpower.png">
-                      </div>
-                      <div class="item">
-                          <img src="/assets/img/tracking.jpg" >
-                      </div>
-                      <div class="item">
-                          <img src="/assets/img/manpower.png">
-                      </div>
-                      <div class="item">
-                          <img src="/assets/img/tracking.jpg">
-                      </div>
-                      <div class="item">
-                          <img src="/assets/img/manpower.png" >
-                      </div>
-                      <button id="next">></button>
-                      <button id="prev"><</button>
-                  </div>
+                    <div class="imageslider">
+                            <div class="imageitem">
+                                <img src="/assets/img/dmcihomes.png" >
+                            </div>
+                            <div class="imageitem">
+                                <img src="/assets/img/abicmanpower.png">
+                            </div>
+                        <div class="imageitem">
+                            <img src="/assets/img/dmcihomes.png">
+                        </div>
+                        <div class="imageitem">
+                            <img src="/assets/img/abicmanpower.png" >
+                        </div>
+                        <button id="nextt">></button>
+                        <button id="prevv"><</button>
+                    </div>
                   </div>
               </div>
           </div>
-        </section>
+          <div class="logos">
+            <div class="logo_items">
+            <img src="/assets/img/partner.png">
+            <img src="/assets/img/partner1.png">
+            <img src="/assets/img/partner2.png">
+            <img src="/assets/img/partner3.png">
+            <img src="/assets/img/partner4.png">
+            <img src="/assets/img/partner5.png">
+            <img src="/assets/img/partner6.png">
+            <img src="/assets/img/partner.png">
+            <img src="/assets/img/partner1.png">
+            <img src="/assets/img/partner2.png">
+            <img src="/assets/img/partner3.png">
+            <img src="/assets/img/partner4.png">
+            <img src="/assets/img/partner5.png">
+            <img src="/assets/img/partner.png">
+            <img src="/assets/img/partner1.png">
+            <img src="/assets/img/partner2.png">
+            <img src="/assets/img/partner3.png">
+            <img src="/assets/img/partner4.png">
+            <img src="/assets/img/partner5.png">
+            <img src="/assets/img/partner.png">
+            <img src="/assets/img/partner1.png">
+            <img src="/assets/img/partner2.png">
+            <img src="/assets/img/partner3.png">
+            <img src="/assets/img/partner4.png">
+            <img src="/assets/img/partner5.png">
+           </div>
+         <div class="logo_items">
+          <img src="/assets/img/partner.png">
+          <img src="/assets/img/partner1.png">
+            <img src="/assets/img/partner2.png">
+            <img src="/assets/img/partner3.png">
+            <img src="/assets/img/partner4.png">
+            <img src="/assets/img/partner5.png">
+            <img src="/assets/img/partner.png">
+            <img src="/assets/img/partner1.png">
+            <img src="/assets/img/partner2.png">
+            <img src="/assets/img/partner3.png">
+            <img src="/assets/img/partner4.png">
+            <img src="/assets/img/partner5.png">
+            <img src="/assets/img/partner.png">
+            <img src="/assets/img/partner1.png">
+            <img src="/assets/img/partner2.png">
+            <img src="/assets/img/partner3.png">
+            <img src="/assets/img/partner4.png">
+            <img src="/assets/img/partner5.png">
+            <img src="/assets/img/partner.png">
+            <img src="/assets/img/partner1.png">
+            <img src="/assets/img/partner2.png">
+            <img src="/assets/img/partner3.png">
+            <img src="/assets/img/partner4.png">
+            <img src="/assets/img/partner5.png">
         
+           </div>
+           </div>
+        </section>
+    
 
         <section class="infinitech">
             <div class="container">
@@ -265,29 +273,63 @@
                         </div>
                     </div>
                 </div> --}}
-                <div class="col-lg-12">
-                    <ol class="ol-cards clickable" data-href="/solution">
-                        <li style="--accent-color: #EE5830">
-                            <div class="icon" ><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></div>
-                            <div class="descr">Your business lacks online visibility.</div>
+                <div class="col-md-6 ">
+                    <ol class="olcards clickable" data-href="/solution">
+                        <li style="--cardColor:#00aaff">
+                            <div class="content">
+                                <div class="text">Your business lacks online visibility.</div>
+                            </div>
                         </li>
-                        <li style="--accent-color: #4CBEB8">
-                            <div class="icon" ><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></div>
-                            <div class="descr">Competitors have a stronger online presence.</div>
+                        <li style="--cardColor:#0099cc">
+                            <div class="content">
+                                <div class="text">Competitors have a stronger online presence.</div>
+                            </div>
                         </li>
-                        <li style="--accent-color: #EE5830">
-                            <div class="icon" ><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></div>
-                            <div class="descr">You don't know how to reach your target audience.</div>
+                        <li style="--cardColor:#006699">
+                            <div class="content">
+                                <div class="text">Marketing efforts are not converting into sales.</div>
+                            </div>
                         </li>
-                        <li style="--accent-color: #FAAF47">
-                            <div class="icon" ><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></div>
-                            <div class="descr">Marketing efforts are not converting into sales.</div>
+                        <li style="--cardColor:#007acc">
+                            <div class="content">
+                                <div class="text">You’re struggling to stand out in a crowded market.</div>
+                            </div>
                         </li>
-                        <li style="--accent-color: #4CBEB8">
-                            <div class="icon" ><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></div>
-                            <div class="descr">You’re struggling to stand out in a crowded market.</div>
+                        <li style="--cardColor:#003366">
+                            <div class="content">
+                                <div class="text">You don't know how to reach your target audience.</div>
+                            </div>
                         </li>
-                    </ol>  
+                    </ol>
+                </div>
+                <div class="col-md-6 ">
+                    <ol class="olcards clickable" data-href="/solution">
+                        <li style="--cardColor:#00aaff">
+                            <div class="content">
+                                <div class="text">Your business lacks online visibility.</div>
+                            </div>
+                        </li>
+                        <li style="--cardColor:#0099cc">
+                            <div class="content">
+                                <div class="text">Competitors have a stronger online presence.</div>
+                            </div>
+                        </li>
+                        <li style="--cardColor:#006699">
+                            <div class="content">
+                                <div class="text">Marketing efforts are not converting into sales.</div>
+                            </div>
+                        </li>
+                        <li style="--cardColor:#007acc">
+                            <div class="content">
+                                <div class="text">You’re struggling to stand out in a crowded market.</div>
+                            </div>
+                        </li>
+                        <li style="--cardColor:#003366">
+                            <div class="content">
+                                <div class="text">You don't know how to reach your target audience.</div>
+                            </div>
+                        </li>
+                    </ol>
                 </div>
             </div>
         </section>
@@ -567,9 +609,7 @@
 
 
     <script src="/Contact.js"></script>
-
-
-
+    <script src="imageslider.js"></script>X
 
 </body>
 @include('Layout/Footer')
@@ -599,6 +639,10 @@
         });
     });
 </script>
+{{-- under maintenace --}}
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-e818f66d-4134-4d9c-a300-ccbe7922c605" data-elfsight-app-lazy></div>
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         var clickableDivs = document.querySelectorAll('.clickable');
