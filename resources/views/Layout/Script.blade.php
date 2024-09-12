@@ -6,7 +6,21 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+{{-- Disable Right Click --}}
+<script>
+    $(document).bind("contextmenu",function(e) {
+    e.preventDefault();
+    });
+</script>
 
+{{-- Disable F12 --}}
+<script>
+    $(document).keydown(function(e){
+    if(e.which === 123){
+       return false;
+    }
+});
+</script>
 {{-- Scroll efect for nav bar --}}
 <script>
     window.addEventListener('scroll', function() {

@@ -13,6 +13,7 @@
 <body>
      <main>
         <section class="hero contact-layout">
+          <div class="hero-overlay"></div>
           <button id="myButton"></button>
             <div class="container contact-section">
 

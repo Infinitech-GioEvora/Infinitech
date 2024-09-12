@@ -16,6 +16,7 @@
     <main>
         <!-- Hero Section -->
         <section class="hero contact-layout">
+            <div class="hero-overlay"></div>
             <div class="container testimonial-section">
 
                 <div class="row">
@@ -34,105 +35,103 @@
                         </div>
                     </div>
                 </div>
-
-               
+            </div>
+            <div class="custom-shape-divider-bottom-1726013583">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
             </div>
         </section>
-        
-        <html>
-        <head>
-            <title>Testimonial</title>
+        <section class="problem">
             <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
-        </head>
-        <body>
-        <div class="container">
-            <div class="row"data-aos="zoom-in-up" data-aos-duration="1000" >
-                <div class="col-md-offset-2 col-md-8">
-                    <div id="testimonial-slider" class="owl-carousel" >
-                        <div class="testimonial">
-                            <div class="pic">
-                                <img src="../assets/img/person.png">
+            <div class="container">
+                <div class="row"data-aos="zoom-in-up" data-aos-duration="1000" >
+                    <div class="col-md-offset-2 col-md-8">
+                        <div id="testimonial-slider" class="owl-carousel" >
+                            <div class="testimonial">
+                                <div class="pic">
+                                    <img src="../assets/img/person.png">
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>I was really impressed with the fast service! The staff handled everything e
+                                        fficiently and had my request taken care of in no time. It’s great to experience such prompt a
+                                        nd effective service—thank you for making it a seamless experience!
+                                    </p>
+                                </div>
+                                <h3 class="testimonial-title">
+                                    <a href="#">Giolo Evora</a>
+                                    <small>- Senior Web Developer</small>
+                                </h3>
                             </div>
-                            <div class="testimonial-content">
-                                <p>I was really impressed with the fast service! The staff handled everything e
-                                    fficiently and had my request taken care of in no time. It’s great to experience such prompt a
-                                    nd effective service—thank you for making it a seamless experience!
-                                </p>
-                            </div>
-                            <h3 class="testimonial-title">
-                                <a href="#">Giolo Evora</a>
-                                <small>- Senior Web Developer</small>
-                            </h3>
-                        </div>
 
-                        <div class="testimonial">
-                            <div class="pic">
-                                <img src="../assets/img/person.png">
+                            <div class="testimonial">
+                                <div class="pic">
+                                    <img src="../assets/img/person.png">
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>Fantastic job with the system! It’s evident that a lot of thought and effort went into its
+                                        design. Everything functions smoothly and efficiently, making the whole experience very satisfying. 
+                                        Thanks for delivering such a high-quality solution.
+                                    </p>
+                                </div>
+                                <h3 class="testimonial-title">
+                                    <a href="#">Moses Alcantara</a>
+                                    <small>- Senior Web Developer</small>
+                                </h3>
                             </div>
-                            <div class="testimonial-content">
-                                <p>Fantastic job with the system! It’s evident that a lot of thought and effort went into its
-                                    design. Everything functions smoothly and efficiently, making the whole experience very satisfying. 
-                                    Thanks for delivering such a high-quality solution.
-                                </p>
-                            </div>
-                            <h3 class="testimonial-title">
-                                <a href="#">Moses Alcantara</a>
-                                <small>- Senior Web Developer</small>
-                            </h3>
-                        </div>
 
-                        <div class="testimonial">
-                            <div class="pic">
-                                <img src="../assets/img/person.png">
+                            <div class="testimonial">
+                                <div class="pic">
+                                    <img src="../assets/img/person.png">
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>I’m impressed with the performance so far.Excellent work on the website. 
+                                        It’s user-friendly, reliable, and performs exactly as promised. I’m very pleased with its effectiveness and ease of use. 
+                                        Great job on creating something that truly delivers.
+                                        
+                                    </p>
+                                </div>
+                                <h3 class="testimonial-title">
+                                    <a href="#">Justin De Castro</a>
+                                    <small>- Senior Web Developer</small>
+                                </h3>
                             </div>
-                            <div class="testimonial-content">
-                                <p>I’m impressed with the performance so far.Excellent work on the website. 
-                                    It’s user-friendly, reliable, and performs exactly as promised. I’m very pleased with its effectiveness and ease of use. 
-                                    Great job on creating something that truly delivers.
-                                    
-                                </p>
+                            <div class="testimonial">
+                                <div class="pic">
+                                    <img src="../assets/img/person.png">
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>Outstanding service with the domain and hosting. 
+                                        The setup was quick and hassle-free, and everything is running smoothly. Im impressed with the quality thanks for providing such
+                                        a solid foundation for my online presence!
+                                    </p>
+                                </div>
+                                <h3 class="testimonial-title">
+                                    <a href="#">Kimberly Niñeria</a>
+                                    <small>- Junior Web Developer</small>
+                                </h3>
                             </div>
-                            <h3 class="testimonial-title">
-                                <a href="#">Justin De Castro</a>
-                                <small>- Senior Web Developer</small>
-                            </h3>
-                        </div>
-                        <div class="testimonial">
-                            <div class="pic">
-                                <img src="../assets/img/person.png">
+                            <div class="testimonial">
+                                <div class="pic">
+                                    <img src="../assets/img/person.png">
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>I’m genuinely amazed by the exceptional quality of this product/service. 
+                                        It’s evident that a lot of thought and craftsmanship went into every detail. The performance is not just reliable but
+                                        impressively outstanding, setting a new benchmark for excellence. 
+                                    </p>
+                                </div>
+                                <h3 class="testimonial-title">
+                                    <a href="#">Allysa Perez</a>
+                                    <small>- Admin Assistant</small>
+                                </h3>
                             </div>
-                            <div class="testimonial-content">
-                                <p>Outstanding service with the domain and hosting. 
-                                    The setup was quick and hassle-free, and everything is running smoothly. Im impressed with the quality thanks for providing such
-                                     a solid foundation for my online presence!
-                                </p>
-                            </div>
-                            <h3 class="testimonial-title">
-                                <a href="#">Kimberly Niñeria</a>
-                                <small>- Junior Web Developer</small>
-                            </h3>
-                        </div>
-                        <div class="testimonial">
-                            <div class="pic">
-                                <img src="../assets/img/person.png">
-                            </div>
-                            <div class="testimonial-content">
-                                <p>I’m genuinely amazed by the exceptional quality of this product/service. 
-                                    It’s evident that a lot of thought and craftsmanship went into every detail. The performance is not just reliable but
-                                     impressively outstanding, setting a new benchmark for excellence. 
-                                </p>
-                            </div>
-                            <h3 class="testimonial-title">
-                                <a href="#">Allysa Perez</a>
-                                <small>- Admin Assistant</small>
-                            </h3>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
         <!-- video-testimonial-section -->
            <div class="space-medium">
@@ -198,6 +197,7 @@
                    </div>
                </div>
            </div>
+        </section>
 
         @include('Layout.Social')
         <script src="/TestimonialVid.js"></script>

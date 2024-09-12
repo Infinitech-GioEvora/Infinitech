@@ -87,7 +87,7 @@ Route::get('/JUNIORDEV-DarleneFajarito', function () {
 Route::get('/JUNIORDEV-LycaNobleza', function () {
     return view('Credential/MsLyca');
 });
-Route::get('/ADMINASSTt-AllysaPerez', function () {
+Route::get('/ADMINASST-AllysaPerez', function () {
     return view('Credential/MamAly');
 });
 Route::get('/ACCOUNTING-MarisolCenteno', function () {

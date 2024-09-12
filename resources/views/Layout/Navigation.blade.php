@@ -3,15 +3,17 @@
     <div class="navigation">
         
             <div class="menu d-flex justify-content-between align-items-center">
-                <a href="/" class="nav-logo d-flex align-items-center">
-                    <img src="../assets/img/log.png" alt="">
-                </a>
+                <div class="nav-logo">
+                    <a href="/">
+                        <img src="/assets/img/LOGO.png" alt="Infinitech Advertising Logo">
+                        {{-- <span class="logo-title">Infinitech<span class="logo-sub-title">advertising Corporation</span></span> --}}
+                    </a>
+                </div>
                 <span>
                     <a class="icon-menu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                         <i class="fa-solid fa-bars-staggered"></i>
                     </a>
                 </span>
-
                 <div class="nav-menu text-left">
                     <ul>
                         <li class="menu-item" data-link="/about-us"><a href="/about-us">About Us</a></li>

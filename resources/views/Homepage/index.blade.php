@@ -17,11 +17,12 @@
 <body style="position: relative">
     @include('Layout/Navigation')
     <main>
-        <section class="section" style="background-image: url('https://st3.depositphotos.com/3930503/12616/i/450/depositphotos_126163052-stock-photo-light-blue-gradient-background-can.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 30px 0;"> 
-                <div class="content">
+        <section class="section hero"> 
+            <div class="hero-overlay"></div>    
+            <div class="content">
                     <div class="tagline">
-                        <h1 class="hero-header">"High Quality, Lower Price"</h1>
-                        <p class="hero-desc">At <strong>Infinitech Advertising Corporation</strong>, We offer excellent products without breaking the bank.
+                        <h1 class="hero-header">High Quality, <strong>Lower Price</strong> </h1>
+                        <p class="hero-desc">At <strong>Infinitech Advertising Corporation, </strong><br> We offer excellent products without breaking the bank.</br>
                         </p>
                         <div class="d-flex">
                             <a class="button btn-hero" href="/about-us" style="text-decoration: none;">
@@ -78,7 +79,7 @@
           </div>
           <div class="logos">
             <div class="logo_items">
-            <img src="/assets/img/partner.png">
+            <img src="/assets/img/partner.png" height="100" width="250" alt="">
             <img src="/assets/img/partner1.png">
             <img src="/assets/img/partner2.png">
             <img src="/assets/img/partner3.png">
@@ -104,34 +105,14 @@
             <img src="/assets/img/partner4.png">
             <img src="/assets/img/partner5.png">
            </div>
-         <div class="logo_items">
-          <img src="/assets/img/partner.png">
-          <img src="/assets/img/partner1.png">
-            <img src="/assets/img/partner2.png">
-            <img src="/assets/img/partner3.png">
-            <img src="/assets/img/partner4.png">
-            <img src="/assets/img/partner5.png">
-            <img src="/assets/img/partner.png">
-            <img src="/assets/img/partner1.png">
-            <img src="/assets/img/partner2.png">
-            <img src="/assets/img/partner3.png">
-            <img src="/assets/img/partner4.png">
-            <img src="/assets/img/partner5.png">
-            <img src="/assets/img/partner.png">
-            <img src="/assets/img/partner1.png">
-            <img src="/assets/img/partner2.png">
-            <img src="/assets/img/partner3.png">
-            <img src="/assets/img/partner4.png">
-            <img src="/assets/img/partner5.png">
-            <img src="/assets/img/partner.png">
-            <img src="/assets/img/partner1.png">
-            <img src="/assets/img/partner2.png">
-            <img src="/assets/img/partner3.png">
-            <img src="/assets/img/partner4.png">
-            <img src="/assets/img/partner5.png">
-        
-           </div>
-           </div>
+        </div>
+
+           <div class="custom-shape-divider-bottom-1726013583">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
         </section>
     
 
@@ -168,6 +149,7 @@
                     </div>
                 </div>
             </div>
+            
         </section>
 
         <section class="problem">
@@ -176,103 +158,6 @@
                     <div class="col-8">
                         <h2 class="sub-heading">Common Business Hurdles!</h2>
                     </div>
-                {{-- </div>
-                <div class="col-xs-12 col-sm-6 col-md-3" data-aos="zoom-in-up" data-aos-duration="1000" >
-                    <div class="problem-flip" >
-                        <div class="mainprobflip flip-0">
-                            <div class="front">
-                                <div class="card ">
-                                    <div class="team-details" style="font-display: center">
-                                        <img src="../assets/svg/problem.svg" alt="">
-                                        <span class="card-title d-block">Difficulty in effectively showcasing property listings online, leading to lower sales </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="back ">
-                                <div class="card ">
-                                    <div class="card-body text-left mt-4">
-                                            <p class="card-title">We are committed to addressing your challenges with solutions designed to meet your specific needs and goals. 
-                                                Our team is ready to help you overcome obstacles and achieve success.
-                                        </p>
-                                        <h5 class="credential-link text-center" ><a href="/services">View More</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3" data-aos="zoom-in-up" data-aos-duration="1000" >
-                    <div class="problem-flip" >
-                        <div class="mainprobflip flip-0">
-                            <div class="front">
-                                    <div class="card">
-                                        <div class="team-details" style="font-display: center">
-                                            <img src="../assets/svg/problem.svg" alt="">
-                                            <span class="card-title d-block">Challenges in attracting new clients due to a lack of online project showcases</span>
-                                        </div>
-                                    </div>
-                            </div>
-                            <div class="back ">
-                                <div class="card ">
-                                    <div class="card-body text-left mt-4">
-                                        <p class="card-title">We are committed to addressing your challenges with solutions designed to meet your specific needs and goals. 
-                                            Our team is ready to help you overcome obstacles and achieve success.
-                                    </p>
-                                    <h5 class="credential-link text-center" ><a href="/services">View More</a></h5>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3" data-aos="zoom-in-up" data-aos-duration="1000" >
-                    <div class="problem-flip" >
-                        <div class="mainprobflip flip-0">
-                            <div class="front">
-                                    <div class="card">
-                                        <div class="team-details" style="font-display: center">
-                                            <img src="../assets/svg/problem.svg" alt="">
-                                            <span class="card-title d-block">Difficulty in building client trust due to unclear communication, impacting  outcomes.</span>
-                                        </div>
-                                    </div>
-                            </div>
-                            <div class="back ">
-                                <div class="card ">
-                                    <div class="card-body text-left mt-4">
-                                        <p class="card-title">We are committed to addressing your challenges with solutions designed to meet your specific needs and goals. 
-                                            Our team is ready to help you overcome obstacles and achieve success.
-                                    </p>
-                                    <h5 class="credential-link text-center" ><a href="/services">View More</a></h5>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3" data-aos="zoom-in-up" data-aos-duration="1000" >
-                    <div class="problem-flip" >
-                        <div class="mainprobflip flip-0">
-                            <div class="front">
-                                    <div class="card">
-                                        <div class="team-details" style="font-display: center">
-                                            <img src="../assets/svg/problem.svg" alt="">
-                                            <span class="card-title d-block">Difficulty adapting to changing market dynamics, affecting competitiveness and growth.</span>
-                                        </div>
-                                    </div>
-                            </div>
-                            <div class="back ">
-                                <div class="card ">
-                                    <div class="card-body text-left mt-4">
-                                        <p class="card-title">We are committed to addressing your challenges with solutions designed to meet your specific needs and goals. 
-                                            Our team is ready to help you overcome obstacles and achieve success.
-                                    </p>
-                                    <h5 class="credential-link text-center" ><a href="/services">View More</a></h5>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
                 <div class="col-md-6 ">
                     <ol class="olcards clickable" data-href="/solution">
                         <li style="--cardColor:#00aaff">
@@ -609,7 +494,7 @@
 
 
     <script src="/Contact.js"></script>
-    <script src="imageslider.js"></script>X
+    <script src="imageslider.js"></script>
 
 </body>
 @include('Layout/Footer')
