@@ -519,9 +519,9 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-.modal-content img {
+.modal-content iframe {
     width: 100%;
-    max-width: 300px; 
+    max-width: 500px; 
     margin-right: 20px;
     border-radius: 8px; 
 }
