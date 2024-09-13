@@ -89,7 +89,7 @@
                       </div>
                     </div>
                 </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-12 col-lg-6">
                         <div class="left-content">
                             <div class="slider">
                                 <div class="item">
@@ -207,7 +207,6 @@
         @include('Layout.Social')
     </main>
 
-    <script src="/Credential.js"></script>
     <script src="/Slider.js"></script>
 </body>
 @include('Layout.Script')
