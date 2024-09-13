@@ -2932,13 +2932,49 @@ section .section-title {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
     .swiper {
         width: 350px;
         height: 450px;
     }
-}
+    /* Employee Details */
+    .employee-name {
+        margin-top: 80px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        font-size: clamp(26px, 4vw, 56px);
+        line-height: 1;
+        font-family: var(--font-family), sans-serif;
+    }
+    /* IMAGE SLIDER */
+    .imageslider {
+        position: relative;
+        margin-top: 40px;
+        width: 120%;
+        height: 390px; 
+        transform: rotateZ(1deg);
 
+    }
+    /* IMAGE SVG */
+    .service-section .left-content img {
+        width: 500px;
+        margin-left: 100px;
+    }
+    .testimonial-section .left-content img {
+        width: 500px;
+        margin-left: 100px;
+    }
+    .news-section .left-content img {
+        width: 500px;
+        margin-left: 100px;
+    }
+    .contact-section .left-content img {
+        width: 500px;
+        margin-left: 100px;
+    }
+
+}
 
 
 
