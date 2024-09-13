@@ -107,7 +107,7 @@
                                 <img src="/assets/img/cred/mk4.png">
                             </div>
                             <div class="item">
-                                <img src="/assets/img/cred/mk5.png" >
+                                <img src="/assets/img/cred/3.png" >
                             </div>
                             <div class="item">
                               <img src="/assets/img/cred/mk1.png">
@@ -122,7 +122,7 @@
                                 <img src="/assets/img/cred/mk4.png">
                             </div>
                             <div class="item">
-                                <img src="/assets/img/cred/mk5.png" >
+                                <img src="/assets/img/cred/mk3.png" >
                             </div>
                             <button id="next">></button>
                             <button id="prev"><</button>

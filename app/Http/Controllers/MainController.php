@@ -193,7 +193,7 @@ class MainController extends Controller
     public function downloadVCard(Request $request)
     {
         $id = $request->input('id'); 
-        $user = Employees::where('employee_ID', $id)->first();
+        $user = Employees::where('employeeID', $id)->first();
         
         if (!$user) {
             return response()->json(['error' => 'User not found.']);

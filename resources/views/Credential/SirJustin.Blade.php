@@ -11,104 +11,89 @@
 
 <body>
      <main>
-        <section class="hero contact-layout">
-          <div class="hero-overlay"></div>
-          <button id="myButton"></button>
-            <div class="container contact-section">
+      <section class="hero contact-layout">
+        <div class="hero-overlay"></div>
+        <button id="myButton"></button>
+          <div class="container contact-section">
 
-                <div class="row">
-                  <div class="col-12 col-md-12 col-lg-6">
-                    <div class="right-content">
-                        <div class="employee-details mb-4">
-                            <h1 class="employee-name">{{ $record->firstname }} {{ $record->lastname }}</h1>
-                            <h2 class="employee-position mb-4">{{ $record->position }}</h2>
-                        </div>
-                
-                        <div class="employee-contact mb-4">
-                            <div class="location">
-                                <b>Office Address:</b> Unit 311, Campos Rueda Bldg., Urban Avenue, Makati City
-                            </div>
-                            <div class="mobile-number">
-                                <b>Mobile No.:</b>
-                                <a href="tel:{{ $record->phone}}">(+63){{ $record->phone}}</a>
-                            </div>
-                            <div class="tel">
-                                <b>Telephone No.:</b> (02) 7001-6157
-                            </div>
-                            <div class="website">
-                                <b>Website:</b>
-                                <a href="https://infinitechphil.com/" target="_blank">www.infinitechphil.com</a>
-                            </div>
-                        </div>
-                
-                        <div class="contacts mb-4">
-                            <form method="get" action="/download-vcard">
-                                <button type="submit">
-                                    <i class="fa-solid fa-id-card"></i>
-                                    <span>Add to contacts</span>
-                                </button>
-                                <input type="hidden" name="id" value="{{ $record->employee_id }}">
-                            </form>
-                        </div>
-                
-                        <div class="employee-social mb-xl-5 d-flex">
-                          <div class="social facebook" data-bs-toggle="tooltip" data-bs-placement="top"
-                              data-bs-custom-class="custom-tooltip" data-bs-title="Facebook">
-                              <a href="{{ $record->facebook }}" target="_blank">
-                                  <i class="fa-brands fa-facebook"></i>
-                              </a>
-                          </div>
-
-                          <div class="social telegram" data-bs-toggle="tooltip" data-bs-placement="top"
-                              data-bs-custom-class="custom-tooltip" data-bs-title="Telegram">
-                              <a href="https://t.me/+63{{ $record->telegram }}" target="_blank">
-                                  <i class="fa-brands fa-telegram"></i>
-                              </a>
-                          </div>
-
-                          <div class="social telegram" data-bs-toggle="tooltip" data-bs-placement="top"
-                              data-bs-custom-class="custom-tooltip" data-bs-title="Wechat">
-                              <a type="button" class=" btn-wechat" data-bs-toggle="modal"
-                                  data-bs-target="#exampleModal">
-                                  <i class="fa-brands fa-weixin"></i>
-                              </a>
-                          </div>
-
-                          <div class="social viber" data-bs-toggle="tooltip" data-bs-placement="top"
-                              data-bs-custom-class="custom-tooltip" data-bs-title="Viber">
-                              <a href="{{ $record->viber }}" target="_blank"><i class="fa-brands fa-viber"></i></a>
-                              {{-- <a href="viber://chat?number={{ $record->viber}}"><i class="fa-brands fa-viber"></i></a> --}}
-                          </div>
-
-                          <div class="social whatsapp" data-bs-toggle="tooltip" data-bs-placement="top"
-                              data-bs-custom-class="custom-tooltip" data-bs-title="WhatsApp">
-                              <a href="https://wa.me/{{ $record->whatsapp }}" target="_blank"><i
-                                      class="fa-brands fa-whatsapp"></i></a>
-                          </div>
-
+              <div class="row">
+                <div class="col-12 col-md-12 col-lg-6">
+                  <div class="right-content">
+                      <div class="employee-details mb-4">
+                          <h1 class="employee-name">{{ $record->firstname }} {{ $record->lastname }}</h1>
+                          <h2 class="employee-position mb-4">{{ $record->position }}</h2>
                       </div>
-                    </div>
-                </div>
+              
+                      <div class="employee-contact mb-4">
+                          <div class="location">
+                              <b>Office Address:</b> Unit 311, Campos Rueda Bldg., Urban Avenue, Makati City
+                          </div>
+                          <div class="mobile-number">
+                              <b>Mobile No.:</b>
+                              <a href="tel:{{ $record->phone }}">(+63){{ $record->phone }}</a>
+                          </div>
+                          <div class="tel">
+                              <b>Telephone No.:</b> (02) 7001-6157
+                          </div>
+                          <div class="website">
+                              <b>Website:</b>
+                              <a href="https://infinitechphil.com/" target="_blank">www.infinitechphil.com</a>
+                          </div>
+                      </div>
+              
+                      <div class="contacts mb-4">
+                          <form method="get" action="/download-vcard">
+                              <button type="submit">
+                                  <i class="fa-solid fa-id-card"></i>
+                                  <span>Add to contacts</span>
+                              </button>
+                              <input type="hidden" name="id" value="{{ $record->employee_id }}">
+                          </form>
+                      </div>
+              
+                      <div class="employee-social mb-xl-5 d-flex">
+                        <div class="social facebook" data-bs-toggle="tooltip" data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip" data-bs-title="Facebook">
+                            <a href="{{ $record->facebook }}" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </div>
 
-                    <div class="col-12 col-md-12 col-lg-6">
-                      <div class="left-content">
-                          <div class="slider">
-                            <div class="item">
-                                <img src="/assets/img/cred/j1.png">
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/cred/j2.png" >
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/cred/j3.png">
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/cred/j4.png">
-                            </div>
-                            <div class="item">
-                                <img src="/assets/img/cred/j5.png" >
-                            </div>
-                            <div class="item">
+                        <div class="social telegram" data-bs-toggle="tooltip" data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip" data-bs-title="Telegram">
+                            <a href="https://t.me/+63{{ $record->telegram }}" target="_blank">
+                                <i class="fa-brands fa-telegram"></i>
+                            </a>
+                        </div>
+
+                        <div class="social telegram" data-bs-toggle="tooltip" data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip" data-bs-title="Wechat">
+                            <a type="button" class=" btn-wechat" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                <i class="fa-brands fa-weixin"></i>
+                            </a>
+                        </div>
+
+                        <div class="social viber" data-bs-toggle="tooltip" data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip" data-bs-title="Viber">
+                            <a href="{{ $record->viber }}" target="_blank"><i class="fa-brands fa-viber"></i></a>
+                            {{-- <a href="viber://chat?number={{ $record->viber}}"><i class="fa-brands fa-viber"></i></a> --}}
+                        </div>
+
+                        <div class="social whatsapp" data-bs-toggle="tooltip" data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip" data-bs-title="WhatsApp">
+                            <a href="https://wa.me/{{ $record->whatsapp }}" target="_blank"><i
+                                    class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+
+                    </div>
+                  </div>
+              </div>
+
+                  <div class="col-12 col-md-12 col-lg-6">
+                    <div class="left-content">
+                        <div class="slider">
+                          <div class="item">
                               <img src="/assets/img/cred/j1.png">
                           </div>
                           <div class="item">
@@ -123,14 +108,29 @@
                           <div class="item">
                               <img src="/assets/img/cred/j5.png" >
                           </div>
-                            <button id="next">></button>
-                            <button id="prev"><</button>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                          <div class="item">
+                            <img src="/assets/img/cred/j1.png">
+                          </div>
+                          <div class="item">
+                              <img src="/assets/img/cred/j2.png" >
+                          </div>
+                          <div class="item">
+                              <img src="/assets/img/cred/j3.png">
+                          </div>
+                          <div class="item">
+                              <img src="/assets/img/cred/j4.png">
+                          </div>
+                          <div class="item">
+                              <img src="/assets/img/cred/j5.png" >
+                          </div>
+                          <button id="next">></button>
+                          <button id="prev"><</button>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
 
         <section id="gallery">
           <div class="container">

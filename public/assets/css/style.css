@@ -1894,12 +1894,12 @@ footer {
 }
 
 #next {
-    right: -170px; 
+    right: -50px; 
     top: 40%;
 }
 
 #prev {
-    left: -170px; 
+    left: -50px; 
     top: 40%;
 }
 
