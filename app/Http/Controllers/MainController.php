@@ -193,7 +193,7 @@ class MainController extends Controller
     public function downloadVCard(Request $request)
     {
         $id = $request->input('id'); 
-        $user = Employees::where('employeeID', $id)->first();
+        $user = Employees::where('employee_id', $id)->first();
         
         if (!$user) {
             return response()->json(['error' => 'User not found.']);
@@ -203,7 +203,7 @@ class MainController extends Controller
         $vCard = new VCard();
         $vCard->addName($fname, $user->lastname);
         $vCard->addEmail($user->email, $type='Email');
-        $vCard->addPhoneNumber($user->phone, $type='WORK');
+        $vCard->addPhoneNumber($user->phonenumber, $type='WORK');
         $vCard->addJobtitle("Infinitech Advertising Corporation - ". $user->position);
         $vCard->addAddress($name = '', $extended = 'Unit 311, Campos Rueda Bldg.', $street = 'Urban Ave.', $city ='Makati City', $region='NCR', $zip='5200', $country='Philippines', $type='WORK');
         $vCard->addURL("https://infinitechphil.com/");
@@ -232,4 +232,50 @@ class MainController extends Controller
       
         return response()->download($filePath);
     }
+
+    // public function showAngelle() {
+    //     $record = Employees::where('employee_id', '24-00010')->first();
+    //     return view('Credential/SirGel', compact('record'));
+    // } 
+    public function showKrissa() {
+        $record = Employees::where('employee_id', '24-0006')->first();
+        return view('Credential/MamKrissa', compact('record'));
+    } 
+    public function showSol() {
+        $record = Employees::where('employee_id', '24-00010')->first();
+        return view('Credential/MamSol', compact('record'));
+    } 
+    public function showGio() {
+        $record = Employees::where('employee_id', '24-0004')->first();
+        return view('Credential/SirGio', compact('record'));
+    } 
+    public function showJustin() {
+        $record = Employees::where('employee_id', '24-0003')->first();
+        return view('Credential/SirJustin', compact('record'));
+    } 
+    public function showMoser() {
+        $record = Employees::where('employee_id', '24-0005')->first();
+        return view('Credential/SirMoses', compact('record'));
+    } 
+    public function showKim() {
+        $record = Employees::where('employee_id', '24-00010')->first();
+        return view('Credential/MsKim', compact('record'));
+    } 
+    public function showDarlene() {
+        $record = Employees::where('employee_id', '24-0008')->first();
+        return view('Credential/MsDarlene', compact('record'));
+    } 
+    public function showLyca() {
+        $record = Employees::where('employee_id', '24-0009')->first();
+        return view('Credential/MsLyca', compact('record'));
+    } 
+    public function showAlly() {
+        $record = Employees::where('employee_id', '24-00011')->first();
+        return view('Credential/MamAly', compact('record'));
+    } 
+    public function showRea() {
+        $record = Employees::where('employee_id', '24-00010')->first();
+        return view('Credential/MamRea', compact('record'));
+    } 
+
 }

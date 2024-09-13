@@ -48,7 +48,6 @@
                                     <input type="hidden" name="id" value="{{ $record->employeeID }}">
                                 </form>
                             </div>
-
                             <div class="employee-social mb-xl-5 d-flex">
                                 <div class="social facebook" data-bs-toggle="tooltip" data-bs-placement="top"
                                     data-bs-custom-class="custom-tooltip" data-bs-title="Facebook">

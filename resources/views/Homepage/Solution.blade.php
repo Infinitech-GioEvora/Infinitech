@@ -109,7 +109,7 @@
                   <img src="/assets/img/dmcisolution.png" alt="Realty Management" class="custom-img"/>
                   <h3>REALTY MANAGEMENT</h3>
                   <figcaption>
-                    <a href="https://dmcicorporation.com/" target="_blank">View More</a>
+                    <a href="https://dmcicorporation.com/" target="_blank">Visit Site</a>
                   </figcaption>
                 </figure>
               </li>
@@ -118,7 +118,7 @@
                   <img src="/assets/img/manpowersolution.png" alt="Manpower Management" class="custom-img"/>
                   <h3>MANPOWER MANAGEMENT</h3>
                   <figcaption>
-                    <a href="https://abicmanpower.com/" target="_blank">View More</a>
+                    <a href="https://abicmanpower.com/" target="_blank">Visit Site</a>
                   </figcaption>
                 </figure>
               </li>
@@ -127,7 +127,7 @@
                   <img src="/assets/img/dmcisolution.png" alt="Realty Management" class="custom-img"/>
                   <h3>REALTY MANAGEMENT</h3>
                   <figcaption>
-                    <a href="https://dmcicorporation.com/" target="_blank">View More</a>
+                    <a href="https://dmcicorporation.com/" target="_blank">Visit Site</a>
                   </figcaption>
                 </figure>
               </li>
@@ -138,7 +138,7 @@
                     <img src="/assets/img/dmcisolution.png" alt="Realty Management" class="custom-img"/>
                     <h3>REALTY MANAGEMENT</h3>
                     <figcaption>
-                      <a href="https://dmcicorporation.com/" target="_blank">View More</a>
+                      <a href="https://dmcicorporation.com/" target="_blank">Visit Site</a>
                     </figcaption>
                   </figure>
                 </li>
@@ -147,7 +147,7 @@
                     <img src="/assets/img/manpowersolution.png" alt="Manpower Management" class="custom-img"/>
                     <h3>MANPOWER MANAGEMENT</h3>
                     <figcaption>
-                      <a href="https://abicmanpower.com/" target="_blank">View More</a>
+                      <a href="https://abicmanpower.com/" target="_blank">Visit Site</a>
                     </figcaption>
                   </figure>
                 </li>
@@ -156,7 +156,7 @@
                     <img src="/assets/img/dmcisolution.png" alt="Realty Management" class="custom-img"/>
                     <h3>REALTY MANAGEMENT</h3>
                     <figcaption>
-                      <a href="https://dmcicorporation.com/" target="_blank">View More</a>
+                      <a href="https://dmcicorporation.com/" target="_blank">Visit Site</a>
                     </figcaption>
                   </figure>
                 </li>

@@ -6,7 +6,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-{{-- Scroll efect for nav bar --}}
+
 <script>
     window.addEventListener('scroll', function() {
         const navigation = document.querySelector('.navigation');
@@ -18,7 +18,7 @@
     });
     </script>
     
-{{-- Bottom Underline Nav --}}
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const menuItems = document.querySelectorAll('.nav-menu .menu-item');
@@ -65,5 +65,46 @@
 <script src="/Cube.js"></script>
 <script src="credential.js"></script>
 
+<script src="/Contact.js"></script>
 
 
+{{-- SCRIPT IN INDEX --}}
+<script>
+    $(document).ready(function() {
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
+</script>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var clickableDivs = document.querySelectorAll('.clickable');
+        clickableDivs.forEach(function(div) {
+            div.addEventListener('click', function() {
+                var href = div.getAttribute('data-href');
+                if (href) {
+                    window.location.href = href;
+                }
+            });
+        });
+    });
+</script>    

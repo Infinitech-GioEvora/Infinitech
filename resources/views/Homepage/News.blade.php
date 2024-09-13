@@ -18,7 +18,6 @@
             <div class="hero-overlay"></div>
 
             <div class="container news-section">
-
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="tagline ">

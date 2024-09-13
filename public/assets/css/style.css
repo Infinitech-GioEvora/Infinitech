@@ -471,55 +471,175 @@ p {
 #nextt:hover {
     opacity: 1;
 }
+/* MODAL */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    background-color: rgba(138, 131, 131, 0.85);
+    backdrop-filter: blur(4px);          
+}
 
-/* Prob */
+.modal-content {
+    background: #1e1e1e;
+    border: 2px solid #28a8e0; 
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 0 15px rgba(40, 168, 224, 0.6); 
+    animation: fadeIn 0.5s ease-out;
+}
+
+.modal-content h2 {
+    color: #ad2525;
+    font-family: Georgia, serif;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+}
+
+.modal-content p {
+    color: #000000; 
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.modal-content img {
+    width: 100%;
+    max-width: 300px; 
+    margin-right: 20px;
+    border-radius: 8px; 
+}
+
+.modal-content .text {
+    width: 55%;
+    text-align: left;
+}
+
+.close {
+    color: #28a8e0;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    transition: color 0.3s ease; 
+}
+
+.close:hover,
+.close:focus {
+    color: #e0e0e0; 
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+
+/* =======================
+=====COMMON BUSINESS =====
+======== HURDLES =========
+========================== */
 h1 {
     font-family: sans-serif;
-  }
-  .olcards,
-  .olcards * {
+}
+
+.olcards,
+.olcards * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  .olcards {
+}
+
+.olcards {
     list-style: none;
     counter-reset: cardCount;
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
-    --cardsGap: 1rem;
+    --cardsGap: 1.5rem;
     gap: var(--cardsGap);
     padding-bottom: var(--cardsGap);
-  }
-  .olcards li {
+}
+
+.olcards li {
     counter-increment: cardCount;
     display: flex;
-    color: rgb(255, 255, 255);
+    color: #333; 
     --labelOffset: 1rem;
     --arrowClipSize: 1.5rem;
     margin-top: var(--labelOffset);
-  }
-  
-  .olcards li::before {
-    content: "!";
-    background: rgb(240, 243, 250);
-    color: var(--cardColor);
+    background-color: #e3f2fd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+    transform: rotateZ(-1deg); 
+    border-radius: 0.5rem;
+}
+
+.olcards li:nth-child(odd) {
+    transform: rotateZ(1deg);
+}
+
+.olcards li:nth-child(even) {
+    transform: rotateZ(-1deg); 
+}
+
+.olcards li:hover {
+    transform: rotateZ(0deg) scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    filter: brightness(1.1); 
+}
+
+.olcards li:hover::before {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8); 
+}
+
+.olcards li::before {
+    content: "!"; 
+    background: #1e88e5; 
+    color: white;
     font-size: 2em;
     font-weight: 700;
-    transform: translateY(calc(-1 * var(--labelOffset)));
+    transform: translateY(calc(-1 * var(--labelOffset))) skewX(-5deg); 
     margin-right: calc(-1 * var(--labelOffset));
     z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-inline: 0.5em;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    animation: pulse 1.5s infinite; 
 }
 
-  
-  .olcards li .content {
-    background-color: var(--cardColor);
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.olcards li .content {
+    background-color: #ffffff; 
     --inlinePadding: 1em;
     --boxPadding: 0.5em;
     display: grid;
@@ -528,7 +648,7 @@ h1 {
     grid-template-areas:
       "icon title"
       "icon text";
-    gap: 0.25em 1em;
+    gap: 0.5em 1em;
     clip-path: polygon(
       0 0,
       calc(100% - var(--arrowClipSize)) 0,
@@ -538,6 +658,13 @@ h1 {
       0 calc(100% + var(--cardsGap))
     );
     position: relative;
+    box-shadow: inset 0 -4px 8px rgba(0, 0, 0, 0.1); /* Light inner shadow */
+    animation: flicker 2.5s infinite; /* Flicker effect */
+}
+
+@keyframes flicker {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.85; }
 }
 
 .olcards li .content::before {
@@ -545,11 +672,11 @@ h1 {
     position: absolute;
     width: var(--labelOffset);
     height: var(--labelOffset);
-    background: var(--cardColor);
+    background: #ffebee; 
     left: 0;
     bottom: 0;
     clip-path: polygon(0 0, 100% 0, 0 100%);
-    filter: brightness(0.75);
+    filter: brightness(0.9);
 }
 
 .olcards li .content::after {
@@ -557,27 +684,19 @@ h1 {
     position: absolute;
     height: var(--cardsGap);
     width: var(--cardsGap);
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.25), transparent 50%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), transparent 50%); 
     left: 0;
     top: 100%;
 }
 
-.olcards li .icon {
-    grid-area: icon;
-    align-self: center;
-    font-size: 2em;
-}
-
-.olcards li .content .title {
-    grid-area: title;
-    font-size: 1.25em;
-    /* font-weight: 700; */
-}
-
 .olcards li .content .text {
     grid-area: text;
+    color: #d32f2f;
+    font-size: 1.2em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /
 }
 
+  
 
 
 /* =====================
@@ -770,85 +889,6 @@ h1 {
     font-weight: 400;
 }
 
-/* ============================
-====COMMON BUSINES HURDLES ====
-=============================== */
-.ol-cards,
-.ol-cards * {
-  margin: 1px;
-  padding: 3px 3px;
-  
-
-}
-
-.ol-cards {
-  --flapWidth: 1rem;
-  --flapHeigth: 1rem;
-  --iconSize: 2.5rem;
-  --colGapSize: 2rem;
-  margin-inline: auto;
-  display: grid;
-  gap: 2rem;
-  padding-inline-start: var(--flapWidth);
-  font-family: sans-serif;
-  color: #222;
-  counter-reset: ol-cards-count;
-  list-style: none;
-}
-.ol-cards > li {
-  display: grid;
-  grid-template-areas: "icon descr nr";
-  gap: 0 var(--colGapSize);
-  align-items: center;
-  padding: 1rem 1rem 1rem 0;
-  border-radius: 1rem 5rem 5rem 1rem;
-  background-image: linear-gradient(to bottom right, #e9eaec, #ffffff);
-  counter-increment: ol-cards-count;
-  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25));
-  box-shadow: inset 2px 2px 2px white, inset -1px -1px 1px rgba(0, 0, 0, 0.25);
-}
-
-.ol-cards > li > .icon {
-  grid-area: icon;
-  background: var(--accent-color);
-  color: white;
-  font-size: var(--iconSize);
-  width: calc(2 * var(--flapWidth) + var(--iconSize));
-  padding-block: 1rem;
-  border-radius: 0 5rem 5rem 0;
-  margin-inline-start: calc(-1 * var(--flapWidth));
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-  position: relative;
-  display: grid;
-  place-items: center;
-}
-.ol-cards > li > .icon::before {
-  content: "";
-  position: absolute;
-  width: var(--flapWidth);
-
-  height: calc(100% + calc(var(--flapHeigth) * 2));
-  left: 0;
-  top: calc(var(--flapHeigth) * -1);
-  clip-path: polygon(
-    0 var(--flapHeigth),
-    100% 0,
-    100% 100%,
-    0 calc(100% - var(--flapHeigth))
-  );
-  background-color: var(--accent-color);
-  background-image: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.2)
-  );
-  z-index: -1;
-}
-.ol-cards > li > .descr {
-  grid-area: descr;
-  font-weight: 600;
-  font-size: 2rem;
-}
 
 /* =======================
 ===== PROJECT SECTION=====
@@ -1363,12 +1403,12 @@ footer {
 
 .copy-right {
     background-color: var(--var-dark-color);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .copy-right p {
     color: var(--var-background-light);
-    font-size: 0.9rem;
+    font-size: 14px;
 }
 
 .copy-right ul {
@@ -1383,7 +1423,7 @@ footer {
     margin: 16px;
     text-decoration: none;
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 14px;
 }
 
 .featured-carousel .item {
@@ -1900,7 +1940,79 @@ footer {
   #myButton:hover::before {
     text-shadow: 0 0 10px rgba(0, 0, 0, 1); 
   }
-  
+
+  /* Employee Details */
+  .employee-name {
+    margin-top: 135px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: clamp(26px, 4vw, 56px);
+    line-height: 1;
+    font-family: var(--font-family), sans-serif;
+}
+
+.employee-position {
+    text-transform: capitalize;
+    color: whitesmoke;
+    font-size: clamp(16px, 3vw, 26px);
+    font-family: var(--font-family), sans-serif;
+}
+
+.employee-contact {
+    color: whitesmoke;
+    line-height: 1.6;
+    font-family: var(--font-family), sans-serif;
+}
+
+.employee-desc {
+    color: whitesmoke;
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: var(--font-family), sans-serif;
+
+}
+
+
+
+.social {
+    margin: 0px 16px 0px 0px;
+    background-color: var(--var-primary-color);
+    padding: 8px;
+    border-radius: 50%;
+    cursor: grab;
+    transition: ease-in-out .2s;
+    font-family: var(--font-family), sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.social i {
+    font-size: 2rem;
+    color: white;
+}
+
+.social:hover {
+    transform: scale(1.4);
+}
+
+
+
+.contacts{
+    border: 1px solid #f9f9f9;
+    width: fit-content;
+    padding: 8px 16px;
+    transition: ease-in-out .2s;
+}
+.contacts button{
+    background-color: transparent;
+    border: none;
+    color: #f9f9f9;
+    font-weight: 700;
+}
+.contacts:hover{
+    background-color: var(--primary-color);
+}
 
 
   
@@ -2326,16 +2438,8 @@ section .section-title {
 }
 
 /* Solution Image */
-.custom-img {
-    width: 100%; 
-    height: auto;
-    display: block;
-    transition: all .4s ease-in-out;
-    transform: scale(1.4); 
-  }
-  
-  .custom-wrap {
-    max-width: 1200px; 
+.custom-wrap {
+    max-width: 1200px;
     margin: 0 auto;
     padding-left: 20px;
   }
@@ -2344,13 +2448,17 @@ section .section-title {
     margin: 0;
     overflow: hidden;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
   }
   
   .custom-portfolio li {
+    flex: 1 1 calc(33.333% - 20px); 
+    box-sizing: border-box;
     margin-top: 30px;
     padding: 10px;
-    float: left;
-    width: 100%; 
     list-style: none;
     transition: all .4s ease-in-out;
     -webkit-backface-visibility: hidden;
@@ -2358,7 +2466,7 @@ section .section-title {
   }
   
   .custom-portfolio figure {
-    margin: 0 20px 20px 0;
+    margin: 0;
     position: relative;
     text-align: center;
     border: 3px solid #000;
@@ -2385,14 +2493,14 @@ section .section-title {
     font-family: Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     text-shadow: 0 0 5px rgba(0, 0, 0, .6);
-    opacity: 0; 
+    opacity: 0;
     transition: opacity .3s ease-in-out;
   }
   
   .custom-portfolio h3 {
-    top: 20px;
-    font-weight: 500;
-    font-size: 18px;
+    top: 40px;
+    font-weight: 700;
+    font-size: 24px;
     margin: 0;
     padding: 0.5em;
   }
@@ -2403,7 +2511,7 @@ section .section-title {
   
   .custom-portfolio figure:hover h3,
   .custom-portfolio figure:hover figcaption {
-    opacity: 1; 
+    opacity: 1;
   }
   
   .custom-portfolio a {
@@ -2417,20 +2525,22 @@ section .section-title {
   }
   
   .custom-portfolio a:hover {
+    color: lightblue;
     background-color: var(--var-primary-color);
   }
   
-  @media (min-width: 460px) {
+  @media (max-width: 1200px) {
     .custom-portfolio li {
-      width: 48%; 
+      flex: 1 1 calc(50% - 20px); 
     }
   }
   
-  @media (min-width: 740px) {
+  @media (max-width: 740px) {
     .custom-portfolio li {
-      width: 30%; 
+      flex: 1 1 calc(100% - 20px); 
     }
   }
+  
   
 
 

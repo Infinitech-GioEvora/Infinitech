@@ -90,9 +90,9 @@
                             Unit 311, campos rueda building, 101 Urban Ave, Makati, 1206 Metro Manila
                         </div>
                         <div class="calls">
-                            <i class="fa-solid fa-phone"></i>
-                            (02) 7001-6157
-                        </div>   
+                            <a href="tel:+63270016157" style="color: black;">
+                                <i class="fa-solid fa-phone"></i> (02) 7001-6157
+                            </a>
                         </div>
                     </div>
                 </div>

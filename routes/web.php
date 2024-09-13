@@ -55,48 +55,56 @@ Route::get('/get-proposal', function () {
     return view('Homepage/Quotes');
 });
 
+// TERMS AND CONDITION //
+Route::get('/Terms-and-Condition', function () {
+    return view('Terms/TermsandCondition');
+});
+Route::get('/Privacy-Policy', function () {
+    return view('Terms/PrivacyPolicy');
+});
+
 //CREDENTIALS//
-Route::get('/CEO-AngelleSarmiento', function () {
+Route::get('/AngelleSarmiento', function () {
     return view('Credential/SirGel');
 });
-Route::get('/EA-KrissaBongon', function () {
+Route::get('/MariaKrissaCharezBongon', function () {
     return view('Credential/MamKrissa');
 });
-Route::get('/MARKETINGHEAD-AiriesAsilo', function () {
+Route::get('/AiriesAsilo', function () {
     return view('Credential/MamAiries');
 });
-Route::get('/ITSUPERVISOR-AprilSaludares', function () {
+Route::get('/AprilSaludares', function () {
     return view('Credential/SirApan');
 });
-Route::get('/SENIORDEV-GioloEvora', function () {
+Route::get('/GioloEvora', function () {
     return view('Credential/SirGio');
 });
 // 
-Route::get('/SENIORDEV-JustinDeCastro', function () {
+Route::get('/JustinDeCastro', function () {
     return view('Credential/SirJustin');
 });
-Route::get('/SENIORDEV-MosesAlcantara', function () {
+Route::get('/MosesAlcantara', function () {
     return view('Credential/SirMoses');
 });
-Route::get('/JUNIORDEV-KimberlyNineria', function () {
+Route::get('/KimberlyNineria', function () {
     return view('Credential/MsKim');
 });
-Route::get('/JUNIORDEV-DarleneFajarito', function () {
+Route::get('/DarleneFajarito', function () {
     return view('Credential/MsDarlene');
 });
-Route::get('/JUNIORDEV-LycaNobleza', function () {
+Route::get('/LycaNobleza', function () {
     return view('Credential/MsLyca');
 });
-Route::get('/ADMINASST-AllysaPerez', function () {
+Route::get('/AllysaPerez', function () {
     return view('Credential/MamAly');
 });
-Route::get('/ACCOUNTING-MarisolCenteno', function () {
+Route::get('/MarisolCenteno', function () {
     return view('Credential/MamSol');
 });
-Route::get('/HR-RheaQuintano', function () {
+Route::get('/RheaQuintano', function () {
     return view('Credential/MamRea');
 });
-Route::get('/COMPDRIVER-AnthonySy', function () {
+Route::get('/AnthonySy', function () {
     return view('Credential/MangJun');
 });
 Route::post('/submit/inquiry', [ContactController::class, 'submitinquiry']);
@@ -122,3 +130,15 @@ Route::get('/admin/edit/{id}', [MainController::class, 'edit']);
 Route::post('/admin/upd/', [MainController::class, 'upd']);
 Route::get('/admin/del/{id}', [MainController::class, 'del']);
 Route::get('/download-vcard', [MainController::class, 'downloadVCard']);
+
+// Route::get('/AngelleSarmiento', [MainController::class, 'showAngelle']);
+Route::get('/MariaKrissaCharezBongon', [MainController::class, 'showKrissa']);
+Route::get('/MarisolCenteno', [MainController::class, 'showSol']);
+Route::get('/GioloEvora', [MainController::class, 'showGio']);
+Route::get('/JustinDeCastro', [MainController::class, 'showJustin']);
+Route::get('/MosesAlcantara', [MainController::class, 'showMoser']);
+Route::get('/KimberlyNineria', [MainController::class, 'showKim']);
+Route::get('/DarleneFajarito', [MainController::class, 'showDarlene']);
+Route::get('/LycaNobleza', [MainController::class, 'showLyca']);
+Route::get('/AllysaPerez', [MainController::class, 'showAlly']);
+Route::get('/RheaQuintano', [MainController::class, 'showRea']);

@@ -71,8 +71,8 @@
                         <div class="imageitem">
                             <img src="/assets/img/abicmanpower.png" >
                         </div>
-                        <button id="nextt">></button>
-                        <button id="prevv"><</button>
+                        <button id="nextt"><</button>
+                        <button id="prevv">></button>
                     </div>
                   </div>
               </div>
@@ -476,9 +476,10 @@
                             Unit 311, campos rueda building, 101 Urban Ave, Makati, 1206 Metro Manila
                         </div>
                         <div class="calls">
-                            <i class="fa-solid fa-phone"></i>
-                            (02) 7001-6157
-                        </div>   
+                            <a href="tel:+63270016157" style="color: black;">
+                                <i class="fa-solid fa-phone"></i> (02) 7001-6157
+                            </a>
+                        </div>  
                         </div>
                     </div>
                 </div>
@@ -489,57 +490,22 @@
         @include('Layout.Social')
     </main>
 
-    {{-- <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-    <div class="elfsight-app-e818f66d-4134-4d9c-a300-ccbe7922c605" data-elfsight-app-lazy></div> --}}
-
-
-    <script src="/Contact.js"></script>
     <script src="imageslider.js"></script>
 
+    @include('Layout/Footer')
+    @include('Layout/Script')
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="../assets/svg/undermaintenace.svg" alt="Under Maintenance">
+            <div class="text">
+                <h2>Website Under Maintenance</h2>
+                <p>We're currently performing maintenance on our website. You can still browse our site, but some features may be unavailable. Thank you for your patience!</p>
+            </div>
+        </div>
+    </div>    
+    <script src="modal.js"></script>
 </body>
-@include('Layout/Footer')
-@include('Layout/Script')
-
-<script>
-    $(document).ready(function() {
-        $('.customer-logos').slick({
-            slidesToShow: 6,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 1500,
-            arrows: false,
-            dots: false,
-            pauseOnHover: false,
-            responsive: [{
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 4
-                }
-            }, {
-                breakpoint: 520,
-                settings: {
-                    slidesToShow: 3
-                }
-            }]
-        });
-    });
-</script>
-{{-- under maintenace --}}
-    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-    <div class="elfsight-app-e818f66d-4134-4d9c-a300-ccbe7922c605" data-elfsight-app-lazy></div>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var clickableDivs = document.querySelectorAll('.clickable');
-        clickableDivs.forEach(function(div) {
-            div.addEventListener('click', function() {
-                var href = div.getAttribute('data-href');
-                if (href) {
-                    window.location.href = href;
-                }
-            });
-        });
-    });
-</script>    
 
 </html>

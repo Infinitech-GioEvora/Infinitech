@@ -69,76 +69,76 @@
         </section>
 
         <section id="gallery">
-            <div class="container">
-              <div id="image-gallery">
-                <div class="row">
-                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
-                    <div class="img-wrapper">
-                      <a href="https://education.f5.com/hc/article_attachments/4408301508507"><img src="https://education.f5.com/hc/article_attachments/4408301508507" class="img-responsive"></a>
-                      <div class="img-overlay">
-                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                      </div>
+          <div class="container">
+            <div id="image-gallery">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                  <div class="img-wrapper">
+                    <a href="https://www.viit.ac.in/images/Campus-life/Institute-Innovation-Council/Certificate-2020-21.png"><img src="https://www.viit.ac.in/images/Campus-life/Institute-Innovation-Council/Certificate-2020-21.png" class="img-responsive"></a>
+                    <div class="img-overlay">
+                      <i class="fa fa-plus-circle" aria-hidden="true"></i>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
-                    <div class="img-wrapper">
-                      <a href="https://m.media-amazon.com/images/I/A124epMjeTL.jpg"><img src="https://m.media-amazon.com/images/I/A124epMjeTL.jpg" class="img-responsive"></a>
-                      <div class="img-overlay">
-                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                      </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                  <div class="img-wrapper">
+                    <a href="https://edit.org/images/cat/diplomas-certificates-big-2020042416.jpg"><img src="https://edit.org/images/cat/diplomas-certificates-big-2020042416.jpg" class="img-responsive"></a>
+                    <div class="img-overlay">
+                      <i class="fa fa-plus-circle" aria-hidden="true"></i>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
-                    <div class="img-wrapper">
-                      <a href="https://quickfpa.com/site/images/certificate-img.jpg"><img src="https://quickfpa.com/site/images/certificate-img.jpg" class="img-responsive"></a>
-                      <div class="img-overlay">
-                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                      </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                  <div class="img-wrapper">
+                    <a href="https://d3s6gs1cfdg3qb.cloudfront.net/files/95633c9c3482e975719cf0adf923831bec55cc747adc5ced79043941730da2c3.jpg"><img src="https://d3s6gs1cfdg3qb.cloudfront.net/files/95633c9c3482e975719cf0adf923831bec55cc747adc5ced79043941730da2c3.jpg" class="img-responsive"></a>
+                    <div class="img-overlay">
+                      <i class="fa fa-plus-circle" aria-hidden="true"></i>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
-                    <div class="img-wrapper">
-                      <a href="https://hpr.com/wp-content/uploads/2023/08/DP_college_StateUniversity.jpg"><img src="https://hpr.com/wp-content/uploads/2023/08/DP_college_StateUniversity.jpg" class="img-responsive"></a>
-                      <div class="img-overlay">
-                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                      </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                  <div class="img-wrapper">
+                    <a href="https://png.pngtree.com/png-clipart/20220430/original/pngtree-diploma-certificate-template-png-image_7598348.png"><img src="https://png.pngtree.com/png-clipart/20220430/original/pngtree-diploma-certificate-template-png-image_7598348.png" class="img-responsive"></a>
+                    <div class="img-overlay">
+                      <i class="fa fa-plus-circle" aria-hidden="true"></i>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
-                    <div class="img-wrapper">
-                      <a href="https://www.udel.edu/udaily/2015/feb/images/diploma.jpg"><img src="https://www.udel.edu/udaily/2015/feb/images/diploma.jpg" class="img-responsive"></a>
-                      <div class="img-overlay">
-                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                      </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                  <div class="img-wrapper">
+                    <a href="https://suneducationgroup.com/wp-content/uploads/2023/12/CONTOH-POSTGRADUATE-CERTIFICATE-1024x730.jpg.webp"><img src="https://suneducationgroup.com/wp-content/uploads/2023/12/CONTOH-POSTGRADUATE-CERTIFICATE-1024x730.jpg.webp" class="img-responsive"></a>
+                    <div class="img-overlay">
+                      <i class="fa fa-plus-circle" aria-hidden="true"></i>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
-                    <div class="img-wrapper">
-                      <a href="https://www.certificateof.com/wp-content/uploads/2018/05/stsmbuscertifz.jpg"><img src="https://www.certificateof.com/wp-content/uploads/2018/05/stsmbuscertifz.jpg " class="img-responsive"></a>
-                      <div class="img-overlay">
-                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                      </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                  <div class="img-wrapper">
+                    <a href="https://www.4icu.org/i/programs-courses-degrees/master-of-education-in-ict-500x356.png"><img src="https://www.4icu.org/i/programs-courses-degrees/master-of-education-in-ict-500x356.png " class="img-responsive"></a>
+                    <div class="img-overlay">
+                      <i class="fa fa-plus-circle" aria-hidden="true"></i>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
-                    <div class="img-wrapper">
-                      <a href="https://onlinelearning.hms.harvard.edu/hmx/wp-content/uploads/2021/01/CertificateOfAchievement_Sample_Watermark.jpg"><img src=https://onlinelearning.hms.harvard.edu/hmx/wp-content/uploads/2021/01/CertificateOfAchievement_Sample_Watermark.jpg" class="img-responsive"></a>
-                      <div class="img-overlay">
-                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                      </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                  <div class="img-wrapper">
+                    <a href="https://www.4icu.org/i/programs-courses-degrees/master-of-applied-computer-science-500x356.png"><img src="https://www.4icu.org/i/programs-courses-degrees/master-of-applied-computer-science-500x356.png" class="img-responsive"></a>
+                    <div class="img-overlay">
+                      <i class="fa fa-plus-circle" aria-hidden="true"></i>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
-                    <div class="img-wrapper">
-                      <a href="https://media.licdn.com/dms/image/v2/C4E22AQE6QlizE76wbg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1630421981569?e=2147483647&v=beta&t=4U5QkNwpnO3R-xBOCNKgpUHsT5pqE5aps6F5Oxr3OMg   "><img src="https://media.licdn.com/dms/image/v2/C4E22AQE6QlizE76wbg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1630421981569?e=2147483647&v=beta&t=4U5QkNwpnO3R-xBOCNKgpUHsT5pqE5aps6F5Oxr3OMg" class="img-responsive"></a>
-                      <div class="img-overlay">
-                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                      </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                  <div class="img-wrapper">
+                    <a href="https://www.4icu.org/i/programs-courses-degrees/master-of-history-500x356.png"><img src="https://www.4icu.org/i/programs-courses-degrees/master-of-history-500x356.png" class="img-responsive"></a>
+                    <div class="img-overlay">
+                      <i class="fa fa-plus-circle" aria-hidden="true"></i>
                     </div>
                   </div>
-                </div><!-- End row -->
-              </div><!-- End image gallery -->
-            </div><!-- End container --> 
+                </div>
+              </div><!-- End row -->
+            </div><!-- End image gallery -->
+          </div><!-- End container --> 
           </section>
 
         @include('Layout.Social')

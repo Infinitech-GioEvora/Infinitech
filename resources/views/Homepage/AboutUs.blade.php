@@ -163,7 +163,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/CEO-AngelleSarmiento">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/AngelleSarmiento">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -195,7 +195,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/EA-KrissaBongon">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/MariaKrissaCharezBongon">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -228,7 +228,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/ACCOUNTING-MarisolCenteno">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/MarisolCenteno">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -259,7 +259,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/HR-RheaQuintano">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/RheaQuintano">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -290,7 +290,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/ADMINASST-AllysaPerez">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/AllysaPerez">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -325,7 +325,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/MARKETINGHEAD-AiriesAsilo">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/AiriesAsilo">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -356,7 +356,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/ITSUPERVISOR-AprilSaludares">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/AprilSaludares">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -389,7 +389,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/SENIORDEV-GioloEvora">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/GioloEvora">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -421,7 +421,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/SENIORDEV-JustinDeCastro">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/JustinDeCastro">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -452,7 +452,7 @@
                                                 <p class="card-text">Routing and switching technologies</p>
                                                 <p class="card-text">Network access (VLANs, WLANs)</p>
                                                 <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/SENIORDEV-MosesAlcantara">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/MosesAlcantara">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -485,7 +485,7 @@
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
-                                            <h5 class="credential-link text-center" ><a href="/JUNIORDEV-KimberlyNineria">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/KimberlyNineria">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -516,7 +516,7 @@
                                             <p class="card-text">CompTIA A+ (IT support)</p>
                                             <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                             <p class="card-text">AWS Certified Solutions Architect</p>
-                                        <h5 class="credential-link text-center" ><a href="/JUNIORDEV-DarleneFajarito">View More</a></h5>
+                                        <h5 class="credential-link text-center" ><a href="/DarleneFajarito">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -547,7 +547,7 @@
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
-                                            <h5 class="credential-link text-center" ><a href="/JUNIORDEV-LycaNobleza">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/LycaNobleza">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -580,7 +580,7 @@
                                                 <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
                                                 <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
                                                 <p class="card-text">AWS Certified Solutions Architect</p>
-                                            <h5 class="credential-link text-center" ><a href="/COMPDRIVER-AnthonySy">View More</a></h5>
+                                            <h5 class="credential-link text-center" ><a href="/AnthonySy">View More</a></h5>
                                         </div>
                                     </div>
                                 </div>
