@@ -30,7 +30,7 @@
                             </div>
                             <div class="mobile-number">
                                 <b>Mobile No.:</b>
-                                <a href="tel:{{ $record->phonenumber }}">(+63){{ $record->phonenumber }}</a>
+                                <a href="tel:{{ $record->phone }}">(+63){{ $record->phone }}</a>
                             </div>
                             <div class="tel">
                                 <b>Telephone No.:</b> (02) 7001-6157
