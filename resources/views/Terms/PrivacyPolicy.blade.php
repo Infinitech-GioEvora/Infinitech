@@ -63,7 +63,7 @@
                 <h2>Privacy Policy</h2>
                 <p>At Infinitech Advertising Corporation, we respect and value your privacy. This privacy policy outlines how we collect, use, and protect your personal information.</p>
 
-                <p><strong>1. Information We Collect:</strong></p>
+                <p><strong>1. Information We Collect (Email Inquiry):</strong></p>
                 <ul>
                     <li>Your name, email address, website URL, and mobile phone number for the purpose of communication and service delivery.</li>
                 </ul>
@@ -84,6 +84,7 @@
         </section>
     </main>
     @include('Layout/Script')
+    @include('Layout/Footer')
 </body>
 
 </html>

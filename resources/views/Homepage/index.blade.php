@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infinitech Advertising Corporation | Web Developmet</title>
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
 
     @include('Layout/Header')
@@ -154,68 +152,66 @@
 
         <section class="problem">
             <div class="container" style="font-size: medium">
-                <div class="row">
-                    <div class="col-8">
-                        <h2 class="sub-heading">Common Business Hurdles!</h2>
+                <div class="row" >
+                        <h2 class="sub-heading" style="text-align: center">Common Business Hurdles!</h2>
+                    <div class="col-md-6 ">
+                        <ol class="olcards clickable" data-href="/solution">
+                            <li style="--cardColor:#00aaff">
+                                <div class="content">
+                                    <div class="text">Your business lacks online visibility.</div>
+                                </div>
+                            </li>
+                            <li style="--cardColor:#0099cc">
+                                <div class="content">
+                                    <div class="text">Competitors have a stronger online presence.</div>
+                                </div>
+                            </li>
+                            <li style="--cardColor:#006699">
+                                <div class="content">
+                                    <div class="text">Marketing efforts are not converting into sales.</div>
+                                </div>
+                            </li>
+                            <li style="--cardColor:#007acc">
+                                <div class="content">
+                                    <div class="text">You’re struggling to stand out in a crowded market.</div>
+                                </div>
+                            </li>
+                            <li style="--cardColor:#003366">
+                                <div class="content">
+                                    <div class="text">You don't know how to reach your target audience.</div>
+                                </div>
+                            </li>
+                        </ol>
                     </div>
-                <div class="col-md-6 ">
-                    <ol class="olcards clickable" data-href="/solution">
-                        <li style="--cardColor:#00aaff">
-                            <div class="content">
-                                <div class="text">Your business lacks online visibility.</div>
-                            </div>
-                        </li>
-                        <li style="--cardColor:#0099cc">
-                            <div class="content">
-                                <div class="text">Competitors have a stronger online presence.</div>
-                            </div>
-                        </li>
-                        <li style="--cardColor:#006699">
-                            <div class="content">
-                                <div class="text">Marketing efforts are not converting into sales.</div>
-                            </div>
-                        </li>
-                        <li style="--cardColor:#007acc">
-                            <div class="content">
-                                <div class="text">You’re struggling to stand out in a crowded market.</div>
-                            </div>
-                        </li>
-                        <li style="--cardColor:#003366">
-                            <div class="content">
-                                <div class="text">You don't know how to reach your target audience.</div>
-                            </div>
-                        </li>
-                    </ol>
-                </div>
-                <div class="col-md-6 ">
-                    <ol class="olcards clickable" data-href="/solution">
-                        <li style="--cardColor:#00aaff">
-                            <div class="content">
-                                <div class="text">Your business lacks online visibility.</div>
-                            </div>
-                        </li>
-                        <li style="--cardColor:#0099cc">
-                            <div class="content">
-                                <div class="text">Competitors have a stronger online presence.</div>
-                            </div>
-                        </li>
-                        <li style="--cardColor:#006699">
-                            <div class="content">
-                                <div class="text">Marketing efforts are not converting into sales.</div>
-                            </div>
-                        </li>
-                        <li style="--cardColor:#007acc">
-                            <div class="content">
-                                <div class="text">You’re struggling to stand out in a crowded market.</div>
-                            </div>
-                        </li>
-                        <li style="--cardColor:#003366">
-                            <div class="content">
-                                <div class="text">You don't know how to reach your target audience.</div>
-                            </div>
-                        </li>
-                    </ol>
-                </div>
+                    <div class="col-md-6 ">
+                        <ol class="olcards clickable" data-href="/solution">
+                            <li style="--cardColor:#00aaff">
+                                <div class="content">
+                                    <div class="text">Your business lacks online visibility.</div>
+                                </div>
+                            </li>
+                            <li style="--cardColor:#0099cc">
+                                <div class="content">
+                                    <div class="text">Competitors have a stronger online presence.</div>
+                                </div>
+                            </li>
+                            <li style="--cardColor:#006699">
+                                <div class="content">
+                                    <div class="text">Marketing efforts are not converting into sales.</div>
+                                </div>
+                            </li>
+                            <li style="--cardColor:#007acc">
+                                <div class="content">
+                                    <div class="text">You’re struggling to stand out in a crowded market.</div>
+                                </div>
+                            </li>
+                            <li style="--cardColor:#003366">
+                                <div class="content">
+                                    <div class="text">You don't know how to reach your target audience.</div>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
             </div>
         </section>
 

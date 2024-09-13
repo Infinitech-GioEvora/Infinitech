@@ -73,7 +73,7 @@
                     <li>Do not reproduce, duplicate, or copy material for commercial purposes.</li>
                 </ul>
 
-                <p><strong>3. User Information:</strong> We collect basic information such as your name, email, website, and mobile phone to ensure seamless communication and service delivery. This information will not be used for any purpose other than the intended services.</p>
+                <p><strong>3. Information We Collect (Email Inquiry):</strong> We collect basic information such as your name, email, website, and mobile phone to ensure seamless communication and service delivery. This information will not be used for any purpose other than the intended services.</p>
 
                 <p><strong>4. Limitation of Liability:</strong> Infinitech Advertising Corporation shall not be held liable for any damages arising from the use or inability to use the materials on this website, even if Infinitech or its authorized representative has been notified orally or in writing of the possibility of such damage.</p>
 
@@ -82,6 +82,7 @@
         </section>
     </main>
     @include('Layout/Script')
+    @include('Layout/Footer')
 </body>
 
 </html>

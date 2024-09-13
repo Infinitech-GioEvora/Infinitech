@@ -71,13 +71,13 @@
                             <div class="col-4 mb-3">
                                 <label for="" class="form-label">Position</label>
                                 <select name="position" class="form-control " id="">
+                                    <Option value="Executive Assistant">Executive Assistant</Option>
+                                    <Option value="Accounting">Accounting</Option>
+                                    <Option value="Human Resource">Human Resource</Option>
+                                    <Option value="Admin Assistant">Admin Assistant</Option>
                                     <Option value="Senior Web Developer">Senior Web Developer</Option>
                                     <Option value="Junior Web Developer">Junior Web Developer</Option>
-                                    <Option value="Admin">Admin</Option>
-                                    <Option value="Marketing Head">Marketing Head</Option>
-                                    <Option value="dmin Assistant">Admin Assistant</Option>
-                                    <Option value="IT Supervisor">IT Supervisor</Option>
-                                    <Option value="Executive Assistant">Executive Assistant</Option>
+
                                 </select>
                             </div>
                             <div class="col-4 mb-3">

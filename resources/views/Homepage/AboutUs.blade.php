@@ -140,36 +140,16 @@
                 </div>
                 <div class="row no-gutters d-flex justify-content-center">
                     <!-- Team member -->
-                    <div class="col-xs-12 col-sm-6 col-md-3" >
-                        <div class="image-flip" >
-                            <div class="mainflip flip-0">
-                                <div class="frontside">
-                                        <div class="card">
-                                            <img src="../assets/img/CEO_ANGELLE.png" alt="Avatar" >
-                                            <div class="team-details" style="font-display: center">
-                                                <span class="team-name d-block">Angelle Sarmiento</span>
-                                                <small class="position d-block">Chief Executive Officer</small>
-                                            </div>
-                                        </div>
-                                </div>
-                                <div class="backside ">
-                                    <div class="card ">
-                                        <div class="card-body text-left mt-4">
-                                            <h4 class="card-title">Angelle Sarmiento</h4>
-                                            <h4 class="card-title">CREDENTIALS</h4>
-                                                <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
-                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
-                                                <p class="card-text">AWS Certified Solutions Architect</p>
-                                                <p class="card-text">Routing and switching technologies</p>
-                                                <p class="card-text">Network access (VLANs, WLANs)</p>
-                                                <p class="card-text">IP connectivity and services (NAT, DHCP)</p>
-                                            <h5 class="credential-link text-center" ><a href="/AngelleSarmiento">View More</a></h5>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="card">
+                            <img src="../assets/img/CEO_ANGELLE.png" alt="Avatar" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Angelle Sarmiento</h5>
+                                <p class="card-text">Chief Executive Officer</p>
                             </div>
                         </div>
                     </div>
+                    
                     <!-- ./Team member -->
                     <!-- Team member -->
                     <div class="col-xs-12 col-sm-6 col-md-3">
@@ -558,32 +538,11 @@
                 <div class="row no-gutters d-flex justify-content-center">
                     <!-- Team member -->
                     <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                            <div class="mainflip">
-                                <div class="frontside">
-                                    <div class="card ">
-                                        <img src="../assets/img/CD_ANTHONY.png" alt="Avatar" style="width:100%">
-                                        <div class="team-details">
-                                            <span class="team-name d-block">Anthonio Sy</span>
-                                            <small class="position d-block">Company Driver</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="backside">
-                                    <div class="card">
-                                        <div class="card-body text-left mt-4">
-                                            <h4 class="card-title">Anthony Sy</h4>
-                                            <h4 class="card-title">CREDENTIALS</h4>
-                                                <p class="card-text">Certified Public Accountant (CPA)</p>
-                                                <p class="card-text">Chartered Financial Analyst (CFA)</p>
-                                                <p class="card-text">Certified Financial Planner</p>
-                                                <p class="card-text"> (CFP)CompTIA A+ (IT support)</p>
-                                                <p class="card-text">Cisco Certified Network Associate (CCNA)</p>
-                                                <p class="card-text">AWS Certified Solutions Architect</p>
-                                            <h5 class="credential-link text-center" ><a href="/AnthonySy">View More</a></h5>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="card">
+                            <img src="../assets/img/CD_ANTHONY.png" alt="Avatar" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Anthonio Sy</h5>
+                                <p class="card-text">Company Driver</p>
                             </div>
                         </div>
                     </div>

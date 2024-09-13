@@ -321,6 +321,7 @@ p {
     right: 0;
     bottom: 0;
     opacity: .9;
+    overflow: hidden;
 }
 
 
@@ -561,6 +562,7 @@ p {
 ========================== */
 h1 {
     font-family: sans-serif;
+
 }
 
 .olcards,
@@ -588,7 +590,7 @@ h1 {
     --labelOffset: 1rem;
     --arrowClipSize: 1.5rem;
     margin-top: var(--labelOffset);
-    background-color: #e3f2fd;
+    background-color: transparent;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     position: relative;
     transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
@@ -616,7 +618,7 @@ h1 {
 
 .olcards li::before {
     content: "!"; 
-    background: #1e88e5; 
+    background: rgba(255, 0, 0, 0.8); 
     color: white;
     font-size: 2em;
     font-weight: 700;
@@ -1818,10 +1820,11 @@ footer {
 
 .news-header {
     margin: 8px 0px 8px 0px;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .news-desc {
+    font-size: small;
     overflow: hidden;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -1830,6 +1833,7 @@ footer {
     margin-bottom: 16px !important;
 }
 
+/* FLOATING SOC MED */
 .floating-socmed {
     position: absolute;
     top: 30%;
@@ -1973,8 +1977,6 @@ footer {
     font-family: var(--font-family), sans-serif;
 
 }
-
-
 
 .social {
     margin: 0px 16px 0px 0px;
@@ -2489,7 +2491,7 @@ section .section-title {
     text-align: center;
     width: 100%;
     left: 0;
-    color: #000;
+    color: #fafafa;
     font-family: Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     text-shadow: 0 0 5px rgba(0, 0, 0, .6);
@@ -2509,7 +2511,13 @@ section .section-title {
     bottom: 20px;
   }
   
-  .custom-portfolio figure:hover h3,
+  .custom-portfolio figure:hover h3 {
+    opacity: 1;
+    background-color: rgba(8, 8, 8, 0.7); 
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); 
+}
+
+
   .custom-portfolio figure:hover figcaption {
     opacity: 1;
   }
@@ -2541,8 +2549,44 @@ section .section-title {
     }
   }
   
-  
+  /* SLICK */
+  .sectionslider  {
+    position: relative;
+  }
+  .slick-button {
+    background-color: #004f83;
+    color: rgb(245, 240, 240);
+    border: none;
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
 
+.slick-prev-reco,
+.slick-prev-site {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.slick-prev-reco {
+    left: -10%;
+}
+
+.slick-prev-site {
+    left: 18%;
+}
+
+.slick-next-reco,
+.slick-next-site {
+    position: absolute;
+    top: 50%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
 
 /* Testimonial Vid */
 .body {

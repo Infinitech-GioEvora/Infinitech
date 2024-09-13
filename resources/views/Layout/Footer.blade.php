@@ -40,9 +40,9 @@
                 <div class="footer-quick-links">
                     <ul>
                         <li><a href="tel:+63270016157"><i class="fa fa-phone"></i> (02) 7001-6157</a></li>
-                        <li><a href="tel:+639622530149"><i class="fa fa-mobile"></i> 0962-253-0149</a></li>
-                        <li><a href="viber://chat?number=09622530149" target="_blank"><i class="fa-brands fa-viber"></i> 0962-253-0149 </a></li>
-                        <li><a href="tg://msg?to=+639622530149" target="_blank"><i class="fa-brands fa-telegram"></i> 0962-253-0149 </a></li>
+                        <li><a href="tel:+639622530149"><i class="fa fa-mobile"></i> +6362-253-0149</a></li>
+                        <li><a href="viber://chat?number=09622530149" target="_blank"><i class="fa-brands fa-viber"></i> +6362-253-0149 </a></li>
+                        <li><a href="https://t.me/+639622530149" target="_blank"><i class="fa-brands fa-telegram"></i>+6362-253-0149 </a></li>
                         <li><a href="mailto:infinitechcorp.ph@gmail.com"><i class="fa-solid fa-envelope"></i> infinitechcorp.ph@gmail.com</a></li>
                     </ul>                                                       
                 </div>

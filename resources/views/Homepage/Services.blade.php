@@ -157,8 +157,6 @@
 
 
 </body>
-<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-d5ccc98b-ab7f-4e86-b38a-fb71fff2a38b" data-elfsight-app-lazy></div>
     
     <script>
         document.addEventListener('DOMContentLoaded', function() {

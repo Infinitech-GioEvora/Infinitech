@@ -238,11 +238,11 @@ class MainController extends Controller
     //     return view('Credential/SirGel', compact('record'));
     // } 
     public function showKrissa() {
-        $record = Employees::where('employeeID', '24-0006')->first();
+        $record = Employees::where('employeeID', '24-0002')->first();
         return view('Credential/MamKrissa', compact('record'));
     } 
     public function showSol() {
-        $record = Employees::where('employeeID', '24-00010')->first();
+        $record = Employees::where('employeeID', '24-00012')->first();
         return view('Credential/MamSol', compact('record'));
     } 
     public function showGio() {
@@ -274,7 +274,7 @@ class MainController extends Controller
         return view('Credential/MamAly', compact('record'));
     } 
     public function showRea() {
-        $record = Employees::where('employeeID', '24-00010')->first();
+        $record = Employees::where('employeeID', '24-00013')->first();
         return view('Credential/MamRea', compact('record'));
     } 
 
