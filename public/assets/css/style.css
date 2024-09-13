@@ -44,7 +44,6 @@ section {
 
 img {
     max-width: 100%;
-    overflow: clip;
 }
 
 p {
@@ -312,7 +311,6 @@ p {
     position: relative;
 }
 .hero-overlay {
-    /* background: linear-gradient(to bottom right, rgba(0, 0, 255, 0.7), rgba(0, 128, 255, 0.5)); */
     background: rgb(31, 98, 179);
     background: linear-gradient(292deg, rgba(31, 98, 179, 1) 18%, rgba(6, 38, 77, 1) 85%);
     position: absolute;
@@ -320,9 +318,7 @@ p {
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: .9;
-    overflow: hidden;
-}
+    opacity: .9;}
 
 
 .tagline {
@@ -349,7 +345,6 @@ p {
     font-weight: 1000;
     font-size: clamp(4rem, 5vw, 73px);
     line-height: 1;
-    overflow: hidden;
     font-family: var(--font-header);
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
 }
@@ -1947,7 +1942,7 @@ footer {
 
   /* Employee Details */
   .employee-name {
-    margin-top: 135px;
+    margin-top: 100px;
     text-transform: uppercase;
     font-weight: bold;
     color: white;
@@ -2017,81 +2012,6 @@ footer {
 }
 
 
-  
-/* Our team New */
-.ourteam-section {
-    padding: 50px 0;
-}
-
-.team-wrapper {
-    display: flex;
-    transition: margin-right 0.3s ease;
-}
-
-.team-cards {
-    flex: 1;
-    transition: margin-right 0.3s ease;
-}
-
-.card {
-    cursor: pointer;
-}
-
-.team-image {
-    width: 100%;
-    height: auto;
-}
-
-.team-details {
-    padding: 10px;
-}
-
-.staff-card {
-    position: relative;
-}
-
-.staff-details {
-    display: none;
-    position: absolute;
-    right: -130%;
-    top: 0px;
-    z-index: 99;
-    background-color: #004f83;
-}
-
-
-.details-container {
-    position: relative;
-    top: 0;
-    right: 1000;
-    width: 300px;
-    height: 50%;
-    background-color: #fff;
-    border-left: 2px solid #ddd;
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
-    transform: translateX(100%);
-    transition: transform 0.3s ease;
-    overflow-y: auto;
-    z-index: 1000;
-
-}
-
-.details-container.show {
-    transform: translateX(0);
-}
-
-.details-section {
-    padding: 20px;
-}
-
-.close-btn {
-    font-size: 24px;
-    cursor: pointer;
-    border: none;
-    background: none;
-    color: #333;
-    float: right;
-}
 
 /* Our Team w/ credentials */
 .team-wrapper {
