@@ -2927,6 +2927,32 @@ section .section-title {
     .about-mission {
         margin-top: 5%;
     }
+    /* Employee Details */
+    .employee-name {
+        margin-top: 80px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        font-size: clamp(26px, 4vw, 56px);
+        line-height: 1;
+        font-family: var(--font-family), sans-serif;
+    }
+    .imageslider {
+        position: relative;
+        margin-top: 40px;
+        width: 100%; 
+        height: 390px;
+        transform: rotateZ(1deg);
+    }
+
+    /* IMAGE SVG */
+    .service-section .left-content img,
+    .testimonial-section .left-content img,
+    .news-section .left-content img,
+    .contact-section .left-content img {
+        width: 400px; 
+        margin-left: 50px; 
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
