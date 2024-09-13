@@ -238,43 +238,43 @@ class MainController extends Controller
     //     return view('Credential/SirGel', compact('record'));
     // } 
     public function showKrissa() {
-        $record = Employees::where('employee_ID', '24-0006')->first();
+        $record = Employees::where('employeeID', '24-0006')->first();
         return view('Credential/MamKrissa', compact('record'));
     } 
     public function showSol() {
-        $record = Employees::where('employee_ID', '24-00010')->first();
+        $record = Employees::where('employeeID', '24-00010')->first();
         return view('Credential/MamSol', compact('record'));
     } 
     public function showGio() {
-        $record = Employees::where('employee_ID', '24-0004')->first();
+        $record = Employees::where('employeeID', '24-0004')->first();
         return view('Credential/SirGio', compact('record'));
     } 
     public function showJustin() {
-        $record = Employees::where('employee_ID', '24-0003')->first();
+        $record = Employees::where('employeeID', '24-0003')->first();
         return view('Credential/SirJustin', compact('record'));
     } 
     public function showMoser() {
-        $record = Employees::where('employee_ID', '24-0005')->first();
+        $record = Employees::where('employeeID', '24-0005')->first();
         return view('Credential/SirMoses', compact('record'));
     } 
     public function showKim() {
-        $record = Employees::where('employee_ID', '24-00010')->first();
+        $record = Employees::where('employeeID', '24-00010')->first();
         return view('Credential/MsKim', compact('record'));
     } 
     public function showDarlene() {
-        $record = Employees::where('employee_ID', '24-0008')->first();
+        $record = Employees::where('employeeID', '24-0008')->first();
         return view('Credential/MsDarlene', compact('record'));
     } 
     public function showLyca() {
-        $record = Employees::where('employee_ID', '24-0009')->first();
+        $record = Employees::where('employeeID', '24-0009')->first();
         return view('Credential/MsLyca', compact('record'));
     } 
     public function showAlly() {
-        $record = Employees::where('employee_ID', '24-00011')->first();
+        $record = Employees::where('employeeID', '24-00011')->first();
         return view('Credential/MamAly', compact('record'));
     } 
     public function showRea() {
-        $record = Employees::where('employee_ID', '24-00010')->first();
+        $record = Employees::where('employeeID', '24-00010')->first();
         return view('Credential/MamRea', compact('record'));
     } 
 
