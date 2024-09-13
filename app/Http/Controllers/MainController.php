@@ -267,7 +267,7 @@ class MainController extends Controller
     } 
     public function showLyca() {
         $record = Employees::where('employeeID', '24-0009')->first();
-        return view('Credential/MsLyca', compact('record'));
+        return view('Credential/Mslyca', compact('record'));
     } 
     public function showAlly() {
         $record = Employees::where('employeeID', '24-00011')->first();

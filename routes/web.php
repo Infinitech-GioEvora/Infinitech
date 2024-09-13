@@ -93,7 +93,7 @@ Route::get('/DarleneFajarito', function () {
     return view('Credential/MsDarlene');
 });
 Route::get('/LycaNobleza', function () {
-    return view('Credential/MsLyca');
+    return view('Credential/Mslyca');
 });
 Route::get('/AllysaPerez', function () {
     return view('Credential/MamAly');
