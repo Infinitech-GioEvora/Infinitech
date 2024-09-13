@@ -26,7 +26,7 @@
                 
                         <div class="employee-contact mb-4">
                             <div class="location">
-                                <b>Office Address:</b> Unit 311, Campos Rueda Bldg., Urban Avenue, Makati Cityy
+                                <b>Office Address:</b> Unit 311, Campos Rueda Bldg., Urban Avenue, Makati City
                             </div>
                             <div class="mobile-number">
                                 <b>Mobile No.:</b>
