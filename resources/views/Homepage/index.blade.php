@@ -494,8 +494,7 @@
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
-            <iframe src="https://lottie.host/embed/1a9513da-7b01-4eec-a4e3-d1205a7d6a00/VE6snhnzan.json"></iframe>
-            {{-- <img src="../assets/svg/undermaintenace.svg" alt="Under Maintenance"> --}}
+            <img src="../assets/svg/undermaintenace.svg" alt="Under Maintenance">
             <div class="text">
                 <h2>Website Under Maintenance</h2>
                 <p>We're currently performing maintenance on our website. You can still browse our site, but some features may be unavailable. Thank you for your patience!</p>
