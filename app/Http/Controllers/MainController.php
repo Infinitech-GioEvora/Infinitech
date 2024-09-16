@@ -244,7 +244,7 @@ class MainController extends Controller
         return view('Credential/MamKrissa', compact('record'));
     } 
     public function showSol() {
-        $record = Employees::where('employee_id', '24-00010')->first();
+        $record = Employees::where('employeeID', '24-00012')->first();
         return view('Credential/MamSol', compact('record'));
     } 
     public function showGio() {
