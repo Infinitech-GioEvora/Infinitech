@@ -193,7 +193,7 @@ class MainController extends Controller
     public function downloadVCard(Request $request)
     {
         $id = $request->input('id'); 
-        $user = Employees::where('employeeID', $id)->first();
+        $user = Employees::where('employeeID', '24-0002')->first();
         
         if (!$user) {
             return response()->json(['error' => 'User not found.']);
@@ -232,6 +232,7 @@ class MainController extends Controller
       
         return response()->download($filePath);
     }
+    
 
     // public function showAngelle() {
     //     $record = Employees::where('employee_id', '24-00010')->first();
