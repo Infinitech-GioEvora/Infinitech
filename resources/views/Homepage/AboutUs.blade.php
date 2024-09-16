@@ -17,7 +17,7 @@
     <main>
         <section class="hero about-layout">
                 <div class="hero-overlay"></div>
-                
+
             <div class="container about-section">
                 <div class="row">
                     <div class="col-12 col-md-6">
@@ -75,62 +75,6 @@
 
             </div>
         </section>
-
-        {{-- <section class="coreValue">
-            <div class="container"data-aos="fade-up" data-aos-duration="1000">
-                <div class="core-values">
-                    <div class="row d-flex justify-content-center no-gutters pt-xl-5" data-aos="fade-zoom-in"
-                    data-aos-easing="ease-in-back"
-                    data-aos-delay="300"
-                    data-aos-offset="0">
-                        <div class="header" style="margin-bottom:30px">Core Values</div>
-                        <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="vm-header">Client-Centric Innovation</span>
-                                    <p>Prioritize client's needs and innovate continually to create a tailored solution that drive their success.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="vm-header">Creative Excllence</span>
-                                    <p>We strive outstanding in every projects, ensuring our work is not only meets but exceeds industry standard.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="vm-header">Integrity and Transparency</span>
-                                    <p>Build trust through honesty and clear communication, ensuring our clients are fully informed and transparent in our progress.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="vm-header">Adaptability</span>
-                                    <p>We are flexible and responsive to the changing of market dynamics, easily adpating our strategies to meet new challenges and opportunity.</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-sm-12 col-md-6 col-lg-6 px-0 vm-card">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="vm-header">Collaboration</span>
-                                    <p>We believe the power of teamwork, fostering a collborative enviroment where ideas and expertise are share freely to achieve the best outcomes.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-
         
         <!-- Team -->
         <section id="team" class="pb-5">

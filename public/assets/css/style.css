@@ -1006,8 +1006,6 @@ h1 {
 }
 
 
-
-
 .clients .card {
     border-bottom: 2px solid var(--var-accent-color);
     box-shadow: var(--var-box-shadows);
@@ -2742,6 +2740,45 @@ section .section-title {
         margin-top: 20px;
         margin-left: 170px;
     }
+    .imageslider{
+        display: none;
+    }
+    .title-header {
+        font-size: 19px;
+    }
+    .infinitech-desc {
+        font-size: small;
+    }
+    .infinitech .button {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 40px;
+        width: 100%;
+    }
+    /* HURDLES */
+    .sub-header {
+        font-weight: 300;
+    }
+    .sub-heading{
+        padding: 0;
+        margin-top: 10px;
+        font-size: small;
+    }
+    .olcards {
+        width: 90%;
+    }
+    .olcards li .content .text{
+        font-size: small;
+    }
+    /* What we do */
+    .services .head {
+        float: left;
+        width: 60%;
+        margin: 0;
+    }
+    .services .button{
+        margin: 0;
+    }
     .services .offer{
         margin-left: 10px;
         width: 150%;
@@ -2755,20 +2792,7 @@ section .section-title {
         max-width: 150px;
         min-height: 90px;
     }
-    
-    .offer-content .offerTitle {
-        color: var(--var-accent-color);
-        font-size: 17px;
-        font-weight: bold;
-    }
-    .offer-content .offer-desc {
-        color:var(--var-accent-color);
-        font-size: 14px;
-    
-    }
-    .imageslider{
-        display: none;
-    }
+
     /* MODAL */
     .modal-content {
         width: 100%;
@@ -2792,43 +2816,6 @@ section .section-title {
 
     }
     
-    .services {
-        background-color: var(--var-background-light);
-        padding-bottom: 5px;
-    }
-    
-    
-    .sub-header {
-        color: var(--var-accent-color);
-        font-weight: 600;
-        width: 100px;
-    }
-    
-    .sub-heading {
-        color: var(--var-primary-color);
-        font-weight: bold;
-        width: 100px;
-        text-align: center;
-    }
-    
-    .service-content {
-        margin-top: 30px;
-        margin-left: 20px;
-        margin-bottom: 10px;
-        
-    }
-    
-    .service-content img {
-        max-width: 200px;
-        min-height: 150px;
-    }
-    
-    .service-content .serviceTitle {
-        color: var(--var-accent-color);
-        font-size: 20px;
-        font-weight: bold;
-
-    }
     .left-project {
         text-align: center;
     }
@@ -2866,13 +2853,6 @@ section .section-title {
         font-size: 0.9rem;
         margin-top: 5px;
     }
-    
-    .maps iframe {
-        margin: 8px;
-        width: 300px ;
-        height: 300px ;
-        
-    }
     .imageslider {
         position: relative;
         margin-top: 80px;
@@ -2881,6 +2861,27 @@ section .section-title {
         transform: rotateZ(1deg);
     
     }
+    iframe {
+        margin: 8px;
+        width: 300px ;
+        height: 300px ;
+        
+    }
+    /* About Us */
+    .about-content p {
+        font-size: 15px;
+        margin-top: 0;
+    }
+    
+    .vm-card .card .card-body .vm-header,
+    .vmg-header {
+        font-size: 20px;
+    }
+    .vmg-header p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    
   
     
 }

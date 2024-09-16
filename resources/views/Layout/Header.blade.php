@@ -1,6 +1,6 @@
  <!-- Meta Tags for SEO -->
  <meta name="description" content="Discover expert web development and system development services tailored to elevate your digital presence. Explore our solutions designed to meet your needs.">
- <meta name="keywords" content="Advertising Agency, Web Development, Digital Presence, Website , Web Development Company">
+ <meta name="keywords" content="Advertising Agency,Advertising,  Web Development, Digital Presence, Website , Web Development Company">
  <meta name="robots" content="index,follow">
  <meta name="language" content="English">
  <meta name="revisit-after" content="1 day">
@@ -19,7 +19,7 @@
 
  <!-- Open Graph / Facebook -->
  <meta property="og:type" content="website">
- <meta property="og:url" content="https://www.yourwebsite.com">
+ <meta property="og:url" content="https://www.infinitechphil.com/">
  <meta property="og:title" content="Infinitech Advertising Corporation">
  <meta property="og:description" content="Discover expert web development and system development services tailored to elevate your digital presence.">
  <meta property="og:image" content="https://www.yourwebsite.com/images/og-image.jpg">

@@ -5,15 +5,12 @@
     <a target="_blank" href="mailto:infinitechcorp.ph@gmail.com">
         <img src="../assets/icon/communication.png" alt="">
     </a>
-    <a target="_blank" href="tel:+639622530149">
-        <img src="../assets/icon/telegram.png" alt="">
-    </a>
+    <a href="https://t.me/+639622530149" target="_blank">
+        <img src="../assets/icon/telegram.png" alt="Telegram">
+    </a>    
     <a target="_blank" href="https://www.instagram.com/">
         <img src="../assets/icon/instagram.png" alt="">
     </a>
-    {{-- <a href="tel:0270016157">
-        <img src="../assets/icon/phone-call.png" alt="">
-    </a> --}}
     <a target="_blank" href="https://www.tiktok.com/">
         <img src="../assets/icon/tiktok.png" alt="">
     </a>

@@ -132,7 +132,7 @@
                             Development, Ecommerce Solutions, and IT Outsourcing. Through our innovative solutions, we
                             ensure our clients achieve their goals and experience exceptional service.</p>
                         <div class="d-flex">
-                            <a class="button btn-hero" href="/about-us" style="text-decoration: none;"> <span>Learn More
+                            <a class="button btn-hero" href="/about-us"> <span>Learn More
                                     About Us</span>
                                 <svg width="34" height="34" viewBox="0 0 74 74" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">

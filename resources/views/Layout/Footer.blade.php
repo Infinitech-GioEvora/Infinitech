@@ -10,7 +10,7 @@
                     <ul>
                         <li><a target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005"><i class="fa-brands fa-facebook-f fa-lg"></i></a></li>
                         <li><a target="_blank" href="https://www.facebook.com/profile.php?id=61562146592005"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
-                        <li><a href="tel:+639622530149"><i class="fa-brands fa-telegram fa-lg"></i></a></li>
+                        <li><a href="https://t.me/+639622530149"><i class="fa-brands fa-telegram fa-lg"></i></a></li>
                         <li><a href="tel:0270016157"><i class="fa-solid fa-phone"></i></a></li>
                         
                     </ul>
@@ -41,7 +41,7 @@
                     <ul>
                         <li><a href="tel:+63270016157"><i class="fa fa-phone"></i> (02) 7001-6157</a></li>
                         <li><a href="tel:+639622530149"><i class="fa fa-mobile"></i> +6362-253-0149</a></li>
-                        <li><a href="viber://chat?number=09622530149" target="_blank"><i class="fa-brands fa-viber"></i> +6362-253-0149 </a></li>
+                        <li><a href="viber://chat?number=%2B63622530149" target="_blank"><i class="fa-brands fa-viber"></i> +6362-253-0149 </a></li>
                         <li><a href="https://t.me/+639622530149" target="_blank"><i class="fa-brands fa-telegram"></i>+6362-253-0149 </a></li>
                         <li><a href="mailto:infinitechcorp.ph@gmail.com"><i class="fa-solid fa-envelope"></i> infinitechcorp.ph@gmail.com</a></li>
                     </ul>                                                       
