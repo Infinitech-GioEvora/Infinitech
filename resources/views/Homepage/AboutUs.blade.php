@@ -17,8 +17,8 @@
     <main>
         <section class="hero about-layout">
                 <div class="hero-overlay"></div>
+                
             <div class="container about-section">
-
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="tagline ">

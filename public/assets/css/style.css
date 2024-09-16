@@ -2668,44 +2668,79 @@ section .section-title {
     .navigation .icon-menu i {
         padding: 24px 8px;
         margin-top: 16px;
-        color: var(--var-primary-color);
+        color: black;
         right: 0;
+        margin-bottom: 10px;
     }
-    .service-section .tagline h1 strong {
-        color: white;
+    .about-section .tagline h1,
+    .service-section .tagline h1,
+    .solution-section .tagline h1,
+    .testimonial-section .tagline h1,
+    news-section .tagline h1,
+    .contact-section .tagline h1 {
+        font-size: x-small;
+        padding: auto;
+        margin-top: 100px; 
+        margin-left: 10px; 
+        font-weight: 800;
+        text-align: justify;
+    }
+    
+
+    .about-section .tagline .sub-tagline,
+    .service-section .tagline .sub-tagline,
+    .solution-section .tagline .sub-tagline,
+    .testimonial-section .tagline .sub-tagline,
+    .news-section .tagline .sub-tagline,  
+    .contact-section .tagline .sub-tagline {
+        font-size: 11px;
+        word-break: break-word;
+        text-align: justify;
+        margin-top: 2px; 
+        margin-right: 150px; 
+    }
+
+    .about-section .left-content img,
+    .service-section .left-content img,
+    .solution-section .left-content img,
+    .testimonial-section .left-content img,
+    .news-section .left-content img,
+    .contact-section .left-content img {
+        display: none;
+    }
+    .tagline {
+        top: 50%;
+        left: 30%;
+
+    }
+    .nav-logo img {
+        width: 240px;
+        margin-left: 10px;
+    }
+
+    .hero {
+        height: 60vh; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tagline .hero-header{
         font-weight: 1000;
         font-size: clamp(4rem, 5vw, 73px);
-        font-family: var(--font-header);
-        text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
+        text-align: center;
+        padding: 0;
     }
-    
-    .service-section .left-content img {
-        width: 800px;
-        margin-left: 120px;
-    }
-    
-    .service-section .tagline .sub-tagline {
-        color: #fcfcfc;
-        font-size: 19px;
-        word-break: normal;
-    }
-    .services .head {
-        float: left;
-        margin-top: 50px;
-        margin-left: 10px;
-        width:50%;
-    
-      }
-    .services .sub-header{
+    .hero-desc{
+        font-size: small;
         margin-top: 10px;
-        font-size: 40px;
-        width: 150%;
+        padding-left: 50px;
+        text-align: center;
+
     }
-    .services .sub-heading{
-        margin-bottom: 20px;
-        margin-top: 10px;
-        font-size: 25px;
-        width: 150%;
+    .btn-hero{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 170px;
     }
     .services .offer{
         margin-left: 10px;
@@ -2730,6 +2765,31 @@ section .section-title {
         color:var(--var-accent-color);
         font-size: 14px;
     
+    }
+    .imageslider{
+        display: none;
+    }
+    /* MODAL */
+    .modal-content {
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    .modal-content h2 {
+        color: #ad2525;
+        font-family: Georgia, serif;
+        font-size: medium;
+        margin: auto;
+    } 
+    .modal-content p {
+        font-size: x-small;
+        margin: auto;
+    }
+    .modal-content img {
+        width: 100%;
+        max-width: 150px; 
+        margin: auto;
+
     }
     
     .services {
@@ -2812,20 +2872,6 @@ section .section-title {
         width: 300px ;
         height: 300px ;
         
-    }
-    .tagline {
-        margin-top: 5px;
-        text-align: center;
-    }
-
-    .tagline h1 {
-        font-size: 18px;
-        text-shadow: none;
-        text-align: center;
-    }
-
-    .sub-tagline {
-        font-size:19px;
     }
     .imageslider {
         position: relative;
@@ -2978,6 +3024,7 @@ section .section-title {
     } */
     .about-header-img {
         bottom: -40%;
+        overflow: hidden;
     }
 
     .about-mission {
@@ -3036,6 +3083,11 @@ section .section-title {
     #prev {
         left: -30px;
     }
+    /* NEWS */
+    .slick-prev-reco,
+    .slick-prev-site {
+     display: none;
+    }
 
     
 }
@@ -3056,18 +3108,33 @@ section .section-title {
         line-height: 1;
         font-family: var(--font-family), sans-serif;
     }
-    .slider {
+    .imageslider {
         position: relative;
         margin-top: 5px;
         width: 100%; 
         height: 390px;
         transform: rotateZ(1deg);
     }
+    .imageitem {
+        min-width: 300px;
+    }
+    #nextt {
+        position: absolute;
+        right: 200px;
+        top: 40%;
+    }
+    
+    #prevv {
+        position: absolute;
+        left: 300px;
+        top: 40%;
+    }
     #myButton {
         margin-top: 2px;
     }
 
     /* IMAGE SVG */
+    .about-section .left-content img,
     .service-section .left-content img,
     .solution-section .left-content img,
     .testimonial-section .left-content img,
@@ -3075,6 +3142,10 @@ section .section-title {
     .contact-section .left-content img {
         width: 400px; 
         margin-left: 50px; 
+    }
+    .about-header-img img{
+        width: 1000px;
+        overflow: hidden;
     }
     /* Credential Slider */
     .slider {
