@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Infinitech Advertising Corporation | Web Developmet</title>
+    <title>Contact Us - Infinitech Advertising Corporation | Web Develompent</title>
 
     @include('Layout/Header')
 </head>

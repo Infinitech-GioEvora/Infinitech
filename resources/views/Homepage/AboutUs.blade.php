@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | Infinitech Advertising Corporation | Web Developmet</title>
+    <title>About Us | Infinitech Advertising Corporation | Web Develompent</title>
 
     @include('Layout/Header')
 </head>
@@ -63,7 +63,7 @@
                             <p>They are committed to helping their clients reach operational excellence and sustainable growth through specialized, technology-driven strategies that solve difficult problems.</p>
                         </div>
                         <div class="col-sm-12 col-md-4 vmg-content text-center">
-                            <span class="vmg-header"> Vission</span>
+                            <span class="vmg-header"> Vision</span>
                             <p>Infinitech aims to be a top choice for businesses looking to enhance their digital presence, by using the latest technology and creative ideas, they want to lead the industry and help clients grow and succeed.</p>
                         </div>
                         <div class="col-sm-12 col-md-4 text-center">
