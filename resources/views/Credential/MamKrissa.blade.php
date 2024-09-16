@@ -12,10 +12,9 @@
 <body>
      <main>
         <section class="hero contact-layout">
-          <div class="hero-overlay"></div>
+          <div class="hero-overlay" style="overflow: hidden"></div>
           <button id="myButton"></button>
             <div class="container contact-section">
-
                 <div class="row">
                   <div class="col-12 col-md-12 col-lg-6">
                     <div class="right-content">
@@ -47,7 +46,7 @@
                                     <i class="fa-solid fa-id-card"></i>
                                     <span>Add to contacts</span>
                                 </button>
-                                <input type="hidden" name="id" value="{{ $record->employee_id }}">
+                                <input type="hidden" name="id" value="{{ $record->employeeID }}">
                             </form>
                         </div>
                 

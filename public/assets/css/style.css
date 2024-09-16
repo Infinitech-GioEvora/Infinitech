@@ -309,6 +309,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    overflow: hidden;
     
 }
 .hero-overlay {
@@ -2247,7 +2248,7 @@ section .section-title {
     border-radius: 50%;
 }
 
-/* CREDENTIAL LSIT */
+/* CREDENTIAL LIST */
 #gallery {
     padding-top: 50px;
 
@@ -2806,7 +2807,7 @@ section .section-title {
         margin-top: 5px;
     }
     
-    iframe {
+    .maps iframe {
         margin: 8px;
         width: 300px ;
         height: 300px ;
@@ -2840,6 +2841,11 @@ section .section-title {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 960px) {
+    .maps iframe {
+        margin: 8px;
+        width: 700;
+        height: 700;
+    }
     .section {
         grid-template-columns: 100%;
         grid-template-rows: 55% 40%;

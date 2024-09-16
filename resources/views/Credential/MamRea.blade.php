@@ -51,7 +51,7 @@
                                     <i class="fa-solid fa-id-card"></i>
                                     <span>Add to contacts</span>
                                 </button>
-                                <input type="hidden" name="id" value="{{ $record->employee_id }}">
+                                <input type="hidden" name="id" value="{{ $record->employeeID }}">
                             </form>
                         </div>
                 
