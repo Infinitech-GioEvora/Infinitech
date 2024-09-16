@@ -13,8 +13,8 @@
      <main>
         <section class="hero contact-layout">
           <div class="hero-overlay"></div>
-          <button id="myButton"></button>
             <div class="container contact-section">
+              <button id="myButton"></button>
 
                 <div class="row">
                   <div class="col-12 col-md-12 col-lg-6">

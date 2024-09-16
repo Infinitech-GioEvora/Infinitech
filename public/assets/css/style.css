@@ -2994,7 +2994,7 @@ section .section-title {
     }
     /* * Employee Details */ 
     .employee-name {
-        margin-top: 80px;
+        margin-top: 60px;
         text-transform: uppercase;
         font-weight: bold;
         color: white;
@@ -3004,10 +3004,13 @@ section .section-title {
     }
     .imageslider {
         position: relative;
-        margin-top: 40px;
+        margin-top: 30px;
         width: 100%; 
         height: 390px;
         transform: rotateZ(1deg);
+    }
+    #myButton {
+        margin-top: 20px;
     }
 
     /* IMAGE SVG */

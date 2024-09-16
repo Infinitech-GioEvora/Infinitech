@@ -13,14 +13,14 @@
      <main>
         <section class="hero contact-layout">
           <div class="hero-overlay"></div>
-          <button id="myButton"></button>
             <div class="container contact-section">
+              <button id="myButton"></button>
 
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="tagline ">
                             <h1><strong>Angelle Sarmiento</strong></h1>
-                            <h1 style="color: white">Chief Executive Officer</h1>
+                            <h1>Chief Executive Officer</h1>
                             <p class="sub-tagline pt-xl-5">Empowering Success Through Recognition: Celebrate Your Achievements with Our Certified Excellence!</p>
                         </div>
                     </div>
