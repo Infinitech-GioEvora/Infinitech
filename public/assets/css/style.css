@@ -2772,12 +2772,38 @@ section .section-title {
     }
     /* What we do */
     .services .head {
-        float: left;
-        width: 60%;
-        margin: 0;
+        display: none;
     }
-    .services .button{
-        margin: 0;
+
+    .service-section .tagline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 10px; /* Add padding for spacing */
+    }
+
+    .service-section .tagline h1 strong {
+        color: white;
+        font-weight: 1000;
+        font-size: clamp(2rem, 5vw, 3rem);
+        font-family: var(--font-header);
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
+        margin-bottom: 10px; /* Space between heading and sub-tagline */
+    }
+
+    .service-section .tagline .sub-tagline {
+        color: #fcfcfc;
+        font-size: 16px;
+        word-break: normal;
+    }
+
+    .services .button {
+        display: block;
+        width: 80%;
+        margin: 20px auto;
+        text-align: center;
+        padding: 10px;
     }
     .services .offer{
         margin-left: 10px;
@@ -2798,24 +2824,24 @@ section .section-title {
         width: 100%;
         max-width: 250px;
     }
-    
+
     .modal-content h2 {
         color: #ad2525;
         font-family: Georgia, serif;
         font-size: medium;
         margin: auto;
-    } 
+    }
     .modal-content p {
         font-size: x-small;
         margin: auto;
     }
     .modal-content img {
         width: 100%;
-        max-width: 150px; 
+        max-width: 150px;
         margin: auto;
 
     }
-    
+
     .left-project {
         text-align: center;
     }
@@ -2831,7 +2857,7 @@ section .section-title {
         font-size: 10px;
     }
     .video-testimonial-block {
-        padding-top: 60%; 
+        padding-top: 60%;
     }
     .video-testimonial-content h4 {
         font-size: 18px;
@@ -2846,7 +2872,7 @@ section .section-title {
         display: none;
     }
     .section-title h2{
-        font-size: 1.75rem; 
+        font-size: 1.75rem;
     }
 
     .section-title p {
@@ -2857,22 +2883,22 @@ section .section-title {
         position: relative;
         margin-top: 80px;
         width: 300px;
-        height: 9px; 
+        height: 9px;
         transform: rotateZ(1deg);
-    
+
     }
     iframe {
         margin: 8px;
         width: 300px ;
         height: 300px ;
-        
+
     }
     /* About Us */
     .about-content p {
         font-size: 15px;
         margin-top: 0;
     }
-    
+
     .vm-card .card .card-body .vm-header,
     .vmg-header {
         font-size: 20px;
@@ -2880,6 +2906,54 @@ section .section-title {
     .vmg-header p {
         font-size: 15px;
         text-align: justify;
+    }
+    /* News and Blogs */
+    .news-section .tagline h1 strong {
+        font-size: clamp(2rem, 6vw, 39px);
+    }
+
+    .news-section .tagline .sub-tagline {
+        font-size: 14px;
+    }
+    footer {
+        margin-top: 10px;
+        padding: 0;
+    }
+    .footer-logo img {
+        display: none;
+    }
+    .footer-logo .footer-desc {
+        font-size: 10px;
+    }
+    .footer-social-media ul li a {
+        padding: 0;
+    }
+    .footer-links h2 {
+        font-size: 14px;
+        margin: 0;
+    }
+    
+    .footer-quick-links ul li i {
+        font-size: 12px;
+        margin: 0;
+    }
+    
+    .footer-quick-links ul li a {
+        font-size: 10px;
+        margin: 0;
+    }
+    .copy-right {
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .copy-right ul {
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .copy-right ul li {
+        margin: 2px 0;
     }
     
   

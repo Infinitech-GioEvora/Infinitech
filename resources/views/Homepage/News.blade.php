@@ -309,7 +309,16 @@
             autoplay: true,
             autoplaySpeed: 2000,
             prevArrow: "<button class='slick-prev-reco slick-button'><i class='fa-regular fa-circle-left'></i></button>",
-            nextArrow: "<button class='slick-next-reco slick-button'><i class='fa-regular fa-circle-right'></i></button>"
+            nextArrow: "<button class='slick-next-reco slick-button'><i class='fa-regular fa-circle-right'></i></button>",
+            responsive: [
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
         });
     </script>
 
