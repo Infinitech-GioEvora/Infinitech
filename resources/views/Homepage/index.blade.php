@@ -37,23 +37,6 @@
                         </div>
                     </div>
                 </div>
-
-            {{-- <div class="swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="/assets/img/manpower.png" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="/assets/img/tracking.jpg" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="/assets/img/manpower.png" />
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="/assets/img/tracking.jpg" />
-                    </div>
-                </div>
-            </div> --}}
             <div class="col-12 col-md-12 col-lg-6">
                 <div class="left-content">
                     <div class="imageslider">

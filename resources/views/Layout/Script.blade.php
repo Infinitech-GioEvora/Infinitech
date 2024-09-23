@@ -58,12 +58,6 @@
     });
 </script>
 
-<script>
-    document.getElementById("myButton").addEventListener("click", function() {
-      window.history.back();
-    });
-</script>
-
 <script src="/Cube.js"></script>
 <script src="credential.js"></script>
 

@@ -1862,6 +1862,95 @@ footer {
 .customize-service-content label::before {
     content: " ";
 }
+.total-card {
+    display: flex;            
+    justify-content:flex-end; 
+    align-items: center;
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+.tab-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid #ccc;
+    align-items: center;
+}
+.tab-container label {
+    margin-left: 5px; 
+    font-size: 16px;
+}
+
+.tab-price {
+    flex-grow: 1;
+    text-align: center;
+    border-right: 1px solid #ccc; 
+}
+
+.tab-price:last-child {
+    border-right: none;
+}
+.tablinks {
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.tablinks:hover {
+    background-color: #0056b3;
+}
+.checkbox-container label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+.checkbox-container input[type="checkbox"] {
+    display: none;
+}
+.checkbox-container label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+.checkbox-container label::before {
+    content: '';
+    position: absolute0;
+}
+
+.checkbox-container input[type="checkbox"]:checked + label::before {
+    background-color: #007bff;
+}
+#download-btn {
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px; 
+    
+}
+
+#download-btn:hover {
+    background-color: #0056b3;
+}
+
 
 
 /* Credential Image SLIDER */
@@ -2937,6 +3026,63 @@ section .section-title {
 
     .copy-right ul li {
         margin: 2px 0;
+    }
+    /* Quote */
+    .tab-price {
+        padding: 10px;
+    }
+
+    .tab-price p {
+        font-size: 12px;
+    }
+
+    .tab-price button {
+        font-size: 12px;
+    }
+    .customize-service .card-header h1 {
+        font-size: 18px;
+    }
+
+    .customize-service .card-header p {
+        font-size: 14px; 
+    }
+
+    .customize-service .tab-price {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .customize-service .tab-price p {
+        margin: 5px 0;
+    }
+
+    .customize-service .checkbox-container {
+        margin-bottom: 10px; 
+    }
+
+    .customize-service .total-card {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        font-size: 18px;
+    }
+
+    .customize-service .accordion .accordion-button {
+        width: 100%; 
+        font-size: 14px;
+    }
+
+    .customize-service .accordion-body {
+        font-size: 12px; 
+    }
+
+    .customize-service .table {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .customize-service .tab-container {
+        padding: 10px 0;
     }
     
   
