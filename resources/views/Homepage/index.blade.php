@@ -15,91 +15,93 @@
 <body>
     @include('Layout/Navigation')
     <main>
-        <section class="section hero"> 
-            <div class="hero-overlay"></div>    
+        <section class="section hero">
+            <div class="hero-overlay"></div>
             <div class="content">
-                    <div class="tagline">
-                        <h1 class="hero-header">High Quality, <strong>Lower Price</strong> </h1>
-                        <p class="hero-desc">At <strong>Infinitech Advertising Corporation, </strong><br> We offer excellent products without breaking the bank.</br>
-                        </p>
-                        <div class="d-flex">
-                            <a class="button btn-hero" href="/about-us" style="text-decoration: none;">
-                                <span>Explore More</span>
-                                <svg width="34" height="34" viewBox="0 0 74 74" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="37" cy="37" r="35.5" stroke="white" stroke-width="3">
-                                    </circle>
-                                    <path
-                                        d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
-                                        fill="white"></path>
-                                </svg>
-                            </a>
-                        </div>
+                <div class="tagline">
+                    <h1 class="hero-header">High Quality, <strong>Lower Price</strong> </h1>
+                    <p class="hero-desc">At <strong>Infinitech Advertising Corporation, </strong><br> We offer excellent
+                        products without breaking the bank.</br>
+                    </p>
+                    <div class="d-flex">
+                        <a class="button btn-hero" href="/about-us" style="text-decoration: none;">
+                            <span>Explore More</span>
+                            <svg width="34" height="34" viewBox="0 0 74 74" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="37" cy="37" r="35.5" stroke="white" stroke-width="3">
+                                </circle>
+                                <path
+                                    d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                                    fill="white"></path>
+                            </svg>
+                        </a>
                     </div>
                 </div>
+            </div>
             <div class="col-12 col-md-12 col-lg-6">
                 <div class="left-content">
                     <div class="imageslider">
-                            <div class="imageitem">
-                                <img src="/assets/img/dmcihomes.png" >
-                            </div>
-                            <div class="imageitem">
-                                <img src="/assets/img/abicmanpower.png">
-                            </div>
                         <div class="imageitem">
                             <img src="/assets/img/dmcihomes.png">
                         </div>
                         <div class="imageitem">
-                            <img src="/assets/img/abicmanpower.png" >
+                            <img src="/assets/img/abicmanpower.png">
                         </div>
-                        <button id="nextt"><</button>
-                        <button id="prevv">></button>
+                        <div class="imageitem">
+                            <img src="/assets/img/dmcihomes.png">
+                        </div>
+                        <div class="imageitem">
+                            <img src="/assets/img/abicmanpower.png">
+                        </div>
+                        <button id="nextt">
+                            << /button>
+                                <button id="prevv">></button>
                     </div>
-                  </div>
-              </div>
-          </div>
-          <div class="logos">
-            <div class="logo_items">
-            <img src="/assets/img/mng.png">
-            <img src="/assets/img/abicman.png">
-            <img src="/assets/img/abicreal.png">
-            <img src="/assets/img/bcrv.png">
-            <img src="/assets/img/joysis.png">
-            <img src="/assets/img/matt.png">
-            <img src="/assets/img/nrg.png">
-            <img src="/assets/img/mng.png">
-            <img src="/assets/img/abicman.png">
-            <img src="/assets/img/abicreal.png">
-            <img src="/assets/img/bcrv.png">
-            <img src="/assets/img/joysis.png">
-            <img src="/assets/img/matt.png">
-            <img src="/assets/img/nrg.png">
-            <img src="/assets/img/mng.png">
-            <img src="/assets/img/abicman.png">
-            <img src="/assets/img/abicreal.png">
-            <img src="/assets/img/bcrv.png">
-            <img src="/assets/img/joysis.png">
-            <img src="/assets/img/matt.png">
-            <img src="/assets/img/nrg.png">
-            <img src="/assets/img/mng.png">
-            <img src="/assets/img/abicman.png">
-            <img src="/assets/img/abicreal.png">
-            <img src="/assets/img/bcrv.png">
-            <img src="/assets/img/joysis.png">
-            <img src="/assets/img/matt.png">
-            <img src="/assets/img/nrg.png">
+                </div>
+            </div>
+            </div>
+            <div class="logos">
+                <div class="logo_items">
+                    <img src="/assets/img/mng.png">
+                    <img src="/assets/img/abicman.png">
+                    <img src="/assets/img/abicreal.png">
+                    <img src="/assets/img/bcrv.png">
+                    <img src="/assets/img/joysis.png">
+                    <img src="/assets/img/matt.png">
+                    <img src="/assets/img/nrg.png">
+                    <img src="/assets/img/mng.png">
+                    <img src="/assets/img/abicman.png">
+                    <img src="/assets/img/abicreal.png">
+                    <img src="/assets/img/bcrv.png">
+                    <img src="/assets/img/joysis.png">
+                    <img src="/assets/img/matt.png">
+                    <img src="/assets/img/nrg.png">
+                    <img src="/assets/img/mng.png">
+                    <img src="/assets/img/abicman.png">
+                    <img src="/assets/img/abicreal.png">
+                    <img src="/assets/img/bcrv.png">
+                    <img src="/assets/img/joysis.png">
+                    <img src="/assets/img/matt.png">
+                    <img src="/assets/img/nrg.png">
+                    <img src="/assets/img/mng.png">
+                    <img src="/assets/img/abicman.png">
+                    <img src="/assets/img/abicreal.png">
+                    <img src="/assets/img/bcrv.png">
+                    <img src="/assets/img/joysis.png">
+                    <img src="/assets/img/matt.png">
+                    <img src="/assets/img/nrg.png">
 
-           </div>
-        </div>
+                </div>
+            </div>
 
-           <div class="custom-shape-divider-bottom-1726013583">
+            <div class="custom-shape-divider-bottom-1727154196">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
                 </svg>
             </div>
-        </div>
+            </div>
         </section>
-    
+
 
         <section class="infinitech">
             <div class="container">
@@ -134,7 +136,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </section>
 
         {{-- <section class="problem">
@@ -269,7 +271,7 @@
         <section class="our-partners">
             <div class="container">
                 <div class="headingstyle" style="margin-bottom: 20px" data-aos="fade-up" data-aos-duration="1000">
-                    <h1>Our Partners</h1> 
+                    <h1>Our Partners</h1>
                 </div>
 
                 <div class="partners-container">
@@ -310,7 +312,7 @@
             <div class="container">
                 <div class="headingstyle">
                     <div class="headingstyle" data-aos="fade-up" data-aos-duration="1000">
-                        <h1>Testimonials</h1> 
+                        <h1>Testimonials</h1>
                     </div>
                     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
                         rel="stylesheet"
@@ -324,16 +326,17 @@
                         href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
                 </div>
                 <div class="container">
-                    <div class="row"data-aos="zoom-in-up" data-aos-duration="1000" >
+                    <div class="row"data-aos="zoom-in-up" data-aos-duration="1000">
                         <div class="col-md-offset-2 col-md-8">
-                            <div id="testimonial-slider" class="owl-carousel" >
+                            <div id="testimonial-slider" class="owl-carousel">
                                 <div class="testimonial">
                                     <div class="pic">
                                         <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
                                         <p>I was really impressed with the fast service! The staff handled everything e
-                                            fficiently and had my request taken care of in no time. It’s great to experience such prompt a
+                                            fficiently and had my request taken care of in no time. It’s great to
+                                            experience such prompt a
                                             nd effective service—thank you for making it a seamless experience!
                                         </p>
                                     </div>
@@ -342,14 +345,16 @@
                                         <small>- Senior Web Developer</small>
                                     </h3>
                                 </div>
-        
+
                                 <div class="testimonial">
                                     <div class="pic">
                                         <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
-                                        <p>Fantastic job with the system! It’s evident that a lot of thought and effort went into its
-                                            design. Everything functions smoothly and efficiently, making the whole experience very satisfying. 
+                                        <p>Fantastic job with the system! It’s evident that a lot of thought and effort
+                                            went into its
+                                            design. Everything functions smoothly and efficiently, making the whole
+                                            experience very satisfying.
                                             Thanks for delivering such a high-quality solution.
                                         </p>
                                     </div>
@@ -358,16 +363,17 @@
                                         <small>- Senior Web Developer</small>
                                     </h3>
                                 </div>
-        
+
                                 <div class="testimonial">
                                     <div class="pic">
                                         <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
-                                        <p>I’m impressed with the performance so far.Excellent work on the website. 
-                                            It’s user-friendly, reliable, and performs exactly as promised. I’m very pleased with its effectiveness and ease of use. 
+                                        <p>I’m impressed with the performance so far.Excellent work on the website.
+                                            It’s user-friendly, reliable, and performs exactly as promised. I’m very
+                                            pleased with its effectiveness and ease of use.
                                             Great job on creating something that truly delivers.
-                                            
+
                                         </p>
                                     </div>
                                     <h3 class="testimonial-title">
@@ -380,9 +386,10 @@
                                         <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
-                                        <p>Outstanding service with the domain and hosting. 
-                                            The setup was quick and hassle-free, and everything is running smoothly. Im impressed with the quality thanks for providing such
-                                             a solid foundation for my online presence!
+                                        <p>Outstanding service with the domain and hosting.
+                                            The setup was quick and hassle-free, and everything is running smoothly. Im
+                                            impressed with the quality thanks for providing such
+                                            a solid foundation for my online presence!
                                         </p>
                                     </div>
                                     <h3 class="testimonial-title">
@@ -395,9 +402,10 @@
                                         <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
-                                        <p>I’m genuinely amazed by the exceptional quality of this product/service. 
-                                            It’s evident that a lot of thought and craftsmanship went into every detail. The performance is not just reliable but
-                                             impressively outstanding, setting a new benchmark for excellence. 
+                                        <p>I’m genuinely amazed by the exceptional quality of this product/service.
+                                            It’s evident that a lot of thought and craftsmanship went into every detail.
+                                            The performance is not just reliable but
+                                            impressively outstanding, setting a new benchmark for excellence.
                                         </p>
                                     </div>
                                     <h3 class="testimonial-title">
@@ -411,32 +419,38 @@
                 </div>
             </div>
         </section>
-        <section class="work-with-us">  
+        <section class="work-with-us">
             <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
                 <div class="row">
                     <div class="col-md-6 right-work">
                         <div class="right-work">
                             <div class="work-header">
                                 <h2 class="work-title">Let's work together</h2>
-                                <p class="work-description">We have extensive experience in your market and are confident in our ability to build a lasting relationship with you.</p>
+                                <p class="work-description">We have extensive experience in your market and are
+                                    confident in our ability to build a lasting relationship with you.</p>
                             </div>
                             <hr>
-                            <form class="contactForm" >
+                            <form class="contactForm">
                                 <div class="form-group">
                                     <label for="name" style="font-size: 12px">Please tell us your name</label>
-                                    <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                                    <input type="text" id="name" name="name"
+                                        placeholder="Enter Your Name" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="email" style="font-size: 12px">Share your email for us to reach you</label>
-                                    <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                                    <label for="email" style="font-size: 12px">Share your email for us to reach
+                                        you</label>
+                                    <input type="email" id="email" name="email"
+                                        placeholder="Enter Your Email" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="website" style="font-size: 12px">Website</label>
-                                    <input type="text" id="website" name="website" placeholder="Enter Your Website">
+                                    <input type="text" id="website" name="website"
+                                        placeholder="Enter Your Website">
                                 </div>
                                 <div class="form-group">
                                     <label for="phone" style="font-size: 12px">Mobile Phone</label>
-                                    <input type="text" id="phone" name="phone" placeholder="Enter Phone Number">
+                                    <input type="text" id="phone" name="phone"
+                                        placeholder="Enter Phone Number">
                                 </div>
                                 <div class="form-group">
                                     <label for="message" style="font-size: 12px">Send us a message</label>
@@ -444,16 +458,23 @@
                                 </div>
                                 <button type="submit" class="button">
                                     <span>Submit</span>
-                                    <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <circle cx="37" cy="37" r="35.5" stroke="white" stroke-width="3"></circle>
-                                        <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="white"></path>
+                                    <svg width="34" height="34" viewBox="0 0 74 74" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="37" cy="37" r="35.5" stroke="white"
+                                            stroke-width="3"></circle>
+                                        <path
+                                            d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                                            fill="white"></path>
                                     </svg>
                                 </button>
                             </form>
                         </div>
                     </div>
                     <div class="col-md-6 maps-block" style="margin-top: 20px">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.686618330031!2d121.01093307590381!3d14.559904978070104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c90b830e5f29%3A0x89fe307dfecd3c0d!2sCampos%20Rueda%20Building!5e0!3m2!1sen!2sph!4v1721716690771!5m2!1sen!2sph"width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.686618330031!2d121.01093307590381!3d14.559904978070104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c90b830e5f29%3A0x89fe307dfecd3c0d!2sCampos%20Rueda%20Building!5e0!3m2!1sen!2sph!4v1721716690771!5m2!1sen!2sph"width="600"
+                            height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                         <div class="address" style="margin-top: 15px">
                             <i class="fa-solid fa-location-dot"></i>
                             Unit 311, campos rueda building, 101 Urban Ave, Makati, 1206 Metro Manila
@@ -462,10 +483,10 @@
                             <a href="tel:+63270016157" style="color: black;">
                                 <i class="fa-solid fa-phone"></i> (02) 7001-6157
                             </a>
-                        </div>  
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -484,10 +505,11 @@
             <img src="../assets/svg/undermaintenace.svg" alt="Under Maintenance">
             <div class="text">
                 <h2>Website Under Maintenance</h2>
-                <p>We're currently performing maintenance on our website. You can still browse our site, but some features may be unavailable. Thank you for your patience!</p>
+                <p>We're currently performing maintenance on our website. You can still browse our site, but some
+                    features may be unavailable. Thank you for your patience!</p>
             </div>
         </div>
-    </div>    
+    </div>
     <script src="modal.js"></script>
 </body>
 
