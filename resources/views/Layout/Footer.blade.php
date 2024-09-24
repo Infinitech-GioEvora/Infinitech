@@ -4,7 +4,7 @@
             <div class="col-md-4">
                 <div class="footer-logo mb-xl-4">
                     <img class="mb-xl-4" src="../assets/img/logos.jpg" alt="">
-                    <p class="footer-desc">Specialize in delivering comprehensive IT solutions tailored to your business needs. With a strong focus on innovation and excellence, we provide a range of services designed to enhanve your digital presence and streamline your operations.</p>
+                    <p class="footer-desc">Having an emphasize on customized IT solutions, we provide innovative solutions to improve your online visibility and optimize business processes.</p>
                 </div>
                 <div class="footer-social-media">
                     <ul>

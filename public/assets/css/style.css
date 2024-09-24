@@ -129,7 +129,8 @@ p {
     position: absolute;
     top: 0;
     content: '';
-    width: 100px;
+    width: 2
+    00px;
     height: 70%;
     z-index: 2;
   }
@@ -304,7 +305,7 @@ p {
 
 .hero {
     background-image: url("/assets/img/hero-background.jpg");
-    height: 80vh;
+    height: 75vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -444,18 +445,19 @@ p {
 
 #nextt {
     position: absolute;
-    right: 500px;
+    right: 5000px;
     top: 40%;
 }
 
 #prevv {
     position: absolute;
-    left: 500px;
+    left: 1000px;
     top: 40%;
 }
 
 #prevv,
 #nextt {
+    display: none;
     position: absolute;
     color: var(--var-accent-color);
     background: none;
@@ -1303,8 +1305,9 @@ textarea {
 footer {
     margin-top: 10px;
     background-color: black;
-    padding: 40px 0px;
+    padding: 10px 0px;
     position: relative;
+    height: 25vh;
 }
 
 .row-footer {
@@ -1316,7 +1319,7 @@ footer {
     position: absolute;
     top: -40%;
     left: 20%;
-    width: 60%;
+    width: 50%;
     padding: 32px;
     border-radius: 8px;
 }
@@ -1339,15 +1342,14 @@ footer {
 }
 
 .footer-logo img {
-    width: 110px;
+    width: 80px;
     border-radius: 8px;
-    margin-bottom: 16px;
-}
+ }
 
 .footer-logo .footer-desc {
     color: var(--var-background-light);
-    font-weight: 500;
     font-size: 13px;
+    margin-top: 0;
 }
 
 .footer-social-media ul {
@@ -1357,9 +1359,10 @@ footer {
 }
 
 .footer-social-media ul li a {
+    margin-bottom: 10px;
     text-decoration: none;
     background-color:#006fff;
-    padding: 10px 13px;
+    padding: 6px 9px;
     margin-right: 8px;
     color: var(--var-dark-color);
     border-radius: 8px;
@@ -1548,6 +1551,7 @@ footer {
 
 .about-layout {
     height: 700px;
+    height: 75vh;
 }
 
 .container .about-section {
@@ -2685,8 +2689,8 @@ section .section-title {
     grid-template-columns: 50% 45%;
     place-items: center;
     gap: 60px;
-    min-height: 100vh;
     padding: 20px 60px;
+    height: 75vh;
 }
 .swiper {
     position: relative;
@@ -3052,11 +3056,17 @@ section .section-title {
     .customize-service .tab-container {
         display: block; 
     }
+    .checkbox-container label{
+        font-size: 14px;
+        margin: 0;
+    }
 
     .customize-service .tab-price {
         width: 100%;
         display: list-item; 
         list-style-type: none;
+        font-size: 12px;
+        margin: 0;
     }
 
     .customize-service .tab-price p {
@@ -3092,7 +3102,7 @@ section .section-title {
     }
     .table-bordered td, .table-bordered th{
         margin: 0;
-        font-size: 9px;
+        font-size: 10px;
     }
     .form-check-label {
         font-size: 10px;
@@ -3167,6 +3177,7 @@ section .section-title {
     .hero.contact-layout .sub-tagline {
         font-size: 12px;
         padding-top: 20px;
+        height: 75vh;
     }
 
     .hero.contact-layout .left-content img {

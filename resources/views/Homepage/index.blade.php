@@ -12,7 +12,7 @@
 </head>
 
 
-<body style="position: relative">
+<body>
     @include('Layout/Navigation')
     <main>
         <section class="section hero"> 
@@ -60,31 +60,35 @@
           </div>
           <div class="logos">
             <div class="logo_items">
-            <img src="/assets/img/partner.png" height="100" width="250" alt="">
-            <img src="/assets/img/partner1.png">
-            <img src="/assets/img/partner2.png">
-            <img src="/assets/img/partner3.png">
-            <img src="/assets/img/partner4.png">
-            <img src="/assets/img/partner5.png">
-            <img src="/assets/img/partner6.png">
-            <img src="/assets/img/partner.png">
-            <img src="/assets/img/partner1.png">
-            <img src="/assets/img/partner2.png">
-            <img src="/assets/img/partner3.png">
-            <img src="/assets/img/partner4.png">
-            <img src="/assets/img/partner5.png">
-            <img src="/assets/img/partner.png">
-            <img src="/assets/img/partner1.png">
-            <img src="/assets/img/partner2.png">
-            <img src="/assets/img/partner3.png">
-            <img src="/assets/img/partner4.png">
-            <img src="/assets/img/partner5.png">
-            <img src="/assets/img/partner.png">
-            <img src="/assets/img/partner1.png">
-            <img src="/assets/img/partner2.png">
-            <img src="/assets/img/partner3.png">
-            <img src="/assets/img/partner4.png">
-            <img src="/assets/img/partner5.png">
+            <img src="/assets/img/mng.png">
+            <img src="/assets/img/abicman.png">
+            <img src="/assets/img/abicreal.png">
+            <img src="/assets/img/bcrv.png">
+            <img src="/assets/img/joysis.png">
+            <img src="/assets/img/matt.png">
+            <img src="/assets/img/nrg.png">
+            <img src="/assets/img/mng.png">
+            <img src="/assets/img/abicman.png">
+            <img src="/assets/img/abicreal.png">
+            <img src="/assets/img/bcrv.png">
+            <img src="/assets/img/joysis.png">
+            <img src="/assets/img/matt.png">
+            <img src="/assets/img/nrg.png">
+            <img src="/assets/img/mng.png">
+            <img src="/assets/img/abicman.png">
+            <img src="/assets/img/abicreal.png">
+            <img src="/assets/img/bcrv.png">
+            <img src="/assets/img/joysis.png">
+            <img src="/assets/img/matt.png">
+            <img src="/assets/img/nrg.png">
+            <img src="/assets/img/mng.png">
+            <img src="/assets/img/abicman.png">
+            <img src="/assets/img/abicreal.png">
+            <img src="/assets/img/bcrv.png">
+            <img src="/assets/img/joysis.png">
+            <img src="/assets/img/matt.png">
+            <img src="/assets/img/nrg.png">
+
            </div>
         </div>
 
@@ -133,7 +137,7 @@
             
         </section>
 
-        <section class="problem">
+        {{-- <section class="problem">
             <div class="container" style="font-size: medium">
                 <div class="row" >
                         <h2 class="sub-heading" style="text-align: center">Common Business Hurdles!</h2>
@@ -196,7 +200,7 @@
                         </ol>
                     </div>
             </div>
-        </section>
+        </section> --}}
 
         <section class="services ">
             <div class="container-fluid">
