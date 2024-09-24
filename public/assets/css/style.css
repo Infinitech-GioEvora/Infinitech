@@ -3028,6 +3028,9 @@ section .section-title {
         margin: 2px 0;
     }
     /* Quote */
+    .customize-service{
+        margin: auto;
+    }
     .tab-price {
         padding: 10px;
     }
@@ -3046,10 +3049,14 @@ section .section-title {
     .customize-service .card-header p {
         font-size: 14px; 
     }
+    .customize-service .tab-container {
+        display: block; 
+    }
 
     .customize-service .tab-price {
-        flex-direction: column;
-        align-items: flex-start;
+        width: 100%;
+        display: list-item; 
+        list-style-type: none;
     }
 
     .customize-service .tab-price p {
@@ -3069,20 +3076,26 @@ section .section-title {
 
     .customize-service .accordion .accordion-button {
         width: 100%; 
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .customize-service .accordion-body {
-        font-size: 12px; 
+        font-size: 11px; 
     }
 
     .customize-service .table {
         width: 100%;
-        font-size: 12px;
+        font-size: 11px;
     }
-
     .customize-service .tab-container {
         padding: 10px 0;
+    }
+    .table-bordered td, .table-bordered th{
+        margin: 0;
+        font-size: 9px;
+    }
+    .form-check-label {
+        font-size: 10px;
     }
     
   
