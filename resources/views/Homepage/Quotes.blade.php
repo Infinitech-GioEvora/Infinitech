@@ -41,8 +41,11 @@
                 </div>
             </div>
             <div class="custom-shape-divider-bottom-1727154196">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                        class="shape-fill"></path>
                 </svg>
             </div>
         </section>
@@ -80,7 +83,7 @@
                                         <button class="tablinks" onclick="openCity(event, 'addons')">Details</button>
                                     </div>
 
-                                    <!-- Standard Tab -->   
+                                    <!-- Standard Tab -->
                                     <div class="tab-price">
                                         <div class="checkbox-container">
                                             <input type="checkbox" id="standard-checkbox"
@@ -135,15 +138,19 @@
                                 <!-- Basic Plan Details -->
                                 <div id="basic-details" class="service-details">
                                     <table class="table table-bordered">
+                                        <div>
+                                            <p>FRONT END DEVELOPMENT</p>
+                                        </div>
                                         <tr>
                                             <td>
                                                 <div class="form-check">
                                                     <input class="form-check-input basic-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>basic 1</label>
+                                                    <label>Logo Design</label>
                                                 </div>
                                             </td>
-                                            <td>Description of basic 1</td>
+                                            <td>Receive a single custom logo design created to reflect your brand, with
+                                                your choice of colors.
                                             <td class="text-center">200</td>
                                         </tr>
                                         <tr>
@@ -151,10 +158,11 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input basic-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>basic 1</label>
+                                                    <label>Company Slogan</label>
                                                 </div>
                                             </td>
-                                            <td>Description of basic 1</td>
+                                            <td>Receive 1 powerful slogan if you choose to include it in your package,
+                                                perfectly capturing your brand's essence</td>
                                             <td class="text-center">200</td>
                                         </tr>
                                         <tr>
@@ -162,10 +170,11 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input basic-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>basic 1</label>
+                                                    <label>Banner</label>
                                                 </div>
                                             </td>
-                                            <td>Description of basic 1</td>
+                                            <td>Receive 1 custom banner designed to highlight your brand on your chosen
+                                                page.</td>
                                             <td class="text-center">200</td>
                                         </tr>
                                         <tr>
@@ -173,13 +182,100 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input basic-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>basic 1</label>
+                                                    <label>Theme Design</label>
                                                 </div>
                                             </td>
-                                            <td>Description of basic 1</td>
+                                            <td> Static: Enjoy a visually striking static design that captures attention
+                                                and effectively represents your brand.</td>
                                             <td class="text-center">200</td>
                                         </tr>
                                     </table>
+                                    <table class="table table-bordered">
+                                        <div>
+                                            <p>BACK END DEVELOPMENT</p>
+                                        </div>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input basic-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Dashboard</label>
+                                                </div>
+                                            </td>
+                                            <td>An intuitive dashboard that provides an overview of key metrics and user activities for streamlined management.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input basic-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>User Management</label>
+                                                </div>
+                                            </td>
+                                            <td>Manage user accounts efficiently, setting roles and permissions to ensure secure access.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input basic-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Settings and Configuration</label>
+                                                </div>
+                                            </td>
+                                            <td>Customize application settings for optimal performance and user experience.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input basic-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Notification Management</label>
+                                                </div>
+                                            </td>
+                                            <td>Manage notifications to keep users informed of important updates and alerts.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input basic-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Search and Filtering</label>
+                                                </div>
+                                            </td>
+                                            <td>Implement advanced search and filtering options to enhance content discoverability.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input basic-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Feedback and User Insights</label>
+                                                </div>
+                                            </td>
+                                            <td>Collect and analyze user feedback to improve service offerings and user experience.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input basic-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Login and Register</label>
+                                                </div>
+                                            </td>
+                                            <td>Secure login and registration processes to manage user access effectively.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input basic-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>User Login</label>
+                                                </div>
+                                            </td>
+                                            <td>Streamlined user login experience for quick access to your application.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                    </table>
+                                    
                                 </div>
                                 <!-- Standard Plan Details -->
                                 <div id="standard-details" class="service-details">
@@ -189,10 +285,12 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input standard-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>Standard 1</label>
+                                                    <label>Logo Design</label>
                                                 </div>
                                             </td>
-                                            <td>Description of Standard 1</td>
+                                            <td> We'll create two custom logo designs if you choose to include a logo in
+                                                your package, with the option to select your preferred colors.</td>
+                                            </td>
                                             <td class="text-center">200</td>
                                         </tr>
                                         <tr>
@@ -200,10 +298,11 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input standard-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>Standard 1</label>
+                                                    <label>Company Slogan</label>
                                                 </div>
                                             </td>
-                                            <td>Description of Standard 1</td>
+                                            <td>Choose from 2 compelling slogans when you avail the package, crafted to
+                                                resonate with your brand's message.</td>
                                             <td class="text-center">200</td>
                                         </tr>
                                         <tr>
@@ -211,10 +310,11 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input standard-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>Standard 1</label>
+                                                    <label>Banner</label>
                                                 </div>
                                             </td>
-                                            <td>Description of Standard 1</td>
+                                            <td>Receive 1 custom banner designed to highlight your brand on your chosen
+                                                page.</td>
                                             <td class="text-center">200</td>
                                         </tr>
                                         <tr>
@@ -222,13 +322,117 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input standard-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>Standard 1</label>
+                                                    <label>Theme Design</label>
                                                 </div>
                                             </td>
-                                            <td>Description of Standard 1</td>
+                                            <td>Static: Enjoy a visually striking static design that captures attention
+                                                and effectively represents your brand.</td>
                                             <td class="text-center">200</td>
                                         </tr>
                                     </table>
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input standard-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Dashboard</label>
+                                                </div>
+                                            </td>
+                                            <td>An intuitive dashboard providing an overview of key metrics and user activities for easy management.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input standard-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>User Management</label>
+                                                </div>
+                                            </td>
+                                            <td>Efficiently manage user accounts, roles, and permissions to ensure secure access to your platform.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input standard-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Settings and Configuration</label>
+                                                </div>
+                                            </td>
+                                            <td>Customize settings for optimal configuration tailored to your application needs.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input standard-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Notification Management</label>
+                                                </div>
+                                            </td>
+                                            <td>Manage notifications effectively to keep users informed about important updates and alerts.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input standard-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Data Import and Export</label>
+                                                </div>
+                                            </td>
+                                            <td>Facilitate seamless data import and export to streamline data management processes.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input standard-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Login History</label>
+                                                </div>
+                                            </td>
+                                            <td>Maintain a record of user login activities to enhance security and user management.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input standard-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Search and Filtering</label>
+                                                </div>
+                                            </td>
+                                            <td>Implement advanced search and filtering options to help users quickly find relevant content.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input standard-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Feedback and User Insights</label>
+                                                </div>
+                                            </td>
+                                            <td>Collect and analyze user feedback to continuously improve services and user experience.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input standard-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Login and Register</label>
+                                                </div>
+                                            </td>
+                                            <td>Secure login and registration processes to manage user access effectively.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input standard-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>User Login</label>
+                                                </div>
+                                            </td>
+                                            <td>Simplified user login experience for quick access to your application.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                    </table>
+                                    
                                 </div>
                                 <!-- Advance Plan Details -->
                                 <div id="advance-details" class="service-details">
@@ -238,10 +442,11 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input advance-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>advance 1</label>
+                                                    <label>Logo Design</label>
                                                 </div>
                                             </td>
-                                            <td>Description of advance 1</td>
+                                            <td>Get four unique logo design options, allowing you to choose the best fit
+                                                for your brand, with your preferred color choices.</td>
                                             <td class="text-center">200</td>
                                         </tr>
                                         <tr>
@@ -249,10 +454,11 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input advance-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>Advance 1</label>
+                                                    <label>Company Slogan</label>
                                                 </div>
                                             </td>
-                                            <td>Description of Advance 1</td>
+                                            <td>Get 4 creative slogan options with your package, each representing your
+                                                brand identity.</td>
                                             <td class="text-center">200</td>
                                         </tr>
                                         <tr>
@@ -260,10 +466,11 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input advance-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>Advance 1</label>
+                                                    <label>Banner</label>
                                                 </div>
                                             </td>
-                                            <td>Description of Advance 1</td>
+                                            <td>Get 2 unique banners for different pages, each crafted to enhance your
+                                                brand’s visibility.</td>
                                             <td class="text-center">200</td>
                                         </tr>
                                         <tr>
@@ -271,13 +478,148 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input advance-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>Advance 1</label>
+                                                    <label>Theme Design</label>
                                                 </div>
                                             </td>
-                                            <td>Description of Advance 1</td>
+                                            <td>Hover Effect: Enhance user interaction with dynamic hover effects that
+                                                bring your design to life, adding a layer of engagement and
+                                                sophistication.</td>
                                             <td class="text-center">200</td>
                                         </tr>
                                     </table>
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input advance-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Dashboard</label>
+                                                </div>
+                                            </td>
+                                            <td>An intuitive dashboard providing real-time insights into key metrics and user activity.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input advance-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>User Management</label>
+                                                </div>
+                                            </td>
+                                            <td>Manage user profiles, roles, and permissions efficiently to ensure secure access to your platform.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input advance-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Analytics and Reports</label>
+                                                </div>
+                                            </td>
+                                            <td>Comprehensive analytics and reporting tools to track performance and user engagement.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input advance-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>System Monitoring</label>
+                                                </div>
+                                            </td>
+                                            <td>Real-time system monitoring to identify issues quickly and maintain optimal performance.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input advance-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Settings and Configuration</label>
+                                                </div>
+                                            </td>
+                                            <td>Flexible settings for configuration to customize your application according to specific needs.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input advance-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Notification Management</label>
+                                                </div>
+                                            </td>
+                                            <td>Manage user notifications efficiently to keep them informed about important updates.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input advance-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Security Management</label>
+                                                </div>
+                                            </td>
+                                            <td>Implement robust security measures to protect user data and ensure application integrity.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input advance-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Data Import and Export</label>
+                                                </div>
+                                            </td>
+                                            <td>Facilitate seamless data import and export processes for easier data management.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input advance-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Login History</label>
+                                                </div>
+                                            </td>
+                                            <td>Maintain a record of user login history for enhanced security and tracking purposes.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input advance-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Search and Filtering</label>
+                                                </div>
+                                            </td>
+                                            <td>Advanced search and filtering options to help users quickly find relevant content.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input advance-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Feedback and User Insights</label>
+                                                </div>
+                                            </td>
+                                            <td>Collect valuable feedback and insights from users to continuously improve your services.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input advance-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Login and Register</label>
+                                                </div>
+                                            </td>
+                                            <td>Secure login and registration processes to manage user access and data integrity.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input advance-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>User Login</label>
+                                                </div>
+                                            </td>
+                                            <td>Streamlined user login experience for quick access to your application.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                    </table>
+                                    
                                 </div>
                                 <!-- Premium Plan Details -->
                                 <div id="premium-details" class="service-details">
@@ -287,10 +629,11 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input premium-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>premium 1</label>
+                                                    <label>Logo Design</label>
                                                 </div>
                                             </td>
-                                            <td>Description of premium 1</td>
+                                            <td>Enjoy six distinct logo design concepts, each tailored to your vision,
+                                                with full control over the color scheme.</td>
                                             <td class="text-center">200</td>
                                         </tr>
                                         <tr>
@@ -298,10 +641,11 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input premium-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>premium 1</label>
+                                                    <label>Company Slogan</label>
                                                 </div>
                                             </td>
-                                            <td>Description of premium 1</td>
+                                            <td>Enjoy 6 unique slogan ideas when you opt for the package, reflecting
+                                                your brand’s core values.</td>
                                             <td class="text-center">200</td>
                                         </tr>
                                         <tr>
@@ -309,10 +653,12 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input premium-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>premium 1</label>
+                                                    <label>Banner</label>
                                                 </div>
                                             </td>
-                                            <td>Description of premium 1</td>
+                                            <td>Different Banner on All Pages: We will design a distinct banner for each
+                                                page, ensuring a cohesive yet personalized look across your website.
+                                            </td>
                                             <td class="text-center">200</td>
                                         </tr>
                                         <tr>
@@ -320,13 +666,191 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input premium-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>premium 1</label>
+                                                    <label>Theme Design</label>
                                                 </div>
                                             </td>
-                                            <td>Description of premium 1</td>
+                                            <td>Hover Effect: Enhance user interaction with dynamic hover effects that
+                                                bring your design to life, adding a layer of engagement and
+                                                sophistication.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input premium-checkbox" type="checkbox"
+                                                        value="200" onchange="updateTotal()">
+                                                    <label>Embedded Google Map</label>
+                                                </div>
+                                            </td>
+                                            <td>Integrate an embedded Google Map to your website, allowing visitors to
+                                                easily locate your business. This interactive feature provides real-time
+                                                navigation, ensuring your customers can find you effortlessly.</td>
                                             <td class="text-center">200</td>
                                         </tr>
                                     </table>
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input premium-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Dashboard</label>
+                                                </div>
+                                            </td>
+                                            <td>A comprehensive dashboard providing an overview of key metrics and performance indicators for your application.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input premium-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>User Management</label>
+                                                </div>
+                                            </td>
+                                            <td>Efficient management of user accounts, roles, and permissions to streamline user access and security.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input premium-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Analytics and Reports</label>
+                                                </div>
+                                            </td>
+                                            <td>Advanced analytics and reporting features to track user behavior and application performance over time.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input premium-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>System Monitoring</label>
+                                                </div>
+                                            </td>
+                                            <td>Real-time monitoring of system performance and health to ensure optimal operation and quick issue resolution.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input premium-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Settings and Configuration</label>
+                                                </div>
+                                            </td>
+                                            <td>Flexible settings and configuration options to tailor the application to your specific needs.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input premium-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Workflow Automation</label>
+                                                </div>
+                                            </td>
+                                            <td>Automate repetitive tasks and workflows to improve efficiency and reduce manual effort.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input premium-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Notification Management</label>
+                                                </div>
+                                            </td>
+                                            <td>Manage notifications effectively to keep users informed of important updates and alerts.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input premium-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Security Management</label>
+                                                </div>
+                                            </td>
+                                            <td>Implement robust security measures to protect user data and prevent unauthorized access.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input premium-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Help and Support</label>
+                                                </div>
+                                            </td>
+                                            <td>Accessible help and support options for users to resolve issues and answer queries.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input premium-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Multi-Language Support</label>
+                                                </div>
+                                            </td>
+                                            <td>Support for multiple languages to cater to a diverse user base and enhance accessibility.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input premium-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Data Import and Export</label>
+                                                </div>
+                                            </td>
+                                            <td>Easy data import and export features to facilitate seamless data transfer and management.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input premium-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Login History</label>
+                                                </div>
+                                            </td>
+                                            <td>Track user login history for better security and user management insights.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input premium-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Search and Filtering</label>
+                                                </div>
+                                            </td>
+                                            <td>Advanced search and filtering capabilities to help users easily find what they need.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input premium-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Feedback and User Insights</label>
+                                                </div>
+                                            </td>
+                                            <td>Collect feedback and insights from users to improve services and user satisfaction.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input premium-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Login and Register</label>
+                                                </div>
+                                            </td>
+                                            <td>Secure login and registration features to manage user access effectively.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input premium-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>User Login</label>
+                                                </div>
+                                            </td>
+                                            <td>Streamlined user login processes for a smooth user experience.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                    </table>
+                                    
                                 </div>
                                 <!-- Vip Plan Details -->
                                 <div id="vip-details" class="service-details">
@@ -336,10 +860,11 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input vip-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>vip 1</label>
+                                                    <label>Logo Design</label>
                                                 </div>
                                             </td>
-                                            <td>Description of vip 1</td>
+                                            <td>Choose from nine diverse logo design ideas, each crafted to align with
+                                                your brand, and customize the colors to suit your style.</td>
                                             <td class="text-center">200</td>
                                         </tr>
                                         <tr>
@@ -347,10 +872,11 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input vip-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>vip 1</label>
+                                                    <label>Company Slogan</label>
                                                 </div>
                                             </td>
-                                            <td>Description of vip 1</td>
+                                            <td>Receive 9 distinctive slogan concepts as part of your package, each
+                                                tailored to match your brand’s voice and vision.</td>
                                             <td class="text-center">200</td>
                                         </tr>
                                         <tr>
@@ -358,10 +884,12 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input vip-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>vip 1</label>
+                                                    <label>Banner</label>
                                                 </div>
                                             </td>
-                                            <td>Description of vip 1</td>
+                                            <td>Different Banner on All Pages: We will design a distinct banner for each
+                                                page, ensuring a cohesive yet personalized look across your website.
+                                            </td>
                                             <td class="text-center">200</td>
                                         </tr>
                                         <tr>
@@ -369,13 +897,220 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input vip-checkbox" type="checkbox"
                                                         value="200" onchange="updateTotal()">
-                                                    <label>vip 1</label>
+                                                    <label>Theme Design</label>
                                                 </div>
                                             </td>
-                                            <td>Description of vip 1</td>
+                                            <td>Hover Effect: Enhance user interaction with dynamic hover effects that
+                                                bring your design to life, adding a layer of engagement and
+                                                sophistication.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox"
+                                                        value="200" onchange="updateTotal()">
+                                                    <label>Embedded Google Map</label>
+                                                </div>
+                                            </td>
+                                            <td>Integrate an embedded Google Map to your website, allowing visitors to
+                                                easily locate your business. This interactive feature provides real-time
+                                                navigation, ensuring your customers can find you effortlessly.</td>
                                             <td class="text-center">200</td>
                                         </tr>
                                     </table>
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Dashboard</label>
+                                                </div>
+                                            </td>
+                                            <td>A comprehensive dashboard providing an overview of key metrics and performance indicators for your application.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>User Management</label>
+                                                </div>
+                                            </td>
+                                            <td>Efficient management of user accounts, roles, and permissions to streamline user access and security.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Analytics and Reports</label>
+                                                </div>
+                                            </td>
+                                            <td>Advanced analytics and reporting features to track user behavior and application performance over time.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>System Monitoring</label>
+                                                </div>
+                                            </td>
+                                            <td>Real-time monitoring of system performance and health to ensure optimal operation and quick issue resolution.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Settings and Configuration</label>
+                                                </div>
+                                            </td>
+                                            <td>Flexible settings and configuration options to tailor the application to your specific needs.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Workflow Automation</label>
+                                                </div>
+                                            </td>
+                                            <td>Automate repetitive tasks and workflows to improve efficiency and reduce manual effort.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Notification Management</label>
+                                                </div>
+                                            </td>
+                                            <td>Manage notifications effectively to keep users informed of important updates and alerts.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Security Management</label>
+                                                </div>
+                                            </td>
+                                            <td>Implement robust security measures to protect user data and prevent unauthorized access.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Backup and Recovery</label>
+                                                </div>
+                                            </td>
+                                            <td>Regular backup solutions and recovery processes to safeguard your data against loss.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Audit Logs</label>
+                                                </div>
+                                            </td>
+                                            <td>Maintain detailed audit logs for tracking changes and user activity within the system.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Help and Support</label>
+                                                </div>
+                                            </td>
+                                            <td>Accessible help and support options for users to resolve issues and answer queries.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Multi-Language Support</label>
+                                                </div>
+                                            </td>
+                                            <td>Support for multiple languages to cater to a diverse user base and enhance accessibility.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Data Import and Export</label>
+                                                </div>
+                                            </td>
+                                            <td>Easy data import and export features to facilitate seamless data transfer and management.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Login History</label>
+                                                </div>
+                                            </td>
+                                            <td>Track user login history for better security and user management insights.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Search and Filtering</label>
+                                                </div>
+                                            </td>
+                                            <td>Advanced search and filtering capabilities to help users easily find what they need.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Feedback and User Insights</label>
+                                                </div>
+                                            </td>
+                                            <td>Collect feedback and insights from users to improve services and user satisfaction.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Login and Register</label>
+                                                </div>
+                                            </td>
+                                            <td>Secure login and registration features to manage user access effectively.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>User Login</label>
+                                                </div>
+                                            </td>
+                                            <td>Streamlined user login processes for a smooth user experience.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input vip-checkbox" type="checkbox" value="200" onchange="updateTotal()">
+                                                    <label>Account Management</label>
+                                                </div>
+                                            </td>
+                                            <td>Comprehensive account management features for users to control their settings and preferences.</td>
+                                            <td class="text-center">200</td>
+                                        </tr>
+                                    </table>                                    
                                 </div>
 
                                 {{-- DETAILS TAB --}}
@@ -400,20 +1135,22 @@
                                                 <div class="accordion-body">
                                                     <div class="service-list">
                                                         <table class="table table-bordered">
+                                                            <div class="addons-title">
+                                                                <p> Customizable Theme</p>
+                                                            </div>
                                                             <tr>
                                                                 <td>
                                                                     <div class="form-check">
                                                                         <input class="form-check-input"
                                                                             type="checkbox" value=""
-                                                                            id="flexCheckLandingPageBasic">
+                                                                            id="flexCheckDynamicDesign">
                                                                         <label class="form-check-label"
-                                                                            for="flexCheckLandingPageBasic">Landing
-                                                                            Page</label>
+                                                                            for="flexCheckDynamicDesign">Dynamic
+                                                                            Design</label>
                                                                     </div>
                                                                 </td>
-                                                                <td>The main entry point of the website, designed to
-                                                                    capture visitor interest and drive conversions with
-                                                                    engaging visuals and a clear call-to-action.</td>
+                                                                <td>A design that adapts based on user interactions and
+                                                                    content, providing a personalized experience.</td>
                                                                 <td class="text-center">500.00</td>
                                                             </tr>
                                                             <tr>
@@ -421,17 +1158,186 @@
                                                                     <div class="form-check">
                                                                         <input class="form-check-input"
                                                                             type="checkbox" value=""
-                                                                            id="flexCheckAnotherPage">
+                                                                            id="flexCheckAnimatedDesign">
                                                                         <label class="form-check-label"
-                                                                            for="flexCheckAnotherPage">Another
-                                                                            Page</label>
+                                                                            for="flexCheckAnimatedDesign">Animated
+                                                                            Design</label>
                                                                     </div>
                                                                 </td>
-                                                                <td>A secondary page that serves additional content or
-                                                                    information.</td>
+                                                                <td>Design elements that include animations, enhancing
+                                                                    user engagement and making the interface more
+                                                                    interactive.</td>
+                                                                <td class="text-center">600.00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input"
+                                                                            type="checkbox" value=""
+                                                                            id="flexCheck3DDesign">
+                                                                        <label class="form-check-label"
+                                                                            for="flexCheck3DDesign">3D Design</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>Three-dimensional design elements that create depth
+                                                                    and realism, elevating the visual appeal of your
+                                                                    website.</td>
+                                                                <td class="text-center">700.00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input"
+                                                                            type="checkbox" value=""
+                                                                            id="flexCheckHoverEffects">
+                                                                        <label class="form-check-label"
+                                                                            for="flexCheckHoverEffects">Hover
+                                                                            Effects</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>Interactive effects that occur when users hover over
+                                                                    elements, enhancing engagement and usability.</td>
+                                                                <td class="text-center">400.00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input"
+                                                                            type="checkbox" value=""
+                                                                            id="flexCheckTranslation">
+                                                                        <label class="form-check-label"
+                                                                            for="flexCheckTranslation">Translation</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>Multilingual support to reach a wider audience,
+                                                                    making your website accessible to non-native
+                                                                    speakers.</td>
                                                                 <td class="text-center">300.00</td>
                                                             </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input"
+                                                                            type="checkbox" value=""
+                                                                            id="flexCheckDynamicContent">
+                                                                        <label class="form-check-label"
+                                                                            for="flexCheckDynamicContent">Dynamic
+                                                                            Content</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>Content that changes based on user behavior or
+                                                                    preferences, providing a tailored browsing
+                                                                    experience.</td>
+                                                                <td class="text-center">500.00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input"
+                                                                            type="checkbox" value=""
+                                                                            id="flexCheckLoadingIndicator">
+                                                                        <label class="form-check-label"
+                                                                            for="flexCheckLoadingIndicator">Loading
+                                                                            Indicator</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>A visual cue that informs users that content is
+                                                                    loading, improving user experience during
+                                                                    transitions.</td>
+                                                                <td class="text-center">200.00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input"
+                                                                            type="checkbox" value=""
+                                                                            id="flexCheckToggleSwitch">
+                                                                        <label class="form-check-label"
+                                                                            for="flexCheckToggleSwitch">Toggle Switch
+                                                                            (Darkmode and Lightmode)</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>A switch that allows users to toggle between dark
+                                                                    and light modes for a customizable viewing
+                                                                    experience.</td>
+                                                                <td class="text-center">250.00</td>
+                                                            </tr>
                                                         </table>
+                                                        <table class="table table-bordered">
+                                                            <div class="addons-title">
+                                                                <p>Social Media Integration</p>
+                                                            </div>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckFacebook">
+                                                                        <label class="form-check-label" for="flexCheckFacebook">Facebook</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>Seamlessly connect your website with Facebook to share content, grow your audience, and increase engagement.</td>
+                                                                <td class="text-center">300.00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckInstagram">
+                                                                        <label class="form-check-label" for="flexCheckInstagram">Instagram</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>Integrate Instagram to showcase your photos, videos, and stories directly on your website.</td>
+                                                                <td class="text-center">300.00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckTwitter">
+                                                                        <label class="form-check-label" for="flexCheckTwitter">Twitter</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>Embed Twitter feeds and engage with your audience in real time directly from your website.</td>
+                                                                <td class="text-center">250.00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckTiktok">
+                                                                        <label class="form-check-label" for="flexCheckTiktok">TikTok</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>Connect with TikTok to share engaging videos and grow your brand’s presence through popular content.</td>
+                                                                <td class="text-center">350.00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckReddit">
+                                                                        <label class="form-check-label" for="flexCheckReddit">Reddit</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>Integrate Reddit to participate in communities and discussions relevant to your business.</td>
+                                                                <td class="text-center">200.00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckLinkedIn">
+                                                                        <label class="form-check-label" for="flexCheckLinkedIn">LinkedIn</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>LinkedIn integration to showcase your professional network and build business connections directly from your site.</td>
+                                                                <td class="text-center">300.00</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckOther">
+                                                                        <label class="form-check-label" for="flexCheckOther">Other Social Media Platforms</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>Integrate any other social media platform to expand your reach and engagement with diverse audiences.</td>
+                                                                <td class="text-center">200.00</td>
+                                                            </tr>
+                                                        </table>                                                        
                                                     </div>
                                                 </div>
                                             </div>

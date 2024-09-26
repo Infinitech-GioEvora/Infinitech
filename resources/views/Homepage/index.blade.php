@@ -11,7 +11,6 @@
 
 </head>
 
-
 <body>
     @include('Layout/Navigation')
     <main>
