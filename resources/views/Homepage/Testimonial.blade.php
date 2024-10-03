@@ -158,7 +158,7 @@
                            </div>
                            <div class="video-testimonial-content">
                                <h4 class="mb10">Kimberly Niñeria</h4>
-                               <p style="font-size: 12px">Student Loan</p>
+                               <p class="mb11">Student Loan</p>
                            </div>
                        </div>
                        <!-- /.video-testimonail -->
@@ -175,7 +175,7 @@
                            </div>
                            <div class="video-testimonial-content">
                                <h4 class="mb10">Kimberly Niñeria</h4>
-                               <p style="font-size: 12px">Retirement Planning</p>
+                               <p class="mb11">Retirement Planning</p>
                            </div>
                        </div>
                        <!-- /.video-testimonail -->
@@ -191,7 +191,7 @@
                            </div>
                            <div class="video-testimonial-content">
                                <h4 class="mb10">Kimberly Niñeria</h4>
-                               <p style="font-size: 12px">Term Insurance</p>
+                               <p class="mb11">Term Insurance</p>
                            </div>
                        </div>
                    </div>

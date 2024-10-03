@@ -18,6 +18,6 @@
         <img src="../assets/icon/reddit.png" alt="">
     </a>
     <a target="_blank" href="https://x.com/">
-        <img src="../assets/icon/twitter.png" alt="">
+        <img src="../assets/icon/x.png" alt="">
     </a>
 </div>

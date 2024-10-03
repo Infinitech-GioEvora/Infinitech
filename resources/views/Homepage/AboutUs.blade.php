@@ -87,9 +87,9 @@
                     <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="card">
                             <img src="../assets/img/CEO_ANGELLE.png" alt="Avatar" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">Angelle Sarmiento</h5>
-                                <p class="card-text">Chief Executive Officer</p>
+                            <div class="team-details">
+                                <span class="team-name d-block">Angelle Sarmiento</span>
+                                <medium class="card-text">Chief Executive Officer</medium>
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                                         <img src="../assets/img/EA_KRISSA.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Krissa Bongon</span>
-                                            <small class="position d-block">Executive Assistant</small>
+                                            <medium class="card-text">Executive Assistant</medium>
                                         </div>
                                     </div>
                                 </div>
@@ -137,7 +137,7 @@
                                         <img src="../assets/img/ACC_SOL.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Marisol Senteno</span>
-                                            <small class="position d-block">Accounting Head</small>
+                                            <medium class="card-text">Accounting Head</medium>
                                         </div>
                                     </div>
                                 </div>
@@ -168,7 +168,7 @@
                                         <img src="../assets/img/HR_RHEA.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Rhea Jane Quintano</span>
-                                            <small class="position d-block">Human Resource</small>
+                                            <medium class="card-text">Human Resource</medium>
                                         </div>
                                     </div>
                                 </div>
@@ -199,7 +199,7 @@
                                         <img src="/assets/img/AS_ALLY.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Allysa Perez</span>
-                                            <small class="position d-block">Admin Assistant</small>
+                                            <medium class="card-text">Admin Assistant</medium>
                                         </div>
                                     </div>
                                 </div>
@@ -234,7 +234,7 @@
                                         <img src="../assets/img/MH_AIRIES.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Airies Asilio</span>
-                                            <small class="position d-block">Marketing Head</small>
+                                            <medium class="card-text">Marketing Head</medium>
                                         </div>
                                     </div>
                                 </div>
@@ -265,7 +265,7 @@
                                         <img src="../assets/img/ITS_APRIL.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">April  Saludares</span>
-                                            <small class="position d-block">IT Supervisor</small>
+                                            <medium class="card-text">IT Supervisor</medium>
                                         </div>
                                     </div>
                                 </div>
@@ -298,7 +298,7 @@
                                         <img src="../assets/img/SD_GIO.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Giolo Evora</span>
-                                            <small class="position d-block">Senior Web Developer</small>
+                                            <medium class="card-text">Senior Web Developer</medium>
                                         </div>
                                     </div>
                                 </div>
@@ -330,7 +330,7 @@
                                         <img src="../assets/img/SD_JUSTIN.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Justin De Castro</span>
-                                            <small class="position d-block">Senior Web Developer</small>
+                                            <medium class="card-text">Senior Web Developer</medium>
                                         </div>
                                     </div>
                                 </div>
@@ -361,7 +361,7 @@
                                         <img src="../assets/img/SD_MOSES.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Moses Alcantara</span>
-                                            <small class="position d-block">Senior Web Developer</small>
+                                            <medium class="card-text">Senior Web Developer</medium>
                                         </div>
                                     </div>
                                 </div>
@@ -394,7 +394,7 @@
                                         <img src="../assets/img/JD_KIM.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Kimberly Niñeria</span>
-                                            <small class="position d-block">Junior Web Developer</small>
+                                            <medium class="card-text">Junior Web Developer</medium>
                                         </div>
                                     </div>
                                 </div>
@@ -425,7 +425,7 @@
                                         <img src="../assets/img/JD_ANGEL.png" alt="Avatar" style="width:100%" onclick="showTooltip(event)">
                                         <div class="team-details">
                                             <span class="team-name d-block">Darlene Fajarito</span>
-                                            <small class="position d-block">Junior Web Developer</small>
+                                            <medium class="card-text">Junior Web Developer</medium>
                                         </div>
                                     </div>
                                 </div>
@@ -456,7 +456,7 @@
                                         <img src="../assets/img/JD_LYCA.png" alt="Avatar" style="width:100%">
                                         <div class="team-details">
                                             <span class="team-name d-block">Lyca Nobleza</span>
-                                            <small class="position d-block">Junior Web Developer</small>
+                                            <medium class="card-text">Junior Web Developer</medium>
                                         </div>
                                     </div>
                                 </div>
@@ -484,9 +484,9 @@
                     <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="card">
                             <img src="../assets/img/CD_ANTHONY.png" alt="Avatar" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">Anthonio Sy</h5>
-                                <p class="card-text">Company Driver</p>
+                            <div class="team-details">
+                                <span class="team-name d-block">Anthony Sy</span>
+                                <medium class="card-text">Company Driver</medium>
                             </div>
                         </div>
                     </div>

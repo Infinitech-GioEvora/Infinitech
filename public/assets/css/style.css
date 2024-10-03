@@ -1304,13 +1304,10 @@ textarea {
 }
 
 /* Footer */
-.fa {
-    color: black;
-}
 
 footer {
     margin-top: 10px;
-    background-color: black;
+    background-color: rgb(35, 49, 71);
     padding: 10px 0px;
     position: relative;
     height: 25vh;
@@ -1367,7 +1364,7 @@ footer {
 .footer-social-media ul li a {
     margin-bottom: 10px;
     text-decoration: none;
-    background-color:#006fff;
+    background-color:#2360b1;
     padding: 6px 9px;
     margin-right: 8px;
     color: var(--var-dark-color);
@@ -1393,32 +1390,32 @@ footer {
 .footer-quick-links ul li i {
     text-decoration: none;
     margin: 10px;
-    color: #006fff;
+    color: #2360b1;
     font-weight: 3000;
     font-size: 13px;
 }
 
 .footer-quick-links ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(230, 231, 231);
     transition: ease 0.2s;
     font-weight: 500;
     font-size: 13px;
 }
 
 .footer-quick-links ul li a:hover {
-    color: #fbfdff;
+    color: #e3e3fa;
     font-weight: 600;
 }
 
 .copy-right {
-    background-color: var(--var-dark-color);
+    background-color: rgb(223, 229, 248);
     font-size: 14px;
 }
 
 .copy-right p {
-    color: var(--var-background-light);
-    font-size: 14px;
+    color: black;
+    font-size: 15px;
 }
 
 .copy-right ul {
@@ -1429,11 +1426,11 @@ footer {
 }
 
 .copy-right ul li a {
-    color: #006fff;
+    color: #123057;
     margin: 16px;
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .featured-carousel .item {
@@ -2613,15 +2610,6 @@ section .section-title {
 }
 
 /* Testimonial Vid */
-.body {
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    letter-spacing: 0px;
-    font-size: 16px;
-    color: #7d7f82;
-    font-weight: 400;
-    line-height: 32px;
-}
 
 .video-testimonial-block {
     position: relative;
@@ -2678,7 +2666,13 @@ section .section-title {
 }
 
 .mb10 {
-    font-size: medium;
+    font-family:var(--var-body-font);
+    font-size: large;
+}
+.mb11 {
+    font-family:var(--var-body-font);
+    font-size: small;
+    margin-top: 0px;
 }
 
 .section-title {
