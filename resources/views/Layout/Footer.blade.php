@@ -18,7 +18,7 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 quicklinks">
                 <div class="footer-links mb-xl-4">
                     <h2>Quick Links</h2>
                 </div>
@@ -56,7 +56,6 @@
 
 
 </footer>
-
 
 <div class="copy-right text-center">
     <ul>

@@ -105,7 +105,6 @@
         <section class="infinitech">
             <div class="container">
                 <div class="row">
-
                     <div class="col-12 col-md-6">
                         <img class="infinitech-img" data-aos="fade-up" data-aos-duration="1000"
                             src="../assets/img/banner.png" alt="">
@@ -209,9 +208,8 @@
                     <img src="../assets/svg/AIHEAD.svg" alt="head" style="width:80%">
                 </div>
                 <div class="row">
-                    <div class="col-xs-10 col-sm-6 col-lg-8">
-                        <h5 class="sub-header">What we do?</h5>
-                        <h2 class="sub-heading">Driving success through innovative digital solutions!</h2>
+                    <div class="headingstyle" data-aos="fade-up" data-aos-duration="1000">
+                        <h1>What We Do?</h1>
                     </div>
                     <div class="col-6 col-md-2" style="margin-left:50px;">
                         <div class="d-flex justify-content-end">

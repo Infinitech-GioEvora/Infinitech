@@ -21,7 +21,7 @@
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="tagline ">
-                            <h1><strong>Our Services</strong></h1>
+                            <h1><strong>Services</strong></h1>
                             <p class="sub-tagline pt-xl-5">Transform your vision into reality with our innovative
                                 solutions.
                                 We turn ideas into actionable plans, bringing your goals to life with precision and

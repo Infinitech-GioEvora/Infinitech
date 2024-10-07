@@ -2731,12 +2731,15 @@ section .section-title {
 ======= RESPONSIVE LAYOUT=======
 ================================ */
 
+
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px)
 {
     
     section {
-        padding: 40px 40px 60px;
+        padding: 30px 30px 50px;
     }
     .swiper {
         width: 300px;
@@ -2762,20 +2765,26 @@ section .section-title {
         right: 0;
         margin-bottom: 10px;
     }
-    .about-section .tagline h1,
-    .service-section .tagline h1,
-    .solution-section .tagline h1,
-    .testimonial-section .tagline h1,
-    news-section .tagline h1,
-    .contact-section .tagline h1 {
-        font-size: x-small;
-        padding: auto;
-        margin-top: 100px; 
-        margin-left: 10px; 
-        font-weight: 800;
-        text-align: justify;
+    .about-section .tagline h1
+{        word-break: normal;
+        margin-top: 20%; 
+        text-align: center;
     }
-    
+    .contact-section .tagline h1,
+    .solution-section .tagline h1,
+    .service-section .tagline h1 {
+        word-break: normal;
+        margin-top: 85%; 
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .news-section .tagline h1,
+    .testimonial-section .tagline h1 {
+        word-break: normal;
+        margin-top: 80%; 
+        text-align: center;
+        margin-bottom: 0;
+    }
 
     .about-section .tagline .sub-tagline,
     .service-section .tagline .sub-tagline,
@@ -2783,11 +2792,10 @@ section .section-title {
     .testimonial-section .tagline .sub-tagline,
     .news-section .tagline .sub-tagline,  
     .contact-section .tagline .sub-tagline {
-        font-size: 11px;
+        font-size: 10px;
         word-break: break-word;
         text-align: justify;
         margin-top: 2px; 
-        margin-right: 150px; 
     }
 
     .about-section .left-content img,
@@ -2799,7 +2807,7 @@ section .section-title {
         display: none;
     }
     .tagline {
-        top: 50%;
+        top: 40%;
         left: 30%;
 
     }
@@ -2815,10 +2823,15 @@ section .section-title {
         align-items: center;
     }
     .tagline .hero-header{
+        margin: 90px 10px 10px 50px;
+        text-transform: uppercase;
+        overflow: hidden;
+        color: white;
         font-weight: 1000;
-        font-size: clamp(4rem, 5vw, 73px);
-        text-align: center;
-        padding: 0;
+        font-size: 30px;
+        line-height: 1;
+        font-family: var(--font-header);
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
     }
     .hero-desc{
         font-size: small;
@@ -2827,11 +2840,14 @@ section .section-title {
         text-align: center;
 
     }
-    .btn-hero{
-        display: flex;
-        margin-top: 20px;
-        margin-left: 170px;
+    .d-flex .btn-hero{
+        display: none;
     }
+    .btn-hero{
+        font-size: 15px;
+        height: 40px;
+        margin-bottom: 0;   
+     }
     .imageslider{
         display: none;
     }
@@ -2846,6 +2862,11 @@ section .section-title {
         margin-top: 20px;
         margin-left: 40px;
         width: 100%;
+    }
+    .headingstyle{
+        margin-top: 10px;
+        font-size: 15px;
+        padding-bottom: 25px
     }
     /* HURDLES */
     .sub-header {
@@ -3007,7 +3028,9 @@ section .section-title {
         font-size: 14px;
         margin: 0;
     }
-    
+    .quicklinks {
+        display: none;
+    }
     .footer-quick-links ul li i {
         font-size: 12px;
         margin: 0;
@@ -3018,17 +3041,29 @@ section .section-title {
         margin: 0;
     }
     .copy-right {
-        font-size: 10px;
-        padding: 0;
+        padding: 10px;
     }
-
     .copy-right ul {
         flex-direction: column;
-        padding-top: 0;
     }
 
     .copy-right ul li {
-        margin: 2px 0;
+        margin-bottom: 5px;
+    }
+
+    .copy-right p {
+        font-size: 0.875rem;
+        margin-bottom: 10px;
+    }
+
+    .copy-right ul li:last-child {
+        display: flex;
+        justify-content: center;
+    }
+
+    .copy-right ul li:last-child a {
+        margin: 0 5px;
+        display: inline-block;
     }
     /* Quote */
     .customize-service{
