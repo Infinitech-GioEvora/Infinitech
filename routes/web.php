@@ -3,6 +3,7 @@
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EmailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -107,6 +108,11 @@ Route::get('/RheaQuintano', function () {
 Route::get('/AnthonySy', function () {
     return view('Credential/MangJun');
 });
+
+Route::post('/send-email', [EmailController::class, 'sendEmail']);
+
+
+
 Route::post('/submit/inquiry', [ContactController::class, 'submitinquiry']);
 
 // Admin side
@@ -142,3 +148,4 @@ Route::get('/DarleneFajarito', [MainController::class, 'showDarlene']);
 Route::get('/LycaNobleza', [MainController::class, 'showLyca']);
 Route::get('/AllysaPerez', [MainController::class, 'showAlly']);
 Route::get('/RheaQuintano', [MainController::class, 'showRea']);
+

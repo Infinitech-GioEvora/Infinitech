@@ -19,6 +19,55 @@ $(document).ready(function () {
     $("#advance-details").hide();
     $("#premium-details").hide();
     $("#vip-details").hide();
+
+    $('#send-email-button').click(function() {
+        const email = $('#user-email').val(); 
+        if (!email) {
+            alert('Please enter your email address');
+            return;
+        }
+
+        const selectedServices = [];
+        $('.service-list input[type=checkbox]:checked').each(function () {
+            const serviceName = $(this).closest('tr').find('td.service-name').text(); 
+            const servicePrice = $(this).closest('tr').find('td.service-price').text();
+            selectedServices.push({ name: serviceName, price: servicePrice });
+        });
+
+        const totalPrice = $('.total-price').text();
+
+        const payload = {
+            email: email,
+            services: selectedServices,
+            total: totalPrice
+        };
+
+        fetch("/send-email", {
+            method: "POST",
+            headers: {
+                'X-CSRF-TOKEN': '{{ csrf_token() }}'
+            },
+            body: formData
+        })
+        .then(function(response) {
+            return response.json(); 
+            console.log(response)
+        })
+        .then(function(data) {
+            if (data.message === 'Email sent successfully.') {
+                alert("Email sent successfully!");
+            } else {
+                throw new Error(data.message || "Email sending failed.");
+            }
+        })
+        .catch(function(error) {
+            document.getElementById("error-message").textContent = error.message;
+            document.getElementById("error-message").style.display = "block";
+            console.log(response)
+        })
+        
+        
+    });
 });
 
 var total = 0;
@@ -37,10 +86,12 @@ function toggleAdvanceDetails(checkbox) {
     $("#advance-details").toggle(checkbox.checked);
     updateCheckboxes(".advance-checkbox", checkbox.checked);
 }
+
 function togglePremiumDetails(checkbox) {
     $("#premium-details").toggle(checkbox.checked);
     updateCheckboxes(".premium-checkbox", checkbox.checked);
 }
+
 function toggleVipDetails(checkbox) {
     $("#vip-details").toggle(checkbox.checked);
     updateCheckboxes(".vip-checkbox", checkbox.checked);
