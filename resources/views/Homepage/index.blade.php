@@ -202,7 +202,7 @@
             </div>
         </section> --}}
 
-        <section class="services ">
+        <section class="services">
             <div class="container-fluid">
                 <div class="head">
                     <img src="../assets/svg/AIHEAD.svg" alt="head" style="width:80%">
@@ -213,64 +213,58 @@
                     </div>
                     <div class="col-6 col-md-2" style="margin-left:50px;">
                         <div class="d-flex justify-content-end">
-                            <a class="button btn-hero" href="/services" style="text-decoration: none;"> <span>See
-                                    More</span>
-                                <svg width="34" height="34" viewBox="0 0 74 74" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="37" cy="37" r="35.5" stroke="white" stroke-width="3">
-                                    </circle>
-                                    <path
-                                        d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
-                                        fill="white"></path>
+                            <a class="button btn-hero" href="/services" style="text-decoration: none;">
+                                <span>See More</span>
+                                <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="37" cy="37" r="35.5" stroke="white" stroke-width="3"></circle>
+                                    <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="white"></path>
                                 </svg>
                             </a>
                         </div>
                     </div>
                 </div>
-
+        
                 <div class="offer" data-aos="zoom-in-up" data-aos-duration="1000" style="font-size: 14px">
-                    <div class="col-8 col-md-2 clickable" data-href="/get-proposal">
-                        <div class="offer-content text-center">
-                            <img src="../assets/svg/webapp.svg" alt="">
-                            <h2 class="offerTitle">Web Based Application </h2>
-                            <p class="offer-desc">We have the capability to create personalized web applications
-                                designed to enhance your organization's operational effectiveness.</p>
+                    <div class="row">
+                        <div class="col-6 col-md-3 clickable" data-href="/get-proposal">
+                            <div class="offer-content text-center">
+                                <img src="../assets/svg/webapp.svg" alt="">
+                                <h2 class="offerTitle">Web Based Application</h2>
+                                <p class="offer-desc">We have the capability to create personalized web applications designed to enhance your organization's operational effectiveness.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-8 col-md-2 clickable" data-href="/get-proposal">
-                        <div class="offer-content text-center">
-                            <img src="../assets/svg/search.svg" alt="">
-                            <h2 class="offerTitle">Search Engine Optimization</h2>
-                            <p class="offer-desc">We can assist in improving your website's ranking on major search
-                                engines such as Google.</p>
+                        <div class="col-6 col-md-3 clickable" data-href="/get-proposal">
+                            <div class="offer-content text-center">
+                                <img src="../assets/svg/search.svg" alt="">
+                                <h2 class="offerTitle">Search Engine Optimization</h2>
+                                <p class="offer-desc">We can assist in improving your website's ranking on major search engines such as Google.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-8 col-md-2 clickable" data-href="/get-proposal">
-                        <div class="offer-content text-center">
-                            <img src="../assets/svg/Hosting.svg" alt="">
-                            <h2 class="offerTitle">Web Hosting and Domain</h2>
-                            <p class="offer-desc">Our servers are fine-tuned for speed, security, and reliability,
-                                ensuring your websites operate seamlessly.</p>
+                        <div class="col-6 col-md-3 clickable" data-href="/get-proposal">
+                            <div class="offer-content text-center">
+                                <img src="../assets/svg/Hosting.svg" alt="">
+                                <h2 class="offerTitle">Web Hosting and Domain</h2>
+                                <p class="offer-desc">Our servers are fine-tuned for speed, security, and reliability, ensuring your websites operate seamlessly.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-8 col-md-2 clickable" data-href="/get-proposal">
-                        <div class="offer-content text-center">
-                            <img src="../assets/svg/fast.svg" alt="">
-                            <h2 class="offerTitle">Fast Turn Over</h2>
-                            <p class="offer-desc">We specialize in providing swift turnaround times, guaranteeing the
-                                prompt completion of your projects while upholding high standards of quality.</p>
+                        <div class="col-6 col-md-3 clickable" data-href="/get-proposal">
+                            <div class="offer-content text-center">
+                                <img src="../assets/svg/fast.svg" alt="">
+                                <h2 class="offerTitle">Fast Turn Over</h2>
+                                <p class="offer-desc">We specialize in providing swift turnaround times, guaranteeing the prompt completion of your projects while upholding high standards of quality.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        
 
         <section class="our-partners">
             <div class="container">
                 <div class="headingstyle" style="margin-bottom: 20px" data-aos="fade-up" data-aos-duration="1000">
                     <h1>Our Partners</h1>
                 </div>
-
                 <div class="partners-container">
                     <div class="partners-logo" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                         data-aos-duration="2000">
@@ -298,11 +292,8 @@
                         <a href="https://www.facebook.com/profile.php?id=100090318514723"><img
                                 src="../assets/img/abic-manpower.png" alt="abic-manpower"></a>
                     </div>
-
                 </div>
-
             </div>
-
         </section>
 
         <section class="clients py-3 py-md-5">
@@ -406,8 +397,8 @@
                                         </p>
                                     </div>
                                     <h3 class="testimonial-title">
-                                        <a href="#">Allysa Perez</a>
-                                        <small>- Admin Assistant</small>
+                                        <a href="#">Lyca Nobleza</a>
+                                        <small>- Junior Web Developer</small>
                                     </h3>
                                 </div>
                             </div>
@@ -507,7 +498,7 @@
             </div>
         </div>
     </div>
-    <script src="modal.js"></script>
+    {{-- <script src="modal.js"></script> --}}
 </body>
 
 </html>

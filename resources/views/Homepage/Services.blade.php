@@ -45,24 +45,22 @@
 
         <section class="services">
             <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
-               
-
                 <div class="row">
-                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
+                    <div class="col-6 col-md-4 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/webdes.svg" alt="">
                             <h2 class="serviceTitle">Web Design & Development</h2>
                             <p class="service-desc">Custom-built, professionally-designed websites featuring an easy-to-use Content Management System (CMS).</p>
                         </div>
                     </div>   
-                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
+                    <div class="col-6 col-md-4 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/search.svg" alt="">
                             <h2 class="serviceTitle" >Search Engine Optimization</h2>
                             <p class="service-desc">We can help improve your website's ranking on major search engines like Google by implementing effective SEO strategies.</p>
                         </div>
                     </div>                 
-                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
+                    <div class="col-6 col-md-4 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/Developer activity-bro.svg" alt="">
                             <h2 class="serviceTitle">Mobile App Development</h2>
@@ -70,7 +68,7 @@
                                 Android and iOS platforms, starting from inception to completion.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
+                    <div class="col-6 col-md-4 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/Hosting.svg" alt="">
                             <h2 class="serviceTitle">Web Hosting and Domain</h2>
@@ -78,7 +76,7 @@
                                 ensuring your websites operate seamlessly.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
+                    <div class="col-6 col-md-4 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/ecommerce.svg" alt="">
                             <h2 class="serviceTitle">Ecommerce Shop </h2>
@@ -86,7 +84,7 @@
                                 e-commerce websites and online stores.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
+                    <div class="col-6 col-md-4 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/outsource.svg" alt="">
                             <h2 class="serviceTitle">Web Design Outsourcing</h2>
@@ -94,7 +92,7 @@
                                 IT professionals at a competitive rate.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
+                    <div class="col-6 col-md-4 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/redesign.svg" alt="">
                             <h2 class="serviceTitle">Website Redesign</h2>
@@ -102,7 +100,7 @@
                                 completely new one from scratch.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
+                    <div class="col-6 col-md-4 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/webapp.svg" alt="">
                             <h2 class="serviceTitle">Web Based Application </h2>
@@ -110,7 +108,7 @@
                                 designed to enhance your operational effectiveness.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
+                    <div class="col-6 col-md-4 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/graphic.svg" alt="">
                             <h2 class="serviceTitle">Graphic Design</h2>
@@ -118,7 +116,7 @@
                                 marketing materials.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
+                    <div class="col-6 col-md-4 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/maintenance.svg" alt="">
                             <h2 class="serviceTitle">Website Maintenance</h2>
@@ -127,7 +125,7 @@
                         </div>
                     </div>
                     
-                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
+                    <div class="col-6 col-md-4 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/photo.svg" alt="">
                             <h2 class="serviceTitle" style="font-size: 19px">Professional Photography</h2>
@@ -135,7 +133,7 @@
                                 breathe life into your marketing materials.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 clickable" data-href="/get-proposal">
+                    <div class="col-6 col-md-4 clickable" data-href="/get-proposal">
                         <div class="service-content text-center">
                             <img src="../assets/svg/fast.svg" alt="">
                             <h2 class="serviceTitle">Fast Turn Over</h2>

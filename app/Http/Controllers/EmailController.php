@@ -16,22 +16,22 @@ class EmailController extends Controller
         'file' => 'required|string'
     ]);
 
-    $fileData = str_replace('data:application/pdf;base64,', '', $request->input('file'));
-    $fileData = base64_decode($fileData);
-    
-    $pdfPath = storage_path('/uploads/proposal.pdf');
-
-    if (!file_put_contents($pdfPath, $fileData)) {
-        return response()->json(['message' => 'Failed to save PDF.'], 500);
-    }
-
     try {
+        $fileData = base64_decode($request->input('file'));
+        $pdfPath = storage_path('/uploads/proposal.pdf');
+
+        if (!file_put_contents($pdfPath, $fileData)) {
+            return response()->json(['message' => 'Failed to save PDF.'], 500);
+        }
+
         Mail::to($request->input('email'))->send(new ServiceDetails($pdfPath));
+
+        return response()->json(['message' => 'Email sent successfully.']);
     } catch (\Exception $e) {
+        Log::error('Email sending failed: ' . $e->getMessage());
         return response()->json(['message' => 'Email sending failed: ' . $e->getMessage()], 500);
     }
-
-    return response()->json(['message' => 'Email sent successfully.']);
 }
 
+    
 }

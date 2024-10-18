@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
@@ -18,10 +19,11 @@ class ServiceDetails extends Mailable
 
     public function build()
     {
-        return $this
-            ->subject('Your Service Details')
-            ->view('Mail.service-details')
-            ->attach($this->pdfPath);
+        return $this->view('Mail.service_details')
+            ->subject('Service Details with PDF')
+            ->attach($this->pdfPath, [
+                'as' => 'service-details.pdf',
+                'mime' => 'application/pdf',
+            ]);
     }
 }
-

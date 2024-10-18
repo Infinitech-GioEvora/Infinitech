@@ -124,8 +124,8 @@
                                     </p>
                                 </div>
                                 <h3 class="testimonial-title">
-                                    <a href="#">Allysa Perez</a>
-                                    <small>- Admin Assistant</small>
+                                    <a href="#">Lyca Nobleza</a>
+                                    <small>- Junior Web Developer</small>
                                 </h3>
                             </div>
                         </div>

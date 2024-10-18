@@ -70,9 +70,16 @@
                                      <input type="text" id="user-email" placeholder="Enter your email" />
                                      <button id="confirm-send-email">Send Email</button>
                                      <button id="cancel-email">Cancel</button>
-                                     <div id="loading" style="display:none;">Sending...</div>
                                      <div id="error-message" style="color:red; display:none;"></div>
                                  </div>
+
+                                 <!-- Hidden form for submitting email and base64 PDF -->
+                                 <form id="email-form" action="/send-email" method="POST">
+                                     @csrf
+                                     <input type="hidden" id="email-input" name="email">
+                                     <input type="hidden" id="file-input" name="file">
+                                 </form>
+
 
                                  <div class="total-card">
                                      <div class="total"> <strong>Total:</strong></div>
@@ -1268,7 +1275,7 @@
                                              <td>Streamlined user login processes for a smooth user experience.</td>
                                              <td class="text-center">200</td>
                                          </tr>
-                                         <tr>
+                                         <tr>   
                                              <td>
                                                  <div class="form-check">
                                                      <input class="form-check-input vip-checkbox" type="checkbox"
@@ -1595,64 +1602,57 @@
          });
      </script>
 
-     {{--  Email --}}
+     {{-- Email --}}
      <script>
-        document.getElementById("send-email").addEventListener("click", function() {
-            document.getElementById("emailModal").style.display = "block";
-        });
-    
-        document.getElementById("confirm-send-email").addEventListener("click", function() {
-            var userEmail = document.getElementById("user-email").value;
-    
-            if (userEmail) {
-                document.getElementById("loading").style.display = "block";
-                document.getElementById("error-message").style.display = "none";
-    
-                var element = document.querySelector(".customize-service");
-    
-                html2pdf().from(element).toPdf().output('datauristring').then(function(dataUri) {
-                    var base64Data = dataUri.split(',')[1]; 
-                    var formData = new FormData();
-                    formData.append("file", base64Data);
-                    formData.append("email", userEmail);
-    
-                    fetch("/send-email", {
-                        method: "POST",
-                        headers: {
-                            'X-CSRF-TOKEN': '{{ csrf_token() }}'
-                        },
-                        body: formData
-                    })
-                    .then(function(response) {
-                        if (response.ok) {
-                            alert("Email sent successfully!");
-                        } else {
-                            console.log(response)
-                            throw new Error("Email sending failed.");
-                        }
-                    })
-                    .catch(function(error) {
-                        console.log(error)
-                        document.getElementById("error-message").textContent = error.message;
-                    })
-                    .finally(function(response) {
-                        console.log(response)
-                        document.getElementById("loading").style.display = "none";
-                        document.getElementById("user-email").value = "";
-                        document.getElementById("emailModal").style.display = "none";
-                    });
-                });
-            } else {
-                alert("Please enter your email address.");
-            }
-        });
-    
-        document.getElementById("cancel-email").addEventListener("click", function() {
-            document.getElementById("user-email").value = "";
-            document.getElementById("emailModal").style.display = "none";
-        });
-    </script>
-    
+         document.getElementById("send-email").addEventListener("click", function() {
+             document.getElementById("emailModal").style.display = "block";
+         });
+
+         document.getElementById("confirm-send-email").addEventListener("click", function() {
+             var userEmail = document.getElementById("user-email").value;
+
+             if (userEmail) {
+                 document.getElementById("error-message").style.display = "none";
+
+                 var element = document.querySelector(".customize-service");
+
+                 html2pdf().from(element).toPdf().output('blob').then(function(pdfBlob) {
+                     var reader = new FileReader();
+                     reader.onloadend = function() {
+                         var base64data = reader.result.split(',')[1];
+
+                         var emailInput = document.getElementById("email-input");
+                         var fileInput = document.getElementById("file-input");
+
+                         if (emailInput && fileInput) {
+                             emailInput.value = userEmail;
+                             fileInput.value = base64data;
+
+                             document.getElementById("email-form").submit();
+                         } else {
+                             console.error("Hidden form inputs not found.");
+                         }
+                     };
+
+                     reader.readAsDataURL(pdfBlob);
+                 }).catch(function(error) {
+                     console.error("Error creating PDF: ", error);
+                     document.getElementById("error-message").textContent = "Error generating PDF.";
+                 });
+             } else {
+                 alert("Please enter your email address.");
+             }
+         });
+
+         document.getElementById("cancel-email").addEventListener("click", function() {
+             document.getElementById("user-email").value = "";
+             document.getElementById("emailModal").style.display = "none";
+         });
+     </script>
+
+
+
+
 
 
  </body>

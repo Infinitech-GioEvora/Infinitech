@@ -133,8 +133,6 @@
                                 </div>
                             </div>
                         </div>
-
-                  
                 </div>
 
                 <div class="pricing-head text-center"data-aos="zoom-in-up" data-aos-duration="1000">

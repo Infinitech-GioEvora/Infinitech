@@ -58,15 +58,15 @@
 
                 <div class="vmg" data-aos="fade-up" data-aos-duration="1000"> 
                     <div class="row d-flex justify-content-center no-gutters pt-xl-5">
-                        <div class="col-sm-12 col-md-4 vmg-content text-center">
+                        <div class="  col-4 col-sm-12 col-md-4 vmg-content text-center">
                             <span class="vmg-header"> Mission</span>
                             <p>They are committed to helping their clients reach operational excellence and sustainable growth through specialized, technology-driven strategies that solve difficult problems.</p>
                         </div>
-                        <div class="col-sm-12 col-md-4 vmg-content text-center">
+                        <div class=" col-4 col-sm-12 col-md-4 vmg-content text-center">
                             <span class="vmg-header"> Vision</span>
                             <p>Infinitech aims to be a top choice for businesses looking to enhance their digital presence, by using the latest technology and creative ideas, they want to lead the industry and help clients grow and succeed.</p>
                         </div>
-                        <div class="col-sm-12 col-md-4 text-center">
+                        <div class=" col-4 col-sm-12 col-md-4 vmg-content text-center">
                             <span class="vmg-header"> Goal</span>
                             <p>To successfully adapt the latest technological advancements and continuously innovate in digital advertising strategies, ensuring the delivery of unique and measurable results for clients.</p>
                         </div>
@@ -191,7 +191,7 @@
                         </div>
                     </div>
                     <!-- Team member -->
-                    <div class="col-xs-12 col-sm-6 col-md-3">
+                    {{-- <div class="col-xs-12 col-sm-6 col-md-3">
                         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                             <div class="mainflip">
                                 <div class="frontside">
@@ -220,7 +220,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     
                 </div>
                 {{-- MA'AM AIRIES AND SIR APAN --}}
@@ -500,10 +500,10 @@
                     <h1>certificates</h1> 
                 </div>
                 <div class="row d-flex justify-content-center no-gutters" >
-                    <div class="col-6 col-md-4 col-lg-4 cert" style="margin-right: 10px" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="col-5 col-md-4 col-lg-4 cert" style="margin-right: 10px" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                       <img src="../assets/certificates/infinitech-partnership.jpg" alt="ABIC-Realty"></a>
                     </div>
-                    <div class="col-6 col-md-4 col-lg-4 cert " style="margin-left: 10px" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="col-5 col-md-4 col-lg-4 cert " style="margin-left: 10px" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                       <img src="../assets/certificates/infinitech-sil.jpg" alt="ABIC-Realty"></a>
                     </div>
                 </div>

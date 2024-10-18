@@ -62,7 +62,7 @@
         <li>
             <p>&copy; 2024 All rights reserved. Website design by Infinitech Advertising Corporation.</p>
         </li>
-        <li><a href="/Privacy-Policy">Privacy Policy</a></li>
         <li><a href="/Terms-and-Condition">Terms and Conditions</a></li>
+        <li><a href="/Privacy-Policy">Privacy Policy</a></li>
     </ul>
 </div>
