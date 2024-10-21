@@ -63,15 +63,18 @@
                                      Download PDF
                                  </button>
                                  <!-- Button to trigger modal -->
-                                 <button id="send-email" class="btn btn-primary">Send Result via Email</button>
+                                 <button id="send-email" class="accordion">Send Result via Email</button>
 
                                  <!-- Email Modal -->
-                                 <div id="emailModal" style="display:none;">
-                                     <input type="text" id="user-email" placeholder="Enter your email" />
-                                     <button id="confirm-send-email">Send Email</button>
-                                     <button id="cancel-email">Cancel</button>
-                                     <div id="error-message" style="color:red; display:none;"></div>
+                                 <div id="emailModal">
+                                     <div id="emailModalContent">
+                                         <input type="text" id="user-email" placeholder="Enter your email" />
+                                         <button id="confirm-send-email">Send Email</button>
+                                         <button id="cancel-email">Cancel</button>
+                                         <div id="error-message">Please enter a valid email address.</div>
+                                     </div>
                                  </div>
+
 
                                  <!-- Hidden form for submitting email and base64 PDF -->
                                  <form id="email-form" action="/send-email" method="POST">
@@ -1275,7 +1278,7 @@
                                              <td>Streamlined user login processes for a smooth user experience.</td>
                                              <td class="text-center">200</td>
                                          </tr>
-                                         <tr>   
+                                         <tr>
                                              <td>
                                                  <div class="form-check">
                                                      <input class="form-check-input vip-checkbox" type="checkbox"
@@ -1602,57 +1605,87 @@
          });
      </script>
 
-     {{-- Email --}}
-     <script>
-         document.getElementById("send-email").addEventListener("click", function() {
-             document.getElementById("emailModal").style.display = "block";
-         });
+{{-- Email --}}
+<script>
+    document.getElementById("send-email").addEventListener("click", function() {
+        document.getElementById("emailModal").style.display = "block";
+    });
 
-         document.getElementById("confirm-send-email").addEventListener("click", function() {
-             var userEmail = document.getElementById("user-email").value;
+    document.getElementById("confirm-send-email").addEventListener("click", function() {
+        var userEmail = document.getElementById("user-email").value;
 
-             if (userEmail) {
-                 document.getElementById("error-message").style.display = "none";
+        var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
 
-                 var element = document.querySelector(".customize-service");
+        if (emailPattern.test(userEmail)) {
+            document.getElementById("error-message").style.display = "none";
 
-                 html2pdf().from(element).toPdf().output('blob').then(function(pdfBlob) {
-                     var reader = new FileReader();
-                     reader.onloadend = function() {
-                         var base64data = reader.result.split(',')[1];
+            var element = document.querySelector(".customize-service");
 
-                         var emailInput = document.getElementById("email-input");
-                         var fileInput = document.getElementById("file-input");
+            html2pdf().from(element).toPdf().output('blob').then(function(pdfBlob) {
+                var reader = new FileReader();
+                reader.onloadend = function() {
+                    var base64data = reader.result.split(',')[1];
 
-                         if (emailInput && fileInput) {
-                             emailInput.value = userEmail;
-                             fileInput.value = base64data;
+                    var emailInput = document.getElementById("email-input");
+                    var fileInput = document.getElementById("file-input");
 
-                             document.getElementById("email-form").submit();
-                         } else {
-                             console.error("Hidden form inputs not found.");
-                         }
-                     };
+                    if (emailInput && fileInput) {
+                        emailInput.value = userEmail;
+                        fileInput.value = base64data;
 
-                     reader.readAsDataURL(pdfBlob);
-                 }).catch(function(error) {
-                     console.error("Error creating PDF: ", error);
-                     document.getElementById("error-message").textContent = "Error generating PDF.";
-                 });
-             } else {
-                 alert("Please enter your email address.");
-             }
-         });
+                        document.getElementById("email-form").submit();
 
-         document.getElementById("cancel-email").addEventListener("click", function() {
-             document.getElementById("user-email").value = "";
-             document.getElementById("emailModal").style.display = "none";
-         });
-     </script>
+                        document.getElementById("user-email").value = "";
 
+                        showToaster('Email sent successfully !');
+                    } else {
+                        console.error("Hidden form inputs not found.");
+                    }
+                };
 
+                reader.readAsDataURL(pdfBlob);
+            }).catch(function(error) {
+                console.error("Error creating PDF: ", error);
+                document.getElementById("error-message").textContent = "Error generating PDF.";
+                document.getElementById("error-message").style.display = "block";
+            });
+        } else {
+            document.getElementById("error-message").textContent = "Please enter a valid email address.";
+            document.getElementById("error-message").style.display = "block";
+        }
+    });
 
+    document.getElementById("cancel-email").addEventListener("click", function() {
+        document.getElementById("user-email").value = "";
+        document.getElementById("emailModal").style.display = "none";
+    });
 
+    function showToaster(message) {
+        var toaster = document.createElement("div");
+        toaster.textContent = message;
+        toaster.style.position = "fixed";
+        toaster.style.top = "20px";
+        toaster.style.left = "90%";
+        toaster.style.transform = "translateX(-50%)";
+        toaster.style.padding = "10px 10px";
+        toaster.style.backgroundColor = "#28a745";
+        toaster.style.color = "#fff";
+        toaster.style.borderRadius = "5px";
+        toaster.style.boxShadow = "0px 0px 10px rgba(0, 0, 0, 0.1)";
+        toaster.style.zIndex = "1000";
+
+        document.body.appendChild(toaster);
+
+        setTimeout(function() {
+            toaster.style.opacity = "0";
+            toaster.style.transition = "opacity 0.5s ease";
+        }, 2000);
+
+        setTimeout(function() {
+            document.body.removeChild(toaster);
+        }, 2500);
+    }
+</script>
 
 
  </body>

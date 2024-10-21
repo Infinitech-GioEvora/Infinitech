@@ -259,72 +259,66 @@
             </div>
         </section>
         
-
         <section class="our-partners">
             <div class="container">
                 <div class="headingstyle" style="margin-bottom: 20px" data-aos="fade-up" data-aos-duration="1000">
                     <h1>Our Partners</h1>
                 </div>
-                <div class="partners-container">
-                    <div class="partners-logo" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                <div class="row">
+                    <div class="col-5 col-md-2 partners-logo" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                         data-aos-duration="2000">
                         <a href="https://www.facebook.com/profile.php?id=61552676815080">
-                            <img src="../assets/img/ABIC-Realty.png" alt="ABIC-Realty">
+                            <img src="../assets/img/ABIC-Realty.png" alt="ABIC-Realty" class="img-fluid">
                         </a>
                     </div>
-                    <div class="partners-logo" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    <div class="col-5 col-md-2 partners-logo" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                         data-aos-duration="2000">
-                        <a href="https://www.facebook.com/mngtechvoc.antique"><img
-                                src="../assets/img/MNG-Techvoc-INC.png" alt="MNG-Techvoc-INC"></a>
+                        <a href="https://www.facebook.com/mngtechvoc.antique">
+                            <img src="../assets/img/MNG-Techvoc-INC.png" alt="MNG-Techvoc-INC" class="img-fluid">
+                        </a>
                     </div>
-                    <div class="partners-logo" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    <div class="col-5 col-md-2 partners-logo" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                         data-aos-duration="2000">
-                        <a href="https://www.facebook.com/bcrvtvi.edu.ph"><img src="../assets/img/bcrv-techvoc.png"
-                                alt="bcrv-techvoc"></a>
+                        <a href="https://www.facebook.com/bcrvtvi.edu.ph">
+                            <img src="../assets/img/bcrv-techvoc.png" alt="bcrv-techvoc" class="img-fluid">
+                        </a>
                     </div>
-                    <div class="partners-logo" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    <div class="col-5 col-md-2 partners-logo" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                         data-aos-duration="2000">
-                        <a href="https://www.facebook.com/profile.php?id=61552586366733"><img
-                                src="../assets/img/NRG-Info-Tech.png" alt="NRG-Info-Tech"></a>
+                        <a href="https://www.facebook.com/profile.php?id=61552586366733">
+                            <img src="../assets/img/NRG-Info-Tech.png" alt="NRG-Info-Tech" class="img-fluid">
+                        </a>
                     </div>
-                    <div class="partners-logo" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    <div class="col-5 col-md-2 partners-logo" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                         data-aos-duration="2000">
-                        <a href="https://www.facebook.com/profile.php?id=100090318514723"><img
-                                src="../assets/img/abic-manpower.png" alt="abic-manpower"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100090318514723">
+                            <img src="../assets/img/abic-manpower.png" alt="abic-manpower" class="img-fluid">
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
+        
 
-        <section class="clients py-3 py-md-5">
-            <div class="container">
-                <div class="headingstyle">
-                    <div class="headingstyle" data-aos="fade-up" data-aos-duration="1000">
+        <section class="problem">
+
+            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+                <div class="container">
+                    <div class="headingstyle" style="margin-bottom: 20px" data-aos="fade-up" data-aos-duration="1000">
                         <h1>Testimonials</h1>
                     </div>
-                    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-                        rel="stylesheet"
-                        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-                        crossorigin="anonymous">
-                    <link rel="stylesheet"
-                        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-                        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-                        crossorigin="anonymous">
-                    <link rel="stylesheet"
-                        href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
-                </div>
-                <div class="container">
-                    <div class="row"data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div class="row"data-aos="zoom-in-up" data-aos-duration="1000" >
                         <div class="col-md-offset-2 col-md-8">
-                            <div id="testimonial-slider" class="owl-carousel">
+                            <div id="testimonial-slider" class="owl-carousel" >
                                 <div class="testimonial">
                                     <div class="pic">
                                         <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
                                         <p>I was really impressed with the fast service! The staff handled everything e
-                                            fficiently and had my request taken care of in no time. It’s great to
-                                            experience such prompt a
+                                            fficiently and had my request taken care of in no time. It’s great to experience such prompt a
                                             nd effective service—thank you for making it a seamless experience!
                                         </p>
                                     </div>
@@ -333,16 +327,14 @@
                                         <small>- Senior Web Developer</small>
                                     </h3>
                                 </div>
-
+    
                                 <div class="testimonial">
                                     <div class="pic">
                                         <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
-                                        <p>Fantastic job with the system! It’s evident that a lot of thought and effort
-                                            went into its
-                                            design. Everything functions smoothly and efficiently, making the whole
-                                            experience very satisfying.
+                                        <p>Fantastic job with the system! It’s evident that a lot of thought and effort went into its
+                                            design. Everything functions smoothly and efficiently, making the whole experience very satisfying. 
                                             Thanks for delivering such a high-quality solution.
                                         </p>
                                     </div>
@@ -351,17 +343,16 @@
                                         <small>- Senior Web Developer</small>
                                     </h3>
                                 </div>
-
+    
                                 <div class="testimonial">
                                     <div class="pic">
                                         <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
-                                        <p>I’m impressed with the performance so far.Excellent work on the website.
-                                            It’s user-friendly, reliable, and performs exactly as promised. I’m very
-                                            pleased with its effectiveness and ease of use.
+                                        <p>I’m impressed with the performance so far.Excellent work on the website. 
+                                            It’s user-friendly, reliable, and performs exactly as promised. I’m very pleased with its effectiveness and ease of use. 
                                             Great job on creating something that truly delivers.
-
+                                            
                                         </p>
                                     </div>
                                     <h3 class="testimonial-title">
@@ -374,9 +365,8 @@
                                         <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
-                                        <p>Outstanding service with the domain and hosting.
-                                            The setup was quick and hassle-free, and everything is running smoothly. Im
-                                            impressed with the quality thanks for providing such
+                                        <p>Outstanding service with the domain and hosting. 
+                                            The setup was quick and hassle-free, and everything is running smoothly. Im impressed with the quality thanks for providing such
                                             a solid foundation for my online presence!
                                         </p>
                                     </div>
@@ -390,10 +380,9 @@
                                         <img src="../assets/img/person.png">
                                     </div>
                                     <div class="testimonial-content">
-                                        <p>I’m genuinely amazed by the exceptional quality of this product/service.
-                                            It’s evident that a lot of thought and craftsmanship went into every detail.
-                                            The performance is not just reliable but
-                                            impressively outstanding, setting a new benchmark for excellence.
+                                        <p>I’m genuinely amazed by the exceptional quality of this product/service. 
+                                            It’s evident that a lot of thought and craftsmanship went into every detail. The performance is not just reliable but
+                                            impressively outstanding, setting a new benchmark for excellence. 
                                         </p>
                                     </div>
                                     <h3 class="testimonial-title">
@@ -404,7 +393,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </section>
         <section class="work-with-us">

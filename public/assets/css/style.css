@@ -1958,6 +1958,72 @@ footer {
     background-color: #0056b3;
 }
 
+/* Email send  */
+#send-email {
+    padding: 10px 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px; 
+    
+}
+
+#send-email:hover {
+    background-color: #0056b3;
+}
+/* Email Modal */
+#emailModal {
+    display: none;
+}
+
+#emailModalContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+#user-email {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#error-message {
+    color: red;
+    display: none;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#confirm-send-email, #cancel-email {
+    padding: 10px 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#confirm-send-email:hover, #cancel-email:hover {
+    background-color: #0056b3;
+}
+
+#cancel-email {
+    background-color: #6c757d;
+}
+
+#cancel-email:hover {
+    background-color: #5a6268;
+}
+
 
 
 /* Credential Image SLIDER */
@@ -2926,10 +2992,31 @@ section .section-title {
     }
 
     /* Partner */
-    .partners-logo {
-        margin: 0;
-        margin-left: 10px;
+    .partners-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
+    
+    .partners-logo {
+        width: 130px;
+        margin: 8px;
+    }
+    
+    .partners-logo img {
+        min-width: 130px;
+        min-height: 90px;
+       
+    }
+    
+    
+    .clients .card {
+        border-bottom: 2px solid var(--var-accent-color);
+        box-shadow: var(--var-box-shadows);
+        margin-bottom: 16px;
+    }
+    
 
     /* MODAL */
     .modal-content {
@@ -2963,11 +3050,24 @@ section .section-title {
     }
 
     /* Testimonial */
-    .testimonial-content p {
-        font-size: 10px;
-    }
 
-    .testimonial-title {
+    .testimonial .pic {
+        width: 50%;
+        height: 50%;
+    }
+    .testimonial .pic img {
+        width: 80%;
+        height: 80%;
+    }
+    .testimonial-content p {
+        margin: 0;
+        font-size: 10px;
+        text-align: justify;
+    }
+    .testimonial .testimonial-title a{
+        font-size: 12px;
+    }
+    .testimonial .testimonial-title small{
         font-size: 10px;
     }
     .video-testimonial-block {
@@ -3045,6 +3145,12 @@ section .section-title {
     .news-section .tagline .sub-tagline {
         font-size: 14px;
     }
+    .slick-button {
+        margin: 10px;
+    }
+    .slick-next-reco{
+        right: -28%;
+    }
 
     /* Solution */
     .custom-wrap .custom-portfolio {
@@ -3087,7 +3193,7 @@ section .section-title {
         padding: 2px;
     }
 
-    .copy-right ul li a{
+    .copy-right ul li a{ 
         margin-left: 10px;
         font-size: 10px;
         margin: 0;   
