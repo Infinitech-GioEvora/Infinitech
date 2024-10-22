@@ -130,8 +130,7 @@ p {
     position: absolute;
     top: 0;
     content: '';
-    width: 2
-    00px;
+    width: 200px;
     height: 70%;
     z-index: 2;
   }
@@ -2832,7 +2831,7 @@ section .section-title {
         margin-bottom: 10px;
     }
     .about-section .tagline h1
-{        word-break: normal;
+    {   word-break: normal;
         margin-top: 20%; 
         text-align: center;
     }
@@ -3190,18 +3189,18 @@ section .section-title {
     }
     .copy-right {
         margin-top: 0;
-        padding: 2px;
+        padding: 0;
     }
 
     .copy-right ul li a{ 
         margin-left: 10px;
-        font-size: 10px;
+        font-size: 12px;
         margin: 0;   
         text-align: center;
     }
 
     .copy-right p {
-        font-size:1rem;
+        font-size:.7rem;
     }
 
     .copy-right ul li:last-child {
@@ -3294,11 +3293,173 @@ section .section-title {
     
 }
 
-@media only screen and (min-width: 600px){
-    .slider {
+@media screen and (min-width:768px) {
+    /* Section Title */
+    .tagline {
+        top: 20%;
+        left: 30%;
+
+    }
+    .about-section .tagline h1
+    {   word-break: normal;
+        margin-top: 30%; 
+        text-align: center;
+        font-size: medium;
+
+    }
+    .contact-section .tagline h1,
+    .solution-section .tagline h1,
+    .service-section .tagline h1 {
+        word-break: normal;
+        margin-top: 30%; 
+        text-align: center;
+        margin-bottom: 0;
+
+    }
+    .news-section .tagline h1,
+    .testimonial-section .tagline h1 {
+        word-break: normal;
+        margin-top: 30%; 
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .about-section .tagline .sub-tagline,
+    .service-section .tagline .sub-tagline,
+    .solution-section .tagline .sub-tagline,
+    .testimonial-section .tagline .sub-tagline,
+    .news-section .tagline .sub-tagline,  
+    .contact-section .tagline .sub-tagline {
+        font-size: 11px;
+        word-break: break-word;
+        text-align: justify;
+        margin-left: 25% !important;
+    }
+
+    .about-section .left-content img,
+    .service-section .left-content img,
+    .solution-section .left-content img,
+    .testimonial-section .left-content img,
+    .news-section .left-content img,
+    .contact-section .left-content img {
+        margin: 0;
+        width: 180px !important;
+    }
+
+    /* Index */
+    .imageslider {
         display: none;
     }
-}
+    .logos {
+        display: none;
+    }
+    .btn-hero{
+        display: none;
+    }
+    .tagline .hero-header {
+        margin-top: 22% !important;
+        margin-left: 20% !important;
+
+    }
+    .hero-desc {
+        margin-top: 10px !important;
+        margin-left: 20% !important;
+        font-size: 14px !important;
+    }
+
+    /* NAVIGATION */
+    .navigation.scrolled {
+        height: 10%;
+    }
+    .nav-logo img {
+        width: 150px;
+        margin-left: 30px;
+    }    
+    .navigation ul li a {
+       font-size: 12px;
+       margin-bottom: 12px;
+    }
+    .button {
+        font-weight: 500;
+        padding: 4px 10px;
+        font-size: 12px;
+    }
+
+
+    /* Footer */
+    footer {
+        margin-top: 5px;
+    }
+    
+    .row-footer {
+        margin-top: 30%;
+    }
+    
+    .footer-logo img {
+        display: none;  
+   }
+    
+    .footer-logo .footer-desc {
+        font-size: 12px;
+        margin: 10px;
+    }
+    
+    .footer-social-media ul {
+        margin: 0;
+    }
+    
+    .footer-social-media ul li a {
+        margin-top: 20px !important;
+    }
+    
+    .footer-links h2 {
+        font-size: 12px;
+        margin: 0;
+    }
+    
+    .footer-quick-links ul li i {
+        margin: 0;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    
+    .footer-quick-links ul li a {
+        line-height: 0;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    
+    .footer-quick-links ul li a:hover {
+        color: #e3e3fa;
+        font-weight: 600;
+    }
+    
+    .copy-right {
+        background-color: rgb(223, 229, 248);
+        font-size: 14px;
+    }
+    
+    .copy-right p {
+        color: black;
+        font-size: 15px;
+    }
+    
+    .copy-right ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding-top: 16px;
+    }
+    
+    .copy-right ul li a {
+        color: #123057;
+        margin: 15px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    
+    }
 
 
 /* Medium devices (landscape tablets, 768px and up) */

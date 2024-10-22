@@ -21,7 +21,7 @@
                      <div class="col-12 col-md-6">
                          <div class="tagline ">
                              <h1><strong>Get a Quote</strong></h1>
-                             <p class="sub-tagline pt-xl-5">We specialize in crafting bespoke
+                             <p class="sub-tagline pt-xl-5" >We specialize in crafting bespoke
                                  systems and websites that elevate your brand’s presence while championing
                                  health and well-being. Our approach combines strategic analysis with cutting-edge
                                  technology to deliver
